@@ -1,122 +1,55 @@
-import Link from "next/link";
 import Image from "next/image";
-
-const footerLinks = {
-	about: [
-		{ name: "Contact Us", href: "#contact" },
-		{ name: "Privacy Policy", href: "/privacy" },
-		{ name: "Terms of Service", href: "/terms" },
-		{ name: "Refund Policy", href: "/refund" },
-	],
-	menu: [
-		{ name: "Integrations", href: "#integrations" },
-		{ name: "Ecommerce", href: "#ecommerce" },
-		{ name: "Pricing", href: "#pricing" },
-	],
-};
+import Link from "next/link";
 
 export default function Footer() {
 	return (
-		<footer id="contact" className="bg-gray-900 text-gray-400">
-			<div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-				<div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-					{/* Brand */}
-					<div className="md:col-span-1">
-						<Link href="/" className="flex items-center gap-2">
-							<Image
-								src="/images/dialogtab.webp"
-								alt="DialogTab"
-								width={140}
-								height={36}
-								className="h-7 w-auto brightness-200"
-							/>
+		<footer className="bg-white border-t border-slate-100">
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+				<div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+					<div className="col-span-2">
+						<Link href="/" className="flex items-center gap-3 mb-4">
+							<Image alt="DialogTab" className="h-8 w-auto" src="/images/dialogtab.webp" width={160} height={32} />
+							<span className="text-xl font-bold text-slate-900">DialogTab</span>
 						</Link>
-						<p className="mt-4 text-sm leading-6">
-							Conversational commerce platform that powers sales through WhatsApp.
-						</p>
-						{/* Social Links */}
-						<div className="mt-6 flex gap-4">
-							<a
-								href="https://linkedin.com/company/dialogtab"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="hover:text-white transition-colors"
-							>
-								<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-									<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-								</svg>
+						<p className="text-slate-600 text-sm mb-4">&copy; 2012-2024</p>
+						<div className="flex items-center gap-3">
+							<a href="http://linkedin.com/company/dialogtab" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600 hover:bg-brand-100 hover:text-brand-600 transition-colors">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
 							</a>
-							<a
-								href="https://facebook.com/dialogtab"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="hover:text-white transition-colors"
-							>
-								<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-									<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-								</svg>
+							<a href="https://www.facebook.com/DialogTab-103427578055913/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600 hover:bg-brand-100 hover:text-brand-600 transition-colors">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
 							</a>
 						</div>
 					</div>
 
-					{/* About */}
 					<div>
-						<h3 className="text-sm font-semibold text-white uppercase tracking-wider">
-							About
-						</h3>
-						<ul className="mt-4 space-y-3">
-							{footerLinks.about.map((link) => (
-								<li key={link.name}>
-									<Link
-										href={link.href}
-										className="text-sm hover:text-white transition-colors"
-									>
-										{link.name}
-									</Link>
-								</li>
-							))}
+						<h4 className="font-bold text-slate-900 mb-4">About</h4>
+						<ul className="space-y-2">
+							<li><Link href="/locations" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Locations</Link></li>
+							<li><Link href="/contact" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Contact Us</Link></li>
+							<li><Link href="/privacy-policy" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Privacy Policy</Link></li>
+							<li><Link href="/terms-of-service" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Terms of Service</Link></li>
+							<li><Link href="/refund-policy" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Refund Policy</Link></li>
 						</ul>
 					</div>
 
-					{/* Menu */}
 					<div>
-						<h3 className="text-sm font-semibold text-white uppercase tracking-wider">
-							Menu
-						</h3>
-						<ul className="mt-4 space-y-3">
-							{footerLinks.menu.map((link) => (
-								<li key={link.name}>
-									<Link
-										href={link.href}
-										className="text-sm hover:text-white transition-colors"
-									>
-										{link.name}
-									</Link>
-								</li>
-							))}
+						<h4 className="font-bold text-slate-900 mb-4">Menu</h4>
+						<ul className="space-y-2">
+							<li><a href="https://dialogtab.com/integrations" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Integrations</a></li>
+							<li><a href="https://dialogtab.com/whatsApp-chrome-extension-for-multiagent" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Extension</a></li>
+							<li><a href="https://dialogtab.com/livechat-for-ecommerce" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Ecommerce</a></li>
+							<li><Link href="#pricing" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Pricing</Link></li>
+							<li><Link href="/blog" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Blog</Link></li>
 						</ul>
 					</div>
 
-					{/* Newsletter / CTA */}
 					<div>
-						<h3 className="text-sm font-semibold text-white uppercase tracking-wider">
-							Get Started
-						</h3>
-						<p className="mt-4 text-sm">
-							Start your 14-day free trial today.
-						</p>
-						<a
-							href="https://app.dialogtab.com/register"
-							className="mt-4 inline-block rounded-full bg-blue-600 px-6 py-2.5 text-sm font-semibold text-white hover:bg-blue-700 transition-colors"
-						>
-							Try for free
-						</a>
+						<h4 className="font-bold text-slate-900 mb-4">Other Projects</h4>
+						<ul className="space-y-2">
+							<li><a href="https://retentiontab.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">RetentionTab</a></li>
+						</ul>
 					</div>
-				</div>
-
-				{/* Bottom */}
-				<div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
-					<p>&copy; 2012-2024 DialogTab. All rights reserved.</p>
 				</div>
 			</div>
 		</footer>
