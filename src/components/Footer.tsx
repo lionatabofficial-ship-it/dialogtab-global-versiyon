@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = {
 	about: [
@@ -22,11 +23,13 @@ export default function Footer() {
 					{/* Brand */}
 					<div className="md:col-span-1">
 						<Link href="/" className="flex items-center gap-2">
-							<svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-								<rect width="32" height="32" rx="8" fill="#3B82F6" />
-								<path d="M8 12C8 10.8954 8.89543 10 10 10H22C23.1046 10 24 10.8954 24 12V18C24 19.1046 23.1046 20 22 20H18L14 24V20H10C8.89543 20 8 19.1046 8 18V12Z" fill="white" />
-							</svg>
-							<span className="text-lg font-bold text-white">DialogTab</span>
+							<Image
+								src="/images/dialogtab.webp"
+								alt="DialogTab"
+								width={140}
+								height={36}
+								className="h-7 w-auto brightness-200"
+							/>
 						</Link>
 						<p className="mt-4 text-sm leading-6">
 							Conversational commerce platform that powers sales through WhatsApp.

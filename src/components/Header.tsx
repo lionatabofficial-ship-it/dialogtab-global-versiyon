@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
 	{ name: "Ecommerce", href: "#ecommerce" },
@@ -29,13 +30,14 @@ export default function Header() {
 			<nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
 				{/* Logo */}
 				<Link href="/" className="flex items-center gap-2">
-					<div className="flex items-center">
-						<svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="text-blue-600">
-							<rect width="32" height="32" rx="8" fill="currentColor" />
-							<path d="M8 12C8 10.8954 8.89543 10 10 10H22C23.1046 10 24 10.8954 24 12V18C24 19.1046 23.1046 20 22 20H18L14 24V20H10C8.89543 20 8 19.1046 8 18V12Z" fill="white" />
-						</svg>
-						<span className="ml-2 text-xl font-bold text-gray-900">DialogTab</span>
-					</div>
+					<Image
+						src="/images/dialogtab.webp"
+						alt="DialogTab"
+						width={160}
+						height={40}
+						className="h-8 w-auto"
+						priority
+					/>
 				</Link>
 
 				{/* Desktop Navigation */}

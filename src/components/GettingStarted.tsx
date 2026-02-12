@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 const steps = [
 	{
-		number: "1",
+		numberImage: "/images/one.svg",
 		title: "Register",
 		description:
 			"Sign up for a membership, select your trial, and choose the right package for your business.",
@@ -11,7 +13,7 @@ const steps = [
 		),
 	},
 	{
-		number: "2",
+		numberImage: "/images/two.svg",
 		title: "Connect Channels",
 		description:
 			"Connect your WhatsApp Business API, Web, Messenger, and Live Chat channels seamlessly.",
@@ -22,7 +24,7 @@ const steps = [
 		),
 	},
 	{
-		number: "3",
+		numberImage: "/images/three.svg",
 		title: "Go Live",
 		description:
 			"Grant expert access and start processing orders. Your team is ready to sell!",
@@ -49,16 +51,22 @@ export default function GettingStarted() {
 				</div>
 
 				<div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-					{steps.map((step) => (
+					{steps.map((step, index) => (
 						<div
-							key={step.number}
+							key={index}
 							className="relative text-center bg-white rounded-2xl p-8 shadow-sm border border-gray-100"
 						>
+							<div className="absolute top-4 right-6">
+								<Image
+									src={step.numberImage}
+									alt={`Step ${index + 1}`}
+									width={48}
+									height={48}
+									className="w-12 h-12 opacity-60"
+								/>
+							</div>
 							<div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 text-blue-600 mb-6">
 								{step.icon}
-							</div>
-							<div className="absolute top-4 right-6 text-5xl font-bold text-gray-100">
-								{step.number}
 							</div>
 							<h3 className="text-xl font-semibold text-gray-900">
 								{step.title}

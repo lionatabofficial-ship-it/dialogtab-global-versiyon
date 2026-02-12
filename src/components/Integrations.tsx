@@ -1,33 +1,34 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const channels = [
-	{ name: "WhatsApp", color: "bg-green-100 text-green-700" },
-	{ name: "Messenger", color: "bg-blue-100 text-blue-700" },
-	{ name: "Instagram", color: "bg-pink-100 text-pink-700" },
-	{ name: "Live Chat", color: "bg-indigo-100 text-indigo-700" },
-	{ name: "Telegram", color: "bg-sky-100 text-sky-700" },
+	{ name: "WhatsApp", image: "/images/whatsapp.webp" },
+	{ name: "Messenger", image: "/images/messenger.webp" },
+	{ name: "Instagram", image: "/images/instagram.webp" },
+	{ name: "Live Chat", image: "/images/livechat.svg" },
+	{ name: "Telegram", image: "/images/telegram.png" },
 ];
 
 const ecommerce = [
-	"Shopify",
-	"WooCommerce",
-	"BigCommerce",
-	"Magento",
-	"OpenCart",
-	"TSoft",
-	"Ticimax",
-	"PrestaShop",
-	"Faprika",
-	"Akinon",
-	"Inveon",
+	{ name: "Shopify", image: "/images/shopify.webp" },
+	{ name: "WooCommerce", image: "/images/woocommerce.png" },
+	{ name: "BigCommerce", image: "/images/bigcommerce.webp" },
+	{ name: "Magento", image: "/images/magento.png" },
+	{ name: "OpenCart", image: "/images/opencart.webp" },
+	{ name: "TSoft", image: "/images/tsoft.webp" },
+	{ name: "Ticimax", image: "/images/ticimax.jpg" },
+	{ name: "PrestaShop", image: "/images/prestashop.webp" },
+	{ name: "Faprika", image: "/images/faprika.png" },
+	{ name: "Akinon", image: "/images/akinon.webp" },
+	{ name: "Inveon", image: "/images/inveon.webp" },
 ];
 
 const payments = [
-	{ name: "Stripe", color: "bg-purple-100 text-purple-700" },
-	{ name: "Mastercard", color: "bg-red-100 text-red-700" },
-	{ name: "PayU", color: "bg-green-100 text-green-700" },
+	{ name: "Stripe", image: "/images/stripe.webp" },
+	{ name: "Mastercard", image: "/images/mastercard.png" },
+	{ name: "PayU", image: "/images/payu.webp" },
 ];
 
 export default function Integrations() {
@@ -50,14 +51,21 @@ export default function Integrations() {
 					{/* Channels */}
 					<div>
 						<h3 className="text-lg font-semibold text-gray-900 mb-4">Channels</h3>
-						<div className="flex flex-wrap gap-3">
+						<div className="flex flex-wrap gap-4">
 							{channels.map((ch) => (
-								<span
+								<div
 									key={ch.name}
-									className={`inline-flex items-center rounded-full px-4 py-2 text-sm font-medium ${ch.color}`}
+									className="flex items-center gap-2 rounded-full bg-gray-50 border border-gray-200 px-4 py-2"
 								>
-									{ch.name}
-								</span>
+									<Image
+										src={ch.image}
+										alt={ch.name}
+										width={24}
+										height={24}
+										className="w-6 h-6 object-contain"
+									/>
+									<span className="text-sm font-medium text-gray-700">{ch.name}</span>
+								</div>
 							))}
 						</div>
 					</div>
@@ -67,14 +75,21 @@ export default function Integrations() {
 						<h3 className="text-lg font-semibold text-gray-900 mb-4">
 							E-Commerce Platforms
 						</h3>
-						<div className="flex flex-wrap gap-3">
-							{visibleEcommerce.map((name) => (
-								<span
-									key={name}
-									className="inline-flex items-center rounded-full px-4 py-2 text-sm font-medium bg-gray-100 text-gray-700"
+						<div className="flex flex-wrap gap-4">
+							{visibleEcommerce.map((item) => (
+								<div
+									key={item.name}
+									className="flex items-center gap-2 rounded-full bg-gray-50 border border-gray-200 px-4 py-2"
 								>
-									{name}
-								</span>
+									<Image
+										src={item.image}
+										alt={item.name}
+										width={24}
+										height={24}
+										className="w-6 h-6 object-contain"
+									/>
+									<span className="text-sm font-medium text-gray-700">{item.name}</span>
+								</div>
 							))}
 						</div>
 						{ecommerce.length > 6 && (
@@ -92,14 +107,21 @@ export default function Integrations() {
 						<h3 className="text-lg font-semibold text-gray-900 mb-4">
 							Payment Processors
 						</h3>
-						<div className="flex flex-wrap gap-3">
+						<div className="flex flex-wrap gap-4">
 							{payments.map((p) => (
-								<span
+								<div
 									key={p.name}
-									className={`inline-flex items-center rounded-full px-4 py-2 text-sm font-medium ${p.color}`}
+									className="flex items-center gap-2 rounded-full bg-gray-50 border border-gray-200 px-4 py-2"
 								>
-									{p.name}
-								</span>
+									<Image
+										src={p.image}
+										alt={p.name}
+										width={24}
+										height={24}
+										className="w-6 h-6 object-contain"
+									/>
+									<span className="text-sm font-medium text-gray-700">{p.name}</span>
+								</div>
 							))}
 						</div>
 					</div>

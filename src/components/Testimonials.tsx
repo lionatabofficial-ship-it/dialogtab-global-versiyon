@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const testimonials = [
 	{
@@ -11,6 +12,7 @@ const testimonials = [
 		company: "Tesettur Island",
 		metric: "19%",
 		metricLabel: "Increased Sales",
+		logo: "/images/tesetturislandlogo.png",
 	},
 	{
 		quote:
@@ -20,6 +22,7 @@ const testimonials = [
 		company: "Flormar",
 		metric: "35%",
 		metricLabel: "More Productive",
+		logo: "/images/flormarlogo.svg",
 	},
 ];
 
@@ -53,13 +56,22 @@ export default function Testimonials() {
 							<blockquote className="text-xl text-gray-700 leading-8 italic">
 								&ldquo;{testimonials[current].quote}&rdquo;
 							</blockquote>
-							<div className="mt-6">
-								<p className="font-semibold text-gray-900">
-									{testimonials[current].author}
-								</p>
-								<p className="text-sm text-gray-500">
-									{testimonials[current].role}, {testimonials[current].company}
-								</p>
+							<div className="mt-6 flex flex-col items-center gap-3">
+								<Image
+									src={testimonials[current].logo}
+									alt={testimonials[current].company}
+									width={120}
+									height={40}
+									className="h-8 w-auto object-contain"
+								/>
+								<div>
+									<p className="font-semibold text-gray-900">
+										{testimonials[current].author}
+									</p>
+									<p className="text-sm text-gray-500">
+										{testimonials[current].role}, {testimonials[current].company}
+									</p>
+								</div>
 							</div>
 						</div>
 
@@ -71,9 +83,7 @@ export default function Testimonials() {
 								}
 								className="p-2 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
 							>
-								<svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-								</svg>
+								<Image src="/images/prev.svg" alt="Previous" width={20} height={20} />
 							</button>
 							<div className="flex gap-2">
 								{testimonials.map((_, index) => (
@@ -92,9 +102,7 @@ export default function Testimonials() {
 								}
 								className="p-2 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
 							>
-								<svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-								</svg>
+								<Image src="/images/next.svg" alt="Next" width={20} height={20} />
 							</button>
 						</div>
 					</div>
