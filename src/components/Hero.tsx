@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
 	return (
 		<section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-gradient-to-b from-blue-50 to-white overflow-hidden">
@@ -42,18 +44,17 @@ export default function Hero() {
 					</div>
 				</div>
 
-				{/* Hero Image Placeholder */}
+				{/* Hero Image */}
 				<div className="mt-16 mx-auto max-w-5xl">
 					<div className="rounded-2xl bg-white shadow-2xl border border-gray-200 overflow-hidden">
-						<div className="bg-gray-100 p-8 flex items-center justify-center min-h-[400px]">
-							<div className="text-center text-gray-400">
-								<svg className="w-24 h-24 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-								</svg>
-								<p className="text-lg font-medium">WhatsApp Commerce Interface</p>
-								<p className="text-sm mt-1">Conversational selling experience</p>
-							</div>
-						</div>
+						<Image
+							src="/images/conversational_commerce_with_whatsapp_image.webp"
+							alt="Conversational Commerce with WhatsApp"
+							width={1200}
+							height={600}
+							className="w-full h-auto"
+							priority
+						/>
 					</div>
 				</div>
 			</div>
