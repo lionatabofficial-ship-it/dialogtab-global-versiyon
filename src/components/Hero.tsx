@@ -1,58 +1,68 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 
+const industries = ["All", "E-Commerce", "Travel", "Hospitality", "Automotive"];
+
 export default function Hero() {
+	const [selected, setSelected] = useState("E-Commerce");
+
 	return (
-		<section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-gradient-to-b from-blue-50 to-white overflow-hidden">
-			<div className="mx-auto max-w-7xl px-6 lg:px-8">
-				<div className="mx-auto max-w-3xl text-center">
-					<h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
-						Power-up your experts through{" "}
-						<span className="text-green-500">WhatsApp</span>{" "}
-						to increase sales
-					</h1>
-					<p className="mt-6 text-lg text-gray-600 leading-8">
-						DialogTab is a conversational commerce platform that automates receiving
-						your orders and guiding your users to products via WhatsApp.
-					</p>
-					<div className="mt-10 flex flex-col items-center gap-4">
-						<a
-							href="https://app.dialogtab.com/register"
-							className="rounded-full bg-blue-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:bg-blue-700 transition-all hover:shadow-xl"
-						>
-							Start Selling in WhatsApp
-						</a>
-						<div className="flex items-center gap-6 text-sm text-gray-500">
-							<span className="flex items-center gap-1">
-								<svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-									<path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-								</svg>
-								14-day free trial
-							</span>
-							<span className="flex items-center gap-1">
-								<svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-									<path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-								</svg>
-								No credit card required
-							</span>
-							<span className="flex items-center gap-1">
-								<svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-									<path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-								</svg>
-								All features included
-							</span>
-						</div>
+		<section className="relative pt-28 pb-16 overflow-hidden bg-[#f8f8f6]">
+			<div className="absolute top-20 left-10 w-72 h-72 bg-brand-200/30 rounded-full blur-3xl" />
+			<div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl" />
+
+			<div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div className="text-center mb-12">
+					<p className="text-sm text-slate-500 mb-3">Select your industry:</p>
+					<div className="flex flex-wrap justify-center gap-2">
+						{industries.map((ind) => (
+							<button
+								key={ind}
+								onClick={() => setSelected(ind)}
+								className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+									selected === ind
+										? "bg-brand-600 text-white"
+										: "bg-white text-slate-600 hover:bg-slate-100 border border-slate-200"
+								}`}
+							>
+								{ind}
+							</button>
+						))}
 					</div>
 				</div>
 
-				{/* Hero Image */}
-				<div className="mt-16 mx-auto max-w-5xl">
-					<div className="rounded-2xl bg-white shadow-2xl border border-gray-200 overflow-hidden">
+				<div className="grid lg:grid-cols-2 gap-12 items-center">
+					<div>
+						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
+							One inbox, <span className="text-brand-500">every channel</span>
+						</h1>
+						<p className="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed">
+							DialogTab unites <strong>WhatsApp, Instagram, Messenger, and Live Chat in one inbox,</strong> saving your team hours of repetitive work and ensures no conversation is ever lost
+						</p>
+						<div className="flex flex-col sm:flex-row gap-4 mb-8">
+							<a href="https://app.dialogtab.com/register" className="bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-slate-800 transition-all shadow-lg flex items-center justify-center gap-2">Book a demo</a>
+							<a href="https://app.dialogtab.com/register" className="bg-brand-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-brand-600 transition-all shadow-lg shadow-brand-500/30 flex items-center justify-center gap-2">
+								Try for free
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+							</a>
+						</div>
+						<div className="flex items-center gap-2 text-sm text-slate-500">
+							<div className="w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 text-white"><circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" /></svg>
+							</div>
+							<span><strong>Official WhatsApp Business Partner</strong> trusted by businesses worldwide</span>
+						</div>
+					</div>
+
+					<div className="relative">
 						<Image
-							src="/images/conversational_commerce_with_whatsapp_image.webp"
-							alt="Conversational Commerce with WhatsApp"
-							width={1200}
-							height={600}
-							className="w-full h-auto"
+							alt="DialogTab Dashboard - Unified Inbox"
+							className="w-full rounded-2xl shadow-2xl"
+							src="/images/mainpage.png"
+							width={800}
+							height={500}
 							priority
 						/>
 					</div>

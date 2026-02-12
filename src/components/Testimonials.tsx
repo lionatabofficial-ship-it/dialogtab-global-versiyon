@@ -5,106 +5,73 @@ import Image from "next/image";
 
 const testimonials = [
 	{
-		quote:
-			"Together with DialogTab, we have increased the conversion rate by 19%.",
-		author: "Adem Hocu",
+		quote: "Together with DialogTab, we have increased the conversion rate of our customers by 19%.",
+		author: "Adem Höcü",
 		role: "Ecommerce Manager",
-		company: "Tesettur Island",
 		metric: "19%",
-		metricLabel: "Increased Sales",
+		metricLabel: "increased sales",
 		logo: "/images/tesetturislandlogo.png",
+		gradient: "from-rose-500 to-pink-600",
+		metricColor: "text-rose-500",
 	},
 	{
-		quote:
-			"DialogTab has increased our productivity by 35% by offering a solution enabling physical store experts to work on websites in hybrid way.",
-		author: "Gokhan Ozkan",
+		quote: "DialogTab has increased our productivity by 35% by offering a solution enabling physical store experts to work on websites in hybrid way.",
+		author: "Gökhan Özkan",
 		role: "Ecommerce Manager",
-		company: "Flormar",
 		metric: "35%",
-		metricLabel: "More Productive",
+		metricLabel: "more productive",
 		logo: "/images/flormarlogo.svg",
+		gradient: "from-purple-500 to-indigo-600",
+		metricColor: "text-purple-500",
 	},
 ];
 
 export default function Testimonials() {
 	const [current, setCurrent] = useState(0);
+	const t = testimonials[current];
 
 	return (
-		<section className="py-20 bg-gray-50">
-			<div className="mx-auto max-w-7xl px-6 lg:px-8">
-				<div className="text-center mb-12">
-					<h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-						Trusted by Leading Brands
-					</h2>
+		<section className="py-20 bg-white">
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div className="text-center mb-16">
+					<span className="inline-block bg-brand-100 text-brand-700 text-sm font-bold px-4 py-2 rounded-full mb-4">TESTIMONIALS</span>
+					<h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6">Trusted by large and small companies.</h2>
+					<p className="text-lg text-slate-600">Let&apos;s look at their amazing experiences.</p>
 				</div>
 
-				<div className="mx-auto max-w-3xl">
-					<div className="relative bg-white rounded-2xl p-8 lg:p-12 shadow-sm border border-gray-100">
-						{/* Metric Badge */}
-						<div className="absolute -top-6 left-1/2 -translate-x-1/2">
-							<div className="bg-blue-600 text-white rounded-full px-6 py-2 text-center">
-								<span className="text-2xl font-bold">{testimonials[current].metric}</span>
-								<span className="ml-2 text-sm">{testimonials[current].metricLabel}</span>
+				<div className="max-w-5xl mx-auto">
+					<div className="grid md:grid-cols-5 gap-8 items-center">
+						<div className={`md:col-span-3 bg-gradient-to-br ${t.gradient} rounded-3xl p-8 md:p-12 text-white relative overflow-hidden`}>
+							<div className="absolute top-4 right-4 opacity-20">
+								<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-24 h-24"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" /><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" /></svg>
+							</div>
+							<Image alt={t.author} className="h-8 mb-8 brightness-0 invert" src={t.logo} width={120} height={32} />
+							<blockquote className="text-xl md:text-2xl font-medium leading-relaxed mb-8 relative z-10">&ldquo;{t.quote}&rdquo;</blockquote>
+							<div>
+								<div className="font-bold">{t.author}</div>
+								<div className="text-white/80 text-sm">{t.role}</div>
 							</div>
 						</div>
+						<div className="md:col-span-2 bg-slate-50 rounded-3xl p-8 md:p-12 text-center">
+							<div className={`text-6xl md:text-7xl font-bold ${t.metricColor} mb-2`}>{t.metric}</div>
+							<div className="text-slate-600 text-lg">{t.metricLabel}</div>
+						</div>
+					</div>
 
-						{/* Quote */}
-						<div className="mt-4 text-center">
-							<svg className="w-10 h-10 text-gray-200 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
-								<path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151C7.546 6.068 5.983 8.789 5.983 11H10v10H0z" />
-							</svg>
-							<blockquote className="text-xl text-gray-700 leading-8 italic">
-								&ldquo;{testimonials[current].quote}&rdquo;
-							</blockquote>
-							<div className="mt-6 flex flex-col items-center gap-3">
-								<Image
-									src={testimonials[current].logo}
-									alt={testimonials[current].company}
-									width={120}
-									height={40}
-									className="h-8 w-auto object-contain"
-								/>
-								<div>
-									<p className="font-semibold text-gray-900">
-										{testimonials[current].author}
-									</p>
-									<p className="text-sm text-gray-500">
-										{testimonials[current].role}, {testimonials[current].company}
-									</p>
-								</div>
-							</div>
+					<div className="flex items-center justify-center gap-4 mt-8">
+						<button onClick={() => setCurrent(current === 0 ? testimonials.length - 1 : current - 1)} className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-600 hover:bg-slate-200 transition-colors">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><path d="m15 18-6-6 6-6" /></svg>
+						</button>
+						<div className="flex items-center gap-2">
+							{testimonials.map((item, i) => (
+								<button key={i} onClick={() => setCurrent(i)} className="p-1">
+									<Image alt={item.author} className={`h-6 transition-all ${i === current ? "opacity-100 grayscale-0" : "opacity-40 grayscale"}`} src={item.logo} width={60} height={24} />
+								</button>
+							))}
 						</div>
-
-						{/* Navigation */}
-						<div className="mt-8 flex items-center justify-center gap-4">
-							<button
-								onClick={() =>
-									setCurrent(current === 0 ? testimonials.length - 1 : current - 1)
-								}
-								className="p-2 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
-							>
-								<Image src="/images/prev.svg" alt="Previous" width={20} height={20} />
-							</button>
-							<div className="flex gap-2">
-								{testimonials.map((_, index) => (
-									<button
-										key={index}
-										onClick={() => setCurrent(index)}
-										className={`w-2.5 h-2.5 rounded-full transition-colors ${
-											index === current ? "bg-blue-600" : "bg-gray-300"
-										}`}
-									/>
-								))}
-							</div>
-							<button
-								onClick={() =>
-									setCurrent(current === testimonials.length - 1 ? 0 : current + 1)
-								}
-								className="p-2 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
-							>
-								<Image src="/images/next.svg" alt="Next" width={20} height={20} />
-							</button>
-						</div>
+						<button onClick={() => setCurrent(current === testimonials.length - 1 ? 0 : current + 1)} className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-600 hover:bg-slate-200 transition-colors">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><path d="m9 18 6-6-6-6" /></svg>
+						</button>
 					</div>
 				</div>
 			</div>

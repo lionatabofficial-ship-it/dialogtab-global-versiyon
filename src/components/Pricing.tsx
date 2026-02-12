@@ -5,163 +5,122 @@ import { useState } from "react";
 const plans = [
 	{
 		name: "Start",
-		monthlyPrice: 30,
-		annualPrice: 24,
+		subtitle: "Small teams getting started",
+		monthlyPrice: 30, annualPrice: 24,
 		features: [
-			"1 Channel",
-			"Email support",
-			"3-month data retention",
-			"Basic analytics",
+			{ text: "1 Channel", included: true },
+			{ text: "E-mail Support", included: true },
+			{ text: "3 Month Retention", included: true },
+			{ text: "Basic Analytics", included: true },
+			{ text: "WhatsApp Business API", included: false },
+			{ text: "Product Search", included: false },
+			{ text: "API Access", included: false },
 		],
-		cta: "Try Free",
 		highlighted: false,
 	},
 	{
 		name: "Grow",
-		monthlyPrice: 45,
-		annualPrice: 36,
-		badge: "Best",
+		subtitle: "Growing businesses",
+		monthlyPrice: 45, annualPrice: 36,
+		badge: "BEST",
 		features: [
-			"3 Channels",
-			"WhatsApp Business API ($49/mo)",
-			"Groups & Labels",
-			"Product Search",
-			"6-month data retention",
+			{ text: "3 Channels", included: true },
+			{ text: "WhatsApp Business API - $49/mo", included: true },
+			{ text: "Group & Labels", included: true },
+			{ text: "Product Search", included: true },
+			{ text: "6 Month Retention", included: true },
+			{ text: "Priority Support", included: true },
+			{ text: "API Access", included: false },
 		],
-		cta: "Try Free",
 		highlighted: true,
 	},
 	{
 		name: "Scale",
-		monthlyPrice: 60,
-		annualPrice: 48,
+		subtitle: "Large organizations",
+		monthlyPrice: 60, annualPrice: 48,
 		features: [
-			"Full e-commerce features",
-			"API access",
-			"Phone support",
-			"12-month data retention",
-			"Advanced analytics",
+			{ text: "Ecommerce Full Feature", included: true },
+			{ text: "API Access", included: true },
+			{ text: "Phone Support", included: true },
+			{ text: "12 Month Retention", included: true },
+			{ text: "Custom Integrations", included: true },
+			{ text: "Dedicated Account Manager", included: true },
+			{ text: "SLA Guarantee", included: true },
 		],
-		cta: "Try Free",
 		highlighted: false,
 	},
 ];
 
 export default function Pricing() {
-	const [annual, setAnnual] = useState(false);
+	const [annual, setAnnual] = useState(true);
 
 	return (
-		<section id="pricing" className="py-20 bg-white">
-			<div className="mx-auto max-w-7xl px-6 lg:px-8">
-				<div className="text-center mb-12">
-					<h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-						Simple, transparent pricing
-					</h2>
-					<p className="mt-4 text-lg text-gray-600">
-						Choose the plan that fits your business
-					</p>
-
-					{/* Billing Toggle */}
-					<div className="mt-8 flex items-center justify-center gap-4">
-						<span className={`text-sm font-medium ${!annual ? "text-gray-900" : "text-gray-500"}`}>
-							Monthly
-						</span>
-						<button
-							onClick={() => setAnnual(!annual)}
-							className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-								annual ? "bg-blue-600" : "bg-gray-300"
-							}`}
-						>
-							<span
-								className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
-									annual ? "translate-x-6" : "translate-x-1"
-								}`}
-							/>
-						</button>
-						<span className={`text-sm font-medium ${annual ? "text-gray-900" : "text-gray-500"}`}>
-							Annually{" "}
-							<span className="text-green-600 text-xs font-semibold">Save 20%</span>
-						</span>
+		<section id="pricing" className="py-20 bg-gradient-to-b from-slate-50 to-white">
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div className="text-center max-w-3xl mx-auto mb-12">
+					<span className="inline-block bg-brand-100 text-brand-700 text-sm font-bold px-4 py-2 rounded-full mb-4">PRICING</span>
+					<h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6">Let&apos;s start conversational commerce <span className="gradient-text">for your business</span></h2>
+					<p className="text-lg text-slate-600 mb-8">Try any plan free for 14 days. No credit card required.</p>
+					<div className="inline-flex items-center gap-3 bg-slate-100 p-1.5 rounded-full">
+						<button onClick={() => setAnnual(true)} className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all ${annual ? "bg-white text-brand-600 shadow-sm" : "text-slate-600 hover:text-slate-900"}`}>Annually</button>
+						<button onClick={() => setAnnual(false)} className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all flex items-center gap-2 ${!annual ? "bg-white text-brand-600 shadow-sm" : "text-slate-600 hover:text-slate-900"}`}>Monthly</button>
+						<span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Save 20%</span>
 					</div>
 				</div>
 
-				<div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:max-w-5xl lg:mx-auto">
+				<div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 					{plans.map((plan) => (
-						<div
-							key={plan.name}
-							className={`relative rounded-2xl p-8 ${
-								plan.highlighted
-									? "bg-blue-600 text-white shadow-xl scale-105 border-2 border-blue-600"
-									: "bg-white text-gray-900 shadow-sm border border-gray-200"
-							}`}
-						>
+						<div key={plan.name} className={`relative bg-white rounded-2xl p-8 ${plan.highlighted ? "border-2 border-brand-500 shadow-2xl shadow-brand-500/20" : "border border-slate-200 shadow-lg shadow-slate-900/5"}`}>
 							{plan.badge && (
-								<span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-green-500 px-4 py-1 text-xs font-semibold text-white">
-									{plan.badge}
-								</span>
+								<div className="absolute -top-4 left-1/2 -translate-x-1/2">
+									<div className="bg-gradient-to-r from-brand-500 to-purple-500 text-white text-xs font-bold px-4 py-1.5 rounded-full flex items-center gap-1">
+										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /><path d="M20 3v4" /><path d="M22 5h-4" /><path d="M4 17v2" /><path d="M5 18H3" /></svg>
+										{plan.badge}
+									</div>
+								</div>
 							)}
-							<h3 className={`text-lg font-semibold ${plan.highlighted ? "text-white" : "text-gray-900"}`}>
-								{plan.name}
-							</h3>
-							<div className="mt-4 flex items-baseline gap-1">
-								<span className="text-4xl font-bold">
-									${annual ? plan.annualPrice : plan.monthlyPrice}
-								</span>
-								<span className={`text-sm ${plan.highlighted ? "text-blue-100" : "text-gray-500"}`}>
-									/agent/mo
-								</span>
+							<div className="mb-6">
+								<h3 className="text-xl font-bold text-slate-900 mb-1">{plan.name}</h3>
+								<p className="text-slate-500 text-sm">{plan.subtitle}</p>
 							</div>
-							<ul className="mt-6 space-y-3">
-								{plan.features.map((feature) => (
-									<li key={feature} className="flex items-start gap-2">
-										<svg
-											className={`w-5 h-5 flex-shrink-0 mt-0.5 ${
-												plan.highlighted ? "text-blue-200" : "text-green-500"
-											}`}
-											fill="currentColor"
-											viewBox="0 0 20 20"
-										>
-											<path
-												fillRule="evenodd"
-												d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-												clipRule="evenodd"
-											/>
-										</svg>
-										<span className={`text-sm ${plan.highlighted ? "text-blue-50" : "text-gray-600"}`}>
-											{feature}
-										</span>
+							<div className="mb-6">
+								<div className="flex items-baseline gap-1">
+									<span className="text-4xl font-bold text-brand-600">${annual ? plan.annualPrice : plan.monthlyPrice}</span>
+									<span className="text-slate-500">per Agent/Month</span>
+								</div>
+								{annual && <div className="text-sm text-green-600 font-medium mt-1">Saved 20%</div>}
+							</div>
+							<ul className="space-y-3 mb-8">
+								{plan.features.map((f) => (
+									<li key={f.text} className="flex items-center gap-3">
+										{f.included ? (
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-green-500 flex-shrink-0"><circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" /></svg>
+										) : (
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-slate-300 flex-shrink-0"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+										)}
+										<span className={f.included ? "text-slate-700" : "text-slate-400"}>{f.text}</span>
 									</li>
 								))}
 							</ul>
-							<a
-								href="https://app.dialogtab.com/register"
-								className={`mt-8 block w-full rounded-full py-3 text-center text-sm font-semibold transition-colors ${
-									plan.highlighted
-										? "bg-white text-blue-600 hover:bg-blue-50"
-										: "bg-blue-600 text-white hover:bg-blue-700"
-								}`}
-							>
-								{plan.cta}
+							<a href="https://app.dialogtab.com/register" className={`w-full py-3.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all ${plan.highlighted ? "bg-brand-600 text-white hover:bg-brand-700 shadow-lg shadow-brand-500/30" : "bg-slate-100 text-slate-900 hover:bg-slate-200"}`}>
+								Try Free
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 							</a>
 						</div>
 					))}
 				</div>
 
-				{/* Enterprise */}
-				<div className="mt-12 text-center">
-					<div className="inline-flex flex-col items-center rounded-2xl border border-gray-200 p-8 bg-gray-50">
-						<h3 className="text-xl font-semibold text-gray-900">Enterprise</h3>
-						<p className="mt-2 text-gray-600">
-							Need a custom solution? Let&apos;s build the perfect plan for your business.
-						</p>
-						<a
-							href="#contact"
-							className="mt-4 rounded-full border-2 border-blue-600 px-6 py-2.5 text-sm font-semibold text-blue-600 hover:bg-blue-600 hover:text-white transition-colors"
-						>
+				<div className="max-w-md mx-auto mt-8">
+					<div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg text-center">
+						<h3 className="text-xl font-bold text-slate-900 mb-2">Enterprise</h3>
+						<p className="text-slate-500 text-sm mb-6">Do you think you need a customized solution? So, get in touch.</p>
+						<a href="https://dialogtab.com/contact" className="bg-brand-600 text-white px-8 py-3 rounded-xl font-bold text-sm inline-flex items-center gap-2 hover:bg-brand-700 transition-all">
 							Contact Us
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 						</a>
 					</div>
 				</div>
+				<p className="text-center text-slate-500 text-sm mt-12">All prices are per agent. Cancel anytime.</p>
 			</div>
 		</section>
 	);

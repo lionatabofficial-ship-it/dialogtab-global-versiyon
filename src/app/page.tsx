@@ -1,7 +1,10 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import VideoSection from "@/components/VideoSection";
+import ConsiderItDone from "@/components/ConsiderItDone";
+import IndustrySection from "@/components/IndustrySection";
+import StatsSection from "@/components/StatsSection";
 import Features from "@/components/Features";
-import ProductShowcase from "@/components/ProductShowcase";
 import Integrations from "@/components/Integrations";
 import GettingStarted from "@/components/GettingStarted";
 import Pricing from "@/components/Pricing";
@@ -14,8 +17,11 @@ export default function Home() {
 			<Header />
 			<main>
 				<Hero />
+				<VideoSection />
+				<ConsiderItDone />
+				<IndustrySection />
+				<StatsSection />
 				<Features />
-				<ProductShowcase />
 				<Integrations />
 				<GettingStarted />
 				<Pricing />
