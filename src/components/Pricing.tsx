@@ -2,75 +2,55 @@
 
 import { useState } from "react";
 
-const plans = [
-	{
-		name: "Start",
-		subtitle: "Small teams getting started",
-		monthlyPrice: 30, annualPrice: 24,
-		features: [
-			{ text: "1 Channel", included: true },
-			{ text: "E-mail Support", included: true },
-			{ text: "3 Month Retention", included: true },
-			{ text: "Basic Analytics", included: true },
-			{ text: "WhatsApp Business API", included: false },
-			{ text: "Product Search", included: false },
-			{ text: "API Access", included: false },
-		],
-		highlighted: false,
-	},
-	{
-		name: "Grow",
-		subtitle: "Growing businesses",
-		monthlyPrice: 45, annualPrice: 36,
-		badge: "BEST",
-		features: [
-			{ text: "3 Channels", included: true },
-			{ text: "WhatsApp Business API - $49/mo", included: true },
-			{ text: "Group & Labels", included: true },
-			{ text: "Product Search", included: true },
-			{ text: "6 Month Retention", included: true },
-			{ text: "Priority Support", included: true },
-			{ text: "API Access", included: false },
-		],
-		highlighted: true,
-	},
-	{
-		name: "Scale",
-		subtitle: "Large organizations",
-		monthlyPrice: 60, annualPrice: 48,
-		features: [
-			{ text: "Ecommerce Full Feature", included: true },
-			{ text: "API Access", included: true },
-			{ text: "Phone Support", included: true },
-			{ text: "12 Month Retention", included: true },
-			{ text: "Custom Integrations", included: true },
-			{ text: "Dedicated Account Manager", included: true },
-			{ text: "SLA Guarantee", included: true },
-		],
-		highlighted: false,
-	},
+interface PricingDict {
+	badge: string;
+	titleStart: string;
+	titleHighlight: string;
+	subtitle: string;
+	annually: string;
+	monthly: string;
+	save20: string;
+	saved20: string;
+	perAgent: string;
+	tryFree: string;
+	plans: {
+		name: string;
+		subtitle: string;
+		badge?: string;
+		features: { text: string; included: boolean }[];
+	}[];
+	enterprise: string;
+	enterpriseDesc: string;
+	contactUs: string;
+	allPricesNote: string;
+}
+
+const prices = [
+	{ monthlyPrice: 30, annualPrice: 24, highlighted: false },
+	{ monthlyPrice: 45, annualPrice: 36, highlighted: true },
+	{ monthlyPrice: 60, annualPrice: 48, highlighted: false },
 ];
 
-export default function Pricing() {
+export default function Pricing({ dict }: { dict: PricingDict }) {
 	const [annual, setAnnual] = useState(true);
 
 	return (
 		<section id="pricing" className="py-20 bg-gradient-to-b from-slate-50 to-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="text-center max-w-3xl mx-auto mb-12">
-					<span className="inline-block bg-brand-100 text-brand-700 text-sm font-bold px-4 py-2 rounded-full mb-4">PRICING</span>
-					<h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6">Let&apos;s start conversational commerce <span className="gradient-text">for your business</span></h2>
-					<p className="text-lg text-slate-600 mb-8">Try any plan free for 14 days. No credit card required.</p>
+					<span className="inline-block bg-brand-100 text-brand-700 text-sm font-bold px-4 py-2 rounded-full mb-4">{dict.badge}</span>
+					<h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6">{dict.titleStart} <span className="gradient-text">{dict.titleHighlight}</span></h2>
+					<p className="text-lg text-slate-600 mb-8">{dict.subtitle}</p>
 					<div className="inline-flex items-center gap-3 bg-slate-100 p-1.5 rounded-full">
-						<button onClick={() => setAnnual(true)} className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all ${annual ? "bg-white text-brand-600 shadow-sm" : "text-slate-600 hover:text-slate-900"}`}>Annually</button>
-						<button onClick={() => setAnnual(false)} className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all flex items-center gap-2 ${!annual ? "bg-white text-brand-600 shadow-sm" : "text-slate-600 hover:text-slate-900"}`}>Monthly</button>
-						<span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Save 20%</span>
+						<button onClick={() => setAnnual(true)} className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all ${annual ? "bg-white text-brand-600 shadow-sm" : "text-slate-600 hover:text-slate-900"}`}>{dict.annually}</button>
+						<button onClick={() => setAnnual(false)} className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all flex items-center gap-2 ${!annual ? "bg-white text-brand-600 shadow-sm" : "text-slate-600 hover:text-slate-900"}`}>{dict.monthly}</button>
+						<span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">{dict.save20}</span>
 					</div>
 				</div>
 
 				<div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-					{plans.map((plan) => (
-						<div key={plan.name} className={`relative bg-white rounded-2xl p-8 ${plan.highlighted ? "border-2 border-brand-500 shadow-2xl shadow-brand-500/20" : "border border-slate-200 shadow-lg shadow-slate-900/5"}`}>
+					{dict.plans.map((plan, i) => (
+						<div key={plan.name} className={`relative bg-white rounded-2xl p-8 ${prices[i].highlighted ? "border-2 border-brand-500 shadow-2xl shadow-brand-500/20" : "border border-slate-200 shadow-lg shadow-slate-900/5"}`}>
 							{plan.badge && (
 								<div className="absolute -top-4 left-1/2 -translate-x-1/2">
 									<div className="bg-gradient-to-r from-brand-500 to-purple-500 text-white text-xs font-bold px-4 py-1.5 rounded-full flex items-center gap-1">
@@ -85,10 +65,10 @@ export default function Pricing() {
 							</div>
 							<div className="mb-6">
 								<div className="flex items-baseline gap-1">
-									<span className="text-4xl font-bold text-brand-600">${annual ? plan.annualPrice : plan.monthlyPrice}</span>
-									<span className="text-slate-500">per Agent/Month</span>
+									<span className="text-4xl font-bold text-brand-600">${annual ? prices[i].annualPrice : prices[i].monthlyPrice}</span>
+									<span className="text-slate-500">{dict.perAgent}</span>
 								</div>
-								{annual && <div className="text-sm text-green-600 font-medium mt-1">Saved 20%</div>}
+								{annual && <div className="text-sm text-green-600 font-medium mt-1">{dict.saved20}</div>}
 							</div>
 							<ul className="space-y-3 mb-8">
 								{plan.features.map((f) => (
@@ -102,8 +82,8 @@ export default function Pricing() {
 									</li>
 								))}
 							</ul>
-							<a href="https://app.dialogtab.com/register" className={`w-full py-3.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all ${plan.highlighted ? "bg-brand-600 text-white hover:bg-brand-700 shadow-lg shadow-brand-500/30" : "bg-slate-100 text-slate-900 hover:bg-slate-200"}`}>
-								Try Free
+							<a href="https://app.dialogtab.com/register" className={`w-full py-3.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all ${prices[i].highlighted ? "bg-brand-600 text-white hover:bg-brand-700 shadow-lg shadow-brand-500/30" : "bg-slate-100 text-slate-900 hover:bg-slate-200"}`}>
+								{dict.tryFree}
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 							</a>
 						</div>
@@ -112,15 +92,15 @@ export default function Pricing() {
 
 				<div className="max-w-md mx-auto mt-8">
 					<div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg text-center">
-						<h3 className="text-xl font-bold text-slate-900 mb-2">Enterprise</h3>
-						<p className="text-slate-500 text-sm mb-6">Do you think you need a customized solution? So, get in touch.</p>
+						<h3 className="text-xl font-bold text-slate-900 mb-2">{dict.enterprise}</h3>
+						<p className="text-slate-500 text-sm mb-6">{dict.enterpriseDesc}</p>
 						<a href="https://dialogtab.com/contact" className="bg-brand-600 text-white px-8 py-3 rounded-xl font-bold text-sm inline-flex items-center gap-2 hover:bg-brand-700 transition-all">
-							Contact Us
+							{dict.contactUs}
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 						</a>
 					</div>
 				</div>
-				<p className="text-center text-slate-500 text-sm mt-12">All prices are per agent. Cancel anytime.</p>
+				<p className="text-center text-slate-500 text-sm mt-12">{dict.allPricesNote}</p>
 			</div>
 		</section>
 	);

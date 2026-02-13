@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "title": "DialogTab | WhatsApp Üzerinden Konuşarak Ticaret",
+    "description": "DialogTab, WhatsApp üzerinden sipariş alma veya kullanıcılarınıza ürün yönlendirme işlemlerini otomatikleştiren bir konuşarak ticaret platformudur.",
+    "keywords": "WhatsApp Business API, konuşarak ticaret, e-ticaret, chatbot, çoklu temsilci, WhatsApp satış"
+  },
+  "header": {
+    "solutions": "Çözümler",
+    "sectors": "Sektörler",
+    "ecommerce": "E-Ticaret",
+    "pricing": "Fiyatlandırma",
+    "contact": "İletişim",
+    "blog": "Blog",
+    "login": "Giriş Yap",
+    "tryFree": "Ücretsiz dene",
+    "solutionsItems": [
+      {"title": "Çok Kanallı Gelen Kutusu", "desc": "WhatsApp, Instagram, Facebook ve daha fazlası tek yerde"},
+      {"title": "DialogTab AI", "desc": "Otomatik müşteri desteği için yapay zeka destekli chatbot"},
+      {"title": "WhatsApp Ticaret", "desc": "WhatsApp görüşmeleri üzerinden doğrudan ürün satışı"},
+      {"title": "Çoklu Temsilci Desteği", "desc": "Görüşmeleri ekiplere ve temsilcilere atayın"},
+      {"title": "Analitik & Raporlar", "desc": "Performans ve müşteri memnuniyetini takip edin"},
+      {"title": "Entegrasyonlar", "desc": "Shopify, WooCommerce, Stripe ve daha fazlasını bağlayın"}
+    ],
+    "sectorsItems": [
+      {"title": "E-Ticaret & Perakende", "desc": "WhatsApp ile online satışları artırın"},
+      {"title": "Seyahat & Turizm", "desc": "Rezervasyonları ve sorguları yönetin"},
+      {"title": "Konaklama & Restoranlar", "desc": "Rezervasyonlar ve misafir iletişimi"},
+      {"title": "Otomotiv", "desc": "Test sürüşü rezervasyonları ve servis güncellemeleri"},
+      {"title": "Enerji & Altyapı", "desc": "Fatura desteği ve servis bildirimleri"},
+      {"title": "Finansal Hizmetler", "desc": "Güvenli müşteri iletişimi"}
+    ]
+  },
+  "hero": {
+    "selectIndustry": "Sektörünüzü seçin:",
+    "industries": ["Tümü", "E-Ticaret", "Seyahat", "Konaklama", "Otomotiv"],
+    "titleStart": "Tek gelen kutusu, ",
+    "titleHighlight": "tüm kanallar",
+    "description": "DialogTab, <strong>WhatsApp, Instagram, Messenger ve Canlı Sohbet'i tek gelen kutusunda</strong> birleştirerek ekibinize saatlerce tekrarlayan işten tasarruf sağlar ve hiçbir görüşme kaybolmaz",
+    "bookDemo": "Demo talep et",
+    "tryFree": "Ücretsiz dene",
+    "partnerBadge": "<strong>Resmi WhatsApp Business İş Ortağı</strong> dünya çapında işletmeler tarafından güvenilir",
+    "dashboardAlt": "DialogTab Kontrol Paneli - Birleşik Gelen Kutusu"
+  },
+  "videoSection": {
+    "badge": "NASIL ÇALIŞTIĞINI İZLEYİN",
+    "title": "DialogTab'ı çalışırken görün",
+    "description": "DialogTab'ın ekiplerin tüm kanallarda olağanüstü müşteri deneyimleri sunmasına nasıl yardımcı olduğunu izleyin.",
+    "stat1Value": "2dk",
+    "stat1Label": "Kurulum süresi",
+    "stat2Value": "5+",
+    "stat2Label": "Desteklenen kanal",
+    "stat3Value": "7/24",
+    "stat3Label": "AI otomasyonu"
+  },
+  "considerItDone": {
+    "title": "Halledildi bile",
+    "description": "Çok kanallı gelen kutumuz ve AI & Otomasyon, ekiplerin keyifli müşteri görüşmeleri sunmasına yardımcı olur.",
+    "aiTitle": "DialogTab AI",
+    "aiDescription": "AI Ajanları ve AI Yolculukları, tekrarlayan görüşmelerinizin %80'inden fazlasını yanıtlayarak ekibinizi rahatlatabilir.",
+    "discoverAI": "DialogTab AI'ı Keşfet",
+    "aiFeatures": ["Soruları çöz", "AI Özeti", "Satışa Ata"],
+    "inboxTitle": "Çok kanallı gelen kutusu",
+    "inboxDescription": "WhatsApp gibi müşteri favorileri, müşteri bilgileri ve faydalı otomasyon özellikleri dahil kanallarınızı merkezileştirin.",
+    "discoverInbox": "Gelen kutusunu keşfet",
+    "inboxLabel": "Gelen Kutusu",
+    "journeysTitle": "AI Yolculukları ile müşteri deneyimlerini akıcı hale getirin",
+    "journeysDescription": "AI, önemli bilgileri toplamak için ziyaretçilere sorular sorar, onları doğru kişiye yönlendirir veya hemen yanıt verir. İdeal müşteri yolculukları artık sadece birkaç tık uzağınızda.",
+    "discoverJourneys": "Yolculukları Keşfet",
+    "aiRouting": "AI yönlendirme",
+    "intents": "3 niyet",
+    "support": "Destek",
+    "sales": "Satış",
+    "aiHelpmate": "AI Yardımcı",
+    "supportBot": "Destek botu",
+    "assignToTeam": "Ekibe ata"
+  },
+  "industrySection": {
+    "titleStart": "Sektörünüze özel ",
+    "titleHighlight": "müşteri etkileşim platformu",
+    "subtitle": "Misafir deneyimlerinden online alıcılara, DialogTab etkili müşteri anları için zaman yaratmanıza yardımcı olur.",
+    "industries": [
+      {"title": "Perakende & E-ticaret", "description": "Tekrarlayan müşteri görüşmelerinin büyük bölümünü otomatikleştirin.", "cta": "AI müşteri hizmetlerini inceleyin"},
+      {"title": "Seyahat, konaklama & eğlence", "description": "Misafirlerinizle olan karşılıklı görüşmeleri proaktif olarak yönetin.", "cta": "Görüşmeleri kolaylaştırın"},
+      {"title": "Otomotiv", "description": "Tutarlı bir müşteri deneyimi için tüm kanalları merkezileştirin.", "cta": "Kesintisiz deneyim sunun"},
+      {"title": "Enerji & altyapı", "description": "Karşılıklı görüşmelerin üstünde kalın, tek gelen kutusundan çalışın.", "cta": "Kontrolü elinizde tutun"},
+      {"title": "Finansal hizmetler", "description": "Kanal ne olursa olsun SLA ve müşteri beklentilerinizi karşılayın.", "cta": "Müşteri beklentilerini karşılayın"},
+      {"title": "Restoranlar", "description": "Rezervasyonlar, değişiklikler ve diğer misafir taleplerinin üstünde kalın.", "cta": "Çözümlerimizi keşfedin"}
+    ]
+  },
+  "statsSection": {
+    "stat1Value": "%80",
+    "stat1Title": "tekrarlayan görüşme çözüldü",
+    "stat1Desc": "AI Ajanı ile anında. Bu AI ajanı iş yükünü hafifletme gücüne sahiptir.",
+    "stat2Value": "3x",
+    "stat2Title": "daha hızlı çözüm süresi",
+    "stat2Desc": "AI Yolculukları, potansiyel müşterileri ve müşterileri yanıtlarına hızlıca ulaştıracak.",
+    "stat3Value": "%98",
+    "stat3Title": "WhatsApp açılma oranı",
+    "stat3Desc": "WhatsApp popüler bir kanal. Bunu etkileşim metriklerinizde göreceksiniz.",
+    "ctaTitle": "DialogTab'ı Deneyimleyin",
+    "ctaDesc": "AI öncelikli çok kanallı gelen kutusu ile potansiyel müşterilere ve müşterilere nasıl daha iyi ulaşabileceğinizi görün.",
+    "bookDemo": "Demo talep et",
+    "tryFree": "Ücretsiz dene"
+  },
+  "features": {
+    "badge": "ÖZELLİKLER",
+    "titleStart": "WhatsApp'ta ",
+    "titleHighlight": "Satış Yapmaya Başlayın",
+    "subtitle": "WhatsApp üzerinden satışları artırmak için uzmanlarınızı güçlendirin.",
+    "tabs": [
+      {
+        "label": "WhatsApp'ta Sipariş Al",
+        "title": "WhatsApp'ta Sipariş Al",
+        "description": "Kullanıcılar adına sepeti yönetin. WhatsApp Business üzerinden ödeme alın.",
+        "features": ["Kullanıcılar adına sepet yönetimi", "WhatsApp Business üzerinden ödeme", "Sipariş onayı ve takibi", "Otomatik sipariş güncellemeleri"],
+        "cta": "Tüm E-ticaret Özelliklerini Keşfet",
+        "stats": [{"value": "+%35", "label": "Sipariş Dönüşümü"}, {"value": "%28", "label": "Sepet Kurtarma"}, {"value": "%94", "label": "Müşteri Memnuniyeti"}]
+      },
+      {
+        "label": "Ürün Ara & Tanımla",
+        "title": "Ürün Ara & Tanımla",
+        "description": "Ürün arayın, ürün kartları paylaşın ve görselden ürün tanımlayın.",
+        "features": ["Sohbette ürün arama", "Ürün kartı paylaşımı", "Görsel tanıma", "Gerçek zamanlı stok durumu"],
+        "cta": "Daha Fazla Bilgi",
+        "stats": [{"value": "5x", "label": "Daha Hızlı Arama"}, {"value": "%89", "label": "Eşleşme Oranı"}, {"value": "2sn", "label": "Yanıt Süresi"}]
+      },
+      {
+        "label": "Çok Kanallı",
+        "title": "WhatsApp ile Çok Kanallı",
+        "description": "Tüm sohbet platformları tek ekranda — WhatsApp, Instagram, Messenger ve Canlı Sohbet birleşik.",
+        "features": ["WhatsApp Business API", "Instagram Direkt Mesajlar", "Facebook Messenger", "Canlı Sohbet widget'ı"],
+        "cta": "Kanalları Keşfet",
+        "stats": [{"value": "5+", "label": "Kanal"}, {"value": "1", "label": "Birleşik Gelen Kutusu"}, {"value": "%100", "label": "Kapsam"}]
+      },
+      {
+        "label": "Çoklu Temsilci",
+        "title": "WhatsApp'ta Çoklu Temsilci",
+        "description": "Birden fazla satış temsilcisinin aynı anda çalışmasını, görüşme atamasını ve işbirliği yapmasını sağlayın.",
+        "features": ["Tek numarada birden fazla temsilci", "Otomatik görüşme atama", "Ekip işbirliği", "Temsilci performans takibi"],
+        "cta": "Daha Fazla Bilgi",
+        "stats": [{"value": "∞", "label": "Temsilci"}, {"value": "Otomatik", "label": "Atama"}, {"value": "Gerçek Zamanlı", "label": "İşbirliği"}]
+      },
+      {
+        "label": "Performans Takibi",
+        "title": "Satış Performansını Takip Et & Analiz Et",
+        "description": "Gerçek zamanlı analitik ve dönüşüm metrikleri ile temsilci performansını izleyin.",
+        "features": ["Temsilci performans takibi", "Gerçek zamanlı dönüşüm metrikleri", "Google Analytics entegrasyonu", "Özel filtreleme ve raporlama"],
+        "cta": "Analitik Özelliklerini Gör",
+        "stats": [{"value": "360°", "label": "Analitik Görünümü"}, {"value": "Gerçek Zamanlı", "label": "Takip"}, {"value": "Özel", "label": "Raporlar"}]
+      }
+    ]
+  },
+  "integrations": {
+    "badge": "DESTEKLENEN PLATFORMLAR",
+    "title": "Müşteri deneyiminizi ",
+    "titleHighlight": "entegrasyonlarla artırın",
+    "subtitle": "Sevdiğiniz ve ihtiyaç duyduğunuz uygulamalarla entegre ederek müşteri deneyiminizi artırın.",
+    "channelsTitle": "Kanallar",
+    "ecommerceTitle": "E-Ticaret",
+    "paymentTitle": "Ödeme",
+    "allIntegrations": "Tüm Entegrasyonlar"
+  },
+  "gettingStarted": {
+    "badge": "BAŞLANGIÇ",
+    "title": "Üç Basit Adımla Canlıya Geçin",
+    "subtitle": "Başlamaya hazır mısınız? Sipariş kanallarınızı platforma bağlamak kolay ve basittir!",
+    "steps": [
+      {"title": "Kayıt Olun", "description": "Sadece birkaç saniyede üye olun. Deneme sürümünü tamamlayın ve mükemmel paketi seçin."},
+      {"title": "Kanalları Bağlayın", "description": "WhatsApp Business API, WhatsApp Web, Messenger, Canlı Sohbet arasından kanallarınızı seçin veya hepsini toplayıp platforma bağlayın."},
+      {"title": "Canlıya Geçin", "description": "Uzmanlara erişim verin ve hemen sipariş almaya başlayın."}
+    ],
+    "startTrial": "Ücretsiz Denemeyi Başlat"
+  },
+  "pricing": {
+    "badge": "FİYATLANDIRMA",
+    "titleStart": "İşletmeniz için konuşarak ticarete ",
+    "titleHighlight": "hemen başlayın",
+    "subtitle": "Herhangi bir planı 14 gün ücretsiz deneyin. Kredi kartı gerekmez.",
+    "annually": "Yıllık",
+    "monthly": "Aylık",
+    "save20": "%20 Tasarruf",
+    "saved20": "%20 Tasarruf Edildi",
+    "perAgent": "Temsilci/Ay başına",
+    "tryFree": "Ücretsiz Dene",
+    "plans": [
+      {
+        "name": "Start",
+        "subtitle": "Başlangıç yapan küçük ekipler",
+        "features": [
+          {"text": "1 Kanal", "included": true},
+          {"text": "E-posta Desteği", "included": true},
+          {"text": "3 Aylık Saklama", "included": true},
+          {"text": "Temel Analitik", "included": true},
+          {"text": "WhatsApp Business API", "included": false},
+          {"text": "Ürün Arama", "included": false},
+          {"text": "API Erişimi", "included": false}
+        ]
+      },
+      {
+        "name": "Grow",
+        "subtitle": "Büyüyen işletmeler",
+        "badge": "EN İYİ",
+        "features": [
+          {"text": "3 Kanal", "included": true},
+          {"text": "WhatsApp Business API - $49/ay", "included": true},
+          {"text": "Grup & Etiketler", "included": true},
+          {"text": "Ürün Arama", "included": true},
+          {"text": "6 Aylık Saklama", "included": true},
+          {"text": "Öncelikli Destek", "included": true},
+          {"text": "API Erişimi", "included": false}
+        ]
+      },
+      {
+        "name": "Scale",
+        "subtitle": "Büyük organizasyonlar",
+        "features": [
+          {"text": "E-ticaret Tam Özellik", "included": true},
+          {"text": "API Erişimi", "included": true},
+          {"text": "Telefon Desteği", "included": true},
+          {"text": "12 Aylık Saklama", "included": true},
+          {"text": "Özel Entegrasyonlar", "included": true},
+          {"text": "Özel Hesap Yöneticisi", "included": true},
+          {"text": "SLA Garantisi", "included": true}
+        ]
+      }
+    ],
+    "enterprise": "Kurumsal",
+    "enterpriseDesc": "Özelleştirilmiş bir çözüme ihtiyacınız olduğunu mu düşünüyorsunuz? İletişime geçin.",
+    "contactUs": "İletişime Geçin",
+    "allPricesNote": "Tüm fiyatlar temsilci başınadır. İstediğiniz zaman iptal edebilirsiniz."
+  },
+  "testimonials": {
+    "badge": "REFERANSLAR",
+    "title": "Büyük ve küçük şirketler tarafından güvenilir.",
+    "subtitle": "Harika deneyimlerine bakalım.",
+    "items": [
+      {"quote": "DialogTab ile birlikte müşterilerimizin dönüşüm oranını %19 artırdık.", "author": "Adem Höcü", "role": "E-ticaret Müdürü", "metric": "%19", "metricLabel": "artan satışlar"},
+      {"quote": "DialogTab, fiziksel mağaza uzmanlarının web sitelerinde hibrit şekilde çalışmasını sağlayan bir çözüm sunarak üretkenliğimizi %35 artırdı.", "author": "Gökhan Özkan", "role": "E-ticaret Müdürü", "metric": "%35", "metricLabel": "daha üretken"}
+    ]
+  },
+  "footer": {
+    "brandDescription": "WhatsApp Business API için konuşarak ticaret platformu. Tüm mesajlaşma kanallarında satış, destek ve etkileşimi otomatikleştirin.",
+    "allRights": "DialogTab. Tüm hakları saklıdır.",
+    "about": "Hakkımızda",
+    "locations": "Lokasyonlar",
+    "contactUs": "İletişim",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfService": "Kullanım Koşulları",
+    "refundPolicy": "İade Politikası",
+    "solutions": "Çözümler",
+    "integrations": "Entegrasyonlar",
+    "chromeExtension": "Chrome Eklentisi",
+    "ecommerceLiveChat": "E-ticaret Canlı Sohbet",
+    "aiChatbot": "AI Chatbot",
+    "omnichannelInbox": "Çok Kanallı Gelen Kutusu",
+    "resources": "Kaynaklar",
+    "blog": "Blog",
+    "pricing": "Fiyatlandırma",
+    "apiDocumentation": "API Dokümantasyonu",
+    "freeTrial": "Ücretsiz Deneme",
+    "otherProjects": "Diğer Projeler",
+    "channels": "Kanallar",
+    "whatsappBusiness": "WhatsApp Business",
+    "instagramDM": "Instagram DM",
+    "facebookMessenger": "Facebook Messenger",
+    "telegram": "Telegram",
+    "liveChat": "Canlı Sohbet",
+    "tiktok": "TikTok",
+    "whatsappPartner": "DialogTab, resmi bir <strong>WhatsApp Business Çözüm Ortağı</strong>'dır. Tüm ticari markalar ilgili sahiplerine aittir.",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "refunds": "İadeler"
+  },
+  "chatWidget": {
+    "greeting": "Merhaba! 👋 DialogTab'a hoş geldiniz. Size nasıl yardımcı olabiliriz?",
+    "justNow": "Şimdi",
+    "typicallyReplies": "Genellikle dakikalar içinde yanıt verir",
+    "chatOnWhatsApp": "WhatsApp'ta Sohbet Et",
+    "startFreeTrial": "Ücretsiz Denemeyi Başlat"
+  }
+}

@@ -1,7 +1,41 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Footer() {
+interface FooterDict {
+	brandDescription: string;
+	allRights: string;
+	about: string;
+	locations: string;
+	contactUs: string;
+	privacyPolicy: string;
+	termsOfService: string;
+	refundPolicy: string;
+	solutions: string;
+	integrations: string;
+	chromeExtension: string;
+	ecommerceLiveChat: string;
+	aiChatbot: string;
+	omnichannelInbox: string;
+	resources: string;
+	blog: string;
+	pricing: string;
+	apiDocumentation: string;
+	freeTrial: string;
+	otherProjects: string;
+	channels: string;
+	whatsappBusiness: string;
+	instagramDM: string;
+	facebookMessenger: string;
+	telegram: string;
+	liveChat: string;
+	tiktok: string;
+	whatsappPartner: string;
+	privacy: string;
+	terms: string;
+	refunds: string;
+}
+
+export default function Footer({ dict, locale }: { dict: FooterDict; locale: string }) {
 	const jsonLd = {
 		"@context": "https://schema.org",
 		"@type": "Organization",
@@ -66,14 +100,14 @@ export default function Footer() {
 				<div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-12">
 					{/* Brand Column */}
 					<div className="col-span-2">
-						<Link href="/" className="flex items-center gap-3 mb-4" aria-label="DialogTab - Home">
+						<Link href={`/${locale}`} className="flex items-center gap-3 mb-4" aria-label="DialogTab - Home">
 							<Image alt="DialogTab Logo" className="h-8 w-auto" src="/images/dialogtab.webp" width={160} height={32} />
 							<span className="text-xl font-bold text-slate-900">DialogTab</span>
 						</Link>
 						<p className="text-slate-600 text-sm mb-2">
-							Conversational commerce platform for WhatsApp Business API. Automate sales, support &amp; engagement across all messaging channels.
+							{dict.brandDescription}
 						</p>
-						<p className="text-slate-500 text-xs mb-4">&copy; 2012-{new Date().getFullYear()} DialogTab. All rights reserved.</p>
+						<p className="text-slate-500 text-xs mb-4">&copy; 2012-{new Date().getFullYear()} DialogTab. {dict.allRights}</p>
 						<div className="flex items-center gap-3" aria-label="Social media links">
 							<a href="https://www.linkedin.com/company/dialogtab" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600 hover:bg-brand-100 hover:text-brand-600 transition-colors" aria-label="Follow DialogTab on LinkedIn">
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
@@ -92,67 +126,66 @@ export default function Footer() {
 
 					{/* About Column */}
 					<nav aria-label="About">
-						<h4 className="font-bold text-slate-900 mb-4">About</h4>
+						<h4 className="font-bold text-slate-900 mb-4">{dict.about}</h4>
 						<ul className="space-y-2">
-							<li><Link href="/locations" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Locations</Link></li>
-							<li><Link href="/contact" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Contact Us</Link></li>
-							<li><Link href="/privacy-policy" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Privacy Policy</Link></li>
-							<li><Link href="/terms-of-service" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Terms of Service</Link></li>
-							<li><Link href="/refund-policy" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Refund Policy</Link></li>
+							<li><Link href={`/${locale}/locations`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.locations}</Link></li>
+							<li><Link href={`/${locale}/contact`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.contactUs}</Link></li>
+							<li><Link href={`/${locale}/privacy-policy`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.privacyPolicy}</Link></li>
+							<li><Link href={`/${locale}/terms-of-service`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.termsOfService}</Link></li>
+							<li><Link href={`/${locale}/refund-policy`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.refundPolicy}</Link></li>
 						</ul>
 					</nav>
 
 					{/* Solutions Column */}
 					<nav aria-label="Solutions">
-						<h4 className="font-bold text-slate-900 mb-4">Solutions</h4>
+						<h4 className="font-bold text-slate-900 mb-4">{dict.solutions}</h4>
 						<ul className="space-y-2">
-							<li><a href="https://dialogtab.com/integrations" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Integrations</a></li>
-							<li><a href="https://dialogtab.com/whatsApp-chrome-extension-for-multiagent" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Chrome Extension</a></li>
-							<li><a href="https://dialogtab.com/livechat-for-ecommerce" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Ecommerce Live Chat</a></li>
-							<li><Link href="#features" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">AI Chatbot</Link></li>
-							<li><Link href="#features" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Omnichannel Inbox</Link></li>
+							<li><a href="https://dialogtab.com/integrations" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.integrations}</a></li>
+							<li><a href="https://dialogtab.com/whatsApp-chrome-extension-for-multiagent" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.chromeExtension}</a></li>
+							<li><a href="https://dialogtab.com/livechat-for-ecommerce" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.ecommerceLiveChat}</a></li>
+							<li><Link href={`/${locale}#features`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.aiChatbot}</Link></li>
+							<li><Link href={`/${locale}#features`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.omnichannelInbox}</Link></li>
 						</ul>
 					</nav>
 
 					{/* Resources Column */}
 					<nav aria-label="Resources">
-						<h4 className="font-bold text-slate-900 mb-4">Resources</h4>
+						<h4 className="font-bold text-slate-900 mb-4">{dict.resources}</h4>
 						<ul className="space-y-2">
-							<li><Link href="/blog" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Blog</Link></li>
-							<li><Link href="#pricing" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Pricing</Link></li>
-							<li><a href="https://dialogtab.com/integrations" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">API Documentation</a></li>
-							<li><a href="https://app.dialogtab.com/register" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">Free Trial</a></li>
+							<li><Link href={`/${locale}/blog`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.blog}</Link></li>
+							<li><Link href={`/${locale}#pricing`} className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.pricing}</Link></li>
+							<li><a href="https://dialogtab.com/integrations" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.apiDocumentation}</a></li>
+							<li><a href="https://app.dialogtab.com/register" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">{dict.freeTrial}</a></li>
 						</ul>
 					</nav>
 
 					{/* Other Projects Column */}
 					<div>
-						<h4 className="font-bold text-slate-900 mb-4">Other Projects</h4>
+						<h4 className="font-bold text-slate-900 mb-4">{dict.otherProjects}</h4>
 						<ul className="space-y-2">
 							<li><a href="https://retentiontab.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-600 hover:text-brand-600 transition-colors">RetentionTab</a></li>
 						</ul>
 
-						<h4 className="font-bold text-slate-900 mb-4 mt-8">Channels</h4>
+						<h4 className="font-bold text-slate-900 mb-4 mt-8">{dict.channels}</h4>
 						<ul className="space-y-2">
-							<li><span className="text-sm text-slate-600">WhatsApp Business</span></li>
-							<li><span className="text-sm text-slate-600">Instagram DM</span></li>
-							<li><span className="text-sm text-slate-600">Facebook Messenger</span></li>
-							<li><span className="text-sm text-slate-600">Telegram</span></li>
-							<li><span className="text-sm text-slate-600">Live Chat</span></li>
+							<li><span className="text-sm text-slate-600">{dict.whatsappBusiness}</span></li>
+							<li><span className="text-sm text-slate-600">{dict.instagramDM}</span></li>
+							<li><span className="text-sm text-slate-600">{dict.facebookMessenger}</span></li>
+							<li><span className="text-sm text-slate-600">{dict.telegram}</span></li>
+							<li><span className="text-sm text-slate-600">{dict.liveChat}</span></li>
+							<li><span className="text-sm text-slate-600">{dict.tiktok}</span></li>
 						</ul>
 					</div>
 				</div>
 
 				{/* Bottom Bar */}
 				<div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-					<p className="text-xs text-slate-500">
-						DialogTab is an official <strong>WhatsApp Business Solution Provider</strong>. All trademarks belong to their respective owners.
-					</p>
+					<p className="text-xs text-slate-500" dangerouslySetInnerHTML={{ __html: dict.whatsappPartner }} />
 					<div className="flex items-center gap-6">
-						<Link href="/privacy-policy" className="text-xs text-slate-500 hover:text-brand-600 transition-colors">Privacy</Link>
-						<Link href="/terms-of-service" className="text-xs text-slate-500 hover:text-brand-600 transition-colors">Terms</Link>
-						<Link href="/refund-policy" className="text-xs text-slate-500 hover:text-brand-600 transition-colors">Refunds</Link>
-						<Link href="/contact" className="text-xs text-slate-500 hover:text-brand-600 transition-colors">Contact</Link>
+						<Link href={`/${locale}/privacy-policy`} className="text-xs text-slate-500 hover:text-brand-600 transition-colors">{dict.privacy}</Link>
+						<Link href={`/${locale}/terms-of-service`} className="text-xs text-slate-500 hover:text-brand-600 transition-colors">{dict.terms}</Link>
+						<Link href={`/${locale}/refund-policy`} className="text-xs text-slate-500 hover:text-brand-600 transition-colors">{dict.refunds}</Link>
+						<Link href={`/${locale}/contact`} className="text-xs text-slate-500 hover:text-brand-600 transition-colors">{dict.contactUs}</Link>
 					</div>
 				</div>
 			</div>

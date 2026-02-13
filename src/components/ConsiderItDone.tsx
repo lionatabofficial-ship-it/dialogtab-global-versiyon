@@ -1,28 +1,51 @@
-export default function ConsiderItDone() {
+export interface ConsiderItDoneDict {
+	title: string;
+	description: string;
+	aiTitle: string;
+	aiDescription: string;
+	discoverAI: string;
+	aiFeatures: string[];
+	inboxTitle: string;
+	inboxDescription: string;
+	discoverInbox: string;
+	inboxLabel: string;
+	journeysTitle: string;
+	journeysDescription: string;
+	discoverJourneys: string;
+	aiRouting: string;
+	intents: string;
+	support: string;
+	sales: string;
+	aiHelpmate: string;
+	supportBot: string;
+	assignToTeam: string;
+}
+
+export default function ConsiderItDone({ dict }: { dict: ConsiderItDoneDict }) {
 	return (
 		<section className="py-20 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="text-center mb-16">
-					<h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6">Consider it done</h2>
-					<p className="text-lg text-slate-600 max-w-2xl mx-auto">Our omnichannel inbox and AI &amp; Automation help teams to deliver delightful customer conversations.</p>
+					<h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6">{dict.title}</h2>
+					<p className="text-lg text-slate-600 max-w-2xl mx-auto">{dict.description}</p>
 				</div>
 
 				<div className="grid lg:grid-cols-2 gap-8 mb-20">
 					{/* DialogTab AI Card */}
 					<div className="bg-slate-900 rounded-3xl p-8">
 						<div className="mb-6">
-							<h3 className="text-2xl font-bold text-white mb-4">DialogTab AI</h3>
-							<p className="text-slate-300 mb-6">AI Agents and AI Journeys can relieve your team, by answering more than 80% of your repetitive conversations.</p>
+							<h3 className="text-2xl font-bold text-white mb-4">{dict.aiTitle}</h3>
+							<p className="text-slate-300 mb-6">{dict.aiDescription}</p>
 							<a href="#" className="inline-flex items-center gap-2 font-semibold text-brand-400 hover:text-brand-300 transition-colors">
-								Discover DialogTab AI
+								{dict.discoverAI}
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 							</a>
 						</div>
 						<div className="bg-slate-800 rounded-2xl p-4 space-y-3">
 							{[
-								{ icon: "M12 8V4H8", extra: <><rect width="16" height="12" x="4" y="8" rx="2" /><path d="M2 14h2" /><path d="M20 14h2" /><path d="M15 13v2" /><path d="M9 13v2" /></>, label: "Solve questions", color: "bg-brand-500" },
-								{ icon: "", extra: <><rect width="8" height="8" x="3" y="3" rx="2" /><path d="M7 11v4a2 2 0 0 0 2 2h4" /><rect width="8" height="8" x="13" y="13" rx="2" /></>, label: "AI Summary", color: "bg-purple-500" },
-								{ icon: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", extra: null, label: "Assign to Sales", color: "bg-green-500" },
+								{ icon: "M12 8V4H8", extra: <><rect width="16" height="12" x="4" y="8" rx="2" /><path d="M2 14h2" /><path d="M20 14h2" /><path d="M15 13v2" /><path d="M9 13v2" /></>, label: dict.aiFeatures[0], color: "bg-brand-500" },
+								{ icon: "", extra: <><rect width="8" height="8" x="3" y="3" rx="2" /><path d="M7 11v4a2 2 0 0 0 2 2h4" /><rect width="8" height="8" x="13" y="13" rx="2" /></>, label: dict.aiFeatures[1], color: "bg-purple-500" },
+								{ icon: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z", extra: null, label: dict.aiFeatures[2], color: "bg-green-500" },
 							].map((item) => (
 								<div key={item.label} className="flex items-center gap-3 bg-white/10 rounded-xl p-3">
 									<div className={`w-8 h-8 ${item.color} rounded-lg flex items-center justify-center`}>
@@ -40,15 +63,15 @@ export default function ConsiderItDone() {
 					{/* Omnichannel Inbox Card */}
 					<div className="bg-white rounded-3xl p-8 border border-slate-200">
 						<div className="mb-6">
-							<h3 className="text-2xl font-bold text-slate-900 mb-4">Omnichannel inbox</h3>
-							<p className="text-slate-600 mb-6">Centralise your channels, including customer favourites like WhatsApp, customer info and helpful automation features.</p>
+							<h3 className="text-2xl font-bold text-slate-900 mb-4">{dict.inboxTitle}</h3>
+							<p className="text-slate-600 mb-6">{dict.inboxDescription}</p>
 							<a href="#" className="inline-flex items-center gap-2 font-semibold text-brand-600 hover:text-brand-700 transition-colors">
-								Discover the inbox
+								{dict.discoverInbox}
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 							</a>
 						</div>
 						<div className="bg-slate-50 rounded-2xl p-4 space-y-2">
-							<div className="font-bold text-slate-900 mb-3">Inbox</div>
+							<div className="font-bold text-slate-900 mb-3">{dict.inboxLabel}</div>
 							{[
 								{ name: "WhatsApp", color: "bg-green-500", letter: "W" },
 								{ name: "Instagram", color: "bg-gradient-to-br from-purple-500 to-pink-500", letter: "I" },
@@ -70,10 +93,10 @@ export default function ConsiderItDone() {
 				{/* AI Journeys Section */}
 				<div className="grid lg:grid-cols-2 gap-8 items-center bg-slate-900 rounded-3xl overflow-hidden">
 					<div className="p-8 lg:p-12">
-						<h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Let customer experiences flow with AI Journeys</h3>
-						<p className="text-slate-300 mb-6 leading-relaxed">AI asks visitors questions to collect important info, leads them to the right person or answers straight away. Ideal customer journeys are now only a few clicks away.</p>
+						<h3 className="text-2xl md:text-3xl font-bold text-white mb-4">{dict.journeysTitle}</h3>
+						<p className="text-slate-300 mb-6 leading-relaxed">{dict.journeysDescription}</p>
 						<a href="#" className="inline-flex items-center gap-2 text-brand-400 font-semibold hover:text-brand-300 transition-colors">
-							Discover Journeys
+							{dict.discoverJourneys}
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 						</a>
 					</div>
@@ -84,28 +107,28 @@ export default function ConsiderItDone() {
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-orange-600"><rect width="8" height="8" x="3" y="3" rx="2" /><path d="M7 11v4a2 2 0 0 0 2 2h4" /><rect width="8" height="8" x="13" y="13" rx="2" /></svg>
 								</div>
 								<div>
-									<div className="font-semibold text-sm">AI routing</div>
-									<div className="text-xs text-slate-500">3 intents</div>
+									<div className="font-semibold text-sm">{dict.aiRouting}</div>
+									<div className="text-xs text-slate-500">{dict.intents}</div>
 								</div>
 							</div>
 							<div className="flex gap-8 justify-center my-4">
-								<div className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-xs font-medium">Support</div>
-								<div className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-xs font-medium">Sales</div>
+								<div className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-xs font-medium">{dict.support}</div>
+								<div className="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-xs font-medium">{dict.sales}</div>
 							</div>
 							<div className="grid grid-cols-2 gap-3 mt-4">
 								<div className="bg-slate-50 rounded-xl p-3">
 									<div className="flex items-center gap-2 mb-1">
 										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-slate-600"><path d="M12 8V4H8" /><rect width="16" height="12" x="4" y="8" rx="2" /><path d="M2 14h2" /><path d="M20 14h2" /><path d="M15 13v2" /><path d="M9 13v2" /></svg>
-										<span className="text-xs font-medium">AI Helpmate</span>
+										<span className="text-xs font-medium">{dict.aiHelpmate}</span>
 									</div>
-									<div className="text-xs text-slate-500">Support bot</div>
+									<div className="text-xs text-slate-500">{dict.supportBot}</div>
 								</div>
 								<div className="bg-slate-50 rounded-xl p-3">
 									<div className="flex items-center gap-2 mb-1">
 										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-slate-600"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg>
-										<span className="text-xs font-medium">Assign to team</span>
+										<span className="text-xs font-medium">{dict.assignToTeam}</span>
 									</div>
-									<div className="text-xs text-slate-500">Sales</div>
+									<div className="text-xs text-slate-500">{dict.sales}</div>
 								</div>
 							</div>
 						</div>
