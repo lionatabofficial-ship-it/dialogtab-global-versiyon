@@ -33,9 +33,33 @@
   "hero": {
     "selectIndustry": "Selecciona tu industria:",
     "industries": ["Todos", "E-Commerce", "Viajes", "Hostelería", "Automotriz"],
-    "titleStart": "Una bandeja, ",
-    "titleHighlight": "todos los canales",
-    "description": "DialogTab une <strong>WhatsApp, Instagram, Messenger y Chat en Vivo en una sola bandeja,</strong> ahorrando a tu equipo horas de trabajo repetitivo y asegurando que ninguna conversación se pierda",
+    "industryContent": [
+      {
+        "titleStart": "Una bandeja, ",
+        "titleHighlight": "todos los canales",
+        "description": "DialogTab une <strong>WhatsApp, Instagram, Messenger y Chat en Vivo en una sola bandeja,</strong> ahorrando a tu equipo horas de trabajo repetitivo y asegurando que ninguna conversación se pierda"
+      },
+      {
+        "titleStart": "Vende más con ",
+        "titleHighlight": "comercio en WhatsApp",
+        "description": "Convierte WhatsApp en tu canal de ventas e-commerce más potente. <strong>Automatiza la recuperación de carritos abandonados, gestiona pedidos en tiempo real y ofrece recomendaciones de productos personalizadas</strong> — todo desde una bandeja omnicanal integrada con Shopify, WooCommerce y más"
+      },
+      {
+        "titleStart": "Reservas sin esfuerzo por ",
+        "titleHighlight": "WhatsApp",
+        "description": "Simplifica las reservas de viajes, envía confirmaciones instantáneas y atiende consultas 24/7. <strong>Automatiza actualizaciones de itinerario, recordatorios de check-in y soporte multilingüe para viajeros</strong> en WhatsApp, Instagram y todos los canales de mensajería"
+      },
+      {
+        "titleStart": "Mejora la experiencia del huésped con ",
+        "titleHighlight": "mensajería inteligente",
+        "description": "Desde la reserva hasta el checkout, ofrece comunicación cinco estrellas con los huéspedes a escala. <strong>Automatiza confirmaciones de reserva, solicitudes de servicio de habitaciones y soporte de conserjería en tiempo real</strong> por WhatsApp y las plataformas de mensajería que prefieren tus huéspedes"
+      },
+      {
+        "titleStart": "Impulsa ventas con ",
+        "titleHighlight": "comercio conversacional",
+        "description": "Acelera reservas de pruebas de conducción, citas de servicio y consultas de vehículos por mensajería. <strong>Automatiza seguimientos de leads, envía recordatorios de servicio y proporciona especificaciones y precios de vehículos al instante</strong> por WhatsApp y todos tus canales de cliente"
+      }
+    ],
     "bookDemo": "Solicitar demo",
     "tryFree": "Probar gratis",
     "partnerBadge": "<strong>Socio Oficial de WhatsApp Business</strong> confiado por empresas en todo el mundo",

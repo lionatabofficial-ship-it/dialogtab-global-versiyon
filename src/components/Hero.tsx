@@ -3,12 +3,16 @@
 import { useState } from "react";
 import Image from "next/image";
 
-interface HeroDict {
-	selectIndustry: string;
-	industries: string[];
+interface IndustryContent {
 	titleStart: string;
 	titleHighlight: string;
 	description: string;
+}
+
+interface HeroDict {
+	selectIndustry: string;
+	industries: string[];
+	industryContent: IndustryContent[];
 	bookDemo: string;
 	tryFree: string;
 	partnerBadge: string;
@@ -16,7 +20,8 @@ interface HeroDict {
 }
 
 export default function Hero({ dict }: { dict: HeroDict }) {
-	const [selected, setSelected] = useState(dict.industries[1]);
+	const [selectedIdx, setSelectedIdx] = useState(0);
+	const content = dict.industryContent[selectedIdx];
 
 	return (
 		<section className="relative pt-28 pb-16 overflow-hidden bg-[#f8f8f6]">
@@ -27,12 +32,12 @@ export default function Hero({ dict }: { dict: HeroDict }) {
 				<div className="text-center mb-12">
 					<p className="text-sm text-slate-500 mb-3">{dict.selectIndustry}</p>
 					<div className="flex flex-wrap justify-center gap-2">
-						{dict.industries.map((ind) => (
+						{dict.industries.map((ind, idx) => (
 							<button
 								key={ind}
-								onClick={() => setSelected(ind)}
+								onClick={() => setSelectedIdx(idx)}
 								className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-									selected === ind
+									selectedIdx === idx
 										? "bg-brand-600 text-white"
 										: "bg-white text-slate-600 hover:bg-slate-100 border border-slate-200"
 								}`}
@@ -46,9 +51,9 @@ export default function Hero({ dict }: { dict: HeroDict }) {
 				<div className="grid lg:grid-cols-2 gap-12 items-center">
 					<div>
 						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
-							{dict.titleStart}<span className="text-brand-500">{dict.titleHighlight}</span>
+							{content.titleStart}<span className="text-brand-500">{content.titleHighlight}</span>
 						</h1>
-						<p className="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed" dangerouslySetInnerHTML={{ __html: dict.description }} />
+						<p className="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed" dangerouslySetInnerHTML={{ __html: content.description }} />
 						<div className="flex flex-col sm:flex-row gap-4 mb-8">
 							<a href="https://app.dialogtab.com/register" className="bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-slate-800 transition-all shadow-lg flex items-center justify-center gap-2">{dict.bookDemo}</a>
 							<a href="https://app.dialogtab.com/register" className="bg-brand-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-brand-600 transition-all shadow-lg shadow-brand-500/30 flex items-center justify-center gap-2">

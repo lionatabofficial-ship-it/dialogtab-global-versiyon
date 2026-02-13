@@ -33,9 +33,33 @@
   "hero": {
     "selectIndustry": "Sektörünüzü seçin:",
     "industries": ["Tümü", "E-Ticaret", "Seyahat", "Konaklama", "Otomotiv"],
-    "titleStart": "Tek gelen kutusu, ",
-    "titleHighlight": "tüm kanallar",
-    "description": "DialogTab, <strong>WhatsApp, Instagram, Messenger ve Canlı Sohbet'i tek gelen kutusunda</strong> birleştirerek ekibinize saatlerce tekrarlayan işten tasarruf sağlar ve hiçbir görüşme kaybolmaz",
+    "industryContent": [
+      {
+        "titleStart": "Tek gelen kutusu, ",
+        "titleHighlight": "tüm kanallar",
+        "description": "DialogTab, <strong>WhatsApp, Instagram, Messenger ve Canlı Sohbet'i tek gelen kutusunda</strong> birleştirerek ekibinize saatlerce tekrarlayan işten tasarruf sağlar ve hiçbir görüşme kaybolmaz"
+      },
+      {
+        "titleStart": "WhatsApp ile ",
+        "titleHighlight": "e-ticarette daha fazla satış",
+        "description": "WhatsApp'ı en güçlü e-ticaret satış kanalınıza dönüştürün. <strong>Terk edilen sepet kurtarma otomasyonu, gerçek zamanlı sipariş yönetimi ve kişiselleştirilmiş ürün önerileri</strong> — Shopify, WooCommerce ve daha fazlasıyla entegre tek bir çok kanallı gelen kutusundan"
+      },
+      {
+        "titleStart": "WhatsApp ile ",
+        "titleHighlight": "zahmetsiz seyahat rezervasyonları",
+        "description": "Seyahat rezervasyonlarını kolaylaştırın, anında onay gönderin ve sorguları 7/24 yanıtlayın. <strong>Güzergah güncellemelerini, check-in hatırlatmalarını ve çok dilli yolcu desteğini</strong> WhatsApp, Instagram ve tüm mesajlaşma kanallarından otomatikleştirin"
+      },
+      {
+        "titleStart": "Akıllı mesajlaşma ile ",
+        "titleHighlight": "misafir deneyimini zirveye taşıyın",
+        "description": "Rezervasyondan çıkışa kadar ölçeklenebilir beş yıldızlı misafir iletişimi sunun. <strong>Rezervasyon onayları, oda servisi talepleri ve gerçek zamanlı concierge desteğini</strong> WhatsApp ve misafirlerinizin tercih ettiği tüm mesajlaşma platformlarından otomatikleştirin"
+      },
+      {
+        "titleStart": "Konuşarak ticaret ile ",
+        "titleHighlight": "otomotiv satışlarını hızlandırın",
+        "description": "Test sürüşü randevularını, servis kayıtlarını ve araç sorgularını mesajlaşma ile hızlandırın. <strong>Potansiyel müşteri takibini otomatikleştirin, servis hatırlatmaları gönderin ve anlık araç özellikleri ile fiyat bilgisi sunun</strong> — WhatsApp ve tüm müşteri kanallarından"
+      }
+    ],
     "bookDemo": "Demo talep et",
     "tryFree": "Ücretsiz dene",
     "partnerBadge": "<strong>Resmi WhatsApp Business İş Ortağı</strong> dünya çapında işletmeler tarafından güvenilir",
