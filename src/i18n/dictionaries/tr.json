@@ -685,5 +685,36 @@
     "sectors": ["E-Ticaret", "Otomotiv", "Turizm", "Kozmetik", "Diğer"],
     "submitButton": "Hesap Oluştur",
     "successMessage": "Kayıt sayfasına yönlendiriliyorsunuz..."
+  },
+  "blog": {
+    "pageTitle": "Blog",
+    "pageDescription": "WhatsApp Business, konuşarak ticaret, AI chatbot ve müşteri etkileşim stratejileri hakkında en son içeriklerle güncel kalın.",
+    "allPosts": "Tüm Yazılar",
+    "readMore": "Devamını oku",
+    "readingTime": "dk okuma",
+    "publishedOn": "Yayınlanma tarihi",
+    "by": "yazar",
+    "tableOfContents": "İçindekiler",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "relatedPosts": "İlgili Yazılar",
+    "backToBlog": "Blog'a Dön",
+    "shareArticle": "Bu yazıyı paylaş",
+    "categories": {
+      "Guide": "Rehber",
+      "E-Commerce": "E-Ticaret",
+      "Trends": "Trendler",
+      "AI": "Yapay Zeka",
+      "Strategy": "Strateji",
+      "Marketing": "Pazarlama"
+    },
+    "newsletter": {
+      "title": "Bültenimize abone olun",
+      "description": "Konuşarak ticaret hakkında en son makaleler, ipuçları ve haberleri e-postanıza alın.",
+      "placeholder": "E-posta adresinizi girin",
+      "button": "Abone Ol",
+      "success": "Abone olduğunuz için teşekkürler!"
+    },
+    "noPosts": "Henüz yazı bulunamadı.",
+    "searchPlaceholder": "Yazılarda ara..."
   }
 }
