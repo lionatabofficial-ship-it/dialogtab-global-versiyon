@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import ChatWidget from "@/components/ChatWidget";
 import ScrollToTop from "@/components/ScrollToTop";
 
-const SECTOR_SLUGS = ["e-commerce", "travel", "hospitality", "automotive", "energy", "financial"] as const;
+const SECTOR_SLUGS = ["insurance", "automotive", "hospitality", "wholesale", "e-commerce", "cosmetics", "health", "education"] as const;
 type SectorSlug = (typeof SECTOR_SLUGS)[number];
 
 export async function generateStaticParams() {
