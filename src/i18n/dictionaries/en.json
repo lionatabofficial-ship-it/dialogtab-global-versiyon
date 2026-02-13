@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "title": "DialogTab | Conversational Commerce on WhatsApp",
+    "description": "DialogTab is a conversational commerce platform that automates receiving your order or guidance to your user a product via WhatsApp.",
+    "keywords": "WhatsApp Business API, conversational commerce, e-commerce, chatbot, multi-agent, WhatsApp sales"
+  },
+  "header": {
+    "solutions": "Solutions",
+    "sectors": "Sectors",
+    "ecommerce": "Ecommerce",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "blog": "Blog",
+    "login": "Login",
+    "tryFree": "Try for free",
+    "solutionsItems": [
+      {"title": "Omnichannel Inbox", "desc": "WhatsApp, Instagram, Facebook & more in one place"},
+      {"title": "DialogTab AI", "desc": "AI-powered chatbot for automated customer support"},
+      {"title": "WhatsApp Commerce", "desc": "Sell products directly through WhatsApp conversations"},
+      {"title": "Multi-Agent Support", "desc": "Assign conversations to teams and agents"},
+      {"title": "Analytics & Reports", "desc": "Track performance and customer satisfaction"},
+      {"title": "Integrations", "desc": "Connect Shopify, WooCommerce, Stripe & more"}
+    ],
+    "sectorsItems": [
+      {"title": "E-Commerce & Retail", "desc": "Boost online sales with WhatsApp"},
+      {"title": "Travel & Tourism", "desc": "Manage bookings and inquiries"},
+      {"title": "Hospitality & Restaurants", "desc": "Reservations & guest communication"},
+      {"title": "Automotive", "desc": "Test drive bookings & service updates"},
+      {"title": "Energy & Utilities", "desc": "Billing support & service notifications"},
+      {"title": "Financial Services", "desc": "Secure customer communication"}
+    ]
+  },
+  "hero": {
+    "selectIndustry": "Select your industry:",
+    "industries": ["All", "E-Commerce", "Travel", "Hospitality", "Automotive"],
+    "titleStart": "One inbox, ",
+    "titleHighlight": "every channel",
+    "description": "DialogTab unites <strong>WhatsApp, Instagram, Messenger, and Live Chat in one inbox,</strong> saving your team hours of repetitive work and ensures no conversation is ever lost",
+    "bookDemo": "Book a demo",
+    "tryFree": "Try for free",
+    "partnerBadge": "<strong>Official WhatsApp Business Partner</strong> trusted by businesses worldwide",
+    "dashboardAlt": "DialogTab Dashboard - Unified Inbox"
+  },
+  "videoSection": {
+    "badge": "WATCH HOW IT WORKS",
+    "title": "See DialogTab in action",
+    "description": "Watch how DialogTab helps teams deliver exceptional customer experiences across all channels.",
+    "stat1Value": "2min",
+    "stat1Label": "Setup time",
+    "stat2Value": "5+",
+    "stat2Label": "Channels supported",
+    "stat3Value": "24/7",
+    "stat3Label": "AI automation"
+  },
+  "considerItDone": {
+    "title": "Consider it done",
+    "description": "Our omnichannel inbox and AI & Automation help teams to deliver delightful customer conversations.",
+    "aiTitle": "DialogTab AI",
+    "aiDescription": "AI Agents and AI Journeys can relieve your team, by answering more than 80% of your repetitive conversations.",
+    "discoverAI": "Discover DialogTab AI",
+    "aiFeatures": ["Solve questions", "AI Summary", "Assign to Sales"],
+    "inboxTitle": "Omnichannel inbox",
+    "inboxDescription": "Centralise your channels, including customer favourites like WhatsApp, customer info and helpful automation features.",
+    "discoverInbox": "Discover the inbox",
+    "inboxLabel": "Inbox",
+    "journeysTitle": "Let customer experiences flow with AI Journeys",
+    "journeysDescription": "AI asks visitors questions to collect important info, leads them to the right person or answers straight away. Ideal customer journeys are now only a few clicks away.",
+    "discoverJourneys": "Discover Journeys",
+    "aiRouting": "AI routing",
+    "intents": "3 intents",
+    "support": "Support",
+    "sales": "Sales",
+    "aiHelpmate": "AI Helpmate",
+    "supportBot": "Support bot",
+    "assignToTeam": "Assign to team"
+  },
+  "industrySection": {
+    "titleStart": "A customer engagement platform that's tailored ",
+    "titleHighlight": "to your industry",
+    "subtitle": "From guest experiences to online buyers, DialogTab helps you create time for impactful customer moments.",
+    "industries": [
+      {"title": "Retail & E-commerce", "description": "Automate a big chunk of repetitive customer conversations.", "cta": "Check out AI customer service"},
+      {"title": "Travel, hospitality & leisure", "description": "Proactively manage back-and-forth conversations with your guests.", "cta": "Streamline conversations"},
+      {"title": "Automotive", "description": "Centralise all channels, for a consistent customer experience.", "cta": "Deliver a seamless experience"},
+      {"title": "Energy & utilities", "description": "Stay on top of back-and-forth conversations, work from one inbox.", "cta": "Stay in control"},
+      {"title": "Financial services", "description": "Meet your SLA and customer expectations, no matter the channel.", "cta": "Meet customer expectations"},
+      {"title": "Restaurants", "description": "Stay on top of reservations, changes and other guest asks.", "cta": "Explore our solutions"}
+    ]
+  },
+  "statsSection": {
+    "stat1Value": "80%",
+    "stat1Title": "of repetitive conversations resolved",
+    "stat1Desc": "In an instant with the AI Agent. This AI agent has the power to lighten the workload.",
+    "stat2Value": "3x",
+    "stat2Title": "faster resolution time",
+    "stat2Desc": "AI Journeys will bring leads and customers to their answers, fast.",
+    "stat3Value": "98%",
+    "stat3Title": "WhatsApp open rate",
+    "stat3Desc": "WhatsApp is a popular channel. You'll see that reflected in your engagement metrics.",
+    "ctaTitle": "Experience DialogTab",
+    "ctaDesc": "See how you can reach and service leads and customers better with an AI-first omnichannel inbox.",
+    "bookDemo": "Book a demo",
+    "tryFree": "Try for free"
+  },
+  "features": {
+    "badge": "FEATURES",
+    "titleStart": "Start Selling in ",
+    "titleHighlight": "WhatsApp",
+    "subtitle": "Power-up your experts through WhatsApp to increase sales.",
+    "tabs": [
+      {
+        "label": "Get Order On WhatsApp",
+        "title": "Get Order On WhatsApp",
+        "description": "Manage the cart behalf of users. Get the payment on WhatsApp Business.",
+        "features": ["Manage cart on behalf of users", "Get payment on WhatsApp Business", "Order confirmation & tracking", "Automated order updates"],
+        "cta": "Explore All E-commerce Features",
+        "stats": [{"value": "+35%", "label": "Order Conversion"}, {"value": "28%", "label": "Cart Recovery"}, {"value": "94%", "label": "Customer Satisfaction"}]
+      },
+      {
+        "label": "Search & Identify Product",
+        "title": "Search & Identify Product",
+        "description": "Search products, share product cards, and identify products from images.",
+        "features": ["Product search in chat", "Share product cards", "Image recognition", "Real-time availability"],
+        "cta": "Learn More",
+        "stats": [{"value": "5x", "label": "Faster Search"}, {"value": "89%", "label": "Match Rate"}, {"value": "2s", "label": "Response Time"}]
+      },
+      {
+        "label": "Multi-Channel",
+        "title": "Multi-Channel with WhatsApp",
+        "description": "All chat platforms in one screen — WhatsApp, Instagram, Messenger, and Live Chat unified.",
+        "features": ["WhatsApp Business API", "Instagram Direct Messages", "Facebook Messenger", "Live Chat widget"],
+        "cta": "Explore Channels",
+        "stats": [{"value": "5+", "label": "Channels"}, {"value": "1", "label": "Unified Inbox"}, {"value": "100%", "label": "Coverage"}]
+      },
+      {
+        "label": "Multi-Agent",
+        "title": "Multi-Agent on WhatsApp",
+        "description": "Enable multiple sales agents to work simultaneously, assign conversations, and collaborate.",
+        "features": ["Multiple agents on one number", "Auto-assign conversations", "Team collaboration", "Agent performance tracking"],
+        "cta": "Learn More",
+        "stats": [{"value": "\u221e", "label": "Agents"}, {"value": "Auto", "label": "Assignment"}, {"value": "Real-time", "label": "Collaboration"}]
+      },
+      {
+        "label": "Track Performance",
+        "title": "Track & Analyze Sales Performance",
+        "description": "Monitor agent performance with real-time analytics and conversion metrics.",
+        "features": ["Agent performance tracking", "Real-time conversion metrics", "Google Analytics integration", "Custom filtering and reporting"],
+        "cta": "View Analytics Features",
+        "stats": [{"value": "360\u00b0", "label": "Analytics View"}, {"value": "Real-time", "label": "Tracking"}, {"value": "Custom", "label": "Reports"}]
+      }
+    ]
+  },
+  "integrations": {
+    "badge": "SUPPORTED PLATFORMS",
+    "title": "Increase your customer experience by ",
+    "titleHighlight": "integrate",
+    "subtitle": "Increase your customer experience by integrate with the applications what you like and need.",
+    "channelsTitle": "Channels",
+    "ecommerceTitle": "E-Commerce",
+    "paymentTitle": "Payment",
+    "allIntegrations": "All Integrations"
+  },
+  "gettingStarted": {
+    "badge": "GET STARTED",
+    "title": "Go Live With Three Simple Steps",
+    "subtitle": "Ready to get started? It's easy and straightforward to set up your order channels to the platform!",
+    "steps": [
+      {"title": "Register", "description": "Become a member in just a few seconds. Complete the trial version and select the perfect package."},
+      {"title": "Connect Channels", "description": "Choose your channels between WhatsApp Business API, WhatsApp Web, Messenger, Live Chat, or collect all and connect to the platform."},
+      {"title": "Go Live", "description": "Give access to the experts and start to get orders immediately."}
+    ],
+    "startTrial": "Start Free Trial"
+  },
+  "pricing": {
+    "badge": "PRICING",
+    "titleStart": "Let's start conversational commerce ",
+    "titleHighlight": "for your business",
+    "subtitle": "Try any plan free for 14 days. No credit card required.",
+    "annually": "Annually",
+    "monthly": "Monthly",
+    "save20": "Save 20%",
+    "saved20": "Saved 20%",
+    "perAgent": "per Agent/Month",
+    "tryFree": "Try Free",
+    "plans": [
+      {
+        "name": "Start",
+        "subtitle": "Small teams getting started",
+        "features": [
+          {"text": "1 Channel", "included": true},
+          {"text": "E-mail Support", "included": true},
+          {"text": "3 Month Retention", "included": true},
+          {"text": "Basic Analytics", "included": true},
+          {"text": "WhatsApp Business API", "included": false},
+          {"text": "Product Search", "included": false},
+          {"text": "API Access", "included": false}
+        ]
+      },
+      {
+        "name": "Grow",
+        "subtitle": "Growing businesses",
+        "badge": "BEST",
+        "features": [
+          {"text": "3 Channels", "included": true},
+          {"text": "WhatsApp Business API - $49/mo", "included": true},
+          {"text": "Group & Labels", "included": true},
+          {"text": "Product Search", "included": true},
+          {"text": "6 Month Retention", "included": true},
+          {"text": "Priority Support", "included": true},
+          {"text": "API Access", "included": false}
+        ]
+      },
+      {
+        "name": "Scale",
+        "subtitle": "Large organizations",
+        "features": [
+          {"text": "Ecommerce Full Feature", "included": true},
+          {"text": "API Access", "included": true},
+          {"text": "Phone Support", "included": true},
+          {"text": "12 Month Retention", "included": true},
+          {"text": "Custom Integrations", "included": true},
+          {"text": "Dedicated Account Manager", "included": true},
+          {"text": "SLA Guarantee", "included": true}
+        ]
+      }
+    ],
+    "enterprise": "Enterprise",
+    "enterpriseDesc": "Do you think you need a customized solution? So, get in touch.",
+    "contactUs": "Contact Us",
+    "allPricesNote": "All prices are per agent. Cancel anytime."
+  },
+  "testimonials": {
+    "badge": "TESTIMONIALS",
+    "title": "Trusted by large and small companies.",
+    "subtitle": "Let's look at their amazing experiences.",
+    "items": [
+      {"quote": "Together with DialogTab, we have increased the conversion rate of our customers by 19%.", "author": "Adem H\u00f6c\u00fc", "role": "Ecommerce Manager", "metric": "19%", "metricLabel": "increased sales"},
+      {"quote": "DialogTab has increased our productivity by 35% by offering a solution enabling physical store experts to work on websites in hybrid way.", "author": "G\u00f6khan \u00d6zkan", "role": "Ecommerce Manager", "metric": "35%", "metricLabel": "more productive"}
+    ]
+  },
+  "footer": {
+    "brandDescription": "Conversational commerce platform for WhatsApp Business API. Automate sales, support & engagement across all messaging channels.",
+    "allRights": "DialogTab. All rights reserved.",
+    "about": "About",
+    "locations": "Locations",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "refundPolicy": "Refund Policy",
+    "solutions": "Solutions",
+    "integrations": "Integrations",
+    "chromeExtension": "Chrome Extension",
+    "ecommerceLiveChat": "Ecommerce Live Chat",
+    "aiChatbot": "AI Chatbot",
+    "omnichannelInbox": "Omnichannel Inbox",
+    "resources": "Resources",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "apiDocumentation": "API Documentation",
+    "freeTrial": "Free Trial",
+    "otherProjects": "Other Projects",
+    "channels": "Channels",
+    "whatsappBusiness": "WhatsApp Business",
+    "instagramDM": "Instagram DM",
+    "facebookMessenger": "Facebook Messenger",
+    "telegram": "Telegram",
+    "liveChat": "Live Chat",
+    "tiktok": "TikTok",
+    "whatsappPartner": "DialogTab is an official <strong>WhatsApp Business Solution Provider</strong>. All trademarks belong to their respective owners.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "refunds": "Refunds"
+  },
+  "chatWidget": {
+    "greeting": "Hi there! \ud83d\udc4b Welcome to DialogTab. How can we help you today?",
+    "justNow": "Just now",
+    "typicallyReplies": "Typically replies within minutes",
+    "chatOnWhatsApp": "Chat on WhatsApp",
+    "startFreeTrial": "Start Free Trial"
+  }
+}

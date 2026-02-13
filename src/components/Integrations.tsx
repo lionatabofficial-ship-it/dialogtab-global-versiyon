@@ -16,6 +16,7 @@ const ecommerce = [
 	{ name: "OpenCart", image: "/images/opencart.webp" },
 	{ name: "T-Soft", image: "/images/tsoft.webp" },
 	{ name: "Ticimax", image: "/images/ticimax.jpg" },
+	{ name: "IKAS", image: "/images/ikas.png" },
 	{ name: "PrestaShop", image: "/images/prestashop.webp" },
 ];
 
@@ -25,7 +26,18 @@ const payments = [
 	{ name: "PayU", image: "/images/payu.webp" },
 ];
 
-export default function Integrations() {
+interface IntegrationsDict {
+	badge: string;
+	title: string;
+	titleHighlight: string;
+	subtitle: string;
+	channelsTitle: string;
+	ecommerceTitle: string;
+	paymentTitle: string;
+	allIntegrations: string;
+}
+
+export default function Integrations({ dict }: { dict: IntegrationsDict }) {
 	return (
 		<section className="py-20 bg-gradient-to-b from-slate-900 to-slate-800 text-white relative overflow-hidden">
 			<div className="absolute inset-0 opacity-10">
@@ -34,14 +46,14 @@ export default function Integrations() {
 
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 				<div className="text-center max-w-3xl mx-auto mb-16">
-					<span className="inline-block bg-white/10 text-white text-sm font-bold px-4 py-2 rounded-full mb-4 backdrop-blur-sm">SUPPORTED PLATFORMS</span>
-					<h2 className="text-3xl md:text-5xl font-bold mb-6">Increase your customer experience by <span className="text-brand-400">integrate</span></h2>
-					<p className="text-lg text-slate-300">Increase your customer experience by integrate with the applications what you like and need.</p>
+					<span className="inline-block bg-white/10 text-white text-sm font-bold px-4 py-2 rounded-full mb-4 backdrop-blur-sm">{dict.badge}</span>
+					<h2 className="text-3xl md:text-5xl font-bold mb-6">{dict.title} <span className="text-brand-400">{dict.titleHighlight}</span></h2>
+					<p className="text-lg text-slate-300">{dict.subtitle}</p>
 				</div>
 
 				{/* Channels */}
 				<div className="mb-12">
-					<h3 className="text-center text-xl font-bold mb-6 text-slate-300">Channels</h3>
+					<h3 className="text-center text-xl font-bold mb-6 text-slate-300">{dict.channelsTitle}</h3>
 					<div className="flex flex-wrap justify-center gap-4">
 						{channels.map((ch) => (
 							<div key={ch.name} className="group bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl flex flex-col items-center justify-center hover:bg-white/10 transition-all cursor-pointer w-28">
@@ -54,7 +66,7 @@ export default function Integrations() {
 
 				{/* E-Commerce */}
 				<div className="mb-12">
-					<h3 className="text-center text-xl font-bold mb-6 text-slate-300">E-Commerce</h3>
+					<h3 className="text-center text-xl font-bold mb-6 text-slate-300">{dict.ecommerceTitle}</h3>
 					<div className="flex flex-wrap justify-center gap-4">
 						{ecommerce.map((item) => (
 							<div key={item.name} className="group bg-white/5 backdrop-blur-sm border border-white/10 p-5 rounded-2xl flex flex-col items-center justify-center hover:bg-white/10 transition-all cursor-pointer w-28">
@@ -67,7 +79,7 @@ export default function Integrations() {
 
 				{/* Payment */}
 				<div className="mb-12">
-					<h3 className="text-center text-xl font-bold mb-6 text-slate-300">Payment</h3>
+					<h3 className="text-center text-xl font-bold mb-6 text-slate-300">{dict.paymentTitle}</h3>
 					<div className="flex flex-wrap justify-center gap-4">
 						{payments.map((p) => (
 							<div key={p.name} className="group bg-white/5 backdrop-blur-sm border border-white/10 p-6 rounded-2xl flex flex-col items-center justify-center hover:bg-white/10 transition-all cursor-pointer w-32">
@@ -80,7 +92,7 @@ export default function Integrations() {
 
 				<div className="text-center">
 					<a href="https://dialogtab.com/integrations" className="bg-brand-500 text-white px-8 py-4 rounded-xl font-bold text-sm inline-flex items-center gap-2 hover:bg-brand-600 transition-all hover:-translate-y-0.5 shadow-lg">
-						All Integrations
+						{dict.allIntegrations}
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 					</a>
 				</div>

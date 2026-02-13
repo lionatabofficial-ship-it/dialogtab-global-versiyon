@@ -3,10 +3,20 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const industries = ["All", "E-Commerce", "Travel", "Hospitality", "Automotive"];
+interface HeroDict {
+	selectIndustry: string;
+	industries: string[];
+	titleStart: string;
+	titleHighlight: string;
+	description: string;
+	bookDemo: string;
+	tryFree: string;
+	partnerBadge: string;
+	dashboardAlt: string;
+}
 
-export default function Hero() {
-	const [selected, setSelected] = useState("E-Commerce");
+export default function Hero({ dict }: { dict: HeroDict }) {
+	const [selected, setSelected] = useState(dict.industries[1]);
 
 	return (
 		<section className="relative pt-28 pb-16 overflow-hidden bg-[#f8f8f6]">
@@ -15,9 +25,9 @@ export default function Hero() {
 
 			<div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="text-center mb-12">
-					<p className="text-sm text-slate-500 mb-3">Select your industry:</p>
+					<p className="text-sm text-slate-500 mb-3">{dict.selectIndustry}</p>
 					<div className="flex flex-wrap justify-center gap-2">
-						{industries.map((ind) => (
+						{dict.industries.map((ind) => (
 							<button
 								key={ind}
 								onClick={() => setSelected(ind)}
@@ -36,15 +46,13 @@ export default function Hero() {
 				<div className="grid lg:grid-cols-2 gap-12 items-center">
 					<div>
 						<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-6">
-							One inbox, <span className="text-brand-500">every channel</span>
+							{dict.titleStart}<span className="text-brand-500">{dict.titleHighlight}</span>
 						</h1>
-						<p className="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed">
-							DialogTab unites <strong>WhatsApp, Instagram, Messenger, and Live Chat in one inbox,</strong> saving your team hours of repetitive work and ensures no conversation is ever lost
-						</p>
+						<p className="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed" dangerouslySetInnerHTML={{ __html: dict.description }} />
 						<div className="flex flex-col sm:flex-row gap-4 mb-8">
-							<a href="https://app.dialogtab.com/register" className="bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-slate-800 transition-all shadow-lg flex items-center justify-center gap-2">Book a demo</a>
+							<a href="https://app.dialogtab.com/register" className="bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-slate-800 transition-all shadow-lg flex items-center justify-center gap-2">{dict.bookDemo}</a>
 							<a href="https://app.dialogtab.com/register" className="bg-brand-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-brand-600 transition-all shadow-lg shadow-brand-500/30 flex items-center justify-center gap-2">
-								Try for free
+								{dict.tryFree}
 								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 							</a>
 						</div>
@@ -52,13 +60,13 @@ export default function Hero() {
 							<div className="w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
 								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 text-white"><circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" /></svg>
 							</div>
-							<span><strong>Official WhatsApp Business Partner</strong> trusted by businesses worldwide</span>
+							<span dangerouslySetInnerHTML={{ __html: dict.partnerBadge }} />
 						</div>
 					</div>
 
 					<div className="relative">
 						<Image
-							alt="DialogTab Dashboard - Unified Inbox"
+							alt={dict.dashboardAlt}
 							className="w-full rounded-2xl shadow-2xl"
 							src="/images/mainpage.png"
 							width={800}

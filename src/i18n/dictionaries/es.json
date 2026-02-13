@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "title": "DialogTab | Comercio Conversacional en WhatsApp",
+    "description": "DialogTab es una plataforma de comercio conversacional que automatiza la recepción de pedidos o la orientación de productos a través de WhatsApp.",
+    "keywords": "WhatsApp Business API, comercio conversacional, e-commerce, chatbot, multi-agente, ventas por WhatsApp"
+  },
+  "header": {
+    "solutions": "Soluciones",
+    "sectors": "Sectores",
+    "ecommerce": "E-Commerce",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "login": "Iniciar sesión",
+    "tryFree": "Probar gratis",
+    "solutionsItems": [
+      {"title": "Bandeja Omnicanal", "desc": "WhatsApp, Instagram, Facebook y más en un solo lugar"},
+      {"title": "DialogTab AI", "desc": "Chatbot con IA para soporte al cliente automatizado"},
+      {"title": "Comercio WhatsApp", "desc": "Vende productos directamente a través de conversaciones en WhatsApp"},
+      {"title": "Soporte Multi-Agente", "desc": "Asigna conversaciones a equipos y agentes"},
+      {"title": "Analíticas e Informes", "desc": "Rastrea el rendimiento y la satisfacción del cliente"},
+      {"title": "Integraciones", "desc": "Conecta Shopify, WooCommerce, Stripe y más"}
+    ],
+    "sectorsItems": [
+      {"title": "E-Commerce y Retail", "desc": "Impulsa las ventas online con WhatsApp"},
+      {"title": "Viajes y Turismo", "desc": "Gestiona reservas y consultas"},
+      {"title": "Hostelería y Restaurantes", "desc": "Reservas y comunicación con huéspedes"},
+      {"title": "Automotriz", "desc": "Reservas de pruebas de conducción y actualizaciones de servicio"},
+      {"title": "Energía y Servicios", "desc": "Soporte de facturación y notificaciones de servicio"},
+      {"title": "Servicios Financieros", "desc": "Comunicación segura con clientes"}
+    ]
+  },
+  "hero": {
+    "selectIndustry": "Selecciona tu industria:",
+    "industries": ["Todos", "E-Commerce", "Viajes", "Hostelería", "Automotriz"],
+    "titleStart": "Una bandeja, ",
+    "titleHighlight": "todos los canales",
+    "description": "DialogTab une <strong>WhatsApp, Instagram, Messenger y Chat en Vivo en una sola bandeja,</strong> ahorrando a tu equipo horas de trabajo repetitivo y asegurando que ninguna conversación se pierda",
+    "bookDemo": "Solicitar demo",
+    "tryFree": "Probar gratis",
+    "partnerBadge": "<strong>Socio Oficial de WhatsApp Business</strong> confiado por empresas en todo el mundo",
+    "dashboardAlt": "Panel de DialogTab - Bandeja Unificada"
+  },
+  "videoSection": {
+    "badge": "MIRA CÓMO FUNCIONA",
+    "title": "Ve DialogTab en acción",
+    "description": "Mira cómo DialogTab ayuda a los equipos a ofrecer experiencias excepcionales al cliente en todos los canales.",
+    "stat1Value": "2min",
+    "stat1Label": "Tiempo de configuración",
+    "stat2Value": "5+",
+    "stat2Label": "Canales soportados",
+    "stat3Value": "24/7",
+    "stat3Label": "Automatización IA"
+  },
+  "considerItDone": {
+    "title": "Considéralo hecho",
+    "description": "Nuestra bandeja omnicanal e IA y automatización ayudan a los equipos a ofrecer conversaciones encantadoras con los clientes.",
+    "aiTitle": "DialogTab AI",
+    "aiDescription": "Los Agentes IA y los Recorridos IA pueden aliviar a tu equipo, respondiendo más del 80% de tus conversaciones repetitivas.",
+    "discoverAI": "Descubre DialogTab AI",
+    "aiFeatures": ["Resolver preguntas", "Resumen IA", "Asignar a Ventas"],
+    "inboxTitle": "Bandeja omnicanal",
+    "inboxDescription": "Centraliza tus canales, incluyendo los favoritos de los clientes como WhatsApp, información del cliente y funciones útiles de automatización.",
+    "discoverInbox": "Descubre la bandeja",
+    "inboxLabel": "Bandeja",
+    "journeysTitle": "Haz fluir las experiencias del cliente con Recorridos IA",
+    "journeysDescription": "La IA hace preguntas a los visitantes para recopilar información importante, los lleva a la persona adecuada o responde directamente. Los recorridos ideales del cliente ahora están a solo unos clics de distancia.",
+    "discoverJourneys": "Descubre los Recorridos",
+    "aiRouting": "Enrutamiento IA",
+    "intents": "3 intenciones",
+    "support": "Soporte",
+    "sales": "Ventas",
+    "aiHelpmate": "Asistente IA",
+    "supportBot": "Bot de soporte",
+    "assignToTeam": "Asignar al equipo"
+  },
+  "industrySection": {
+    "titleStart": "Una plataforma de interacción con clientes adaptada ",
+    "titleHighlight": "a tu industria",
+    "subtitle": "Desde experiencias de huéspedes hasta compradores online, DialogTab te ayuda a crear tiempo para momentos impactantes con los clientes.",
+    "industries": [
+      {"title": "Retail y E-commerce", "description": "Automatiza gran parte de las conversaciones repetitivas con clientes.", "cta": "Descubre el servicio al cliente con IA"},
+      {"title": "Viajes, hostelería y ocio", "description": "Gestiona proactivamente las conversaciones con tus huéspedes.", "cta": "Optimiza las conversaciones"},
+      {"title": "Automotriz", "description": "Centraliza todos los canales para una experiencia consistente del cliente.", "cta": "Ofrece una experiencia impecable"},
+      {"title": "Energía y servicios", "description": "Mantente al tanto de las conversaciones, trabaja desde una sola bandeja.", "cta": "Mantén el control"},
+      {"title": "Servicios financieros", "description": "Cumple con tu SLA y las expectativas del cliente, sin importar el canal.", "cta": "Cumple las expectativas del cliente"},
+      {"title": "Restaurantes", "description": "Mantente al tanto de reservas, cambios y otras solicitudes de los clientes.", "cta": "Explora nuestras soluciones"}
+    ]
+  },
+  "statsSection": {
+    "stat1Value": "80%",
+    "stat1Title": "de conversaciones repetitivas resueltas",
+    "stat1Desc": "Al instante con el Agente IA. Este agente tiene el poder de aligerar la carga de trabajo.",
+    "stat2Value": "3x",
+    "stat2Title": "tiempo de resolución más rápido",
+    "stat2Desc": "Los Recorridos IA llevarán a los leads y clientes a sus respuestas, rápidamente.",
+    "stat3Value": "98%",
+    "stat3Title": "tasa de apertura de WhatsApp",
+    "stat3Desc": "WhatsApp es un canal popular. Lo verás reflejado en tus métricas de interacción.",
+    "ctaTitle": "Experimenta DialogTab",
+    "ctaDesc": "Descubre cómo puedes alcanzar y atender mejor a leads y clientes con una bandeja omnicanal con IA.",
+    "bookDemo": "Solicitar demo",
+    "tryFree": "Probar gratis"
+  },
+  "features": {
+    "badge": "CARACTERÍSTICAS",
+    "titleStart": "Empieza a Vender en ",
+    "titleHighlight": "WhatsApp",
+    "subtitle": "Potencia a tus expertos a través de WhatsApp para aumentar las ventas.",
+    "tabs": [
+      {
+        "label": "Recibe Pedidos en WhatsApp",
+        "title": "Recibe Pedidos en WhatsApp",
+        "description": "Gestiona el carrito en nombre de los usuarios. Recibe el pago en WhatsApp Business.",
+        "features": ["Gestión del carrito en nombre de usuarios", "Pago en WhatsApp Business", "Confirmación y seguimiento de pedidos", "Actualizaciones automáticas de pedidos"],
+        "cta": "Explora Todas las Funciones E-commerce",
+        "stats": [{"value": "+35%", "label": "Conversión de Pedidos"}, {"value": "28%", "label": "Recuperación de Carrito"}, {"value": "94%", "label": "Satisfacción del Cliente"}]
+      },
+      {
+        "label": "Buscar e Identificar Producto",
+        "title": "Buscar e Identificar Producto",
+        "description": "Busca productos, comparte tarjetas de producto e identifica productos desde imágenes.",
+        "features": ["Búsqueda de productos en chat", "Compartir tarjetas de producto", "Reconocimiento de imágenes", "Disponibilidad en tiempo real"],
+        "cta": "Más Información",
+        "stats": [{"value": "5x", "label": "Búsqueda Más Rápida"}, {"value": "89%", "label": "Tasa de Coincidencia"}, {"value": "2s", "label": "Tiempo de Respuesta"}]
+      },
+      {
+        "label": "Multi-Canal",
+        "title": "Multi-Canal con WhatsApp",
+        "description": "Todas las plataformas de chat en una pantalla — WhatsApp, Instagram, Messenger y Chat en Vivo unificados.",
+        "features": ["WhatsApp Business API", "Mensajes Directos de Instagram", "Facebook Messenger", "Widget de Chat en Vivo"],
+        "cta": "Explora los Canales",
+        "stats": [{"value": "5+", "label": "Canales"}, {"value": "1", "label": "Bandeja Unificada"}, {"value": "100%", "label": "Cobertura"}]
+      },
+      {
+        "label": "Multi-Agente",
+        "title": "Multi-Agente en WhatsApp",
+        "description": "Permite que múltiples agentes de ventas trabajen simultáneamente, asigna conversaciones y colabora.",
+        "features": ["Múltiples agentes en un número", "Auto-asignación de conversaciones", "Colaboración en equipo", "Seguimiento del rendimiento del agente"],
+        "cta": "Más Información",
+        "stats": [{"value": "∞", "label": "Agentes"}, {"value": "Auto", "label": "Asignación"}, {"value": "Tiempo Real", "label": "Colaboración"}]
+      },
+      {
+        "label": "Seguimiento de Rendimiento",
+        "title": "Rastrea y Analiza el Rendimiento de Ventas",
+        "description": "Monitorea el rendimiento del agente con analíticas en tiempo real y métricas de conversión.",
+        "features": ["Seguimiento del rendimiento del agente", "Métricas de conversión en tiempo real", "Integración con Google Analytics", "Filtrado y reportes personalizados"],
+        "cta": "Ver Funciones Analíticas",
+        "stats": [{"value": "360°", "label": "Vista Analítica"}, {"value": "Tiempo Real", "label": "Seguimiento"}, {"value": "Personalizado", "label": "Informes"}]
+      }
+    ]
+  },
+  "integrations": {
+    "badge": "PLATAFORMAS SOPORTADAS",
+    "title": "Mejora tu experiencia del cliente con ",
+    "titleHighlight": "integraciones",
+    "subtitle": "Mejora tu experiencia del cliente integrando con las aplicaciones que te gustan y necesitas.",
+    "channelsTitle": "Canales",
+    "ecommerceTitle": "E-Commerce",
+    "paymentTitle": "Pagos",
+    "allIntegrations": "Todas las Integraciones"
+  },
+  "gettingStarted": {
+    "badge": "COMENZAR",
+    "title": "Actívate en Tres Simples Pasos",
+    "subtitle": "¿Listo para comenzar? ¡Es fácil y sencillo configurar tus canales de pedidos en la plataforma!",
+    "steps": [
+      {"title": "Regístrate", "description": "Hazte miembro en solo unos segundos. Completa la versión de prueba y selecciona el paquete perfecto."},
+      {"title": "Conecta Canales", "description": "Elige tus canales entre WhatsApp Business API, WhatsApp Web, Messenger, Chat en Vivo, o reúne todos y conéctalos a la plataforma."},
+      {"title": "Actívate", "description": "Da acceso a los expertos y comienza a recibir pedidos inmediatamente."}
+    ],
+    "startTrial": "Iniciar Prueba Gratuita"
+  },
+  "pricing": {
+    "badge": "PRECIOS",
+    "titleStart": "Comienza el comercio conversacional ",
+    "titleHighlight": "para tu negocio",
+    "subtitle": "Prueba cualquier plan gratis por 14 días. No se requiere tarjeta de crédito.",
+    "annually": "Anual",
+    "monthly": "Mensual",
+    "save20": "Ahorra 20%",
+    "saved20": "20% Ahorrado",
+    "perAgent": "por Agente/Mes",
+    "tryFree": "Probar Gratis",
+    "plans": [
+      {
+        "name": "Start",
+        "subtitle": "Equipos pequeños que empiezan",
+        "features": [
+          {"text": "1 Canal", "included": true},
+          {"text": "Soporte por E-mail", "included": true},
+          {"text": "Retención de 3 Meses", "included": true},
+          {"text": "Analíticas Básicas", "included": true},
+          {"text": "WhatsApp Business API", "included": false},
+          {"text": "Búsqueda de Productos", "included": false},
+          {"text": "Acceso API", "included": false}
+        ]
+      },
+      {
+        "name": "Grow",
+        "subtitle": "Negocios en crecimiento",
+        "badge": "MEJOR",
+        "features": [
+          {"text": "3 Canales", "included": true},
+          {"text": "WhatsApp Business API - $49/mes", "included": true},
+          {"text": "Grupos y Etiquetas", "included": true},
+          {"text": "Búsqueda de Productos", "included": true},
+          {"text": "Retención de 6 Meses", "included": true},
+          {"text": "Soporte Prioritario", "included": true},
+          {"text": "Acceso API", "included": false}
+        ]
+      },
+      {
+        "name": "Scale",
+        "subtitle": "Grandes organizaciones",
+        "features": [
+          {"text": "E-commerce Completo", "included": true},
+          {"text": "Acceso API", "included": true},
+          {"text": "Soporte Telefónico", "included": true},
+          {"text": "Retención de 12 Meses", "included": true},
+          {"text": "Integraciones Personalizadas", "included": true},
+          {"text": "Gerente de Cuenta Dedicado", "included": true},
+          {"text": "Garantía SLA", "included": true}
+        ]
+      }
+    ],
+    "enterprise": "Empresarial",
+    "enterpriseDesc": "¿Crees que necesitas una solución personalizada? Contáctanos.",
+    "contactUs": "Contáctanos",
+    "allPricesNote": "Todos los precios son por agente. Cancela en cualquier momento."
+  },
+  "testimonials": {
+    "badge": "TESTIMONIOS",
+    "title": "Confiado por grandes y pequeñas empresas.",
+    "subtitle": "Veamos sus increíbles experiencias.",
+    "items": [
+      {"quote": "Junto con DialogTab, hemos aumentado la tasa de conversión de nuestros clientes en un 19%.", "author": "Adem Höcü", "role": "Gerente de E-commerce", "metric": "19%", "metricLabel": "aumento en ventas"},
+      {"quote": "DialogTab ha aumentado nuestra productividad en un 35% al ofrecer una solución que permite a los expertos de tiendas físicas trabajar en sitios web de forma híbrida.", "author": "Gökhan Özkan", "role": "Gerente de E-commerce", "metric": "35%", "metricLabel": "más productivo"}
+    ]
+  },
+  "footer": {
+    "brandDescription": "Plataforma de comercio conversacional para WhatsApp Business API. Automatiza ventas, soporte e interacción en todos los canales de mensajería.",
+    "allRights": "DialogTab. Todos los derechos reservados.",
+    "about": "Acerca de",
+    "locations": "Ubicaciones",
+    "contactUs": "Contáctanos",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "refundPolicy": "Política de Reembolso",
+    "solutions": "Soluciones",
+    "integrations": "Integraciones",
+    "chromeExtension": "Extensión Chrome",
+    "ecommerceLiveChat": "Chat en Vivo E-commerce",
+    "aiChatbot": "Chatbot IA",
+    "omnichannelInbox": "Bandeja Omnicanal",
+    "resources": "Recursos",
+    "blog": "Blog",
+    "pricing": "Precios",
+    "apiDocumentation": "Documentación API",
+    "freeTrial": "Prueba Gratuita",
+    "otherProjects": "Otros Proyectos",
+    "channels": "Canales",
+    "whatsappBusiness": "WhatsApp Business",
+    "instagramDM": "Instagram DM",
+    "facebookMessenger": "Facebook Messenger",
+    "telegram": "Telegram",
+    "liveChat": "Chat en Vivo",
+    "tiktok": "TikTok",
+    "whatsappPartner": "DialogTab es un <strong>Proveedor Oficial de Soluciones WhatsApp Business</strong>. Todas las marcas pertenecen a sus respectivos propietarios.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "refunds": "Reembolsos"
+  },
+  "chatWidget": {
+    "greeting": "¡Hola! 👋 Bienvenido a DialogTab. ¿Cómo podemos ayudarte hoy?",
+    "justNow": "Ahora mismo",
+    "typicallyReplies": "Normalmente responde en minutos",
+    "chatOnWhatsApp": "Chatear en WhatsApp",
+    "startFreeTrial": "Iniciar Prueba Gratuita"
+  }
+}

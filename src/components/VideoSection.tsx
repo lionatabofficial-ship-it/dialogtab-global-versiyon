@@ -1,11 +1,23 @@
-export default function VideoSection() {
+interface VideoSectionDict {
+	badge: string;
+	title: string;
+	description: string;
+	stat1Value: string;
+	stat1Label: string;
+	stat2Value: string;
+	stat2Label: string;
+	stat3Value: string;
+	stat3Label: string;
+}
+
+export default function VideoSection({ dict }: { dict: VideoSectionDict }) {
 	return (
 		<section className="py-20 bg-slate-900">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="text-center mb-12">
-					<span className="inline-block bg-brand-500/20 text-brand-400 text-sm font-bold px-4 py-2 rounded-full mb-4">WATCH HOW IT WORKS</span>
-					<h2 className="text-3xl md:text-5xl font-bold text-white mb-6">See DialogTab in action</h2>
-					<p className="text-lg text-slate-400 max-w-2xl mx-auto">Watch how DialogTab helps teams deliver exceptional customer experiences across all channels.</p>
+					<span className="inline-block bg-brand-500/20 text-brand-400 text-sm font-bold px-4 py-2 rounded-full mb-4">{dict.badge}</span>
+					<h2 className="text-3xl md:text-5xl font-bold text-white mb-6">{dict.title}</h2>
+					<p className="text-lg text-slate-400 max-w-2xl mx-auto">{dict.description}</p>
 				</div>
 
 				<div className="relative max-w-5xl mx-auto">
@@ -25,16 +37,16 @@ export default function VideoSection() {
 
 				<div className="grid grid-cols-3 gap-8 max-w-3xl mx-auto mt-12 text-center">
 					<div>
-						<div className="text-3xl md:text-4xl font-bold text-brand-400 mb-2">2min</div>
-						<div className="text-slate-400 text-sm">Setup time</div>
+						<div className="text-3xl md:text-4xl font-bold text-brand-400 mb-2">{dict.stat1Value}</div>
+						<div className="text-slate-400 text-sm">{dict.stat1Label}</div>
 					</div>
 					<div>
-						<div className="text-3xl md:text-4xl font-bold text-brand-400 mb-2">5+</div>
-						<div className="text-slate-400 text-sm">Channels supported</div>
+						<div className="text-3xl md:text-4xl font-bold text-brand-400 mb-2">{dict.stat2Value}</div>
+						<div className="text-slate-400 text-sm">{dict.stat2Label}</div>
 					</div>
 					<div>
-						<div className="text-3xl md:text-4xl font-bold text-brand-400 mb-2">24/7</div>
-						<div className="text-slate-400 text-sm">AI automation</div>
+						<div className="text-3xl md:text-4xl font-bold text-brand-400 mb-2">{dict.stat3Value}</div>
+						<div className="text-slate-400 text-sm">{dict.stat3Label}</div>
 					</div>
 				</div>
 			</div>
