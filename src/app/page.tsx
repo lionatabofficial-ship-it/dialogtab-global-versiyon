@@ -10,6 +10,8 @@ import GettingStarted from "@/components/GettingStarted";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import ChatWidget from "@/components/ChatWidget";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Home() {
 	return (
@@ -28,6 +30,8 @@ export default function Home() {
 				<Testimonials />
 			</main>
 			<Footer />
+			<ChatWidget />
+			<ScrollToTop />
 		</>
 	);
 }
