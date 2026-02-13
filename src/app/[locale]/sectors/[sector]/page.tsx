@@ -65,13 +65,33 @@ interface SectorUseCase {
 	description: string;
 }
 
+interface WhyPoint {
+	title: string;
+	description: string;
+	icon: string;
+}
+
+interface HowItWorksStep {
+	step: string;
+	title: string;
+	description: string;
+}
+
+interface FaqItem {
+	question: string;
+	answer: string;
+}
+
 interface SectorPageData {
 	slug: string;
 	meta: { title: string; description: string; keywords: string };
 	hero: { badge: string; title: string; titleHighlight: string; description: string; cta: string; ctaSecondary: string };
-	features: SectorFeature[];
 	stats: SectorStat[];
+	whyDialogTab: { title: string; subtitle: string; points: WhyPoint[] };
+	features: SectorFeature[];
+	howItWorks: { title: string; subtitle: string; steps: HowItWorksStep[] };
 	useCases: { title: string; items: SectorUseCase[] };
+	faq: { title: string; items: FaqItem[] };
 	cta: { title: string; description: string; button: string; buttonSecondary: string };
 }
 
@@ -101,6 +121,11 @@ const featureIcons: Record<string, React.ReactNode> = {
 	document: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /><path d="M14 2v4a2 2 0 0 0 2 2h4" /><path d="M10 9H8" /><path d="M16 13H8" /><path d="M16 17H8" /></svg>,
 	tracking: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2" /></svg>,
 	shield: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></svg>,
+	rocket: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" /><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" /><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" /><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" /></svg>,
+	zap: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" /></svg>,
+	target: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg>,
+	check: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><path d="m9 11 3 3L22 4" /></svg>,
+	headphones: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3" /></svg>,
 };
 
 function getIcon(key: string) {
@@ -167,12 +192,39 @@ export default async function SectorPage({ params }: { params: Promise<{ locale:
 					</div>
 				</section>
 
-				{/* Features Section */}
+				{/* Why DialogTab Section */}
 				<section className="py-20 bg-[#f8f8f6]">
+					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+						<div className="text-center mb-16">
+							<h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+								{page.whyDialogTab.title}
+							</h2>
+							<p className="text-lg text-slate-600 max-w-2xl mx-auto">
+								{page.whyDialogTab.subtitle}
+							</p>
+						</div>
+						<div className="grid md:grid-cols-2 gap-8">
+							{page.whyDialogTab.points.map((point, i) => (
+								<div key={point.title} className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 flex gap-5">
+									<div className="flex-shrink-0 w-14 h-14 bg-brand-100 rounded-2xl flex items-center justify-center text-brand-600">
+										{getIcon(point.icon)}
+									</div>
+									<div>
+										<h3 className="text-xl font-bold text-slate-900 mb-2">{point.title}</h3>
+										<p className="text-slate-600 leading-relaxed">{point.description}</p>
+									</div>
+								</div>
+							))}
+						</div>
+					</div>
+				</section>
+
+				{/* Features Section */}
+				<section className="py-20 bg-white">
 					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 						<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 							{page.features.map((feature) => (
-								<div key={feature.title} className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 group">
+								<div key={feature.title} className="bg-[#f8f8f6] rounded-2xl p-8 hover:shadow-lg transition-all duration-300 group">
 									<div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-600 group-hover:text-white transition-colors duration-300">
 										{getIcon(feature.icon)}
 									</div>
@@ -184,15 +236,43 @@ export default async function SectorPage({ params }: { params: Promise<{ locale:
 					</div>
 				</section>
 
+				{/* How It Works Section */}
+				<section className="py-20 bg-slate-900">
+					<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+						<div className="text-center mb-16">
+							<h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+								{page.howItWorks.title}
+							</h2>
+							<p className="text-lg text-slate-400 max-w-2xl mx-auto">
+								{page.howItWorks.subtitle}
+							</p>
+						</div>
+						<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+							{page.howItWorks.steps.map((step, i) => (
+								<div key={step.title} className="relative text-center">
+									<div className="w-16 h-16 bg-brand-500 rounded-2xl flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+										{step.step}
+									</div>
+									{i < page.howItWorks.steps.length - 1 && (
+										<div className="hidden lg:block absolute top-8 left-[calc(50%+40px)] w-[calc(100%-80px)] h-0.5 bg-brand-500/30" />
+									)}
+									<h3 className="text-lg font-bold text-white mb-3">{step.title}</h3>
+									<p className="text-slate-400 leading-relaxed text-sm">{step.description}</p>
+								</div>
+							))}
+						</div>
+					</div>
+				</section>
+
 				{/* Use Cases Section */}
-				<section className="py-20 bg-white">
+				<section className="py-20 bg-[#f8f8f6]">
 					<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 						<h2 className="text-3xl sm:text-4xl font-bold text-slate-900 text-center mb-12">
 							{page.useCases.title}
 						</h2>
 						<div className="grid md:grid-cols-2 gap-8">
 							{page.useCases.items.map((item, i) => (
-								<div key={item.title} className="flex gap-5">
+								<div key={item.title} className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all flex gap-5">
 									<div className="flex-shrink-0 w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center text-brand-700 font-bold text-sm">
 										{i + 1}
 									</div>
@@ -201,6 +281,28 @@ export default async function SectorPage({ params }: { params: Promise<{ locale:
 										<p className="text-slate-600 leading-relaxed">{item.description}</p>
 									</div>
 								</div>
+							))}
+						</div>
+					</div>
+				</section>
+
+				{/* FAQ Section */}
+				<section className="py-20 bg-white">
+					<div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+						<h2 className="text-3xl sm:text-4xl font-bold text-slate-900 text-center mb-12">
+							{page.faq.title}
+						</h2>
+						<div className="space-y-4">
+							{page.faq.items.map((item) => (
+								<details key={item.question} className="group bg-[#f8f8f6] rounded-2xl overflow-hidden">
+									<summary className="flex items-center justify-between p-6 cursor-pointer list-none">
+										<h3 className="text-base font-semibold text-slate-900 pr-4">{item.question}</h3>
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-slate-500 flex-shrink-0 transition-transform group-open:rotate-180"><path d="m6 9 6 6 6-6" /></svg>
+									</summary>
+									<div className="px-6 pb-6 pt-0">
+										<p className="text-slate-600 leading-relaxed">{item.answer}</p>
+									</div>
+								</details>
 							))}
 						</div>
 					</div>

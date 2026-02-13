@@ -16,35 +16,110 @@
     "solutionsCategoryLeft": "CUSTOMER COMMUNICATION",
     "solutionsCategoryRight": "E-COMMERCE & MANAGEMENT",
     "solutionsItems": [
-      {"title": "WhatsApp Solutions", "desc": "Bulk messaging, API, chatbot", "category": "left"},
-      {"title": "Chatbot Solutions", "desc": "AI chatbot, automation", "category": "left"},
-      {"title": "Customer Communication", "desc": "Omnichannel support", "category": "left"},
-      {"title": "Email Solutions", "desc": "Email automation", "category": "left"},
-      {"title": "Marketplace Solutions", "desc": "Trendyol, N11, Hepsiburada", "category": "right"},
-      {"title": "CollecAction Plugin", "desc": "Collection tracking", "category": "right"},
-      {"title": "Team Management", "desc": "Performance & reporting", "category": "right"},
-      {"title": "Analytics & Reporting", "desc": "Detailed statistics", "category": "right"},
-      {"title": "API Solutions", "desc": "RESTful API & webhooks", "category": "right"}
+      {
+        "title": "WhatsApp Solutions",
+        "desc": "Bulk messaging, API, chatbot",
+        "category": "left"
+      },
+      {
+        "title": "Chatbot Solutions",
+        "desc": "AI chatbot, automation",
+        "category": "left"
+      },
+      {
+        "title": "Customer Communication",
+        "desc": "Omnichannel support",
+        "category": "left"
+      },
+      {
+        "title": "Email Solutions",
+        "desc": "Email automation",
+        "category": "left"
+      },
+      {
+        "title": "Marketplace Solutions",
+        "desc": "Trendyol, N11, Hepsiburada",
+        "category": "right"
+      },
+      {
+        "title": "CollecAction Plugin",
+        "desc": "Collection tracking",
+        "category": "right"
+      },
+      {
+        "title": "Team Management",
+        "desc": "Performance & reporting",
+        "category": "right"
+      },
+      {
+        "title": "Analytics & Reporting",
+        "desc": "Detailed statistics",
+        "category": "right"
+      },
+      {
+        "title": "API Solutions",
+        "desc": "RESTful API & webhooks",
+        "category": "right"
+      }
     ],
     "sectorsItems": [
-      {"title": "Insurance", "desc": "Policy management & customer service"},
-      {"title": "Automotive", "desc": "Service appointments & sales support"},
-      {"title": "Tourism & Hospitality", "desc": "Reservations & guest communication"},
-      {"title": "Wholesale", "desc": "B2B communication & order management"},
-      {"title": "E-Commerce", "desc": "Online sales & customer support"},
-      {"title": "Cosmetics & Beauty", "desc": "Appointments & product consulting"},
-      {"title": "Healthcare", "desc": "Patient communication & appointment system"},
-      {"title": "Education", "desc": "Student & parent communication"}
+      {
+        "title": "Insurance",
+        "desc": "Policy management & customer service"
+      },
+      {
+        "title": "Automotive",
+        "desc": "Service appointments & sales support"
+      },
+      {
+        "title": "Tourism & Hospitality",
+        "desc": "Reservations & guest communication"
+      },
+      {
+        "title": "Wholesale",
+        "desc": "B2B communication & order management"
+      },
+      {
+        "title": "E-Commerce",
+        "desc": "Online sales & customer support"
+      },
+      {
+        "title": "Cosmetics & Beauty",
+        "desc": "Appointments & product consulting"
+      },
+      {
+        "title": "Healthcare",
+        "desc": "Patient communication & appointment system"
+      },
+      {
+        "title": "Education",
+        "desc": "Student & parent communication"
+      }
     ],
     "integrationsItems": [
-      {"title": "Social Media Integrations", "desc": "WhatsApp, Instagram, Messenger, Telegram"},
-      {"title": "E-Commerce Integration", "desc": "Shopify, Ticimax, WooCommerce, Magento"},
-      {"title": "Need a Custom Solution?", "desc": "Custom integration request"}
+      {
+        "title": "Social Media Integrations",
+        "desc": "WhatsApp, Instagram, Messenger, Telegram"
+      },
+      {
+        "title": "E-Commerce Integration",
+        "desc": "Shopify, Ticimax, WooCommerce, Magento"
+      },
+      {
+        "title": "Need a Custom Solution?",
+        "desc": "Custom integration request"
+      }
     ]
   },
   "hero": {
     "selectIndustry": "Select your industry:",
-    "industries": ["All", "E-Commerce", "Travel", "Hospitality", "Automotive"],
+    "industries": [
+      "All",
+      "E-Commerce",
+      "Travel",
+      "Hospitality",
+      "Automotive"
+    ],
     "industryContent": [
       {
         "titleStart": "One inbox, ",
@@ -94,7 +169,11 @@
     "aiTitle": "DialogTab AI",
     "aiDescription": "AI Agents and AI Journeys can relieve your team, by answering more than 80% of your repetitive conversations.",
     "discoverAI": "Discover DialogTab AI",
-    "aiFeatures": ["Solve questions", "AI Summary", "Assign to Sales"],
+    "aiFeatures": [
+      "Solve questions",
+      "AI Summary",
+      "Assign to Sales"
+    ],
     "inboxTitle": "Omnichannel inbox",
     "inboxDescription": "Centralise your channels, including customer favourites like WhatsApp, customer info and helpful automation features.",
     "discoverInbox": "Discover the inbox",
@@ -115,12 +194,36 @@
     "titleHighlight": "to your industry",
     "subtitle": "From guest experiences to online buyers, DialogTab helps you create time for impactful customer moments.",
     "industries": [
-      {"title": "Retail & E-commerce", "description": "Automate a big chunk of repetitive customer conversations.", "cta": "Check out AI customer service"},
-      {"title": "Travel, hospitality & leisure", "description": "Proactively manage back-and-forth conversations with your guests.", "cta": "Streamline conversations"},
-      {"title": "Automotive", "description": "Centralise all channels, for a consistent customer experience.", "cta": "Deliver a seamless experience"},
-      {"title": "Energy & utilities", "description": "Stay on top of back-and-forth conversations, work from one inbox.", "cta": "Stay in control"},
-      {"title": "Financial services", "description": "Meet your SLA and customer expectations, no matter the channel.", "cta": "Meet customer expectations"},
-      {"title": "Restaurants", "description": "Stay on top of reservations, changes and other guest asks.", "cta": "Explore our solutions"}
+      {
+        "title": "Retail & E-commerce",
+        "description": "Automate a big chunk of repetitive customer conversations.",
+        "cta": "Check out AI customer service"
+      },
+      {
+        "title": "Travel, hospitality & leisure",
+        "description": "Proactively manage back-and-forth conversations with your guests.",
+        "cta": "Streamline conversations"
+      },
+      {
+        "title": "Automotive",
+        "description": "Centralise all channels, for a consistent customer experience.",
+        "cta": "Deliver a seamless experience"
+      },
+      {
+        "title": "Energy & utilities",
+        "description": "Stay on top of back-and-forth conversations, work from one inbox.",
+        "cta": "Stay in control"
+      },
+      {
+        "title": "Financial services",
+        "description": "Meet your SLA and customer expectations, no matter the channel.",
+        "cta": "Meet customer expectations"
+      },
+      {
+        "title": "Restaurants",
+        "description": "Stay on top of reservations, changes and other guest asks.",
+        "cta": "Explore our solutions"
+      }
     ]
   },
   "statsSection": {
@@ -148,41 +251,131 @@
         "label": "Get Order On WhatsApp",
         "title": "Get Order On WhatsApp",
         "description": "Manage the cart behalf of users. Get the payment on WhatsApp Business.",
-        "features": ["Manage cart on behalf of users", "Get payment on WhatsApp Business", "Order confirmation & tracking", "Automated order updates"],
+        "features": [
+          "Manage cart on behalf of users",
+          "Get payment on WhatsApp Business",
+          "Order confirmation & tracking",
+          "Automated order updates"
+        ],
         "cta": "Explore All E-commerce Features",
-        "stats": [{"value": "+35%", "label": "Order Conversion"}, {"value": "28%", "label": "Cart Recovery"}, {"value": "94%", "label": "Customer Satisfaction"}]
+        "stats": [
+          {
+            "value": "+35%",
+            "label": "Order Conversion"
+          },
+          {
+            "value": "28%",
+            "label": "Cart Recovery"
+          },
+          {
+            "value": "94%",
+            "label": "Customer Satisfaction"
+          }
+        ]
       },
       {
         "label": "Search & Identify Product",
         "title": "Search & Identify Product",
         "description": "Search products, share product cards, and identify products from images.",
-        "features": ["Product search in chat", "Share product cards", "Image recognition", "Real-time availability"],
+        "features": [
+          "Product search in chat",
+          "Share product cards",
+          "Image recognition",
+          "Real-time availability"
+        ],
         "cta": "Learn More",
-        "stats": [{"value": "5x", "label": "Faster Search"}, {"value": "89%", "label": "Match Rate"}, {"value": "2s", "label": "Response Time"}]
+        "stats": [
+          {
+            "value": "5x",
+            "label": "Faster Search"
+          },
+          {
+            "value": "89%",
+            "label": "Match Rate"
+          },
+          {
+            "value": "2s",
+            "label": "Response Time"
+          }
+        ]
       },
       {
         "label": "Multi-Channel",
         "title": "Multi-Channel with WhatsApp",
         "description": "All chat platforms in one screen — WhatsApp, Instagram, Messenger, and Live Chat unified.",
-        "features": ["WhatsApp Business API", "Instagram Direct Messages", "Facebook Messenger", "Live Chat widget"],
+        "features": [
+          "WhatsApp Business API",
+          "Instagram Direct Messages",
+          "Facebook Messenger",
+          "Live Chat widget"
+        ],
         "cta": "Explore Channels",
-        "stats": [{"value": "5+", "label": "Channels"}, {"value": "1", "label": "Unified Inbox"}, {"value": "100%", "label": "Coverage"}]
+        "stats": [
+          {
+            "value": "5+",
+            "label": "Channels"
+          },
+          {
+            "value": "1",
+            "label": "Unified Inbox"
+          },
+          {
+            "value": "100%",
+            "label": "Coverage"
+          }
+        ]
       },
       {
         "label": "Multi-Agent",
         "title": "Multi-Agent on WhatsApp",
         "description": "Enable multiple sales agents to work simultaneously, assign conversations, and collaborate.",
-        "features": ["Multiple agents on one number", "Auto-assign conversations", "Team collaboration", "Agent performance tracking"],
+        "features": [
+          "Multiple agents on one number",
+          "Auto-assign conversations",
+          "Team collaboration",
+          "Agent performance tracking"
+        ],
         "cta": "Learn More",
-        "stats": [{"value": "\u221e", "label": "Agents"}, {"value": "Auto", "label": "Assignment"}, {"value": "Real-time", "label": "Collaboration"}]
+        "stats": [
+          {
+            "value": "∞",
+            "label": "Agents"
+          },
+          {
+            "value": "Auto",
+            "label": "Assignment"
+          },
+          {
+            "value": "Real-time",
+            "label": "Collaboration"
+          }
+        ]
       },
       {
         "label": "Track Performance",
         "title": "Track & Analyze Sales Performance",
         "description": "Monitor agent performance with real-time analytics and conversion metrics.",
-        "features": ["Agent performance tracking", "Real-time conversion metrics", "Google Analytics integration", "Custom filtering and reporting"],
+        "features": [
+          "Agent performance tracking",
+          "Real-time conversion metrics",
+          "Google Analytics integration",
+          "Custom filtering and reporting"
+        ],
         "cta": "View Analytics Features",
-        "stats": [{"value": "360\u00b0", "label": "Analytics View"}, {"value": "Real-time", "label": "Tracking"}, {"value": "Custom", "label": "Reports"}]
+        "stats": [
+          {
+            "value": "360°",
+            "label": "Analytics View"
+          },
+          {
+            "value": "Real-time",
+            "label": "Tracking"
+          },
+          {
+            "value": "Custom",
+            "label": "Reports"
+          }
+        ]
       }
     ]
   },
@@ -201,9 +394,18 @@
     "title": "Go Live With Three Simple Steps",
     "subtitle": "Ready to get started? It's easy and straightforward to set up your order channels to the platform!",
     "steps": [
-      {"title": "Register", "description": "Become a member in just a few seconds. Complete the trial version and select the perfect package."},
-      {"title": "Connect Channels", "description": "Choose your channels between WhatsApp Business API, WhatsApp Web, Messenger, Live Chat, or collect all and connect to the platform."},
-      {"title": "Go Live", "description": "Give access to the experts and start to get orders immediately."}
+      {
+        "title": "Register",
+        "description": "Become a member in just a few seconds. Complete the trial version and select the perfect package."
+      },
+      {
+        "title": "Connect Channels",
+        "description": "Choose your channels between WhatsApp Business API, WhatsApp Web, Messenger, Live Chat, or collect all and connect to the platform."
+      },
+      {
+        "title": "Go Live",
+        "description": "Give access to the experts and start to get orders immediately."
+      }
     ],
     "startTrial": "Start Free Trial"
   },
@@ -223,13 +425,34 @@
         "name": "Start",
         "subtitle": "Small teams getting started",
         "features": [
-          {"text": "1 Channel", "included": true},
-          {"text": "E-mail Support", "included": true},
-          {"text": "3 Month Retention", "included": true},
-          {"text": "Basic Analytics", "included": true},
-          {"text": "WhatsApp Business API", "included": false},
-          {"text": "Product Search", "included": false},
-          {"text": "API Access", "included": false}
+          {
+            "text": "1 Channel",
+            "included": true
+          },
+          {
+            "text": "E-mail Support",
+            "included": true
+          },
+          {
+            "text": "3 Month Retention",
+            "included": true
+          },
+          {
+            "text": "Basic Analytics",
+            "included": true
+          },
+          {
+            "text": "WhatsApp Business API",
+            "included": false
+          },
+          {
+            "text": "Product Search",
+            "included": false
+          },
+          {
+            "text": "API Access",
+            "included": false
+          }
         ]
       },
       {
@@ -237,26 +460,68 @@
         "subtitle": "Growing businesses",
         "badge": "BEST",
         "features": [
-          {"text": "3 Channels", "included": true},
-          {"text": "WhatsApp Business API - $49/mo", "included": true},
-          {"text": "Group & Labels", "included": true},
-          {"text": "Product Search", "included": true},
-          {"text": "6 Month Retention", "included": true},
-          {"text": "Priority Support", "included": true},
-          {"text": "API Access", "included": false}
+          {
+            "text": "3 Channels",
+            "included": true
+          },
+          {
+            "text": "WhatsApp Business API - $49/mo",
+            "included": true
+          },
+          {
+            "text": "Group & Labels",
+            "included": true
+          },
+          {
+            "text": "Product Search",
+            "included": true
+          },
+          {
+            "text": "6 Month Retention",
+            "included": true
+          },
+          {
+            "text": "Priority Support",
+            "included": true
+          },
+          {
+            "text": "API Access",
+            "included": false
+          }
         ]
       },
       {
         "name": "Scale",
         "subtitle": "Large organizations",
         "features": [
-          {"text": "Ecommerce Full Feature", "included": true},
-          {"text": "API Access", "included": true},
-          {"text": "Phone Support", "included": true},
-          {"text": "12 Month Retention", "included": true},
-          {"text": "Custom Integrations", "included": true},
-          {"text": "Dedicated Account Manager", "included": true},
-          {"text": "SLA Guarantee", "included": true}
+          {
+            "text": "Ecommerce Full Feature",
+            "included": true
+          },
+          {
+            "text": "API Access",
+            "included": true
+          },
+          {
+            "text": "Phone Support",
+            "included": true
+          },
+          {
+            "text": "12 Month Retention",
+            "included": true
+          },
+          {
+            "text": "Custom Integrations",
+            "included": true
+          },
+          {
+            "text": "Dedicated Account Manager",
+            "included": true
+          },
+          {
+            "text": "SLA Guarantee",
+            "included": true
+          }
         ]
       }
     ],
@@ -270,8 +535,20 @@
     "title": "Trusted by large and small companies.",
     "subtitle": "Let's look at their amazing experiences.",
     "items": [
-      {"quote": "Together with DialogTab, we have increased the conversion rate of our customers by 19%.", "author": "Adem H\u00f6c\u00fc", "role": "Ecommerce Manager", "metric": "19%", "metricLabel": "increased sales"},
-      {"quote": "DialogTab has increased our productivity by 35% by offering a solution enabling physical store experts to work on websites in hybrid way.", "author": "G\u00f6khan \u00d6zkan", "role": "Ecommerce Manager", "metric": "35%", "metricLabel": "more productive"}
+      {
+        "quote": "Together with DialogTab, we have increased the conversion rate of our customers by 19%.",
+        "author": "Adem Höcü",
+        "role": "Ecommerce Manager",
+        "metric": "19%",
+        "metricLabel": "increased sales"
+      },
+      {
+        "quote": "DialogTab has increased our productivity by 35% by offering a solution enabling physical store experts to work on websites in hybrid way.",
+        "author": "Gökhan Özkan",
+        "role": "Ecommerce Manager",
+        "metric": "35%",
+        "metricLabel": "more productive"
+      }
     ]
   },
   "footer": {
@@ -323,27 +600,152 @@
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
-      "features": [
-        {"title": "Abandoned Cart Recovery", "description": "Automatically send WhatsApp reminders to customers who left items in their cart. Recover up to 35% of lost revenue with personalized messages and direct checkout links.", "icon": "cart"},
-        {"title": "Order Management via WhatsApp", "description": "Create, track, and update orders directly in WhatsApp conversations. Send automated order confirmations, shipping updates, and delivery notifications.", "icon": "package"},
-        {"title": "Product Catalog & Search", "description": "Share product cards, search inventory in real-time, and identify products from customer-sent images. Your entire catalog accessible through chat.", "icon": "search"},
-        {"title": "Multi-Agent Sales Team", "description": "Multiple sales agents can handle conversations simultaneously from one WhatsApp number. Auto-assign leads based on availability, skill, or product category.", "icon": "team"},
-        {"title": "Shopify & WooCommerce Integration", "description": "Sync your product catalog, inventory, and orders in real-time. Manage everything from a single dashboard without switching between platforms.", "icon": "integration"},
-        {"title": "AI-Powered Customer Support", "description": "Let AI handle up to 80% of repetitive questions — order status, return policies, product info. Your team focuses on high-value conversations.", "icon": "ai"}
-      ],
       "stats": [
-        {"value": "+35%", "label": "Cart Recovery Rate"},
-        {"value": "3x", "label": "Faster Response Time"},
-        {"value": "98%", "label": "WhatsApp Open Rate"},
-        {"value": "+19%", "label": "Conversion Increase"}
+        {
+          "value": "+35%",
+          "label": "Cart Recovery Rate"
+        },
+        {
+          "value": "3x",
+          "label": "Faster Response Time"
+        },
+        {
+          "value": "98%",
+          "label": "WhatsApp Open Rate"
+        },
+        {
+          "value": "+19%",
+          "label": "Conversion Increase"
+        }
       ],
+      "whyDialogTab": {
+        "title": "Why DialogTab for E-Commerce?",
+        "subtitle": "DialogTab is purpose-built for online retail businesses that want to turn WhatsApp into a high-converting sales channel with seamless storefront integration.",
+        "points": [
+          {
+            "title": "Native Shopify & WooCommerce Sync",
+            "description": "Connect your store in minutes and sync products, inventory, and orders in real-time. No manual data entry, no CSV uploads — everything flows automatically between your e-commerce platform and WhatsApp.",
+            "icon": "integration"
+          },
+          {
+            "title": "35% Abandoned Cart Recovery",
+            "description": "Automatically trigger personalized WhatsApp messages when customers leave items in their cart. Include product images, prices, and one-click checkout links that convert at 3x the rate of email.",
+            "icon": "rocket"
+          },
+          {
+            "title": "AI-Powered Product Discovery",
+            "description": "Customers can search your catalog, get personalized recommendations, and even identify products by sending photos — all within the WhatsApp conversation. Turn every chat into a shopping experience.",
+            "icon": "zap"
+          },
+          {
+            "title": "End-to-End Order Management",
+            "description": "From browsing to payment to delivery tracking, manage the entire customer journey without leaving WhatsApp. Reduce support tickets and increase repeat purchase rates.",
+            "icon": "target"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Abandoned Cart Recovery",
+          "description": "Automatically send WhatsApp reminders to customers who left items in their cart. Recover up to 35% of lost revenue with personalized messages and direct checkout links.",
+          "icon": "cart"
+        },
+        {
+          "title": "Order Management via WhatsApp",
+          "description": "Create, track, and update orders directly in WhatsApp conversations. Send automated order confirmations, shipping updates, and delivery notifications.",
+          "icon": "package"
+        },
+        {
+          "title": "Product Catalog & Search",
+          "description": "Share product cards, search inventory in real-time, and identify products from customer-sent images. Your entire catalog accessible through chat.",
+          "icon": "search"
+        },
+        {
+          "title": "Multi-Agent Sales Team",
+          "description": "Multiple sales agents can handle conversations simultaneously from one WhatsApp number. Auto-assign leads based on availability, skill, or product category.",
+          "icon": "team"
+        },
+        {
+          "title": "Shopify & WooCommerce Integration",
+          "description": "Sync your product catalog, inventory, and orders in real-time. Manage everything from a single dashboard without switching between platforms.",
+          "icon": "integration"
+        },
+        {
+          "title": "AI-Powered Customer Support",
+          "description": "Let AI handle up to 80% of repetitive questions — order status, return policies, product info. Your team focuses on high-value conversations.",
+          "icon": "ai"
+        }
+      ],
+      "howItWorks": {
+        "title": "How DialogTab Works for E-Commerce",
+        "subtitle": "Get your online store connected to WhatsApp in minutes and start selling through conversations.",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Connect Your Store",
+            "description": "Integrate your Shopify, WooCommerce, or IKAS store with DialogTab in just a few clicks. Your product catalog, inventory, and customer data sync automatically."
+          },
+          {
+            "step": "2",
+            "title": "Configure Automations",
+            "description": "Set up abandoned cart recovery messages, order confirmation flows, shipping notifications, and AI-powered product recommendations tailored to your store."
+          },
+          {
+            "step": "3",
+            "title": "Automate Sales & Support",
+            "description": "Let AI handle product inquiries, order status checks, and return requests. Automatically route high-value conversations to your best sales agents."
+          },
+          {
+            "step": "4",
+            "title": "Scale Your Revenue",
+            "description": "Launch broadcast campaigns, segment customers by purchase behavior, and continuously optimize your WhatsApp commerce funnel with real-time analytics."
+          }
+        ]
+      },
       "useCases": {
         "title": "How e-commerce brands use DialogTab",
         "items": [
-          {"title": "Cart Recovery Automation", "description": "Send timely WhatsApp reminders with product images and one-click checkout links to recover abandoned carts."},
-          {"title": "Post-Purchase Updates", "description": "Automatically notify customers about order confirmation, shipping status, and delivery updates via WhatsApp."},
-          {"title": "Product Recommendations", "description": "Use AI to analyze purchase history and send personalized product suggestions that drive repeat sales."},
-          {"title": "VIP Customer Engagement", "description": "Create segmented campaigns for loyal customers with early access to sales, exclusive offers, and personalized outreach."}
+          {
+            "title": "Cart Recovery Automation",
+            "description": "Send timely WhatsApp reminders with product images and one-click checkout links to recover abandoned carts."
+          },
+          {
+            "title": "Post-Purchase Updates",
+            "description": "Automatically notify customers about order confirmation, shipping status, and delivery updates via WhatsApp."
+          },
+          {
+            "title": "Product Recommendations",
+            "description": "Use AI to analyze purchase history and send personalized product suggestions that drive repeat sales."
+          },
+          {
+            "title": "VIP Customer Engagement",
+            "description": "Create segmented campaigns for loyal customers with early access to sales, exclusive offers, and personalized outreach."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Does DialogTab integrate with Shopify and WooCommerce?",
+            "answer": "Yes, DialogTab offers native integrations with Shopify, WooCommerce, IKAS, Ticimax, and other major e-commerce platforms. Your product catalog, inventory, orders, and customer data sync in real-time — no manual imports needed."
+          },
+          {
+            "question": "How does abandoned cart recovery work on WhatsApp?",
+            "answer": "When a customer abandons their cart, DialogTab automatically sends a personalized WhatsApp message with the product images, prices, and a one-click checkout link. You can customize the timing, message content, and follow-up sequences. Most stores see a 25-35% recovery rate."
+          },
+          {
+            "question": "Can customers browse and buy products directly in WhatsApp?",
+            "answer": "Absolutely. DialogTab lets you share interactive product cards, enable catalog search within chat, and even allow customers to identify products by sending photos. They can add items to cart and complete checkout without leaving WhatsApp."
+          },
+          {
+            "question": "How many agents can use DialogTab on one WhatsApp number?",
+            "answer": "There is no limit. DialogTab supports unlimited agents on a single WhatsApp Business number. Conversations are auto-assigned based on availability, skill, or product category, and agents can collaborate with internal notes and transfers."
+          },
+          {
+            "question": "What analytics does DialogTab provide for e-commerce?",
+            "answer": "DialogTab provides comprehensive e-commerce analytics including cart recovery rates, conversion metrics, revenue per conversation, agent performance, response times, and customer satisfaction scores. You can also integrate with Google Analytics for full-funnel tracking."
+          }
         ]
       },
       "cta": {
@@ -368,27 +770,152 @@
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
-      "features": [
-        {"title": "Reservation Management", "description": "Accept, confirm, and modify restaurant and hotel reservations through WhatsApp. Send automated reminders to reduce no-shows by up to 45%.", "icon": "calendar"},
-        {"title": "Digital Concierge Service", "description": "Provide instant answers to guest questions — Wi-Fi passwords, spa hours, local recommendations — 24/7 via AI-powered WhatsApp concierge.", "icon": "bell"},
-        {"title": "Room Service & Orders", "description": "Let guests order room service, request amenities, or report issues directly through WhatsApp. Streamline operations with auto-routing to the right department.", "icon": "service"},
-        {"title": "Guest Feedback & Reviews", "description": "Automatically collect feedback during and after stays through conversational WhatsApp surveys. Address issues in real-time before they become negative reviews.", "icon": "star"},
-        {"title": "Multi-Property Management", "description": "Manage guest communication across multiple locations from one unified inbox. Standardize service quality while allowing local customization.", "icon": "building"},
-        {"title": "Upselling & Promotions", "description": "Send personalized offers for room upgrades, spa packages, and dining specials based on guest preferences and booking history.", "icon": "promotion"}
-      ],
       "stats": [
-        {"value": "45%", "label": "Fewer No-Shows"},
-        {"value": "4.8/5", "label": "Guest Satisfaction"},
-        {"value": "60%", "label": "Faster Service Response"},
-        {"value": "98%", "label": "Message Open Rate"}
+        {
+          "value": "45%",
+          "label": "Fewer No-Shows"
+        },
+        {
+          "value": "4.8/5",
+          "label": "Guest Satisfaction"
+        },
+        {
+          "value": "60%",
+          "label": "Faster Service Response"
+        },
+        {
+          "value": "98%",
+          "label": "Message Open Rate"
+        }
       ],
+      "whyDialogTab": {
+        "title": "Why DialogTab for Hospitality?",
+        "subtitle": "DialogTab is purpose-built for hotels, restaurants, and hospitality businesses that want to deliver five-star guest communication at scale through WhatsApp.",
+        "points": [
+          {
+            "title": "24/7 AI Concierge Service",
+            "description": "Your guests get instant answers to every question — Wi-Fi details, restaurant hours, local recommendations, spa bookings — around the clock without staffing a front desk overnight.",
+            "icon": "headphones"
+          },
+          {
+            "title": "45% Reduction in No-Shows",
+            "description": "Automated reservation confirmations and smart reminders via WhatsApp dramatically cut no-show rates. Guests can confirm, modify, or cancel with a single tap.",
+            "icon": "zap"
+          },
+          {
+            "title": "Seamless Multi-Property Management",
+            "description": "Manage guest communication across all your hotel or restaurant locations from one unified inbox. Standardize service quality while maintaining each property's unique character.",
+            "icon": "target"
+          },
+          {
+            "title": "Instant Guest Feedback Loop",
+            "description": "Capture real-time feedback during stays and address issues before they become negative reviews. Turn satisfied guests into repeat customers and brand advocates.",
+            "icon": "shield"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Reservation Management",
+          "description": "Accept, confirm, and modify restaurant and hotel reservations through WhatsApp. Send automated reminders to reduce no-shows by up to 45%.",
+          "icon": "calendar"
+        },
+        {
+          "title": "Digital Concierge Service",
+          "description": "Provide instant answers to guest questions — Wi-Fi passwords, spa hours, local recommendations — 24/7 via AI-powered WhatsApp concierge.",
+          "icon": "bell"
+        },
+        {
+          "title": "Room Service & Orders",
+          "description": "Let guests order room service, request amenities, or report issues directly through WhatsApp. Streamline operations with auto-routing to the right department.",
+          "icon": "service"
+        },
+        {
+          "title": "Guest Feedback & Reviews",
+          "description": "Automatically collect feedback during and after stays through conversational WhatsApp surveys. Address issues in real-time before they become negative reviews.",
+          "icon": "star"
+        },
+        {
+          "title": "Multi-Property Management",
+          "description": "Manage guest communication across multiple locations from one unified inbox. Standardize service quality while allowing local customization.",
+          "icon": "building"
+        },
+        {
+          "title": "Upselling & Promotions",
+          "description": "Send personalized offers for room upgrades, spa packages, and dining specials based on guest preferences and booking history.",
+          "icon": "promotion"
+        }
+      ],
+      "howItWorks": {
+        "title": "How DialogTab Works for Hospitality",
+        "subtitle": "Get your hotel or restaurant connected to WhatsApp and start delivering exceptional guest experiences in minutes.",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Connect Your Property",
+            "description": "Link your hotel or restaurant's WhatsApp Business number to DialogTab. Connect your PMS, reservation system, or booking platform for seamless data flow."
+          },
+          {
+            "step": "2",
+            "title": "Configure Guest Journeys",
+            "description": "Set up automated pre-arrival welcome messages, booking confirmations, check-in instructions, room service menus, and post-stay feedback flows."
+          },
+          {
+            "step": "3",
+            "title": "Automate Guest Services",
+            "description": "Let AI handle common guest inquiries like amenity requests, restaurant hours, and local recommendations. Route complex requests to the right department automatically."
+          },
+          {
+            "step": "4",
+            "title": "Scale Across Properties",
+            "description": "Replicate your winning communication templates across all locations. Monitor guest satisfaction scores and optimize service quality from a central dashboard."
+          }
+        ]
+      },
       "useCases": {
         "title": "How hospitality brands use DialogTab",
         "items": [
-          {"title": "Pre-Arrival Communication", "description": "Send welcome messages with check-in details, parking info, and special requests confirmation before guests arrive."},
-          {"title": "In-Stay Service Requests", "description": "Let guests request extra towels, room service, or maintenance through WhatsApp — routed automatically to the right staff."},
-          {"title": "Restaurant Table Management", "description": "Handle reservation requests, waitlist updates, and menu inquiries through WhatsApp for a seamless dining experience."},
-          {"title": "Post-Stay Loyalty Programs", "description": "Engage guests after checkout with personalized offers, loyalty rewards, and exclusive return-visit promotions via WhatsApp."}
+          {
+            "title": "Pre-Arrival Communication",
+            "description": "Send welcome messages with check-in details, parking info, and special requests confirmation before guests arrive."
+          },
+          {
+            "title": "In-Stay Service Requests",
+            "description": "Let guests request extra towels, room service, or maintenance through WhatsApp — routed automatically to the right staff."
+          },
+          {
+            "title": "Restaurant Table Management",
+            "description": "Handle reservation requests, waitlist updates, and menu inquiries through WhatsApp for a seamless dining experience."
+          },
+          {
+            "title": "Post-Stay Loyalty Programs",
+            "description": "Engage guests after checkout with personalized offers, loyalty rewards, and exclusive return-visit promotions via WhatsApp."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can DialogTab integrate with our property management system (PMS)?",
+            "answer": "Yes, DialogTab integrates with popular PMS platforms and reservation systems through API connections. Guest data, booking details, and room information sync automatically so your team always has context for every conversation."
+          },
+          {
+            "question": "How does the AI concierge handle guest requests?",
+            "answer": "The AI concierge is trained on your property's specific information — room types, amenities, restaurant menus, local attractions, and policies. It can answer up to 80% of guest questions instantly and seamlessly hands off complex requests to your staff with full conversation context."
+          },
+          {
+            "question": "Can we manage multiple hotel or restaurant locations from one account?",
+            "answer": "Absolutely. DialogTab supports multi-property management from a single unified inbox. Each property can have its own WhatsApp number, custom templates, and team assignments while you maintain oversight and quality standards from a central dashboard."
+          },
+          {
+            "question": "How does DialogTab help reduce restaurant no-shows?",
+            "answer": "DialogTab sends automated confirmation messages after booking and smart reminders 24 hours and 2 hours before the reservation. Guests can confirm, modify, or cancel with a single tap. Hotels and restaurants typically see a 40-45% reduction in no-shows."
+          },
+          {
+            "question": "Is guest data secure on DialogTab?",
+            "answer": "Yes, DialogTab uses end-to-end encryption provided by WhatsApp, along with enterprise-grade security for data at rest. We comply with GDPR and data protection regulations. Guest data is stored securely and access is controlled through role-based permissions."
+          }
         ]
       },
       "cta": {
@@ -413,27 +940,152 @@
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
-      "features": [
-        {"title": "Test Drive Scheduling", "description": "Let customers book test drives directly through WhatsApp. Send confirmations, reminders, and follow-up messages automatically to maximize show-up rates.", "icon": "car"},
-        {"title": "Vehicle Inquiry Management", "description": "Share vehicle specs, photos, pricing, and availability instantly through WhatsApp. AI answers common questions while agents handle serious buyers.", "icon": "search"},
-        {"title": "Service Appointment Booking", "description": "Automate service scheduling, send maintenance reminders, and provide real-time updates on repair status via WhatsApp.", "icon": "wrench"},
-        {"title": "Lead Follow-Up Automation", "description": "Never lose a lead. Automatically follow up with prospects who showed interest, send personalized vehicle recommendations based on their preferences.", "icon": "followup"},
-        {"title": "Multi-Dealership Management", "description": "Manage customer conversations across multiple dealerships from one inbox. Route inquiries to the nearest location or most suitable sales agent.", "icon": "building"},
-        {"title": "After-Sales Communication", "description": "Keep customers engaged with service reminders, recall notifications, warranty updates, and trade-in opportunities through WhatsApp.", "icon": "notification"}
-      ],
       "stats": [
-        {"value": "40%", "label": "More Test Drives"},
-        {"value": "3x", "label": "Faster Lead Response"},
-        {"value": "25%", "label": "Service Revenue Increase"},
-        {"value": "98%", "label": "Message Open Rate"}
+        {
+          "value": "40%",
+          "label": "More Test Drives"
+        },
+        {
+          "value": "3x",
+          "label": "Faster Lead Response"
+        },
+        {
+          "value": "25%",
+          "label": "Service Revenue Increase"
+        },
+        {
+          "value": "98%",
+          "label": "Message Open Rate"
+        }
       ],
+      "whyDialogTab": {
+        "title": "Why DialogTab for Automotive?",
+        "subtitle": "DialogTab is purpose-built for dealerships and automotive businesses that need to convert leads faster, fill service bays, and build lasting customer relationships through WhatsApp.",
+        "points": [
+          {
+            "title": "40% More Test Drive Bookings",
+            "description": "Turn website visitors and showroom inquiries into confirmed test drives with instant WhatsApp booking flows. Automated reminders ensure customers actually show up.",
+            "icon": "rocket"
+          },
+          {
+            "title": "Instant Vehicle Spec Sharing",
+            "description": "Share detailed vehicle specifications, high-resolution photos, pricing breakdowns, and financing options directly in WhatsApp. Customers get answers in seconds, not hours.",
+            "icon": "zap"
+          },
+          {
+            "title": "Multi-Dealership Lead Routing",
+            "description": "Automatically route inquiries to the nearest dealership or the most suitable sales agent based on vehicle interest, location, and availability. No lead falls through the cracks.",
+            "icon": "target"
+          },
+          {
+            "title": "Complete After-Sales Lifecycle",
+            "description": "From service reminders to recall notifications to trade-in offers, keep every customer engaged throughout their entire vehicle ownership journey via WhatsApp.",
+            "icon": "shield"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Test Drive Scheduling",
+          "description": "Let customers book test drives directly through WhatsApp. Send confirmations, reminders, and follow-up messages automatically to maximize show-up rates.",
+          "icon": "car"
+        },
+        {
+          "title": "Vehicle Inquiry Management",
+          "description": "Share vehicle specs, photos, pricing, and availability instantly through WhatsApp. AI answers common questions while agents handle serious buyers.",
+          "icon": "search"
+        },
+        {
+          "title": "Service Appointment Booking",
+          "description": "Automate service scheduling, send maintenance reminders, and provide real-time updates on repair status via WhatsApp.",
+          "icon": "wrench"
+        },
+        {
+          "title": "Lead Follow-Up Automation",
+          "description": "Never lose a lead. Automatically follow up with prospects who showed interest, send personalized vehicle recommendations based on their preferences.",
+          "icon": "followup"
+        },
+        {
+          "title": "Multi-Dealership Management",
+          "description": "Manage customer conversations across multiple dealerships from one inbox. Route inquiries to the nearest location or most suitable sales agent.",
+          "icon": "building"
+        },
+        {
+          "title": "After-Sales Communication",
+          "description": "Keep customers engaged with service reminders, recall notifications, warranty updates, and trade-in opportunities through WhatsApp.",
+          "icon": "notification"
+        }
+      ],
+      "howItWorks": {
+        "title": "How DialogTab Works for Automotive",
+        "subtitle": "Get your dealership connected to WhatsApp and start converting more leads into buyers and service appointments.",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Connect Your Dealership",
+            "description": "Link your dealership's WhatsApp Business number to DialogTab. Connect your DMS or CRM system to sync vehicle inventory, customer data, and service records."
+          },
+          {
+            "step": "2",
+            "title": "Configure Sales & Service Flows",
+            "description": "Set up automated test drive booking confirmations, vehicle inquiry responses, service appointment reminders, and lead follow-up sequences tailored to your dealership."
+          },
+          {
+            "step": "3",
+            "title": "Automate Lead Engagement",
+            "description": "Let AI qualify leads by answering vehicle questions, sharing specs and pricing, and booking test drives. Hot leads are instantly routed to your best sales agents."
+          },
+          {
+            "step": "4",
+            "title": "Scale Across Locations",
+            "description": "Roll out your winning sales and service playbooks across all dealership locations. Track performance by agent, location, and vehicle model from one dashboard."
+          }
+        ]
+      },
       "useCases": {
         "title": "How automotive businesses use DialogTab",
         "items": [
-          {"title": "New Vehicle Launch Campaigns", "description": "Send targeted WhatsApp campaigns for new model launches with specs, pricing, and instant test drive booking to interested customers."},
-          {"title": "Service Reminder Automation", "description": "Automatically notify customers when their vehicle is due for service, oil change, or tire rotation — with one-click appointment booking."},
-          {"title": "Trade-In & Upgrade Offers", "description": "Reach existing customers with personalized trade-in valuations and upgrade offers based on their vehicle age and service history."},
-          {"title": "Real-Time Repair Updates", "description": "Keep customers informed about their vehicle's repair progress with automated WhatsApp updates at each stage of the service process."}
+          {
+            "title": "New Vehicle Launch Campaigns",
+            "description": "Send targeted WhatsApp campaigns for new model launches with specs, pricing, and instant test drive booking to interested customers."
+          },
+          {
+            "title": "Service Reminder Automation",
+            "description": "Automatically notify customers when their vehicle is due for service, oil change, or tire rotation — with one-click appointment booking."
+          },
+          {
+            "title": "Trade-In & Upgrade Offers",
+            "description": "Reach existing customers with personalized trade-in valuations and upgrade offers based on their vehicle age and service history."
+          },
+          {
+            "title": "Real-Time Repair Updates",
+            "description": "Keep customers informed about their vehicle's repair progress with automated WhatsApp updates at each stage of the service process."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can DialogTab integrate with our dealership management system (DMS)?",
+            "answer": "Yes, DialogTab integrates with leading DMS and CRM platforms through API connections. Vehicle inventory, customer records, service history, and lead data sync automatically so your sales and service teams always have complete context."
+          },
+          {
+            "question": "How does the test drive booking automation work?",
+            "answer": "Customers can request a test drive directly through WhatsApp. DialogTab collects their preferences (model, date, time, location), checks availability, confirms the booking, and sends automatic reminders. After the test drive, it triggers follow-up messages to keep the conversation going."
+          },
+          {
+            "question": "Can we manage multiple dealership locations from one platform?",
+            "answer": "Absolutely. DialogTab supports multi-location management with separate WhatsApp numbers per dealership, centralized reporting, and intelligent lead routing to the nearest or most appropriate location based on customer preferences and inventory availability."
+          },
+          {
+            "question": "How does DialogTab handle vehicle inventory inquiries?",
+            "answer": "When a customer asks about a specific vehicle, DialogTab can instantly share detailed specs, photos, pricing, financing options, and real-time availability from your synced inventory. AI handles common questions while serious buyer inquiries are routed to sales agents."
+          },
+          {
+            "question": "What kind of ROI can automotive businesses expect?",
+            "answer": "Automotive businesses using DialogTab typically see 40% more test drive bookings, 3x faster lead response times, and a 25% increase in service department revenue. The 98% WhatsApp open rate means your messages actually get seen, unlike email or SMS."
+          }
         ]
       },
       "cta": {
@@ -458,27 +1110,152 @@
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
-      "features": [
-        {"title": "Claims Processing via WhatsApp", "description": "Let customers file and track insurance claims directly through WhatsApp. Collect photos, documents, and details conversationally for faster resolution.", "icon": "document"},
-        {"title": "Policy Management", "description": "Send policy documents, coverage details, and renewal reminders via WhatsApp. Enable customers to view and update their policies through chat.", "icon": "shield"},
-        {"title": "Instant Quote Generation", "description": "Provide instant insurance quotes through WhatsApp by collecting customer information conversationally. Compare plans and close sales in real-time.", "icon": "invoice"},
-        {"title": "Renewal Automation", "description": "Send timely renewal reminders with coverage summaries and one-click renewal options. Reduce policy lapse rates with proactive WhatsApp outreach.", "icon": "notification"},
-        {"title": "AI Insurance Assistant", "description": "Let AI handle common queries — coverage details, deductible info, claim status — while agents focus on complex advisory and high-value policies.", "icon": "ai"},
-        {"title": "Multi-Channel Agent Support", "description": "Multiple agents handle customer conversations simultaneously from one WhatsApp number. Auto-route based on policy type, urgency, or customer tier.", "icon": "team"}
-      ],
       "stats": [
-        {"value": "45%", "label": "Faster Claims Processing"},
-        {"value": "3x", "label": "Renewal Rate Improvement"},
-        {"value": "60%", "label": "Queries Resolved by AI"},
-        {"value": "98%", "label": "Message Open Rate"}
+        {
+          "value": "45%",
+          "label": "Faster Claims Processing"
+        },
+        {
+          "value": "3x",
+          "label": "Renewal Rate Improvement"
+        },
+        {
+          "value": "60%",
+          "label": "Queries Resolved by AI"
+        },
+        {
+          "value": "98%",
+          "label": "Message Open Rate"
+        }
       ],
+      "whyDialogTab": {
+        "title": "Why DialogTab for Insurance?",
+        "subtitle": "DialogTab is purpose-built for insurance companies that want to modernize policyholder communication, accelerate claims processing, and achieve industry-leading renewal rates through WhatsApp.",
+        "points": [
+          {
+            "title": "Claims via WhatsApp in Minutes",
+            "description": "Let policyholders file claims by simply sending photos, documents, and descriptions through WhatsApp. Guided conversational flows collect all required information upfront, reducing back-and-forth by 60%.",
+            "icon": "rocket"
+          },
+          {
+            "title": "98% Policy Renewal Rate via Messaging",
+            "description": "Proactive WhatsApp renewal reminders with coverage summaries, comparison options, and one-click renewal achieve open rates that email and phone calls simply cannot match.",
+            "icon": "zap"
+          },
+          {
+            "title": "Instant Quote Generation",
+            "description": "Provide real-time insurance quotes through conversational WhatsApp flows. Collect customer details naturally, compare plans side-by-side, and close policies without a single phone call.",
+            "icon": "target"
+          },
+          {
+            "title": "Regulatory-Compliant Communication",
+            "description": "All conversations are encrypted end-to-end through WhatsApp and stored securely with full audit trails. DialogTab helps you meet regulatory requirements for customer communication records.",
+            "icon": "shield"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Claims Processing via WhatsApp",
+          "description": "Let customers file and track insurance claims directly through WhatsApp. Collect photos, documents, and details conversationally for faster resolution.",
+          "icon": "document"
+        },
+        {
+          "title": "Policy Management",
+          "description": "Send policy documents, coverage details, and renewal reminders via WhatsApp. Enable customers to view and update their policies through chat.",
+          "icon": "shield"
+        },
+        {
+          "title": "Instant Quote Generation",
+          "description": "Provide instant insurance quotes through WhatsApp by collecting customer information conversationally. Compare plans and close sales in real-time.",
+          "icon": "invoice"
+        },
+        {
+          "title": "Renewal Automation",
+          "description": "Send timely renewal reminders with coverage summaries and one-click renewal options. Reduce policy lapse rates with proactive WhatsApp outreach.",
+          "icon": "notification"
+        },
+        {
+          "title": "AI Insurance Assistant",
+          "description": "Let AI handle common queries — coverage details, deductible info, claim status — while agents focus on complex advisory and high-value policies.",
+          "icon": "ai"
+        },
+        {
+          "title": "Multi-Channel Agent Support",
+          "description": "Multiple agents handle customer conversations simultaneously from one WhatsApp number. Auto-route based on policy type, urgency, or customer tier.",
+          "icon": "team"
+        }
+      ],
+      "howItWorks": {
+        "title": "How DialogTab Works for Insurance",
+        "subtitle": "Get your insurance operations connected to WhatsApp and start transforming policyholder experiences in minutes.",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Connect Your Systems",
+            "description": "Link your WhatsApp Business number to DialogTab and integrate with your policy management system, CRM, or claims platform through our API for seamless data flow."
+          },
+          {
+            "step": "2",
+            "title": "Configure Policy Workflows",
+            "description": "Set up automated claims intake flows, renewal reminder sequences, quote generation templates, and policyholder onboarding journeys tailored to your insurance products."
+          },
+          {
+            "step": "3",
+            "title": "Automate Policyholder Service",
+            "description": "Let AI handle coverage inquiries, claim status updates, and policy questions. Complex cases are instantly routed to specialized agents with full policyholder context."
+          },
+          {
+            "step": "4",
+            "title": "Scale Your Book of Business",
+            "description": "Launch targeted campaigns for cross-selling, upselling, and renewal drives. Monitor agent performance, claims resolution times, and customer satisfaction from one dashboard."
+          }
+        ]
+      },
       "useCases": {
         "title": "How insurance companies use DialogTab",
         "items": [
-          {"title": "Automated Claims Intake", "description": "Collect claim details, photos, and documentation through guided WhatsApp conversations for faster processing and reduced manual effort."},
-          {"title": "Proactive Renewal Campaigns", "description": "Send personalized renewal reminders with coverage comparisons and special offers to maximize retention rates."},
-          {"title": "New Policy Onboarding", "description": "Guide new policyholders through coverage details, document requirements, and account setup via conversational WhatsApp flows."},
-          {"title": "Emergency Assistance Channel", "description": "Provide a direct WhatsApp line for roadside assistance, health emergencies, and urgent claims — with instant agent connection 24/7."}
+          {
+            "title": "Automated Claims Intake",
+            "description": "Collect claim details, photos, and documentation through guided WhatsApp conversations for faster processing and reduced manual effort."
+          },
+          {
+            "title": "Proactive Renewal Campaigns",
+            "description": "Send personalized renewal reminders with coverage comparisons and special offers to maximize retention rates."
+          },
+          {
+            "title": "New Policy Onboarding",
+            "description": "Guide new policyholders through coverage details, document requirements, and account setup via conversational WhatsApp flows."
+          },
+          {
+            "title": "Emergency Assistance Channel",
+            "description": "Provide a direct WhatsApp line for roadside assistance, health emergencies, and urgent claims — with instant agent connection 24/7."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can DialogTab integrate with our existing policy management or claims system?",
+            "answer": "Yes, DialogTab integrates with leading insurance platforms and custom systems through robust API connections. Policy data, claims records, and customer information sync in real-time so your agents always have complete policyholder context."
+          },
+          {
+            "question": "Is WhatsApp communication secure enough for insurance data?",
+            "answer": "Absolutely. WhatsApp provides end-to-end encryption for all messages. DialogTab adds enterprise-grade security with encrypted data storage, role-based access controls, and full audit trails. We help insurance companies meet regulatory compliance requirements for customer communication."
+          },
+          {
+            "question": "How does the automated claims intake process work?",
+            "answer": "When a policyholder initiates a claim via WhatsApp, DialogTab guides them through a conversational flow that collects all required details — incident description, photos, documents, and contact information. The structured data is automatically sent to your claims system, reducing processing time by up to 45%."
+          },
+          {
+            "question": "Can we send policy documents and renewal notices through WhatsApp?",
+            "answer": "Yes, DialogTab supports sending PDF documents, policy summaries, renewal notices, and coverage comparisons directly through WhatsApp. Messages have a 98% open rate, ensuring your policyholders actually see and engage with important communications."
+          },
+          {
+            "question": "How does DialogTab help improve policy renewal rates?",
+            "answer": "DialogTab sends proactive renewal reminders via WhatsApp with personalized coverage summaries, premium comparisons, and one-click renewal links. The conversational approach lets policyholders ask questions and resolve concerns instantly, which typically improves renewal rates by up to 3x compared to traditional channels."
+          }
         ]
       },
       "cta": {
@@ -503,27 +1280,152 @@
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
-      "features": [
-        {"title": "Bulk Order Management", "description": "Receive, confirm, and track bulk orders directly through WhatsApp. Send automated order confirmations, invoices, and shipping updates to your dealers.", "icon": "package"},
-        {"title": "Price List Distribution", "description": "Share updated price lists, catalogs, and promotional offers with your dealer network instantly via WhatsApp. Track who viewed and downloaded.", "icon": "invoice"},
-        {"title": "Inventory & Stock Alerts", "description": "Notify dealers about stock availability, low inventory warnings, and new product arrivals in real-time through WhatsApp messages.", "icon": "cart"},
-        {"title": "Dealer Relationship Management", "description": "Organize dealer conversations by region, volume tier, or product category. Assign dedicated account managers for personalized B2B service.", "icon": "team"},
-        {"title": "Payment & Invoice Tracking", "description": "Send payment reminders, share invoices, and track payment status through WhatsApp. Reduce overdue payments with automated follow-ups.", "icon": "chart"},
-        {"title": "Multi-Warehouse Coordination", "description": "Coordinate across multiple warehouses and distribution centers from one inbox. Route orders to the nearest fulfillment location automatically.", "icon": "building"}
-      ],
       "stats": [
-        {"value": "50%", "label": "Faster Order Processing"},
-        {"value": "3x", "label": "Dealer Response Rate"},
-        {"value": "30%", "label": "Reduced Payment Delays"},
-        {"value": "98%", "label": "Message Open Rate"}
+        {
+          "value": "50%",
+          "label": "Faster Order Processing"
+        },
+        {
+          "value": "3x",
+          "label": "Dealer Response Rate"
+        },
+        {
+          "value": "30%",
+          "label": "Reduced Payment Delays"
+        },
+        {
+          "value": "98%",
+          "label": "Message Open Rate"
+        }
       ],
+      "whyDialogTab": {
+        "title": "Why DialogTab for Wholesale?",
+        "subtitle": "DialogTab is purpose-built for wholesale and B2B businesses that need to manage high-volume dealer communication, streamline bulk orders, and accelerate payment collection through WhatsApp.",
+        "points": [
+          {
+            "title": "Instant Price List & Catalog Distribution",
+            "description": "Share updated price lists, product catalogs, and promotional offers with your entire dealer network in seconds via WhatsApp broadcast. Track who opened, viewed, and downloaded your materials.",
+            "icon": "rocket"
+          },
+          {
+            "title": "50% Faster Order Processing",
+            "description": "Dealers place orders directly through WhatsApp with instant confirmation, automatic invoice generation, and real-time delivery tracking. No more phone calls, emails, or spreadsheets.",
+            "icon": "zap"
+          },
+          {
+            "title": "Dealer Segmentation & Tiered Service",
+            "description": "Organize your dealer network by region, volume tier, or product category. Assign dedicated account managers and deliver personalized B2B service that keeps your best partners loyal.",
+            "icon": "target"
+          },
+          {
+            "title": "Automated Payment Follow-Ups",
+            "description": "Reduce overdue payments by 30% with automated WhatsApp reminders that include invoice details, outstanding balances, and one-click payment links. Keep your cash flow healthy.",
+            "icon": "shield"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Bulk Order Management",
+          "description": "Receive, confirm, and track bulk orders directly through WhatsApp. Send automated order confirmations, invoices, and shipping updates to your dealers.",
+          "icon": "package"
+        },
+        {
+          "title": "Price List Distribution",
+          "description": "Share updated price lists, catalogs, and promotional offers with your dealer network instantly via WhatsApp. Track who viewed and downloaded.",
+          "icon": "invoice"
+        },
+        {
+          "title": "Inventory & Stock Alerts",
+          "description": "Notify dealers about stock availability, low inventory warnings, and new product arrivals in real-time through WhatsApp messages.",
+          "icon": "cart"
+        },
+        {
+          "title": "Dealer Relationship Management",
+          "description": "Organize dealer conversations by region, volume tier, or product category. Assign dedicated account managers for personalized B2B service.",
+          "icon": "team"
+        },
+        {
+          "title": "Payment & Invoice Tracking",
+          "description": "Send payment reminders, share invoices, and track payment status through WhatsApp. Reduce overdue payments with automated follow-ups.",
+          "icon": "chart"
+        },
+        {
+          "title": "Multi-Warehouse Coordination",
+          "description": "Coordinate across multiple warehouses and distribution centers from one inbox. Route orders to the nearest fulfillment location automatically.",
+          "icon": "building"
+        }
+      ],
+      "howItWorks": {
+        "title": "How DialogTab Works for Wholesale",
+        "subtitle": "Get your wholesale business connected to WhatsApp and start streamlining B2B operations in minutes.",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Connect Your Business",
+            "description": "Link your WhatsApp Business number to DialogTab and import your dealer contacts, product catalog, and price lists. Integrate with your ERP or inventory system through our API."
+          },
+          {
+            "step": "2",
+            "title": "Configure B2B Workflows",
+            "description": "Set up automated order confirmation flows, price list distribution schedules, inventory alert thresholds, and payment reminder sequences tailored to your wholesale operations."
+          },
+          {
+            "step": "3",
+            "title": "Automate Dealer Communication",
+            "description": "Let dealers check stock levels, place orders, and request quotes through WhatsApp. AI handles routine inquiries while account managers focus on relationship building."
+          },
+          {
+            "step": "4",
+            "title": "Scale Your Distribution",
+            "description": "Expand your dealer network with efficient onboarding flows. Monitor order volumes, payment collection rates, and dealer engagement metrics from one centralized dashboard."
+          }
+        ]
+      },
       "useCases": {
         "title": "How wholesale businesses use DialogTab",
         "items": [
-          {"title": "Automated Order Workflows", "description": "Let dealers place orders through WhatsApp with instant confirmation, invoice generation, and delivery tracking from a single conversation."},
-          {"title": "Seasonal Campaign Distribution", "description": "Send targeted promotions, seasonal catalogs, and volume discount offers to segmented dealer groups via WhatsApp broadcasts."},
-          {"title": "Stock Availability Inquiries", "description": "Enable dealers to check real-time stock levels, request quotes, and reserve inventory through conversational WhatsApp interactions."},
-          {"title": "Payment Collection Automation", "description": "Send automated payment reminders with invoice details and payment links. Track outstanding balances and reduce overdue accounts."}
+          {
+            "title": "Automated Order Workflows",
+            "description": "Let dealers place orders through WhatsApp with instant confirmation, invoice generation, and delivery tracking from a single conversation."
+          },
+          {
+            "title": "Seasonal Campaign Distribution",
+            "description": "Send targeted promotions, seasonal catalogs, and volume discount offers to segmented dealer groups via WhatsApp broadcasts."
+          },
+          {
+            "title": "Stock Availability Inquiries",
+            "description": "Enable dealers to check real-time stock levels, request quotes, and reserve inventory through conversational WhatsApp interactions."
+          },
+          {
+            "title": "Payment Collection Automation",
+            "description": "Send automated payment reminders with invoice details and payment links. Track outstanding balances and reduce overdue accounts."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can DialogTab integrate with our ERP or inventory management system?",
+            "answer": "Yes, DialogTab integrates with popular ERP systems, inventory management platforms, and accounting software through API connections. Product catalogs, stock levels, pricing, and order data sync in real-time for accurate dealer communication."
+          },
+          {
+            "question": "How do dealers place orders through WhatsApp?",
+            "answer": "Dealers can browse your catalog, check stock availability, and place orders directly within a WhatsApp conversation. DialogTab collects order details, applies tiered pricing, generates order confirmations and invoices, and provides delivery tracking — all automatically."
+          },
+          {
+            "question": "Can we send different price lists to different dealer tiers?",
+            "answer": "Absolutely. DialogTab supports dealer segmentation by volume tier, region, or custom categories. You can distribute tier-specific price lists, exclusive promotions, and tailored catalogs to different segments via WhatsApp broadcast."
+          },
+          {
+            "question": "How does the payment reminder automation work?",
+            "answer": "DialogTab sends scheduled payment reminders via WhatsApp with invoice details, outstanding amounts, and payment links. You can configure reminder frequency, escalation sequences, and grace periods. Most wholesale businesses see a 30% reduction in overdue payments."
+          },
+          {
+            "question": "Can we manage multiple warehouses and distribution centers?",
+            "answer": "Yes, DialogTab supports multi-warehouse management from one platform. Orders are automatically routed to the nearest or most appropriate fulfillment location. Dealers can check stock across all warehouses and your team coordinates logistics seamlessly."
+          }
         ]
       },
       "cta": {
@@ -548,27 +1450,152 @@
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
-      "features": [
-        {"title": "Appointment Booking", "description": "Let customers book salon, spa, or consultation appointments directly through WhatsApp. Send confirmations, reminders, and reduce no-shows by up to 40%.", "icon": "calendar"},
-        {"title": "Personalized Beauty Advice", "description": "Offer expert beauty consultations via WhatsApp. Share product recommendations based on skin type, preferences, and purchase history for a tailored experience.", "icon": "star"},
-        {"title": "Product Catalog & Orders", "description": "Share product images, ingredient details, and prices through WhatsApp. Enable direct purchases with checkout links and order tracking.", "icon": "cart"},
-        {"title": "Loyalty & Rewards Programs", "description": "Engage loyal customers with exclusive offers, birthday rewards, early access to new products, and points-based loyalty programs via WhatsApp.", "icon": "promotion"},
-        {"title": "Before & After Showcases", "description": "Share treatment results, tutorials, and beauty tips through WhatsApp media messages. Build trust and drive bookings with visual proof.", "icon": "notification"},
-        {"title": "AI Beauty Assistant", "description": "Let AI answer product questions, recommend routines, and handle common inquiries — freeing your beauty experts for personalized consultations.", "icon": "ai"}
-      ],
       "stats": [
-        {"value": "40%", "label": "Fewer No-Shows"},
-        {"value": "2x", "label": "Repeat Purchase Rate"},
-        {"value": "35%", "label": "Revenue from Recommendations"},
-        {"value": "98%", "label": "Message Open Rate"}
+        {
+          "value": "40%",
+          "label": "Fewer No-Shows"
+        },
+        {
+          "value": "2x",
+          "label": "Repeat Purchase Rate"
+        },
+        {
+          "value": "35%",
+          "label": "Revenue from Recommendations"
+        },
+        {
+          "value": "98%",
+          "label": "Message Open Rate"
+        }
       ],
+      "whyDialogTab": {
+        "title": "Why DialogTab for Cosmetics & Beauty?",
+        "subtitle": "DialogTab is purpose-built for beauty brands, salons, and cosmetics businesses that want to deliver personalized experiences and turn every conversation into a sale through WhatsApp.",
+        "points": [
+          {
+            "title": "Personalized Beauty Consultations at Scale",
+            "description": "Offer one-on-one beauty advice through WhatsApp — skin type assessments, product matching, and routine recommendations — without requiring an in-store visit. Your beauty experts reach 10x more customers.",
+            "icon": "rocket"
+          },
+          {
+            "title": "2x Repeat Purchase Rate",
+            "description": "Automated reorder reminders, personalized product suggestions based on purchase history, and exclusive loyalty offers keep customers coming back. WhatsApp's 98% open rate means your messages actually get seen.",
+            "icon": "zap"
+          },
+          {
+            "title": "Visual Product Showcases",
+            "description": "Share before-and-after photos, tutorial videos, and product swatches directly in WhatsApp. Rich media messages drive engagement and build trust far better than plain text or email.",
+            "icon": "target"
+          },
+          {
+            "title": "Seamless Salon & Spa Booking",
+            "description": "Customers book, reschedule, or cancel appointments with a few taps in WhatsApp. Automated reminders cut no-shows by 40%, keeping your appointment calendar full and revenue flowing.",
+            "icon": "check"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Appointment Booking",
+          "description": "Let customers book salon, spa, or consultation appointments directly through WhatsApp. Send confirmations, reminders, and reduce no-shows by up to 40%.",
+          "icon": "calendar"
+        },
+        {
+          "title": "Personalized Beauty Advice",
+          "description": "Offer expert beauty consultations via WhatsApp. Share product recommendations based on skin type, preferences, and purchase history for a tailored experience.",
+          "icon": "star"
+        },
+        {
+          "title": "Product Catalog & Orders",
+          "description": "Share product images, ingredient details, and prices through WhatsApp. Enable direct purchases with checkout links and order tracking.",
+          "icon": "cart"
+        },
+        {
+          "title": "Loyalty & Rewards Programs",
+          "description": "Engage loyal customers with exclusive offers, birthday rewards, early access to new products, and points-based loyalty programs via WhatsApp.",
+          "icon": "promotion"
+        },
+        {
+          "title": "Before & After Showcases",
+          "description": "Share treatment results, tutorials, and beauty tips through WhatsApp media messages. Build trust and drive bookings with visual proof.",
+          "icon": "notification"
+        },
+        {
+          "title": "AI Beauty Assistant",
+          "description": "Let AI answer product questions, recommend routines, and handle common inquiries — freeing your beauty experts for personalized consultations.",
+          "icon": "ai"
+        }
+      ],
+      "howItWorks": {
+        "title": "How DialogTab Works for Cosmetics & Beauty",
+        "subtitle": "Get your beauty brand connected to WhatsApp and start creating personalized customer experiences in minutes.",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Connect Your Brand",
+            "description": "Link your beauty brand's WhatsApp Business number to DialogTab. Import your product catalog with images, ingredients, and pricing. Connect your booking system if applicable."
+          },
+          {
+            "step": "2",
+            "title": "Configure Beauty Journeys",
+            "description": "Set up automated appointment reminders, personalized product recommendation flows, reorder notifications, and loyalty program messages tailored to your beauty brand."
+          },
+          {
+            "step": "3",
+            "title": "Automate Consultations & Sales",
+            "description": "Let AI handle product inquiries, skin type matching, and routine recommendations. Qualified leads and complex consultations are routed to your beauty experts automatically."
+          },
+          {
+            "step": "4",
+            "title": "Scale Your Client Base",
+            "description": "Launch targeted campaigns for new product launches, seasonal collections, and VIP events. Track engagement, repeat purchase rates, and customer lifetime value from one dashboard."
+          }
+        ]
+      },
       "useCases": {
         "title": "How beauty brands use DialogTab",
         "items": [
-          {"title": "Personalized Skincare Routines", "description": "Send tailored skincare routines and product recommendations based on customer consultations and skin analysis through WhatsApp."},
-          {"title": "New Product Launch Campaigns", "description": "Create buzz around new product launches with exclusive previews, early access offers, and personalized WhatsApp campaigns."},
-          {"title": "Salon Appointment Management", "description": "Manage appointment bookings, cancellations, and rescheduling through WhatsApp with automated reminders and waitlist management."},
-          {"title": "Post-Purchase Care Tips", "description": "Send product usage instructions, care tips, and reorder reminders after purchase to increase satisfaction and repeat sales."}
+          {
+            "title": "Personalized Skincare Routines",
+            "description": "Send tailored skincare routines and product recommendations based on customer consultations and skin analysis through WhatsApp."
+          },
+          {
+            "title": "New Product Launch Campaigns",
+            "description": "Create buzz around new product launches with exclusive previews, early access offers, and personalized WhatsApp campaigns."
+          },
+          {
+            "title": "Salon Appointment Management",
+            "description": "Manage appointment bookings, cancellations, and rescheduling through WhatsApp with automated reminders and waitlist management."
+          },
+          {
+            "title": "Post-Purchase Care Tips",
+            "description": "Send product usage instructions, care tips, and reorder reminders after purchase to increase satisfaction and repeat sales."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can DialogTab integrate with our salon booking or appointment system?",
+            "answer": "Yes, DialogTab integrates with popular salon and spa booking platforms through API connections. Appointment availability, customer preferences, and booking history sync automatically so your team can manage everything from one place."
+          },
+          {
+            "question": "How does the AI beauty assistant work?",
+            "answer": "The AI assistant is trained on your product catalog, ingredient information, and beauty expertise. It can answer product questions, recommend skincare routines based on skin type, suggest complementary products, and handle up to 80% of customer inquiries. Complex consultations are seamlessly handed to your beauty experts."
+          },
+          {
+            "question": "Can we send product images and videos through WhatsApp?",
+            "answer": "Absolutely. DialogTab supports rich media messages including product photos, before-and-after images, tutorial videos, and interactive product cards with direct purchase links. Visual content drives significantly higher engagement in beauty conversations."
+          },
+          {
+            "question": "How does DialogTab help reduce appointment no-shows?",
+            "answer": "DialogTab sends automated booking confirmations and smart reminders at customizable intervals before appointments. Customers can confirm, reschedule, or cancel with a single tap. Beauty businesses using DialogTab typically see a 40% reduction in no-shows."
+          },
+          {
+            "question": "Can we run loyalty programs through WhatsApp?",
+            "answer": "Yes, DialogTab supports loyalty and rewards programs via WhatsApp. Send birthday rewards, exclusive VIP offers, early access to new products, points balance updates, and personalized promotions based on purchase history. The 98% open rate ensures your loyalty offers actually reach customers."
+          }
         ]
       },
       "cta": {
@@ -593,27 +1620,152 @@
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
-      "features": [
-        {"title": "Appointment Scheduling", "description": "Let patients book, reschedule, and cancel appointments through WhatsApp. Send automated reminders to reduce no-shows by up to 50%.", "icon": "calendar"},
-        {"title": "Health Reminders & Alerts", "description": "Send medication reminders, vaccination schedules, and health check-up alerts via WhatsApp. Keep patients engaged in their healthcare journey.", "icon": "notification"},
-        {"title": "Secure Results Delivery", "description": "Share test results, reports, and medical documents securely through WhatsApp with encrypted messaging. Reduce phone calls and in-person visits.", "icon": "shield"},
-        {"title": "Patient Intake & Forms", "description": "Collect patient information, medical history, and consent forms through conversational WhatsApp flows before appointments for faster check-ins.", "icon": "document"},
-        {"title": "AI Health Assistant", "description": "Let AI handle common queries — appointment availability, preparation instructions, facility info — while staff focuses on patient care.", "icon": "ai"},
-        {"title": "Multi-Department Routing", "description": "Route patient messages to the right department automatically — general practice, specialist, pharmacy, or billing — from one WhatsApp number.", "icon": "team"}
-      ],
       "stats": [
-        {"value": "50%", "label": "Fewer No-Shows"},
-        {"value": "70%", "label": "Reduced Phone Calls"},
-        {"value": "24/7", "label": "Patient Support"},
-        {"value": "98%", "label": "Message Open Rate"}
+        {
+          "value": "50%",
+          "label": "Fewer No-Shows"
+        },
+        {
+          "value": "70%",
+          "label": "Reduced Phone Calls"
+        },
+        {
+          "value": "24/7",
+          "label": "Patient Support"
+        },
+        {
+          "value": "98%",
+          "label": "Message Open Rate"
+        }
       ],
+      "whyDialogTab": {
+        "title": "Why DialogTab for Healthcare?",
+        "subtitle": "DialogTab is purpose-built for healthcare providers that need to streamline patient communication, reduce administrative burden, and deliver better care experiences through WhatsApp.",
+        "points": [
+          {
+            "title": "50% Reduction in Patient No-Shows",
+            "description": "Smart appointment reminders with preparation instructions, location details, and one-tap confirmation dramatically reduce missed appointments. Patients can reschedule instantly through WhatsApp.",
+            "icon": "rocket"
+          },
+          {
+            "title": "70% Fewer Phone Calls to Reception",
+            "description": "Let AI handle appointment availability checks, preparation instructions, facility directions, and common health queries. Your front desk staff focuses on patients who are actually in the clinic.",
+            "icon": "zap"
+          },
+          {
+            "title": "Secure & Encrypted Patient Communication",
+            "description": "WhatsApp provides end-to-end encryption for all messages. DialogTab adds enterprise-grade security, role-based access controls, and audit trails to meet healthcare data protection requirements.",
+            "icon": "shield"
+          },
+          {
+            "title": "Multi-Department Smart Routing",
+            "description": "Patient messages are automatically routed to the right department — general practice, specialist, lab, pharmacy, or billing — from a single WhatsApp number. No more transfers or hold times.",
+            "icon": "team"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Appointment Scheduling",
+          "description": "Let patients book, reschedule, and cancel appointments through WhatsApp. Send automated reminders to reduce no-shows by up to 50%.",
+          "icon": "calendar"
+        },
+        {
+          "title": "Health Reminders & Alerts",
+          "description": "Send medication reminders, vaccination schedules, and health check-up alerts via WhatsApp. Keep patients engaged in their healthcare journey.",
+          "icon": "notification"
+        },
+        {
+          "title": "Secure Results Delivery",
+          "description": "Share test results, reports, and medical documents securely through WhatsApp with encrypted messaging. Reduce phone calls and in-person visits.",
+          "icon": "shield"
+        },
+        {
+          "title": "Patient Intake & Forms",
+          "description": "Collect patient information, medical history, and consent forms through conversational WhatsApp flows before appointments for faster check-ins.",
+          "icon": "document"
+        },
+        {
+          "title": "AI Health Assistant",
+          "description": "Let AI handle common queries — appointment availability, preparation instructions, facility info — while staff focuses on patient care.",
+          "icon": "ai"
+        },
+        {
+          "title": "Multi-Department Routing",
+          "description": "Route patient messages to the right department automatically — general practice, specialist, pharmacy, or billing — from one WhatsApp number.",
+          "icon": "team"
+        }
+      ],
+      "howItWorks": {
+        "title": "How DialogTab Works for Healthcare",
+        "subtitle": "Get your healthcare facility connected to WhatsApp and start improving patient communication in minutes.",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Connect Your Practice",
+            "description": "Link your healthcare facility's WhatsApp Business number to DialogTab. Integrate with your EHR, practice management system, or appointment scheduling platform through our secure API."
+          },
+          {
+            "step": "2",
+            "title": "Configure Patient Workflows",
+            "description": "Set up automated appointment reminders, pre-visit intake forms, post-visit follow-up sequences, and medication reminder schedules tailored to your practice's needs."
+          },
+          {
+            "step": "3",
+            "title": "Automate Patient Support",
+            "description": "Let AI handle appointment booking, preparation instructions, facility directions, and common health queries. Critical or urgent messages are instantly flagged and routed to clinical staff."
+          },
+          {
+            "step": "4",
+            "title": "Scale Across Departments",
+            "description": "Expand WhatsApp communication across all departments — primary care, specialists, lab, pharmacy, and billing. Monitor patient satisfaction and operational efficiency from one dashboard."
+          }
+        ]
+      },
       "useCases": {
         "title": "How healthcare providers use DialogTab",
         "items": [
-          {"title": "Automated Appointment Reminders", "description": "Send appointment reminders with preparation instructions, location details, and one-click confirmation or rescheduling options."},
-          {"title": "Post-Visit Follow-Up", "description": "Automatically check in with patients after visits, share care instructions, and schedule follow-up appointments through WhatsApp."},
-          {"title": "Vaccination & Screening Campaigns", "description": "Run targeted health campaigns for vaccinations, annual screenings, and preventive care with personalized WhatsApp outreach."},
-          {"title": "Emergency Triage Support", "description": "Provide initial health guidance through AI-powered WhatsApp triage, directing patients to the appropriate level of care quickly."}
+          {
+            "title": "Automated Appointment Reminders",
+            "description": "Send appointment reminders with preparation instructions, location details, and one-click confirmation or rescheduling options."
+          },
+          {
+            "title": "Post-Visit Follow-Up",
+            "description": "Automatically check in with patients after visits, share care instructions, and schedule follow-up appointments through WhatsApp."
+          },
+          {
+            "title": "Vaccination & Screening Campaigns",
+            "description": "Run targeted health campaigns for vaccinations, annual screenings, and preventive care with personalized WhatsApp outreach."
+          },
+          {
+            "title": "Emergency Triage Support",
+            "description": "Provide initial health guidance through AI-powered WhatsApp triage, directing patients to the appropriate level of care quickly."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Is WhatsApp communication secure enough for patient data?",
+            "answer": "Yes. WhatsApp provides end-to-end encryption for all messages, meaning only the sender and recipient can read them. DialogTab adds enterprise-grade security with encrypted data storage, role-based access controls, and comprehensive audit trails. We help healthcare providers meet data protection and privacy compliance requirements."
+          },
+          {
+            "question": "Can DialogTab integrate with our EHR or practice management system?",
+            "answer": "Yes, DialogTab integrates with leading EHR platforms and practice management systems through secure API connections. Patient data, appointment schedules, and clinical information sync automatically so your staff always has the context they need."
+          },
+          {
+            "question": "How does the automated appointment reminder system work?",
+            "answer": "DialogTab sends customizable reminders at intervals you define — for example, 48 hours and 2 hours before the appointment. Messages include preparation instructions, location details, and buttons for one-tap confirmation, rescheduling, or cancellation. Healthcare providers typically see a 50% reduction in no-shows."
+          },
+          {
+            "question": "Can patients receive test results through WhatsApp?",
+            "answer": "Yes, DialogTab supports secure delivery of test results, lab reports, and medical documents through WhatsApp's encrypted messaging. You can configure automated notifications when results are ready and include follow-up appointment booking options directly in the message."
+          },
+          {
+            "question": "How does multi-department routing work?",
+            "answer": "When a patient sends a message, DialogTab's AI analyzes the intent and automatically routes it to the appropriate department — general practice, specialist, lab, pharmacy, or billing. Patients never need to navigate phone menus or get transferred. Urgent messages are flagged and escalated immediately."
+          }
         ]
       },
       "cta": {
@@ -638,27 +1790,152 @@
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
-      "features": [
-        {"title": "Enrollment & Admissions", "description": "Manage enrollment inquiries, application tracking, and admissions communication through WhatsApp. Guide prospective students through the process conversationally.", "icon": "document"},
-        {"title": "Course Updates & Announcements", "description": "Send class schedules, assignment reminders, exam dates, and important announcements to students and parents instantly via WhatsApp.", "icon": "notification"},
-        {"title": "Student Support Hub", "description": "Provide 24/7 student support for academic questions, administrative inquiries, and campus information through AI-powered WhatsApp conversations.", "icon": "ai"},
-        {"title": "Parent Communication", "description": "Keep parents informed with attendance updates, progress reports, and event notifications through organized WhatsApp communication channels.", "icon": "team"},
-        {"title": "Event & Activity Management", "description": "Promote workshops, webinars, and campus events through WhatsApp. Manage RSVPs, send reminders, and share event details effortlessly.", "icon": "calendar"},
-        {"title": "Feedback & Surveys", "description": "Collect course feedback, satisfaction surveys, and improvement suggestions through conversational WhatsApp surveys for higher response rates.", "icon": "star"}
-      ],
       "stats": [
-        {"value": "60%", "label": "Higher Engagement"},
-        {"value": "3x", "label": "Faster Response Time"},
-        {"value": "40%", "label": "More Enrollment Inquiries"},
-        {"value": "98%", "label": "Message Open Rate"}
+        {
+          "value": "60%",
+          "label": "Higher Engagement"
+        },
+        {
+          "value": "3x",
+          "label": "Faster Response Time"
+        },
+        {
+          "value": "40%",
+          "label": "More Enrollment Inquiries"
+        },
+        {
+          "value": "98%",
+          "label": "Message Open Rate"
+        }
       ],
+      "whyDialogTab": {
+        "title": "Why DialogTab for Education?",
+        "subtitle": "DialogTab is purpose-built for educational institutions that want to modernize student and parent communication, streamline enrollment, and boost engagement through WhatsApp.",
+        "points": [
+          {
+            "title": "60% Higher Student & Parent Engagement",
+            "description": "WhatsApp messages get a 98% open rate compared to 20% for email. Announcements, schedule changes, and important updates actually reach students and parents when it matters.",
+            "icon": "rocket"
+          },
+          {
+            "title": "Automated Enrollment Funnels",
+            "description": "Guide prospective students from initial inquiry to enrollment with conversational WhatsApp flows that collect documents, answer questions, and provide status updates — reducing enrollment cycle time by half.",
+            "icon": "zap"
+          },
+          {
+            "title": "24/7 AI Student Support",
+            "description": "Let AI handle common questions about schedules, campus facilities, assignments, and administrative procedures. Students get instant answers any time of day without waiting for office hours.",
+            "icon": "ai"
+          },
+          {
+            "title": "Unified Parent-Teacher Communication",
+            "description": "Keep parents informed with attendance updates, progress reports, event notifications, and fee reminders through organized WhatsApp channels. Build trust and transparency with families.",
+            "icon": "team"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Enrollment & Admissions",
+          "description": "Manage enrollment inquiries, application tracking, and admissions communication through WhatsApp. Guide prospective students through the process conversationally.",
+          "icon": "document"
+        },
+        {
+          "title": "Course Updates & Announcements",
+          "description": "Send class schedules, assignment reminders, exam dates, and important announcements to students and parents instantly via WhatsApp.",
+          "icon": "notification"
+        },
+        {
+          "title": "Student Support Hub",
+          "description": "Provide 24/7 student support for academic questions, administrative inquiries, and campus information through AI-powered WhatsApp conversations.",
+          "icon": "ai"
+        },
+        {
+          "title": "Parent Communication",
+          "description": "Keep parents informed with attendance updates, progress reports, and event notifications through organized WhatsApp communication channels.",
+          "icon": "team"
+        },
+        {
+          "title": "Event & Activity Management",
+          "description": "Promote workshops, webinars, and campus events through WhatsApp. Manage RSVPs, send reminders, and share event details effortlessly.",
+          "icon": "calendar"
+        },
+        {
+          "title": "Feedback & Surveys",
+          "description": "Collect course feedback, satisfaction surveys, and improvement suggestions through conversational WhatsApp surveys for higher response rates.",
+          "icon": "star"
+        }
+      ],
+      "howItWorks": {
+        "title": "How DialogTab Works for Education",
+        "subtitle": "Get your institution connected to WhatsApp and start transforming student and parent communication in minutes.",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Connect Your Institution",
+            "description": "Link your institution's WhatsApp Business number to DialogTab. Import student and parent contact lists, and integrate with your student information system (SIS) or LMS through our API."
+          },
+          {
+            "step": "2",
+            "title": "Configure Communication Flows",
+            "description": "Set up automated enrollment inquiry responses, admission status updates, class schedule notifications, fee payment reminders, and event announcement templates."
+          },
+          {
+            "step": "3",
+            "title": "Automate Student Services",
+            "description": "Let AI handle frequently asked questions about schedules, campus facilities, assignment deadlines, and administrative procedures. Complex queries are routed to the right department."
+          },
+          {
+            "step": "4",
+            "title": "Scale Across Programs",
+            "description": "Expand WhatsApp communication to all departments, courses, and campuses. Monitor engagement rates, response times, and satisfaction scores to continuously improve communication."
+          }
+        ]
+      },
       "useCases": {
         "title": "How educational institutions use DialogTab",
         "items": [
-          {"title": "Automated Enrollment Funnel", "description": "Guide prospective students from initial inquiry to enrollment with automated WhatsApp workflows including document collection and status updates."},
-          {"title": "Academic Calendar Updates", "description": "Send semester schedules, exam timetables, and holiday notifications to students and parents through targeted WhatsApp broadcasts."},
-          {"title": "Online Course Support", "description": "Provide instant support for online learners with AI-powered responses to technical issues, course content questions, and platform navigation."},
-          {"title": "Alumni Engagement", "description": "Maintain connections with graduates through WhatsApp for career opportunities, networking events, and continued learning programs."}
+          {
+            "title": "Automated Enrollment Funnel",
+            "description": "Guide prospective students from initial inquiry to enrollment with automated WhatsApp workflows including document collection and status updates."
+          },
+          {
+            "title": "Academic Calendar Updates",
+            "description": "Send semester schedules, exam timetables, and holiday notifications to students and parents through targeted WhatsApp broadcasts."
+          },
+          {
+            "title": "Online Course Support",
+            "description": "Provide instant support for online learners with AI-powered responses to technical issues, course content questions, and platform navigation."
+          },
+          {
+            "title": "Alumni Engagement",
+            "description": "Maintain connections with graduates through WhatsApp for career opportunities, networking events, and continued learning programs."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can DialogTab integrate with our student information system (SIS) or LMS?",
+            "answer": "Yes, DialogTab integrates with popular SIS and LMS platforms through API connections. Student data, enrollment status, class schedules, and grades sync automatically so your communication is always accurate and up-to-date."
+          },
+          {
+            "question": "How does DialogTab handle communication for both students and parents?",
+            "answer": "DialogTab supports segmented communication channels. You can send targeted messages to students, parents, or both, organized by class, department, or custom groups. Parents receive attendance updates and progress reports while students get schedule changes and assignment reminders."
+          },
+          {
+            "question": "Can we send bulk announcements to all students or specific groups?",
+            "answer": "Absolutely. DialogTab supports WhatsApp broadcast messaging to send announcements, schedule changes, event invitations, and important updates to specific student groups, entire classes, or the whole institution. Messages are delivered individually for a personal touch."
+          },
+          {
+            "question": "How does the automated enrollment process work?",
+            "answer": "When a prospective student inquires via WhatsApp, DialogTab guides them through a conversational enrollment flow — answering program questions, collecting required documents, providing application status updates, and scheduling campus visits. This automated funnel typically increases enrollment inquiries by 40%."
+          },
+          {
+            "question": "Is student data secure on DialogTab?",
+            "answer": "Yes, DialogTab uses WhatsApp's end-to-end encryption along with enterprise-grade security measures. Student data is stored with encryption at rest, role-based access controls ensure only authorized staff can view sensitive information, and comprehensive audit trails maintain compliance with educational data protection regulations."
+          }
         ]
       },
       "cta": {
@@ -682,7 +1959,13 @@
     "website": "Website (optional)",
     "websitePlaceholder": "https://yourwebsite.com",
     "sectorTitle": "Select your sector",
-    "sectors": ["E-Commerce", "Automotive", "Tourism", "Cosmetics", "Other"],
+    "sectors": [
+      "E-Commerce",
+      "Automotive",
+      "Tourism",
+      "Cosmetics",
+      "Other"
+    ],
     "submitButton": "Create Account",
     "successMessage": "Redirecting you to registration..."
   },
