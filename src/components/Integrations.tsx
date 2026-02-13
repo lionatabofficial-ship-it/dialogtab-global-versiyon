@@ -6,6 +6,7 @@ const channels = [
 	{ name: "Instagram", image: "/images/instagram.webp" },
 	{ name: "Live Chat", image: "/images/livechat.svg" },
 	{ name: "Telegram", image: "/images/telegram.png" },
+	{ name: "TikTok", image: "/images/tiktok.svg" },
 ];
 
 const ecommerce = [
@@ -16,7 +17,7 @@ const ecommerce = [
 	{ name: "OpenCart", image: "/images/opencart.webp" },
 	{ name: "T-Soft", image: "/images/tsoft.webp" },
 	{ name: "Ticimax", image: "/images/ticimax.jpg" },
-	{ name: "IKAS", image: "/images/ikas.png" },
+	{ name: "IKAS", image: "/images/ikas.svg" },
 	{ name: "PrestaShop", image: "/images/prestashop.webp" },
 ];
 

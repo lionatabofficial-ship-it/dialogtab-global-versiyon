@@ -272,10 +272,20 @@
     "refunds": "Refunds"
   },
   "chatWidget": {
-    "greeting": "Hi there! \ud83d\udc4b Welcome to DialogTab. How can we help you today?",
-    "justNow": "Just now",
-    "typicallyReplies": "Typically replies within minutes",
-    "chatOnWhatsApp": "Chat on WhatsApp",
-    "startFreeTrial": "Start Free Trial"
+    "tooltipText": "Start your free trial now! Create your account in seconds.",
+    "headerTitle": "DialogTab",
+    "headerSubtitle": "Start your free trial",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "phone": "Phone",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "email": "Email",
+    "emailPlaceholder": "you@company.com",
+    "website": "Website (optional)",
+    "websitePlaceholder": "https://yourwebsite.com",
+    "sectorTitle": "Select your sector",
+    "sectors": ["E-Commerce", "Automotive", "Tourism", "Cosmetics", "Other"],
+    "submitButton": "Create Account",
+    "successMessage": "Redirecting you to registration..."
   }
 }

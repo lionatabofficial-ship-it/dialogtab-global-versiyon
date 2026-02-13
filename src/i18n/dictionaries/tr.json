@@ -272,10 +272,20 @@
     "refunds": "İadeler"
   },
   "chatWidget": {
-    "greeting": "Merhaba! 👋 DialogTab'a hoş geldiniz. Size nasıl yardımcı olabiliriz?",
-    "justNow": "Şimdi",
-    "typicallyReplies": "Genellikle dakikalar içinde yanıt verir",
-    "chatOnWhatsApp": "WhatsApp'ta Sohbet Et",
-    "startFreeTrial": "Ücretsiz Denemeyi Başlat"
+    "tooltipText": "Ücretsiz denemenizi hemen başlatın! Saniyeler içinde hesabınızı oluşturun.",
+    "headerTitle": "DialogTab",
+    "headerSubtitle": "Ücretsiz denemenizi başlatın",
+    "fullName": "Ad Soyad",
+    "fullNamePlaceholder": "Adınızı ve soyadınızı girin",
+    "phone": "Telefon",
+    "phonePlaceholder": "+90 (5XX) 000 00 00",
+    "email": "E-posta",
+    "emailPlaceholder": "siz@sirket.com",
+    "website": "Web Sitesi (opsiyonel)",
+    "websitePlaceholder": "https://websiteniz.com",
+    "sectorTitle": "Sektörünüzü seçin",
+    "sectors": ["E-Ticaret", "Otomotiv", "Turizm", "Kozmetik", "Diğer"],
+    "submitButton": "Hesap Oluştur",
+    "successMessage": "Kayıt sayfasına yönlendiriliyorsunuz..."
   }
 }

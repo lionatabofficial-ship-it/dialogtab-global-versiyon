@@ -272,10 +272,20 @@
     "refunds": "Reembolsos"
   },
   "chatWidget": {
-    "greeting": "¡Hola! 👋 Bienvenido a DialogTab. ¿Cómo podemos ayudarte hoy?",
-    "justNow": "Ahora mismo",
-    "typicallyReplies": "Normalmente responde en minutos",
-    "chatOnWhatsApp": "Chatear en WhatsApp",
-    "startFreeTrial": "Iniciar Prueba Gratuita"
+    "tooltipText": "¡Comienza tu prueba gratuita ahora! Crea tu cuenta en segundos.",
+    "headerTitle": "DialogTab",
+    "headerSubtitle": "Inicia tu prueba gratuita",
+    "fullName": "Nombre Completo",
+    "fullNamePlaceholder": "Ingresa tu nombre completo",
+    "phone": "Teléfono",
+    "phonePlaceholder": "+34 600 000 000",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "tu@empresa.com",
+    "website": "Sitio Web (opcional)",
+    "websitePlaceholder": "https://tusitio.com",
+    "sectorTitle": "Selecciona tu sector",
+    "sectors": ["E-Commerce", "Automotriz", "Turismo", "Cosmética", "Otro"],
+    "submitButton": "Crear Cuenta",
+    "successMessage": "Redirigiendo al registro..."
   }
 }
