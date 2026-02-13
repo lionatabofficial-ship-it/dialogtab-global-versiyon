@@ -33,9 +33,33 @@
   "hero": {
     "selectIndustry": "Select your industry:",
     "industries": ["All", "E-Commerce", "Travel", "Hospitality", "Automotive"],
-    "titleStart": "One inbox, ",
-    "titleHighlight": "every channel",
-    "description": "DialogTab unites <strong>WhatsApp, Instagram, Messenger, and Live Chat in one inbox,</strong> saving your team hours of repetitive work and ensures no conversation is ever lost",
+    "industryContent": [
+      {
+        "titleStart": "One inbox, ",
+        "titleHighlight": "every channel",
+        "description": "DialogTab unites <strong>WhatsApp, Instagram, Messenger, and Live Chat in one inbox,</strong> saving your team hours of repetitive work and ensures no conversation is ever lost"
+      },
+      {
+        "titleStart": "Sell more with ",
+        "titleHighlight": "WhatsApp Commerce",
+        "description": "Turn WhatsApp into your most powerful e-commerce sales channel. <strong>Automate abandoned cart recovery, manage orders in real time, and deliver personalized product recommendations</strong> — all from a unified omnichannel inbox integrated with Shopify, WooCommerce, and more"
+      },
+      {
+        "titleStart": "Effortless bookings via ",
+        "titleHighlight": "WhatsApp",
+        "description": "Streamline travel reservations, send instant booking confirmations, and handle inquiries 24/7. <strong>Automate itinerary updates, check-in reminders, and multilingual traveler support</strong> across WhatsApp, Instagram, and all messaging channels"
+      },
+      {
+        "titleStart": "Elevate guest experience with ",
+        "titleHighlight": "smart messaging",
+        "description": "From reservation to checkout, deliver five-star guest communication at scale. <strong>Automate booking confirmations, room service requests, and real-time concierge support</strong> via WhatsApp and every messaging platform your guests prefer"
+      },
+      {
+        "titleStart": "Drive sales with ",
+        "titleHighlight": "conversational commerce",
+        "description": "Accelerate test drive bookings, service appointments, and vehicle inquiries through messaging. <strong>Automate lead follow-ups, send service reminders, and provide instant vehicle specs and pricing</strong> via WhatsApp and all your customer channels"
+      }
+    ],
     "bookDemo": "Book a demo",
     "tryFree": "Try for free",
     "partnerBadge": "<strong>Official WhatsApp Business Partner</strong> trusted by businesses worldwide",
