@@ -7,27 +7,39 @@
   "header": {
     "solutions": "Solutions",
     "sectors": "Sectors",
-    "ecommerce": "Ecommerce",
+    "integrations": "Integrations",
     "pricing": "Pricing",
     "contact": "Contact",
     "blog": "Blog",
     "login": "Login",
     "tryFree": "Try for free",
+    "solutionsCategoryLeft": "CUSTOMER COMMUNICATION",
+    "solutionsCategoryRight": "E-COMMERCE & MANAGEMENT",
     "solutionsItems": [
-      {"title": "Omnichannel Inbox", "desc": "WhatsApp, Instagram, Facebook & more in one place"},
-      {"title": "DialogTab AI", "desc": "AI-powered chatbot for automated customer support"},
-      {"title": "WhatsApp Commerce", "desc": "Sell products directly through WhatsApp conversations"},
-      {"title": "Multi-Agent Support", "desc": "Assign conversations to teams and agents"},
-      {"title": "Analytics & Reports", "desc": "Track performance and customer satisfaction"},
-      {"title": "Integrations", "desc": "Connect Shopify, WooCommerce, Stripe & more"}
+      {"title": "WhatsApp Solutions", "desc": "Bulk messaging, API, chatbot", "category": "left"},
+      {"title": "Chatbot Solutions", "desc": "AI chatbot, automation", "category": "left"},
+      {"title": "Customer Communication", "desc": "Omnichannel support", "category": "left"},
+      {"title": "Email Solutions", "desc": "Email automation", "category": "left"},
+      {"title": "Marketplace Solutions", "desc": "Trendyol, N11, Hepsiburada", "category": "right"},
+      {"title": "CollecAction Plugin", "desc": "Collection tracking", "category": "right"},
+      {"title": "Team Management", "desc": "Performance & reporting", "category": "right"},
+      {"title": "Analytics & Reporting", "desc": "Detailed statistics", "category": "right"},
+      {"title": "API Solutions", "desc": "RESTful API & webhooks", "category": "right"}
     ],
     "sectorsItems": [
-      {"title": "E-Commerce & Retail", "desc": "Boost online sales with WhatsApp"},
-      {"title": "Travel & Tourism", "desc": "Manage bookings and inquiries"},
-      {"title": "Hospitality & Restaurants", "desc": "Reservations & guest communication"},
-      {"title": "Automotive", "desc": "Test drive bookings & service updates"},
-      {"title": "Energy & Utilities", "desc": "Billing support & service notifications"},
-      {"title": "Financial Services", "desc": "Secure customer communication"}
+      {"title": "Insurance", "desc": "Policy management & customer service"},
+      {"title": "Automotive", "desc": "Service appointments & sales support"},
+      {"title": "Tourism & Hospitality", "desc": "Reservations & guest communication"},
+      {"title": "Wholesale", "desc": "B2B communication & order management"},
+      {"title": "E-Commerce", "desc": "Online sales & customer support"},
+      {"title": "Cosmetics & Beauty", "desc": "Appointments & product consulting"},
+      {"title": "Healthcare", "desc": "Patient communication & appointment system"},
+      {"title": "Education", "desc": "Student & parent communication"}
+    ],
+    "integrationsItems": [
+      {"title": "Social Media Integrations", "desc": "WhatsApp, Instagram, Messenger, Telegram"},
+      {"title": "E-Commerce Integration", "desc": "Shopify, Ticimax, WooCommerce, Magento"},
+      {"title": "Need a Custom Solution?", "desc": "Custom integration request"}
     ]
   },
   "hero": {
@@ -341,51 +353,6 @@
         "buttonSecondary": "Book a Demo"
       }
     },
-    "travel": {
-      "slug": "travel",
-      "meta": {
-        "title": "WhatsApp for Travel & Tourism | DialogTab",
-        "description": "Manage travel bookings, send itinerary updates, and provide 24/7 traveler support through WhatsApp Business API. Automate reservations and multilingual communication.",
-        "keywords": "WhatsApp travel agency, WhatsApp Business tourism, travel booking WhatsApp, itinerary updates WhatsApp, hotel reservation WhatsApp, tour operator chatbot"
-      },
-      "hero": {
-        "badge": "TRAVEL & TOURISM",
-        "title": "Effortless travel bookings via ",
-        "titleHighlight": "WhatsApp",
-        "description": "Manage reservations, send real-time itinerary updates, and provide 24/7 multilingual traveler support — all from a single omnichannel inbox that your travel team loves.",
-        "cta": "Start Free Trial",
-        "ctaSecondary": "Book a Demo"
-      },
-      "features": [
-        {"title": "Booking Management", "description": "Handle reservation requests, confirmations, and modifications directly through WhatsApp. Reduce no-shows with automated reminder messages.", "icon": "calendar"},
-        {"title": "Real-Time Itinerary Updates", "description": "Send flight changes, hotel check-in details, and tour schedule updates instantly via WhatsApp. Keep travelers informed at every step.", "icon": "map"},
-        {"title": "24/7 Multilingual Support", "description": "AI-powered chatbot handles common travel questions in multiple languages around the clock — from visa requirements to local recommendations.", "icon": "globe"},
-        {"title": "Group Travel Coordination", "description": "Manage group bookings, share itineraries, and coordinate logistics through organized WhatsApp conversations with team assignment.", "icon": "team"},
-        {"title": "Automated Check-in Reminders", "description": "Send timely check-in reminders, boarding pass links, and pre-arrival information to reduce friction in the travel experience.", "icon": "notification"},
-        {"title": "Post-Trip Feedback Collection", "description": "Automatically request reviews and feedback after trips. Use conversational surveys via WhatsApp for higher response rates.", "icon": "star"}
-      ],
-      "stats": [
-        {"value": "80%", "label": "Faster Booking Response"},
-        {"value": "24/7", "label": "Traveler Support"},
-        {"value": "45%", "label": "Reduced No-Shows"},
-        {"value": "98%", "label": "Message Open Rate"}
-      ],
-      "useCases": {
-        "title": "How travel companies use DialogTab",
-        "items": [
-          {"title": "Instant Booking Confirmations", "description": "Automatically send booking confirmations with all details — dates, locations, prices — directly to the traveler's WhatsApp."},
-          {"title": "Flight & Schedule Alerts", "description": "Notify travelers immediately about flight changes, delays, or gate updates through WhatsApp for real-time awareness."},
-          {"title": "Personalized Travel Recommendations", "description": "Use AI to suggest tours, restaurants, and activities based on traveler preferences and destination data."},
-          {"title": "Emergency Support Channel", "description": "Provide a direct WhatsApp line for travel emergencies — cancellations, rebookings, and urgent assistance available 24/7."}
-        ]
-      },
-      "cta": {
-        "title": "Ready to transform your travel operations?",
-        "description": "Join travel agencies and tour operators using DialogTab to deliver seamless traveler experiences.",
-        "button": "Start Free Trial",
-        "buttonSecondary": "Book a Demo"
-      }
-    },
     "hospitality": {
       "slug": "hospitality",
       "meta": {
@@ -476,92 +443,227 @@
         "buttonSecondary": "Book a Demo"
       }
     },
-    "energy": {
-      "slug": "energy",
+    "insurance": {
+      "slug": "insurance",
       "meta": {
-        "title": "WhatsApp for Energy & Utilities | DialogTab",
-        "description": "Streamline energy and utilities customer communication with WhatsApp Business API. Automate billing support, outage notifications, meter readings, and service requests.",
-        "keywords": "WhatsApp energy utilities, WhatsApp Business utilities, billing support WhatsApp, outage notification WhatsApp, utility customer service, energy chatbot"
+        "title": "WhatsApp for Insurance | DialogTab",
+        "description": "Transform insurance customer experience with WhatsApp Business API. Automate policy inquiries, claims processing, renewal reminders, and personalized coverage recommendations through conversational messaging.",
+        "keywords": "WhatsApp insurance, WhatsApp Business API insurance, insurance chatbot, claims processing WhatsApp, policy management WhatsApp, insurance renewal WhatsApp"
       },
       "hero": {
-        "badge": "ENERGY & UTILITIES",
-        "title": "Streamline utility operations with ",
-        "titleHighlight": "smart messaging",
-        "description": "Automate billing inquiries, outage notifications, and service requests through WhatsApp. Reduce call center volume while delivering faster, more convenient customer service.",
+        "badge": "INSURANCE",
+        "title": "Simplify insurance with ",
+        "titleHighlight": "conversational messaging",
+        "description": "From policy inquiries to claims processing, manage every customer touchpoint through WhatsApp. Automate renewals, send instant quotes, and deliver personalized coverage recommendations — all from one omnichannel inbox.",
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
       "features": [
-        {"title": "Billing & Payment Support", "description": "Send billing notifications, payment reminders, and digital invoices via WhatsApp. Enable customers to check balances and make payments through chat.", "icon": "invoice"},
-        {"title": "Outage Notifications", "description": "Proactively notify affected customers about planned and unplanned outages. Provide real-time restoration updates to reduce inbound calls.", "icon": "alert"},
-        {"title": "Meter Reading Submissions", "description": "Allow customers to submit meter readings through WhatsApp with photo verification. Simplify the process and improve accuracy.", "icon": "meter"},
-        {"title": "Service Request Management", "description": "Handle new connections, disconnections, plan changes, and maintenance requests through WhatsApp with automated routing and tracking.", "icon": "service"},
-        {"title": "Energy Usage Insights", "description": "Send personalized energy consumption reports and savings tips via WhatsApp. Help customers manage their usage and reduce costs.", "icon": "chart"},
-        {"title": "AI-Powered Self-Service", "description": "Let AI handle common queries — tariff information, connection status, bill explanations — reducing call center workload by up to 60%.", "icon": "ai"}
+        {"title": "Claims Processing via WhatsApp", "description": "Let customers file and track insurance claims directly through WhatsApp. Collect photos, documents, and details conversationally for faster resolution.", "icon": "document"},
+        {"title": "Policy Management", "description": "Send policy documents, coverage details, and renewal reminders via WhatsApp. Enable customers to view and update their policies through chat.", "icon": "shield"},
+        {"title": "Instant Quote Generation", "description": "Provide instant insurance quotes through WhatsApp by collecting customer information conversationally. Compare plans and close sales in real-time.", "icon": "invoice"},
+        {"title": "Renewal Automation", "description": "Send timely renewal reminders with coverage summaries and one-click renewal options. Reduce policy lapse rates with proactive WhatsApp outreach.", "icon": "notification"},
+        {"title": "AI Insurance Assistant", "description": "Let AI handle common queries — coverage details, deductible info, claim status — while agents focus on complex advisory and high-value policies.", "icon": "ai"},
+        {"title": "Multi-Channel Agent Support", "description": "Multiple agents handle customer conversations simultaneously from one WhatsApp number. Auto-route based on policy type, urgency, or customer tier.", "icon": "team"}
       ],
       "stats": [
-        {"value": "60%", "label": "Fewer Support Calls"},
-        {"value": "80%", "label": "Queries Resolved by AI"},
-        {"value": "3x", "label": "Faster Issue Resolution"},
+        {"value": "45%", "label": "Faster Claims Processing"},
+        {"value": "3x", "label": "Renewal Rate Improvement"},
+        {"value": "60%", "label": "Queries Resolved by AI"},
         {"value": "98%", "label": "Message Open Rate"}
       ],
       "useCases": {
-        "title": "How energy companies use DialogTab",
+        "title": "How insurance companies use DialogTab",
         "items": [
-          {"title": "Automated Billing Reminders", "description": "Send payment due date reminders with bill amounts and one-click payment links to reduce late payments."},
-          {"title": "Proactive Outage Communication", "description": "Instantly notify customers in affected areas about outages with estimated restoration times and progress updates."},
-          {"title": "New Connection Onboarding", "description": "Guide new customers through the connection process via WhatsApp with step-by-step instructions and document collection."},
-          {"title": "Energy Savings Programs", "description": "Engage customers with personalized energy-saving tips, solar panel offers, and smart meter information through WhatsApp campaigns."}
+          {"title": "Automated Claims Intake", "description": "Collect claim details, photos, and documentation through guided WhatsApp conversations for faster processing and reduced manual effort."},
+          {"title": "Proactive Renewal Campaigns", "description": "Send personalized renewal reminders with coverage comparisons and special offers to maximize retention rates."},
+          {"title": "New Policy Onboarding", "description": "Guide new policyholders through coverage details, document requirements, and account setup via conversational WhatsApp flows."},
+          {"title": "Emergency Assistance Channel", "description": "Provide a direct WhatsApp line for roadside assistance, health emergencies, and urgent claims — with instant agent connection 24/7."}
         ]
       },
       "cta": {
-        "title": "Ready to modernize your customer communication?",
-        "description": "Join energy companies using DialogTab to deliver efficient, digital-first customer service.",
+        "title": "Ready to transform your insurance operations?",
+        "description": "Join insurance companies using DialogTab to deliver faster, more personal customer service.",
         "button": "Start Free Trial",
         "buttonSecondary": "Book a Demo"
       }
     },
-    "financial": {
-      "slug": "financial",
+    "wholesale": {
+      "slug": "wholesale",
       "meta": {
-        "title": "WhatsApp for Financial Services | DialogTab",
-        "description": "Deliver secure, compliant customer communication for financial services through WhatsApp Business API. Automate account notifications, support inquiries, and personalized financial guidance.",
-        "keywords": "WhatsApp financial services, WhatsApp Business banking, secure messaging finance, account notification WhatsApp, fintech chatbot, insurance WhatsApp"
+        "title": "WhatsApp for Wholesale & B2B Trade | DialogTab",
+        "description": "Streamline wholesale operations with WhatsApp Business API. Automate bulk order management, price list distribution, inventory inquiries, and dealer communication through conversational commerce.",
+        "keywords": "WhatsApp wholesale, WhatsApp Business B2B, bulk order management WhatsApp, wholesale chatbot, dealer communication WhatsApp, B2B sales WhatsApp"
       },
       "hero": {
-        "badge": "FINANCIAL SERVICES",
-        "title": "Secure financial communication via ",
-        "titleHighlight": "WhatsApp",
-        "description": "Meet your SLA and customer expectations with secure, compliant messaging. Automate account notifications, support inquiries, and personalized financial guidance through the channels your customers prefer.",
+        "badge": "WHOLESALE & B2B TRADE",
+        "title": "Scale wholesale operations with ",
+        "titleHighlight": "smart messaging",
+        "description": "Manage bulk orders, distribute price lists, and coordinate with dealers and distributors — all through WhatsApp. DialogTab simplifies B2B communication and accelerates your wholesale pipeline.",
         "cta": "Start Free Trial",
         "ctaSecondary": "Book a Demo"
       },
       "features": [
-        {"title": "Account Notifications", "description": "Send real-time transaction alerts, balance updates, and payment confirmations securely via WhatsApp. Keep customers informed and reduce fraud risk.", "icon": "notification"},
-        {"title": "Secure Document Exchange", "description": "Share statements, policy documents, and forms through encrypted WhatsApp messages. Simplify paperwork while maintaining security compliance.", "icon": "document"},
-        {"title": "Loan & Application Tracking", "description": "Keep applicants updated on their loan, credit card, or insurance application status with automated WhatsApp updates at each stage.", "icon": "tracking"},
-        {"title": "AI Financial Assistant", "description": "Let AI handle common queries — account balances, branch locations, interest rates, policy details — while agents focus on complex advisory services.", "icon": "ai"},
-        {"title": "Appointment Scheduling", "description": "Allow customers to book appointments with financial advisors, relationship managers, or branch visits directly through WhatsApp.", "icon": "calendar"},
-        {"title": "Compliance & Audit Trail", "description": "Maintain complete conversation logs for regulatory compliance. All interactions are recorded and searchable for audit purposes.", "icon": "shield"}
+        {"title": "Bulk Order Management", "description": "Receive, confirm, and track bulk orders directly through WhatsApp. Send automated order confirmations, invoices, and shipping updates to your dealers.", "icon": "package"},
+        {"title": "Price List Distribution", "description": "Share updated price lists, catalogs, and promotional offers with your dealer network instantly via WhatsApp. Track who viewed and downloaded.", "icon": "invoice"},
+        {"title": "Inventory & Stock Alerts", "description": "Notify dealers about stock availability, low inventory warnings, and new product arrivals in real-time through WhatsApp messages.", "icon": "cart"},
+        {"title": "Dealer Relationship Management", "description": "Organize dealer conversations by region, volume tier, or product category. Assign dedicated account managers for personalized B2B service.", "icon": "team"},
+        {"title": "Payment & Invoice Tracking", "description": "Send payment reminders, share invoices, and track payment status through WhatsApp. Reduce overdue payments with automated follow-ups.", "icon": "chart"},
+        {"title": "Multi-Warehouse Coordination", "description": "Coordinate across multiple warehouses and distribution centers from one inbox. Route orders to the nearest fulfillment location automatically.", "icon": "building"}
       ],
       "stats": [
-        {"value": "50%", "label": "Reduced Support Costs"},
-        {"value": "99.9%", "label": "Message Delivery Rate"},
-        {"value": "4x", "label": "Faster Claim Resolution"},
-        {"value": "98%", "label": "Customer Satisfaction"}
+        {"value": "50%", "label": "Faster Order Processing"},
+        {"value": "3x", "label": "Dealer Response Rate"},
+        {"value": "30%", "label": "Reduced Payment Delays"},
+        {"value": "98%", "label": "Message Open Rate"}
       ],
       "useCases": {
-        "title": "How financial institutions use DialogTab",
+        "title": "How wholesale businesses use DialogTab",
         "items": [
-          {"title": "Transaction Alerts & Fraud Prevention", "description": "Send instant transaction notifications and enable customers to quickly confirm or report suspicious activity via WhatsApp."},
-          {"title": "Insurance Claim Updates", "description": "Keep policyholders informed about claim status, document requirements, and settlement updates through automated WhatsApp messages."},
-          {"title": "Loan Application Journey", "description": "Guide applicants through the loan process via WhatsApp — from initial inquiry to document submission to approval notification."},
-          {"title": "Personalized Financial Guidance", "description": "Send targeted investment insights, savings opportunities, and product recommendations based on customer profiles and financial goals."}
+          {"title": "Automated Order Workflows", "description": "Let dealers place orders through WhatsApp with instant confirmation, invoice generation, and delivery tracking from a single conversation."},
+          {"title": "Seasonal Campaign Distribution", "description": "Send targeted promotions, seasonal catalogs, and volume discount offers to segmented dealer groups via WhatsApp broadcasts."},
+          {"title": "Stock Availability Inquiries", "description": "Enable dealers to check real-time stock levels, request quotes, and reserve inventory through conversational WhatsApp interactions."},
+          {"title": "Payment Collection Automation", "description": "Send automated payment reminders with invoice details and payment links. Track outstanding balances and reduce overdue accounts."}
         ]
       },
       "cta": {
-        "title": "Ready to transform your financial communication?",
-        "description": "Join financial institutions using DialogTab to deliver secure, efficient customer service.",
+        "title": "Ready to streamline your wholesale operations?",
+        "description": "Join wholesale businesses using DialogTab to manage B2B relationships through WhatsApp.",
+        "button": "Start Free Trial",
+        "buttonSecondary": "Book a Demo"
+      }
+    },
+    "cosmetics": {
+      "slug": "cosmetics",
+      "meta": {
+        "title": "WhatsApp for Cosmetics & Beauty | DialogTab",
+        "description": "Elevate beauty brand customer experience with WhatsApp Business API. Automate appointment booking, product consultations, order management, and personalized beauty recommendations.",
+        "keywords": "WhatsApp cosmetics, WhatsApp Business beauty, beauty salon WhatsApp, cosmetics chatbot, appointment booking WhatsApp, beauty product recommendations"
+      },
+      "hero": {
+        "badge": "COSMETICS & BEAUTY",
+        "title": "Grow your beauty brand with ",
+        "titleHighlight": "personalized messaging",
+        "description": "From product consultations to appointment booking, create personalized beauty experiences through WhatsApp. Send tailored recommendations, manage orders, and build lasting customer relationships.",
+        "cta": "Start Free Trial",
+        "ctaSecondary": "Book a Demo"
+      },
+      "features": [
+        {"title": "Appointment Booking", "description": "Let customers book salon, spa, or consultation appointments directly through WhatsApp. Send confirmations, reminders, and reduce no-shows by up to 40%.", "icon": "calendar"},
+        {"title": "Personalized Beauty Advice", "description": "Offer expert beauty consultations via WhatsApp. Share product recommendations based on skin type, preferences, and purchase history for a tailored experience.", "icon": "star"},
+        {"title": "Product Catalog & Orders", "description": "Share product images, ingredient details, and prices through WhatsApp. Enable direct purchases with checkout links and order tracking.", "icon": "cart"},
+        {"title": "Loyalty & Rewards Programs", "description": "Engage loyal customers with exclusive offers, birthday rewards, early access to new products, and points-based loyalty programs via WhatsApp.", "icon": "promotion"},
+        {"title": "Before & After Showcases", "description": "Share treatment results, tutorials, and beauty tips through WhatsApp media messages. Build trust and drive bookings with visual proof.", "icon": "notification"},
+        {"title": "AI Beauty Assistant", "description": "Let AI answer product questions, recommend routines, and handle common inquiries — freeing your beauty experts for personalized consultations.", "icon": "ai"}
+      ],
+      "stats": [
+        {"value": "40%", "label": "Fewer No-Shows"},
+        {"value": "2x", "label": "Repeat Purchase Rate"},
+        {"value": "35%", "label": "Revenue from Recommendations"},
+        {"value": "98%", "label": "Message Open Rate"}
+      ],
+      "useCases": {
+        "title": "How beauty brands use DialogTab",
+        "items": [
+          {"title": "Personalized Skincare Routines", "description": "Send tailored skincare routines and product recommendations based on customer consultations and skin analysis through WhatsApp."},
+          {"title": "New Product Launch Campaigns", "description": "Create buzz around new product launches with exclusive previews, early access offers, and personalized WhatsApp campaigns."},
+          {"title": "Salon Appointment Management", "description": "Manage appointment bookings, cancellations, and rescheduling through WhatsApp with automated reminders and waitlist management."},
+          {"title": "Post-Purchase Care Tips", "description": "Send product usage instructions, care tips, and reorder reminders after purchase to increase satisfaction and repeat sales."}
+        ]
+      },
+      "cta": {
+        "title": "Ready to elevate your beauty brand?",
+        "description": "Join cosmetics and beauty brands using DialogTab to create personalized customer experiences.",
+        "button": "Start Free Trial",
+        "buttonSecondary": "Book a Demo"
+      }
+    },
+    "health": {
+      "slug": "health",
+      "meta": {
+        "title": "WhatsApp for Healthcare | DialogTab",
+        "description": "Enhance patient communication with WhatsApp Business API. Automate appointment scheduling, health reminders, test results delivery, and patient support through secure conversational messaging.",
+        "keywords": "WhatsApp healthcare, WhatsApp Business API medical, patient communication WhatsApp, appointment scheduling WhatsApp, healthcare chatbot, medical reminders WhatsApp"
+      },
+      "hero": {
+        "badge": "HEALTHCARE",
+        "title": "Better patient care through ",
+        "titleHighlight": "smart communication",
+        "description": "From appointment scheduling to post-visit follow-ups, deliver exceptional patient communication at scale. Automate reminders, share test results, and provide 24/7 health guidance — all through WhatsApp.",
+        "cta": "Start Free Trial",
+        "ctaSecondary": "Book a Demo"
+      },
+      "features": [
+        {"title": "Appointment Scheduling", "description": "Let patients book, reschedule, and cancel appointments through WhatsApp. Send automated reminders to reduce no-shows by up to 50%.", "icon": "calendar"},
+        {"title": "Health Reminders & Alerts", "description": "Send medication reminders, vaccination schedules, and health check-up alerts via WhatsApp. Keep patients engaged in their healthcare journey.", "icon": "notification"},
+        {"title": "Secure Results Delivery", "description": "Share test results, reports, and medical documents securely through WhatsApp with encrypted messaging. Reduce phone calls and in-person visits.", "icon": "shield"},
+        {"title": "Patient Intake & Forms", "description": "Collect patient information, medical history, and consent forms through conversational WhatsApp flows before appointments for faster check-ins.", "icon": "document"},
+        {"title": "AI Health Assistant", "description": "Let AI handle common queries — appointment availability, preparation instructions, facility info — while staff focuses on patient care.", "icon": "ai"},
+        {"title": "Multi-Department Routing", "description": "Route patient messages to the right department automatically — general practice, specialist, pharmacy, or billing — from one WhatsApp number.", "icon": "team"}
+      ],
+      "stats": [
+        {"value": "50%", "label": "Fewer No-Shows"},
+        {"value": "70%", "label": "Reduced Phone Calls"},
+        {"value": "24/7", "label": "Patient Support"},
+        {"value": "98%", "label": "Message Open Rate"}
+      ],
+      "useCases": {
+        "title": "How healthcare providers use DialogTab",
+        "items": [
+          {"title": "Automated Appointment Reminders", "description": "Send appointment reminders with preparation instructions, location details, and one-click confirmation or rescheduling options."},
+          {"title": "Post-Visit Follow-Up", "description": "Automatically check in with patients after visits, share care instructions, and schedule follow-up appointments through WhatsApp."},
+          {"title": "Vaccination & Screening Campaigns", "description": "Run targeted health campaigns for vaccinations, annual screenings, and preventive care with personalized WhatsApp outreach."},
+          {"title": "Emergency Triage Support", "description": "Provide initial health guidance through AI-powered WhatsApp triage, directing patients to the appropriate level of care quickly."}
+        ]
+      },
+      "cta": {
+        "title": "Ready to improve patient communication?",
+        "description": "Join healthcare providers using DialogTab to deliver better patient experiences through WhatsApp.",
+        "button": "Start Free Trial",
+        "buttonSecondary": "Book a Demo"
+      }
+    },
+    "education": {
+      "slug": "education",
+      "meta": {
+        "title": "WhatsApp for Education | DialogTab",
+        "description": "Transform educational communication with WhatsApp Business API. Automate enrollment, send course updates, manage student inquiries, and engage parents through conversational messaging.",
+        "keywords": "WhatsApp education, WhatsApp Business API school, student communication WhatsApp, enrollment WhatsApp, education chatbot, parent communication WhatsApp"
+      },
+      "hero": {
+        "badge": "EDUCATION",
+        "title": "Engage students and parents with ",
+        "titleHighlight": "smart messaging",
+        "description": "From enrollment inquiries to course updates, manage all educational communication through WhatsApp. Automate admissions, share announcements, and keep students and parents informed at every step.",
+        "cta": "Start Free Trial",
+        "ctaSecondary": "Book a Demo"
+      },
+      "features": [
+        {"title": "Enrollment & Admissions", "description": "Manage enrollment inquiries, application tracking, and admissions communication through WhatsApp. Guide prospective students through the process conversationally.", "icon": "document"},
+        {"title": "Course Updates & Announcements", "description": "Send class schedules, assignment reminders, exam dates, and important announcements to students and parents instantly via WhatsApp.", "icon": "notification"},
+        {"title": "Student Support Hub", "description": "Provide 24/7 student support for academic questions, administrative inquiries, and campus information through AI-powered WhatsApp conversations.", "icon": "ai"},
+        {"title": "Parent Communication", "description": "Keep parents informed with attendance updates, progress reports, and event notifications through organized WhatsApp communication channels.", "icon": "team"},
+        {"title": "Event & Activity Management", "description": "Promote workshops, webinars, and campus events through WhatsApp. Manage RSVPs, send reminders, and share event details effortlessly.", "icon": "calendar"},
+        {"title": "Feedback & Surveys", "description": "Collect course feedback, satisfaction surveys, and improvement suggestions through conversational WhatsApp surveys for higher response rates.", "icon": "star"}
+      ],
+      "stats": [
+        {"value": "60%", "label": "Higher Engagement"},
+        {"value": "3x", "label": "Faster Response Time"},
+        {"value": "40%", "label": "More Enrollment Inquiries"},
+        {"value": "98%", "label": "Message Open Rate"}
+      ],
+      "useCases": {
+        "title": "How educational institutions use DialogTab",
+        "items": [
+          {"title": "Automated Enrollment Funnel", "description": "Guide prospective students from initial inquiry to enrollment with automated WhatsApp workflows including document collection and status updates."},
+          {"title": "Academic Calendar Updates", "description": "Send semester schedules, exam timetables, and holiday notifications to students and parents through targeted WhatsApp broadcasts."},
+          {"title": "Online Course Support", "description": "Provide instant support for online learners with AI-powered responses to technical issues, course content questions, and platform navigation."},
+          {"title": "Alumni Engagement", "description": "Maintain connections with graduates through WhatsApp for career opportunities, networking events, and continued learning programs."}
+        ]
+      },
+      "cta": {
+        "title": "Ready to transform educational communication?",
+        "description": "Join educational institutions using DialogTab to engage students and parents through WhatsApp.",
         "button": "Start Free Trial",
         "buttonSecondary": "Book a Demo"
       }
