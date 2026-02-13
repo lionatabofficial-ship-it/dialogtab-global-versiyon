@@ -295,6 +295,278 @@
     "terms": "Koşullar",
     "refunds": "İadeler"
   },
+  "sectorPages": {
+    "e-commerce": {
+      "slug": "e-commerce",
+      "meta": {
+        "title": "E-Ticaret & Perakende için WhatsApp | DialogTab",
+        "description": "WhatsApp Business API ile e-ticaret satışlarınızı artırın. Terk edilen sepet kurtarma, sipariş yönetimi, ürün önerileri ve müşteri desteğini tek bir çok kanallı gelen kutusundan otomatikleştirin.",
+        "keywords": "WhatsApp e-ticaret, WhatsApp Business API perakende, terk edilen sepet kurtarma WhatsApp, WhatsApp sipariş yönetimi, Shopify WhatsApp, WooCommerce WhatsApp, e-ticaret chatbot"
+      },
+      "hero": {
+        "badge": "E-TİCARET & PERAKENDE",
+        "title": "WhatsApp'ı 1 numaralı ",
+        "titleHighlight": "e-ticaret satış kanalınıza dönüştürün",
+        "description": "Terk edilen sepetleri kurtarın, siparişleri yönetin ve kişiselleştirilmiş ürün önerileri gönderin — hepsi WhatsApp üzerinden. DialogTab, Shopify, WooCommerce ve IKAS ile entegre çalışarak kesintisiz bir alışveriş deneyimi sunar.",
+        "cta": "Ücretsiz Deneyin",
+        "ctaSecondary": "Demo Talep Edin"
+      },
+      "features": [
+        {"title": "Terk Edilen Sepet Kurtarma", "description": "Sepetlerinde ürün bırakan müşterilere otomatik WhatsApp hatırlatmaları gönderin. Kişiselleştirilmiş mesajlar ve doğrudan ödeme linkleri ile kaybedilen gelirin %35'ini geri kazanın.", "icon": "cart"},
+        {"title": "WhatsApp'ta Sipariş Yönetimi", "description": "WhatsApp görüşmelerinde doğrudan sipariş oluşturun, takip edin ve güncelleyin. Otomatik sipariş onayı, kargo güncellemeleri ve teslimat bildirimleri gönderin.", "icon": "package"},
+        {"title": "Ürün Kataloğu & Arama", "description": "Ürün kartları paylaşın, envanteri gerçek zamanlı arayın ve müşterilerin gönderdiği görsellerden ürün tanımlayın. Tüm kataloğunuz sohbet üzerinden erişilebilir.", "icon": "search"},
+        {"title": "Çoklu Temsilci Satış Ekibi", "description": "Birden fazla satış temsilcisi tek bir WhatsApp numarasından aynı anda görüşme yapabilir. Müsaitlik, uzmanlık veya ürün kategorisine göre otomatik lead atama.", "icon": "team"},
+        {"title": "Shopify & WooCommerce Entegrasyonu", "description": "Ürün kataloğunuzu, envanterinizi ve siparişlerinizi gerçek zamanlı senkronize edin. Platformlar arası geçiş yapmadan tek panelden yönetin.", "icon": "integration"},
+        {"title": "AI Destekli Müşteri Desteği", "description": "Yapay zeka tekrarlayan soruların %80'ini yanıtlasın — sipariş durumu, iade politikaları, ürün bilgisi. Ekibiniz değerli görüşmelere odaklansın.", "icon": "ai"}
+      ],
+      "stats": [
+        {"value": "+%35", "label": "Sepet Kurtarma Oranı"},
+        {"value": "3x", "label": "Daha Hızlı Yanıt Süresi"},
+        {"value": "%98", "label": "WhatsApp Açılma Oranı"},
+        {"value": "+%19", "label": "Dönüşüm Artışı"}
+      ],
+      "useCases": {
+        "title": "E-ticaret markaları DialogTab'ı nasıl kullanıyor",
+        "items": [
+          {"title": "Sepet Kurtarma Otomasyonu", "description": "Ürün görselleri ve tek tıkla ödeme linkleri içeren zamanında WhatsApp hatırlatmaları göndererek terk edilen sepetleri kurtarın."},
+          {"title": "Satış Sonrası Güncellemeler", "description": "Sipariş onayı, kargo durumu ve teslimat güncellemeleri hakkında müşterileri WhatsApp üzerinden otomatik bilgilendirin."},
+          {"title": "Ürün Önerileri", "description": "Satın alma geçmişini analiz edip tekrar satış sağlayan kişiselleştirilmiş ürün önerileri göndermek için yapay zekayı kullanın."},
+          {"title": "VIP Müşteri Etkileşimi", "description": "Sadık müşteriler için erken satış erişimi, özel teklifler ve kişiselleştirilmiş iletişim ile segmentli kampanyalar oluşturun."}
+        ]
+      },
+      "cta": {
+        "title": "E-ticaret satışlarınızı artırmaya hazır mısınız?",
+        "description": "WhatsApp üzerinden daha fazla satış yapmak için DialogTab kullanan yüzlerce online mağazaya katılın.",
+        "button": "Ücretsiz Deneyin",
+        "buttonSecondary": "Demo Talep Edin"
+      }
+    },
+    "travel": {
+      "slug": "travel",
+      "meta": {
+        "title": "Seyahat & Turizm için WhatsApp | DialogTab",
+        "description": "WhatsApp Business API ile seyahat rezervasyonlarını yönetin, güzergah güncellemeleri gönderin ve 7/24 yolcu desteği sağlayın. Rezervasyonları ve çok dilli iletişimi otomatikleştirin.",
+        "keywords": "WhatsApp seyahat acentesi, WhatsApp Business turizm, seyahat rezervasyonu WhatsApp, güzergah güncellemesi WhatsApp, otel rezervasyonu WhatsApp, tur operatörü chatbot"
+      },
+      "hero": {
+        "badge": "SEYAHAT & TURİZM",
+        "title": "WhatsApp ile ",
+        "titleHighlight": "zahmetsiz seyahat rezervasyonları",
+        "description": "Rezervasyonları yönetin, gerçek zamanlı güzergah güncellemeleri gönderin ve 7/24 çok dilli yolcu desteği sağlayın — seyahat ekibinizin sevdiği tek bir çok kanallı gelen kutusundan.",
+        "cta": "Ücretsiz Deneyin",
+        "ctaSecondary": "Demo Talep Edin"
+      },
+      "features": [
+        {"title": "Rezervasyon Yönetimi", "description": "Rezervasyon taleplerini, onayları ve değişiklikleri doğrudan WhatsApp üzerinden yönetin. Otomatik hatırlatma mesajlarıyla gelmeme oranını azaltın.", "icon": "calendar"},
+        {"title": "Gerçek Zamanlı Güzergah Güncellemeleri", "description": "Uçuş değişikliklerini, otel check-in detaylarını ve tur programı güncellemelerini WhatsApp üzerinden anında gönderin. Yolcuları her adımda bilgilendirin.", "icon": "map"},
+        {"title": "7/24 Çok Dilli Destek", "description": "Yapay zeka destekli chatbot, yaygın seyahat sorularını birden fazla dilde 7/24 yanıtlar — vize gereklilikleri ve yerel önerilerden her şey.", "icon": "globe"},
+        {"title": "Grup Seyahati Koordinasyonu", "description": "Grup rezervasyonlarını yönetin, güzergahları paylaşın ve organize WhatsApp görüşmeleriyle ekip atamalı lojistik koordinasyonu yapın.", "icon": "team"},
+        {"title": "Otomatik Check-in Hatırlatmaları", "description": "Zamanında check-in hatırlatmaları, biniş kartı linkleri ve varış öncesi bilgiler göndererek seyahat deneyimindeki sürtünmeyi azaltın.", "icon": "notification"},
+        {"title": "Gezi Sonrası Geri Bildirim Toplama", "description": "Geziler sonrasında otomatik olarak yorum ve geri bildirim isteyin. Daha yüksek yanıt oranları için WhatsApp üzerinden sohbet anketleri kullanın.", "icon": "star"}
+      ],
+      "stats": [
+        {"value": "%80", "label": "Daha Hızlı Rezervasyon Yanıtı"},
+        {"value": "7/24", "label": "Yolcu Desteği"},
+        {"value": "%45", "label": "Azalan Gelmeme Oranı"},
+        {"value": "%98", "label": "Mesaj Açılma Oranı"}
+      ],
+      "useCases": {
+        "title": "Seyahat şirketleri DialogTab'ı nasıl kullanıyor",
+        "items": [
+          {"title": "Anında Rezervasyon Onayları", "description": "Tüm detayları içeren rezervasyon onaylarını otomatik olarak gönderin — tarihler, lokasyonlar, fiyatlar — doğrudan yolcunun WhatsApp'ına."},
+          {"title": "Uçuş & Program Uyarıları", "description": "Yolcuları uçuş değişiklikleri, gecikmeler veya kapı güncellemeleri hakkında WhatsApp üzerinden anında bilgilendirin."},
+          {"title": "Kişiselleştirilmiş Seyahat Önerileri", "description": "Yolcu tercihleri ve destinasyon verilerine göre turlar, restoranlar ve aktiviteler önermek için yapay zekayı kullanın."},
+          {"title": "Acil Durum Destek Kanalı", "description": "Seyahat acil durumları için doğrudan WhatsApp hattı sağlayın — iptaller, yeniden rezervasyonlar ve acil yardım 7/24 mevcuttur."}
+        ]
+      },
+      "cta": {
+        "title": "Seyahat operasyonlarınızı dönüştürmeye hazır mısınız?",
+        "description": "Kusursuz yolcu deneyimleri sunmak için DialogTab kullanan seyahat acentelerine ve tur operatörlerine katılın.",
+        "button": "Ücretsiz Deneyin",
+        "buttonSecondary": "Demo Talep Edin"
+      }
+    },
+    "hospitality": {
+      "slug": "hospitality",
+      "meta": {
+        "title": "Konaklama & Restoranlar için WhatsApp | DialogTab",
+        "description": "WhatsApp Business API ile beş yıldızlı misafir iletişimi sunun. Oteller ve restoranlar için rezervasyonları, oda servisi taleplerini ve gerçek zamanlı concierge desteğini otomatikleştirin.",
+        "keywords": "WhatsApp otel iletişimi, WhatsApp Business konaklama, restoran rezervasyonu WhatsApp, concierge WhatsApp, misafir mesajlaşma platformu, otel chatbot"
+      },
+      "hero": {
+        "badge": "KONAKLAMA & RESTORANLAR",
+        "title": "Akıllı mesajlaşma ile ",
+        "titleHighlight": "beş yıldızlı misafir deneyimi",
+        "description": "Rezervasyondan çıkışa kadar ölçeklenebilir üstün misafir iletişimi sunun. Rezervasyon onayları, oda servisi ve concierge desteğini — misafirlerinizin zaten kullandığı mesajlaşma kanallarından otomatikleştirin.",
+        "cta": "Ücretsiz Deneyin",
+        "ctaSecondary": "Demo Talep Edin"
+      },
+      "features": [
+        {"title": "Rezervasyon Yönetimi", "description": "WhatsApp üzerinden restoran ve otel rezervasyonlarını kabul edin, onaylayın ve değiştirin. Gelmeme oranını %45'e kadar azaltmak için otomatik hatırlatmalar gönderin.", "icon": "calendar"},
+        {"title": "Dijital Concierge Hizmeti", "description": "Misafir sorularına anında yanıt verin — Wi-Fi şifresi, spa saatleri, yerel öneriler — 7/24 yapay zeka destekli WhatsApp concierge ile.", "icon": "bell"},
+        {"title": "Oda Servisi & Siparişler", "description": "Misafirlerin WhatsApp üzerinden oda servisi sipariş etmesini, ek hizmet talep etmesini veya sorun bildirmesini sağlayın. Doğru departmana otomatik yönlendirme ile operasyonları kolaylaştırın.", "icon": "service"},
+        {"title": "Misafir Geri Bildirimi & Yorumlar", "description": "Konaklama sırasında ve sonrasında WhatsApp sohbet anketleriyle otomatik geri bildirim toplayın. Olumsuz yorumlara dönüşmeden sorunları gerçek zamanlı çözün.", "icon": "star"},
+        {"title": "Çoklu Tesis Yönetimi", "description": "Birden fazla lokasyondaki misafir iletişimini tek bir gelen kutusundan yönetin. Yerel özelleştirmeye izin verirken hizmet kalitesini standartlaştırın.", "icon": "building"},
+        {"title": "Üst Satış & Promosyonlar", "description": "Misafir tercihlerine ve rezervasyon geçmişine göre oda yükseltme, spa paketleri ve yemek fırsatları için kişiselleştirilmiş teklifler gönderin.", "icon": "promotion"}
+      ],
+      "stats": [
+        {"value": "%45", "label": "Daha Az Gelmeme"},
+        {"value": "4.8/5", "label": "Misafir Memnuniyeti"},
+        {"value": "%60", "label": "Daha Hızlı Servis Yanıtı"},
+        {"value": "%98", "label": "Mesaj Açılma Oranı"}
+      ],
+      "useCases": {
+        "title": "Konaklama markaları DialogTab'ı nasıl kullanıyor",
+        "items": [
+          {"title": "Varış Öncesi İletişim", "description": "Check-in detayları, park bilgisi ve özel talep onayı içeren karşılama mesajlarını misafirler gelmeden gönderin."},
+          {"title": "Konaklama Sırasında Servis Talepleri", "description": "Misafirlerin WhatsApp üzerinden ekstra havlu, oda servisi veya bakım talep etmesini sağlayın — doğru personele otomatik yönlendirme."},
+          {"title": "Restoran Masa Yönetimi", "description": "Kusursuz bir yemek deneyimi için WhatsApp üzerinden rezervasyon talepleri, bekleme listesi güncellemeleri ve menü sorguları yönetin."},
+          {"title": "Konaklama Sonrası Sadakat Programları", "description": "Çıkış sonrasında kişiselleştirilmiş teklifler, sadakat ödülleri ve özel dönüş ziyareti promosyonlarıyla misafirlerle WhatsApp üzerinden etkileşimi sürdürün."}
+        ]
+      },
+      "cta": {
+        "title": "Misafir deneyiminizi zirveye taşımaya hazır mısınız?",
+        "description": "Üstün misafir iletişimi sunmak için DialogTab kullanan otel ve restoranlara katılın.",
+        "button": "Ücretsiz Deneyin",
+        "buttonSecondary": "Demo Talep Edin"
+      }
+    },
+    "automotive": {
+      "slug": "automotive",
+      "meta": {
+        "title": "Otomotiv için WhatsApp | DialogTab",
+        "description": "WhatsApp Business API ile otomotiv satışlarını ve servisini hızlandırın. Test sürüşü rezervasyonları, servis hatırlatmaları, lead takibi ve araç sorgularını konuşarak ticaret ile otomatikleştirin.",
+        "keywords": "WhatsApp otomotiv, WhatsApp Business oto galeri, test sürüşü rezervasyonu WhatsApp, otomotiv chatbot, araba satış WhatsApp, servis hatırlatma WhatsApp, araç sorgulama"
+      },
+      "hero": {
+        "badge": "OTOMOTİV",
+        "title": "Konuşarak ticaret ile ",
+        "titleHighlight": "otomotiv satışlarını hızlandırın",
+        "description": "Test sürüşü rezervasyonlarından servis randevularına, her müşteri etkileşimini WhatsApp üzerinden yönetin. Lead takiplerini otomatikleştirin, araç özelliklerini paylaşın ve konuşarak ticaret ile anlaşmaları daha hızlı kapatın.",
+        "cta": "Ücretsiz Deneyin",
+        "ctaSecondary": "Demo Talep Edin"
+      },
+      "features": [
+        {"title": "Test Sürüşü Planlama", "description": "Müşterilerin WhatsApp üzerinden doğrudan test sürüşü rezervasyonu yapmasını sağlayın. Katılım oranını maksimize etmek için otomatik onay, hatırlatma ve takip mesajları gönderin.", "icon": "car"},
+        {"title": "Araç Sorgu Yönetimi", "description": "WhatsApp üzerinden araç özelliklerini, fotoğraflarını, fiyatlarını ve müsaitliğini anında paylaşın. Yapay zeka yaygın soruları yanıtlarken temsilciler ciddi alıcılarla ilgilensin.", "icon": "search"},
+        {"title": "Servis Randevu Kaydı", "description": "Servis planlamasını otomatikleştirin, bakım hatırlatmaları gönderin ve WhatsApp üzerinden tamir durumu hakkında gerçek zamanlı güncellemeler sağlayın.", "icon": "wrench"},
+        {"title": "Lead Takip Otomasyonu", "description": "Hiçbir lead kaçırmayın. İlgi gösteren potansiyel müşterileri otomatik takip edin, tercihlerine göre kişiselleştirilmiş araç önerileri gönderin.", "icon": "followup"},
+        {"title": "Çoklu Bayi Yönetimi", "description": "Birden fazla bayideki müşteri görüşmelerini tek gelen kutusundan yönetin. Sorguları en yakın lokasyona veya en uygun satış temsilcisine yönlendirin.", "icon": "building"},
+        {"title": "Satış Sonrası İletişim", "description": "Servis hatırlatmaları, geri çağırma bildirimleri, garanti güncellemeleri ve takas fırsatlarıyla müşterilerle WhatsApp üzerinden etkileşimi sürdürün.", "icon": "notification"}
+      ],
+      "stats": [
+        {"value": "%40", "label": "Daha Fazla Test Sürüşü"},
+        {"value": "3x", "label": "Daha Hızlı Lead Yanıtı"},
+        {"value": "%25", "label": "Servis Gelir Artışı"},
+        {"value": "%98", "label": "Mesaj Açılma Oranı"}
+      ],
+      "useCases": {
+        "title": "Otomotiv işletmeleri DialogTab'ı nasıl kullanıyor",
+        "items": [
+          {"title": "Yeni Araç Lansman Kampanyaları", "description": "Yeni model lansmanları için ilgili müşterilere özellikler, fiyatlar ve anında test sürüşü rezervasyonu içeren hedefli WhatsApp kampanyaları gönderin."},
+          {"title": "Servis Hatırlatma Otomasyonu", "description": "Araçlarının servis, yağ değişimi veya lastik rotasyonu zamanı geldiğinde müşterileri otomatik bilgilendirin — tek tıkla randevu alma ile."},
+          {"title": "Takas & Yükseltme Teklifleri", "description": "Mevcut müşterilere araç yaşı ve servis geçmişine göre kişiselleştirilmiş takas değerlemeleri ve yükseltme teklifleri sunun."},
+          {"title": "Gerçek Zamanlı Tamir Güncellemeleri", "description": "Servis sürecinin her aşamasında otomatik WhatsApp güncellemeleriyle müşterileri araçlarının tamir durumu hakkında bilgilendirin."}
+        ]
+      },
+      "cta": {
+        "title": "Otomotiv işletmenizi hızlandırmaya hazır mısınız?",
+        "description": "WhatsApp üzerinden daha fazla satış yapmak için DialogTab kullanan bayilere ve servis merkezlerine katılın.",
+        "button": "Ücretsiz Deneyin",
+        "buttonSecondary": "Demo Talep Edin"
+      }
+    },
+    "energy": {
+      "slug": "energy",
+      "meta": {
+        "title": "Enerji & Altyapı için WhatsApp | DialogTab",
+        "description": "WhatsApp Business API ile enerji ve altyapı müşteri iletişimini kolaylaştırın. Fatura desteği, kesinti bildirimleri, sayaç okumaları ve servis taleplerini otomatikleştirin.",
+        "keywords": "WhatsApp enerji altyapı, WhatsApp Business enerji, fatura desteği WhatsApp, kesinti bildirimi WhatsApp, enerji müşteri hizmeti, enerji chatbot"
+      },
+      "hero": {
+        "badge": "ENERJİ & ALTYAPI",
+        "title": "Akıllı mesajlaşma ile ",
+        "titleHighlight": "enerji operasyonlarını kolaylaştırın",
+        "description": "Fatura sorgularını, kesinti bildirimlerini ve servis taleplerini WhatsApp üzerinden otomatikleştirin. Daha hızlı ve daha rahat müşteri hizmeti sunarken çağrı merkezi yükünü azaltın.",
+        "cta": "Ücretsiz Deneyin",
+        "ctaSecondary": "Demo Talep Edin"
+      },
+      "features": [
+        {"title": "Fatura & Ödeme Desteği", "description": "WhatsApp üzerinden fatura bildirimleri, ödeme hatırlatmaları ve dijital faturalar gönderin. Müşterilerin sohbet üzerinden bakiye sorgulaması ve ödeme yapmasını sağlayın.", "icon": "invoice"},
+        {"title": "Kesinti Bildirimleri", "description": "Planlı ve plansız kesintilerde etkilenen müşterileri proaktif olarak bilgilendirin. Gelen aramaları azaltmak için gerçek zamanlı onarım güncellemeleri sağlayın.", "icon": "alert"},
+        {"title": "Sayaç Okuma Gönderimi", "description": "Müşterilerin WhatsApp üzerinden fotoğraf doğrulamalı sayaç okuması göndermesine izin verin. Süreci basitleştirin ve doğruluğu artırın.", "icon": "meter"},
+        {"title": "Servis Talep Yönetimi", "description": "Yeni bağlantı, kesme, plan değişikliği ve bakım taleplerini otomatik yönlendirme ve takiple WhatsApp üzerinden yönetin.", "icon": "service"},
+        {"title": "Enerji Kullanım Bilgileri", "description": "WhatsApp üzerinden kişiselleştirilmiş enerji tüketim raporları ve tasarruf ipuçları gönderin. Müşterilerin kullanımlarını yönetmelerine ve maliyetlerini düşürmelerine yardımcı olun.", "icon": "chart"},
+        {"title": "AI Destekli Self-Servis", "description": "Yapay zekanın yaygın sorguları yanıtlamasına izin verin — tarife bilgisi, bağlantı durumu, fatura açıklamaları — çağrı merkezi iş yükünü %60'a kadar azaltın.", "icon": "ai"}
+      ],
+      "stats": [
+        {"value": "%60", "label": "Daha Az Destek Araması"},
+        {"value": "%80", "label": "AI ile Çözülen Sorgular"},
+        {"value": "3x", "label": "Daha Hızlı Sorun Çözümü"},
+        {"value": "%98", "label": "Mesaj Açılma Oranı"}
+      ],
+      "useCases": {
+        "title": "Enerji şirketleri DialogTab'ı nasıl kullanıyor",
+        "items": [
+          {"title": "Otomatik Fatura Hatırlatmaları", "description": "Geç ödemeleri azaltmak için ödeme tarihi hatırlatmaları, fatura tutarları ve tek tıkla ödeme linkleri gönderin."},
+          {"title": "Proaktif Kesinti İletişimi", "description": "Etkilenen bölgelerdeki müşterileri kesintiler hakkında tahmini onarım süreleri ve ilerleme güncellemeleriyle anında bilgilendirin."},
+          {"title": "Yeni Bağlantı Onboarding", "description": "Yeni müşterileri WhatsApp üzerinden bağlantı sürecinde adım adım talimatlar ve belge toplama ile yönlendirin."},
+          {"title": "Enerji Tasarrufu Programları", "description": "Kişiselleştirilmiş enerji tasarrufu ipuçları, güneş paneli teklifleri ve akıllı sayaç bilgileri ile WhatsApp kampanyaları aracılığıyla müşterilerle etkileşime geçin."}
+        ]
+      },
+      "cta": {
+        "title": "Müşteri iletişiminizi modernleştirmeye hazır mısınız?",
+        "description": "Verimli, dijital öncelikli müşteri hizmeti sunmak için DialogTab kullanan enerji şirketlerine katılın.",
+        "button": "Ücretsiz Deneyin",
+        "buttonSecondary": "Demo Talep Edin"
+      }
+    },
+    "financial": {
+      "slug": "financial",
+      "meta": {
+        "title": "Finansal Hizmetler için WhatsApp | DialogTab",
+        "description": "WhatsApp Business API ile finansal hizmetler için güvenli, uyumlu müşteri iletişimi sunun. Hesap bildirimleri, destek sorguları ve kişiselleştirilmiş finansal rehberliği otomatikleştirin.",
+        "keywords": "WhatsApp finansal hizmetler, WhatsApp Business bankacılık, güvenli mesajlaşma finans, hesap bildirimi WhatsApp, fintech chatbot, sigorta WhatsApp"
+      },
+      "hero": {
+        "badge": "FİNANSAL HİZMETLER",
+        "title": "WhatsApp ile ",
+        "titleHighlight": "güvenli finansal iletişim",
+        "description": "Güvenli, uyumlu mesajlaşma ile SLA'nızı ve müşteri beklentilerinizi karşılayın. Hesap bildirimleri, destek sorguları ve kişiselleştirilmiş finansal rehberliği müşterilerinizin tercih ettiği kanallardan otomatikleştirin.",
+        "cta": "Ücretsiz Deneyin",
+        "ctaSecondary": "Demo Talep Edin"
+      },
+      "features": [
+        {"title": "Hesap Bildirimleri", "description": "WhatsApp üzerinden güvenli bir şekilde gerçek zamanlı işlem uyarıları, bakiye güncellemeleri ve ödeme onayları gönderin. Müşterileri bilgilendirin ve dolandırıcılık riskini azaltın.", "icon": "notification"},
+        {"title": "Güvenli Belge Paylaşımı", "description": "Ekstre, poliçe belgeleri ve formları şifreli WhatsApp mesajları üzerinden paylaşın. Güvenlik uyumluluğunu koruyarak evrak işlerini basitleştirin.", "icon": "document"},
+        {"title": "Kredi & Başvuru Takibi", "description": "Başvuru sahiplerini kredi, kredi kartı veya sigorta başvuru durumları hakkında her aşamada otomatik WhatsApp güncellemeleriyle bilgilendirin.", "icon": "tracking"},
+        {"title": "AI Finansal Asistan", "description": "Yapay zekanın yaygın sorguları yanıtlamasına izin verin — hesap bakiyesi, şube konumları, faiz oranları, poliçe detayları — temsilciler karmaşık danışmanlık hizmetlerine odaklansın.", "icon": "ai"},
+        {"title": "Randevu Planlama", "description": "Müşterilerin WhatsApp üzerinden doğrudan finansal danışmanlar, ilişki yöneticileri veya şube ziyaretleri için randevu almasına izin verin.", "icon": "calendar"},
+        {"title": "Uyumluluk & Denetim İzi", "description": "Düzenleyici uyumluluk için eksiksiz görüşme kayıtları tutun. Tüm etkileşimler denetim amaçlı kaydedilir ve aranabilir.", "icon": "shield"}
+      ],
+      "stats": [
+        {"value": "%50", "label": "Azalan Destek Maliyetleri"},
+        {"value": "%99.9", "label": "Mesaj İletim Oranı"},
+        {"value": "4x", "label": "Daha Hızlı Talep Çözümü"},
+        {"value": "%98", "label": "Müşteri Memnuniyeti"}
+      ],
+      "useCases": {
+        "title": "Finansal kurumlar DialogTab'ı nasıl kullanıyor",
+        "items": [
+          {"title": "İşlem Uyarıları & Dolandırıcılık Önleme", "description": "Anında işlem bildirimleri gönderin ve müşterilerin şüpheli aktiviteyi WhatsApp üzerinden hızlıca onaylamasını veya bildirmesini sağlayın."},
+          {"title": "Sigorta Talep Güncellemeleri", "description": "Poliçe sahiplerini talep durumu, belge gereksinimleri ve uzlaşma güncellemeleri hakkında otomatik WhatsApp mesajlarıyla bilgilendirin."},
+          {"title": "Kredi Başvuru Süreci", "description": "Başvuru sahiplerini kredi sürecinde WhatsApp üzerinden yönlendirin — ilk sorgulama, belge gönderimi ve onay bildirimi."},
+          {"title": "Kişiselleştirilmiş Finansal Rehberlik", "description": "Müşteri profilleri ve finansal hedeflere göre hedefli yatırım bilgileri, tasarruf fırsatları ve ürün önerileri gönderin."}
+        ]
+      },
+      "cta": {
+        "title": "Finansal iletişiminizi dönüştürmeye hazır mısınız?",
+        "description": "Güvenli, verimli müşteri hizmeti sunmak için DialogTab kullanan finansal kurumlara katılın.",
+        "button": "Ücretsiz Deneyin",
+        "buttonSecondary": "Demo Talep Edin"
+      }
+    }
+  },
   "chatWidget": {
     "tooltipText": "Ücretsiz denemenizi hemen başlatın! Saniyeler içinde hesabınızı oluşturun.",
     "headerTitle": "DialogTab",

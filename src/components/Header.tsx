@@ -90,10 +90,13 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 		<svg key="financial" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" x2="12" y1="2" y2="22" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg>,
 	];
 
+	const sectorSlugs = ["e-commerce", "travel", "hospitality", "automotive", "energy", "financial"];
+
 	const sectorsItems = dict.sectorsItems.map((item, i) => ({
 		icon: sectorsIcons[i],
 		title: item.title,
 		desc: item.desc,
+		href: `/${locale}/sectors/${sectorSlugs[i]}`,
 	}));
 
 	return (
@@ -173,7 +176,7 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 									{sectorsItems.map((item) => (
 										<a
 											key={item.title}
-											href={`/${locale}#industries`}
+											href={item.href}
 											className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group"
 											onClick={() => setSectorsOpen(false)}
 										>

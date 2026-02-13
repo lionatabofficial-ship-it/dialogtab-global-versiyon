@@ -295,6 +295,278 @@
     "terms": "Términos",
     "refunds": "Reembolsos"
   },
+  "sectorPages": {
+    "e-commerce": {
+      "slug": "e-commerce",
+      "meta": {
+        "title": "WhatsApp para E-Commerce y Retail | DialogTab",
+        "description": "Impulsa tus ventas e-commerce con WhatsApp Business API. Automatiza la recuperación de carritos, gestión de pedidos, recomendaciones de productos y atención al cliente desde una bandeja omnicanal.",
+        "keywords": "WhatsApp e-commerce, WhatsApp Business API retail, recuperación carritos abandonados WhatsApp, gestión pedidos WhatsApp, Shopify WhatsApp, WooCommerce WhatsApp, chatbot e-commerce"
+      },
+      "hero": {
+        "badge": "E-COMMERCE & RETAIL",
+        "title": "Convierte WhatsApp en tu canal #1 de ",
+        "titleHighlight": "ventas e-commerce",
+        "description": "Recupera carritos abandonados, gestiona pedidos y envía recomendaciones personalizadas — todo por WhatsApp. DialogTab se integra con Shopify, WooCommerce e IKAS para crear una experiencia de compra perfecta.",
+        "cta": "Prueba Gratis",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "features": [
+        {"title": "Recuperación de Carritos", "description": "Envía recordatorios automáticos por WhatsApp a clientes que dejaron productos en su carrito. Recupera hasta el 35% de ingresos perdidos con mensajes personalizados y enlaces de pago directo.", "icon": "cart"},
+        {"title": "Gestión de Pedidos por WhatsApp", "description": "Crea, rastrea y actualiza pedidos directamente en conversaciones de WhatsApp. Envía confirmaciones automáticas, actualizaciones de envío y notificaciones de entrega.", "icon": "package"},
+        {"title": "Catálogo y Búsqueda de Productos", "description": "Comparte tarjetas de producto, busca inventario en tiempo real e identifica productos desde imágenes enviadas por clientes. Todo tu catálogo accesible por chat.", "icon": "search"},
+        {"title": "Equipo de Ventas Multi-Agente", "description": "Múltiples agentes pueden atender conversaciones simultáneamente desde un solo número de WhatsApp. Auto-asignación de leads por disponibilidad, habilidad o categoría.", "icon": "team"},
+        {"title": "Integración Shopify & WooCommerce", "description": "Sincroniza catálogo, inventario y pedidos en tiempo real. Gestiona todo desde un solo panel sin cambiar entre plataformas.", "icon": "integration"},
+        {"title": "Soporte con IA", "description": "Deja que la IA responda el 80% de preguntas repetitivas — estado de pedidos, políticas de devolución, info de productos. Tu equipo se enfoca en conversaciones de alto valor.", "icon": "ai"}
+      ],
+      "stats": [
+        {"value": "+35%", "label": "Recuperación de Carritos"},
+        {"value": "3x", "label": "Tiempo de Respuesta"},
+        {"value": "98%", "label": "Tasa de Apertura"},
+        {"value": "+19%", "label": "Aumento en Conversiones"}
+      ],
+      "useCases": {
+        "title": "Cómo las marcas e-commerce usan DialogTab",
+        "items": [
+          {"title": "Automatización de Carritos", "description": "Envía recordatorios oportunos con imágenes de productos y enlaces de pago para recuperar carritos abandonados."},
+          {"title": "Actualizaciones Post-Compra", "description": "Notifica automáticamente sobre confirmación de pedido, estado de envío y actualizaciones de entrega por WhatsApp."},
+          {"title": "Recomendaciones de Productos", "description": "Usa IA para analizar historial de compras y enviar sugerencias personalizadas que impulsen ventas recurrentes."},
+          {"title": "Engagement de Clientes VIP", "description": "Crea campañas segmentadas para clientes leales con acceso anticipado a ofertas exclusivas y comunicación personalizada."}
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para impulsar tus ventas e-commerce?",
+        "description": "Únete a cientos de tiendas online que usan DialogTab para vender más por WhatsApp.",
+        "button": "Prueba Gratis",
+        "buttonSecondary": "Solicitar Demo"
+      }
+    },
+    "travel": {
+      "slug": "travel",
+      "meta": {
+        "title": "WhatsApp para Viajes y Turismo | DialogTab",
+        "description": "Gestiona reservas de viaje, envía actualizaciones de itinerario y brinda soporte 24/7 a viajeros a través de WhatsApp Business API. Automatiza reservaciones y comunicación multilingüe.",
+        "keywords": "WhatsApp agencia de viajes, WhatsApp Business turismo, reserva de viaje WhatsApp, itinerario WhatsApp, reserva hotel WhatsApp, chatbot turismo"
+      },
+      "hero": {
+        "badge": "VIAJES & TURISMO",
+        "title": "Reservas de viaje sin esfuerzo por ",
+        "titleHighlight": "WhatsApp",
+        "description": "Gestiona reservaciones, envía actualizaciones de itinerario en tiempo real y brinda soporte multilingüe 24/7 — todo desde una bandeja omnicanal que tu equipo de viajes adora.",
+        "cta": "Prueba Gratis",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "features": [
+        {"title": "Gestión de Reservas", "description": "Maneja solicitudes de reserva, confirmaciones y modificaciones directamente por WhatsApp. Reduce las ausencias con recordatorios automáticos.", "icon": "calendar"},
+        {"title": "Actualizaciones de Itinerario", "description": "Envía cambios de vuelo, detalles de check-in y actualizaciones de tours al instante por WhatsApp. Mantén a los viajeros informados en cada paso.", "icon": "map"},
+        {"title": "Soporte Multilingüe 24/7", "description": "El chatbot con IA responde preguntas comunes de viaje en múltiples idiomas las 24 horas — requisitos de visa, recomendaciones locales y más.", "icon": "globe"},
+        {"title": "Coordinación de Grupos", "description": "Gestiona reservas grupales, comparte itinerarios y coordina logística a través de conversaciones organizadas de WhatsApp con asignación de equipo.", "icon": "team"},
+        {"title": "Recordatorios de Check-in", "description": "Envía recordatorios de check-in, enlaces de tarjetas de embarque e información pre-llegada para reducir fricciones en la experiencia de viaje.", "icon": "notification"},
+        {"title": "Feedback Post-Viaje", "description": "Solicita automáticamente reseñas y feedback después de viajes. Usa encuestas conversacionales por WhatsApp para mejores tasas de respuesta.", "icon": "star"}
+      ],
+      "stats": [
+        {"value": "80%", "label": "Respuesta Más Rápida"},
+        {"value": "24/7", "label": "Soporte al Viajero"},
+        {"value": "45%", "label": "Menos Ausencias"},
+        {"value": "98%", "label": "Tasa de Apertura"}
+      ],
+      "useCases": {
+        "title": "Cómo las empresas de viajes usan DialogTab",
+        "items": [
+          {"title": "Confirmaciones Instantáneas", "description": "Envía automáticamente confirmaciones de reserva con todos los detalles — fechas, ubicaciones, precios — directo al WhatsApp del viajero."},
+          {"title": "Alertas de Vuelos", "description": "Notifica a viajeros inmediatamente sobre cambios de vuelo, retrasos o actualizaciones de puerta por WhatsApp en tiempo real."},
+          {"title": "Recomendaciones Personalizadas", "description": "Usa IA para sugerir tours, restaurantes y actividades según preferencias del viajero y datos del destino."},
+          {"title": "Canal de Emergencia", "description": "Proporciona una línea directa de WhatsApp para emergencias de viaje — cancelaciones, cambios de reserva y asistencia urgente 24/7."}
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para transformar tus operaciones de viaje?",
+        "description": "Únete a agencias y operadores turísticos que usan DialogTab para experiencias de viaje perfectas.",
+        "button": "Prueba Gratis",
+        "buttonSecondary": "Solicitar Demo"
+      }
+    },
+    "hospitality": {
+      "slug": "hospitality",
+      "meta": {
+        "title": "WhatsApp para Hostelería y Restaurantes | DialogTab",
+        "description": "Ofrece comunicación cinco estrellas con huéspedes a través de WhatsApp Business API. Automatiza reservaciones, servicio de habitaciones y soporte de conserjería para hoteles y restaurantes.",
+        "keywords": "WhatsApp hotel comunicación, WhatsApp Business hostelería, reserva restaurante WhatsApp, conserjería WhatsApp, plataforma mensajería huéspedes, chatbot hotel"
+      },
+      "hero": {
+        "badge": "HOSTELERÍA & RESTAURANTES",
+        "title": "Experiencia cinco estrellas con ",
+        "titleHighlight": "mensajería inteligente",
+        "description": "De la reserva al checkout, ofrece comunicación excepcional con huéspedes a escala. Automatiza confirmaciones, servicio de habitaciones y soporte de conserjería por los canales que tus huéspedes prefieren.",
+        "cta": "Prueba Gratis",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "features": [
+        {"title": "Gestión de Reservaciones", "description": "Acepta, confirma y modifica reservaciones de restaurantes y hoteles por WhatsApp. Envía recordatorios automáticos para reducir ausencias hasta un 45%.", "icon": "calendar"},
+        {"title": "Conserjería Digital", "description": "Responde al instante preguntas de huéspedes — contraseña Wi-Fi, horarios de spa, recomendaciones locales — 24/7 con conserjería IA por WhatsApp.", "icon": "bell"},
+        {"title": "Servicio de Habitación", "description": "Permite que los huéspedes ordenen room service, soliciten amenidades o reporten problemas por WhatsApp. Auto-routing al departamento correcto.", "icon": "service"},
+        {"title": "Feedback de Huéspedes", "description": "Recopila feedback automático durante y después de estancias con encuestas conversacionales por WhatsApp. Resuelve problemas en tiempo real.", "icon": "star"},
+        {"title": "Gestión Multi-Propiedad", "description": "Gestiona comunicación con huéspedes en múltiples ubicaciones desde una bandeja unificada. Estandariza calidad permitiendo personalización local.", "icon": "building"},
+        {"title": "Upselling & Promociones", "description": "Envía ofertas personalizadas de upgrades de habitación, paquetes de spa y especiales gastronómicos según preferencias e historial de reservas.", "icon": "promotion"}
+      ],
+      "stats": [
+        {"value": "45%", "label": "Menos Ausencias"},
+        {"value": "4.8/5", "label": "Satisfacción de Huéspedes"},
+        {"value": "60%", "label": "Respuesta Más Rápida"},
+        {"value": "98%", "label": "Tasa de Apertura"}
+      ],
+      "useCases": {
+        "title": "Cómo las marcas de hostelería usan DialogTab",
+        "items": [
+          {"title": "Comunicación Pre-Llegada", "description": "Envía mensajes de bienvenida con detalles de check-in, información de parking y confirmación de solicitudes especiales antes de la llegada."},
+          {"title": "Solicitudes Durante la Estancia", "description": "Permite que huéspedes soliciten toallas extra, room service o mantenimiento por WhatsApp — enrutado automáticamente al personal correcto."},
+          {"title": "Gestión de Mesas", "description": "Maneja solicitudes de reserva, actualizaciones de lista de espera y consultas de menú por WhatsApp para una experiencia gastronómica perfecta."},
+          {"title": "Programas de Fidelidad", "description": "Involucra a huéspedes después del checkout con ofertas personalizadas, recompensas de fidelidad y promociones exclusivas de regreso por WhatsApp."}
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para elevar la experiencia de tus huéspedes?",
+        "description": "Únete a hoteles y restaurantes que usan DialogTab para comunicación excepcional con huéspedes.",
+        "button": "Prueba Gratis",
+        "buttonSecondary": "Solicitar Demo"
+      }
+    },
+    "automotive": {
+      "slug": "automotive",
+      "meta": {
+        "title": "WhatsApp para Automotriz | DialogTab",
+        "description": "Acelera ventas y servicio automotriz con WhatsApp Business API. Automatiza reservas de pruebas de conducción, recordatorios de servicio, seguimiento de leads y consultas de vehículos.",
+        "keywords": "WhatsApp automotriz, WhatsApp Business concesionario, reserva prueba conducción WhatsApp, chatbot automotriz, venta autos WhatsApp, recordatorio servicio WhatsApp"
+      },
+      "hero": {
+        "badge": "AUTOMOTRIZ",
+        "title": "Impulsa ventas automotrices con ",
+        "titleHighlight": "comercio conversacional",
+        "description": "De reservas de prueba a citas de servicio, gestiona cada interacción por WhatsApp. Automatiza seguimiento de leads, comparte especificaciones y cierra ventas más rápido con comercio conversacional.",
+        "cta": "Prueba Gratis",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "features": [
+        {"title": "Agenda de Pruebas de Conducción", "description": "Permite que clientes reserven pruebas de conducción por WhatsApp. Envía confirmaciones, recordatorios y seguimientos automáticos para maximizar asistencia.", "icon": "car"},
+        {"title": "Consultas de Vehículos", "description": "Comparte especificaciones, fotos, precios y disponibilidad al instante por WhatsApp. La IA responde preguntas comunes mientras los agentes atienden compradores serios.", "icon": "search"},
+        {"title": "Citas de Servicio", "description": "Automatiza la programación de servicios, envía recordatorios de mantenimiento y proporciona actualizaciones en tiempo real sobre el estado de reparaciones por WhatsApp.", "icon": "wrench"},
+        {"title": "Seguimiento de Leads", "description": "Nunca pierdas un lead. Haz seguimiento automático a prospectos interesados con recomendaciones de vehículos personalizadas según sus preferencias.", "icon": "followup"},
+        {"title": "Gestión Multi-Concesionario", "description": "Gestiona conversaciones de múltiples concesionarios desde una bandeja. Enruta consultas a la ubicación más cercana o al agente más adecuado.", "icon": "building"},
+        {"title": "Comunicación Post-Venta", "description": "Mantén el engagement con recordatorios de servicio, notificaciones de recall, actualizaciones de garantía y oportunidades de intercambio por WhatsApp.", "icon": "notification"}
+      ],
+      "stats": [
+        {"value": "40%", "label": "Más Pruebas de Conducción"},
+        {"value": "3x", "label": "Respuesta a Leads"},
+        {"value": "25%", "label": "Aumento Ingresos Servicio"},
+        {"value": "98%", "label": "Tasa de Apertura"}
+      ],
+      "useCases": {
+        "title": "Cómo las empresas automotrices usan DialogTab",
+        "items": [
+          {"title": "Campañas de Lanzamiento", "description": "Envía campañas de WhatsApp dirigidas para lanzamientos de nuevos modelos con especificaciones, precios y reserva instantánea de prueba de conducción."},
+          {"title": "Recordatorios de Servicio", "description": "Notifica automáticamente cuando el vehículo necesita servicio, cambio de aceite o rotación de neumáticos — con reserva de cita en un clic."},
+          {"title": "Ofertas de Intercambio", "description": "Contacta a clientes existentes con valuaciones personalizadas de intercambio y ofertas de upgrade basadas en antigüedad y historial de servicio."},
+          {"title": "Actualizaciones de Reparación", "description": "Mantén informados a los clientes sobre el progreso de reparación con actualizaciones automáticas de WhatsApp en cada etapa del proceso."}
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para acelerar tu negocio automotriz?",
+        "description": "Únete a concesionarios y centros de servicio que usan DialogTab para impulsar ventas por WhatsApp.",
+        "button": "Prueba Gratis",
+        "buttonSecondary": "Solicitar Demo"
+      }
+    },
+    "energy": {
+      "slug": "energy",
+      "meta": {
+        "title": "WhatsApp para Energía y Servicios | DialogTab",
+        "description": "Optimiza la comunicación de energía y servicios con WhatsApp Business API. Automatiza soporte de facturación, notificaciones de corte, lecturas de medidor y solicitudes de servicio.",
+        "keywords": "WhatsApp energía servicios, WhatsApp Business utilities, soporte facturación WhatsApp, notificación corte WhatsApp, servicio al cliente energía, chatbot energía"
+      },
+      "hero": {
+        "badge": "ENERGÍA & SERVICIOS",
+        "title": "Optimiza operaciones de servicios con ",
+        "titleHighlight": "mensajería inteligente",
+        "description": "Automatiza consultas de facturación, notificaciones de corte y solicitudes de servicio por WhatsApp. Reduce el volumen del call center mientras ofreces un servicio más rápido y conveniente.",
+        "cta": "Prueba Gratis",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "features": [
+        {"title": "Soporte de Facturación", "description": "Envía notificaciones de factura, recordatorios de pago y facturas digitales por WhatsApp. Permite consultar saldos y realizar pagos por chat.", "icon": "invoice"},
+        {"title": "Notificaciones de Corte", "description": "Notifica proactivamente a clientes afectados sobre cortes planificados y no planificados. Proporciona actualizaciones de restauración en tiempo real.", "icon": "alert"},
+        {"title": "Lecturas de Medidor", "description": "Permite que clientes envíen lecturas de medidor por WhatsApp con verificación fotográfica. Simplifica el proceso y mejora la precisión.", "icon": "meter"},
+        {"title": "Gestión de Solicitudes", "description": "Maneja nuevas conexiones, desconexiones, cambios de plan y solicitudes de mantenimiento por WhatsApp con enrutamiento y seguimiento automático.", "icon": "service"},
+        {"title": "Insights de Consumo", "description": "Envía reportes personalizados de consumo energético y consejos de ahorro por WhatsApp. Ayuda a clientes a gestionar su uso y reducir costos.", "icon": "chart"},
+        {"title": "Self-Service con IA", "description": "Deja que la IA responda consultas comunes — información tarifaria, estado de conexión, explicaciones de factura — reduciendo la carga del call center hasta un 60%.", "icon": "ai"}
+      ],
+      "stats": [
+        {"value": "60%", "label": "Menos Llamadas"},
+        {"value": "80%", "label": "Consultas por IA"},
+        {"value": "3x", "label": "Resolución Más Rápida"},
+        {"value": "98%", "label": "Tasa de Apertura"}
+      ],
+      "useCases": {
+        "title": "Cómo las empresas de energía usan DialogTab",
+        "items": [
+          {"title": "Recordatorios de Facturación", "description": "Envía recordatorios de fecha de pago con montos y enlaces de pago en un clic para reducir pagos tardíos."},
+          {"title": "Comunicación de Cortes", "description": "Notifica instantáneamente a clientes en áreas afectadas sobre cortes con tiempos estimados de restauración y actualizaciones de progreso."},
+          {"title": "Onboarding de Nuevas Conexiones", "description": "Guía a nuevos clientes por el proceso de conexión vía WhatsApp con instrucciones paso a paso y recopilación de documentos."},
+          {"title": "Programas de Ahorro", "description": "Involucra a clientes con consejos personalizados de ahorro energético, ofertas de paneles solares e información de medidores inteligentes por WhatsApp."}
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para modernizar tu comunicación con clientes?",
+        "description": "Únete a empresas de energía que usan DialogTab para un servicio al cliente digital y eficiente.",
+        "button": "Prueba Gratis",
+        "buttonSecondary": "Solicitar Demo"
+      }
+    },
+    "financial": {
+      "slug": "financial",
+      "meta": {
+        "title": "WhatsApp para Servicios Financieros | DialogTab",
+        "description": "Ofrece comunicación segura y conforme para servicios financieros a través de WhatsApp Business API. Automatiza notificaciones de cuenta, consultas de soporte y orientación financiera personalizada.",
+        "keywords": "WhatsApp servicios financieros, WhatsApp Business banca, mensajería segura finanzas, notificación cuenta WhatsApp, chatbot fintech, seguros WhatsApp"
+      },
+      "hero": {
+        "badge": "SERVICIOS FINANCIEROS",
+        "title": "Comunicación financiera segura por ",
+        "titleHighlight": "WhatsApp",
+        "description": "Cumple con tu SLA y expectativas del cliente con mensajería segura y conforme. Automatiza notificaciones de cuenta, consultas de soporte y orientación financiera personalizada por los canales preferidos.",
+        "cta": "Prueba Gratis",
+        "ctaSecondary": "Solicitar Demo"
+      },
+      "features": [
+        {"title": "Notificaciones de Cuenta", "description": "Envía alertas de transacción en tiempo real, actualizaciones de saldo y confirmaciones de pago de forma segura por WhatsApp. Mantén informados a clientes y reduce el riesgo de fraude.", "icon": "notification"},
+        {"title": "Intercambio Seguro de Documentos", "description": "Comparte estados de cuenta, documentos de póliza y formularios mediante mensajes encriptados de WhatsApp. Simplifica trámites manteniendo la seguridad.", "icon": "document"},
+        {"title": "Seguimiento de Solicitudes", "description": "Mantén actualizados a los solicitantes sobre el estado de préstamos, tarjetas de crédito o seguros con actualizaciones automáticas por WhatsApp en cada etapa.", "icon": "tracking"},
+        {"title": "Asistente Financiero IA", "description": "Deja que la IA responda consultas comunes — saldos, ubicación de sucursales, tasas de interés, detalles de póliza — mientras los agentes se enfocan en asesorías complejas.", "icon": "ai"},
+        {"title": "Agenda de Citas", "description": "Permite que clientes reserven citas con asesores financieros, gerentes de relación o visitas a sucursales directamente por WhatsApp.", "icon": "calendar"},
+        {"title": "Cumplimiento & Auditoría", "description": "Mantén registros completos de conversaciones para cumplimiento regulatorio. Todas las interacciones se registran y son buscables para auditoría.", "icon": "shield"}
+      ],
+      "stats": [
+        {"value": "50%", "label": "Reducción de Costos"},
+        {"value": "99.9%", "label": "Tasa de Entrega"},
+        {"value": "4x", "label": "Resolución de Reclamos"},
+        {"value": "98%", "label": "Satisfacción del Cliente"}
+      ],
+      "useCases": {
+        "title": "Cómo las instituciones financieras usan DialogTab",
+        "items": [
+          {"title": "Alertas & Prevención de Fraude", "description": "Envía notificaciones instantáneas de transacciones y permite que clientes confirmen o reporten actividad sospechosa rápidamente por WhatsApp."},
+          {"title": "Actualizaciones de Reclamos de Seguro", "description": "Mantén informados a asegurados sobre estado de reclamos, requisitos de documentos y actualizaciones de liquidación por mensajes automáticos de WhatsApp."},
+          {"title": "Proceso de Solicitud de Préstamo", "description": "Guía a solicitantes por el proceso de préstamo vía WhatsApp — desde consulta inicial hasta envío de documentos y notificación de aprobación."},
+          {"title": "Orientación Financiera Personalizada", "description": "Envía insights de inversión dirigidos, oportunidades de ahorro y recomendaciones de productos basados en perfiles y metas financieras del cliente."}
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para transformar tu comunicación financiera?",
+        "description": "Únete a instituciones financieras que usan DialogTab para un servicio al cliente seguro y eficiente.",
+        "button": "Prueba Gratis",
+        "buttonSecondary": "Solicitar Demo"
+      }
+    }
+  },
   "chatWidget": {
     "tooltipText": "¡Comienza tu prueba gratuita ahora! Crea tu cuenta en segundos.",
     "headerTitle": "DialogTab",
