@@ -311,5 +311,36 @@
     "sectors": ["E-Commerce", "Automotriz", "Turismo", "Cosmética", "Otro"],
     "submitButton": "Crear Cuenta",
     "successMessage": "Redirigiendo al registro..."
+  },
+  "blog": {
+    "pageTitle": "Blog",
+    "pageDescription": "Mantente al día con las últimas novedades sobre WhatsApp Business, comercio conversacional, chatbots de IA y estrategias de interacción con clientes.",
+    "allPosts": "Todos los artículos",
+    "readMore": "Leer más",
+    "readingTime": "min de lectura",
+    "publishedOn": "Publicado el",
+    "by": "por",
+    "tableOfContents": "Tabla de Contenidos",
+    "faqTitle": "Preguntas Frecuentes",
+    "relatedPosts": "Artículos Relacionados",
+    "backToBlog": "Volver al Blog",
+    "shareArticle": "Compartir este artículo",
+    "categories": {
+      "Guide": "Guía",
+      "E-Commerce": "E-Commerce",
+      "Trends": "Tendencias",
+      "AI": "IA",
+      "Strategy": "Estrategia",
+      "Marketing": "Marketing"
+    },
+    "newsletter": {
+      "title": "Suscríbete a nuestro boletín",
+      "description": "Recibe los últimos artículos, consejos y noticias sobre comercio conversacional en tu bandeja de entrada.",
+      "placeholder": "Ingresa tu correo",
+      "button": "Suscribirse",
+      "success": "¡Gracias por suscribirte!"
+    },
+    "noPosts": "No se encontraron artículos.",
+    "searchPlaceholder": "Buscar artículos..."
   }
 }
