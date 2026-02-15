@@ -92,6 +92,7 @@ interface SectorPageData {
 	howItWorks: { title: string; subtitle: string; steps: HowItWorksStep[] };
 	useCases: { title: string; items: SectorUseCase[] };
 	faq: { title: string; items: FaqItem[] };
+	customSolution: { title: string; description: string; button: string };
 	cta: { title: string; description: string; button: string; buttonSecondary: string };
 }
 
@@ -305,6 +306,25 @@ export default async function SectorPage({ params }: { params: Promise<{ locale:
 								</details>
 							))}
 						</div>
+					</div>
+				</section>
+
+				{/* Custom Solution Section */}
+				<section className="py-20 bg-[#f8f8f6]">
+					<div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+						<h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">
+							{page.customSolution.title}
+						</h2>
+						<p className="text-lg text-slate-500 mb-8 leading-relaxed">
+							{page.customSolution.description}
+						</p>
+						<a
+							href="mailto:info@dialogtab.com"
+							className="bg-brand-500 text-white px-10 py-4 rounded-full font-semibold hover:bg-brand-600 transition-all shadow-lg shadow-brand-500/30 inline-flex items-center justify-center gap-3 text-base"
+						>
+							{page.customSolution.button}
+							<svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="w-5 h-5" xmlns="http://www.w3.org/2000/svg"><g id="Mail"><path d="M19.435,4.065H4.565a2.5,2.5,0,0,0-2.5,2.5v10.87a2.5,2.5,0,0,0,2.5,2.5h14.87a2.5,2.5,0,0,0,2.5-2.5V6.565A2.5,2.5,0,0,0,19.435,4.065Zm-14.87,1h14.87a1.489,1.489,0,0,1,1.49,1.39c-2.47,1.32-4.95,2.63-7.43,3.95a6.172,6.172,0,0,1-1.06.53,2.083,2.083,0,0,1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26-1.14-.6-2.3-1.21-3.44-1.82A1.491,1.491,0,0,1,4.565,5.065Zm16.37,12.37a1.5,1.5,0,0,1-1.5,1.5H4.565a1.5,1.5,0,0,1-1.5-1.5V7.6c2.36,1.24,4.71,2.5,7.07,3.75a5.622,5.622,0,0,0,1.35.6,2.872,2.872,0,0,0,2-.41c1.45-.76,2.89-1.53,4.34-2.29,1.04-.56,2.07-1.1,3.11-1.65Z" /></g></svg>
+						</a>
 					</div>
 				</section>
 
