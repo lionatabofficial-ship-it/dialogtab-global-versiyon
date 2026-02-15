@@ -90,6 +90,7 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 	];
 
 	const sectorSlugs = ["insurance", "automotive", "hospitality", "wholesale", "e-commerce", "cosmetics", "health", "education"];
+	const integrationLinks = [`/${locale}/integrations/social-media`, `/${locale}/integrations/e-commerce`, "mailto:info@dialogtab.com"];
 
 	const leftSolutions = dict.solutionsItems.filter(i => i.category === "left");
 	const rightSolutions = dict.solutionsItems.filter(i => i.category === "right");
@@ -201,20 +202,37 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 							</button>
 							{integrationsOpen && (
 								<div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[340px] bg-white rounded-2xl shadow-xl border border-slate-100 p-4 space-y-1 animate-in fade-in-0 zoom-in-95">
-									{dict.integrationsItems.map((item, i) => (
-										<a
-											key={item.title}
-											href={`/${locale}#integrations`}
-											className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group"
-											onClick={() => setIntegrationsOpen(false)}
-										>
-											<span className="mt-0.5 text-brand-600 group-hover:text-brand-700 transition-colors">{integrationsIcons[i]}</span>
-											<div>
-												<div className="text-sm font-semibold text-slate-900">{item.title}</div>
-												<div className="text-xs text-slate-500 mt-0.5">{item.desc}</div>
-											</div>
-										</a>
-									))}
+									{dict.integrationsItems.map((item, i) => {
+										const href = integrationLinks[i];
+										const isExternal = href.startsWith("mailto:");
+										return isExternal ? (
+											<a
+												key={item.title}
+												href={href}
+												className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group"
+												onClick={() => setIntegrationsOpen(false)}
+											>
+												<span className="mt-0.5 text-brand-600 group-hover:text-brand-700 transition-colors">{integrationsIcons[i]}</span>
+												<div>
+													<div className="text-sm font-semibold text-slate-900">{item.title}</div>
+													<div className="text-xs text-slate-500 mt-0.5">{item.desc}</div>
+												</div>
+											</a>
+										) : (
+											<Link
+												key={item.title}
+												href={href}
+												className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group"
+												onClick={() => setIntegrationsOpen(false)}
+											>
+												<span className="mt-0.5 text-brand-600 group-hover:text-brand-700 transition-colors">{integrationsIcons[i]}</span>
+												<div>
+													<div className="text-sm font-semibold text-slate-900">{item.title}</div>
+													<div className="text-xs text-slate-500 mt-0.5">{item.desc}</div>
+												</div>
+											</Link>
+										);
+									})}
 								</div>
 							)}
 						</div>
@@ -286,12 +304,21 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 
 					{/* Integrations */}
 					<MobileAccordion title={dict.integrations}>
-						{dict.integrationsItems.map((item, i) => (
-							<a key={item.title} href={`/${locale}#integrations`} className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>
-								<span className="text-brand-600">{integrationsIcons[i]}</span>
-								<div><div className="text-sm font-medium text-slate-900">{item.title}</div><div className="text-xs text-slate-500">{item.desc}</div></div>
-							</a>
-						))}
+						{dict.integrationsItems.map((item, i) => {
+							const href = integrationLinks[i];
+							const isExternal = href.startsWith("mailto:");
+							return isExternal ? (
+								<a key={item.title} href={href} className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>
+									<span className="text-brand-600">{integrationsIcons[i]}</span>
+									<div><div className="text-sm font-medium text-slate-900">{item.title}</div><div className="text-xs text-slate-500">{item.desc}</div></div>
+								</a>
+							) : (
+								<Link key={item.title} href={href} className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>
+									<span className="text-brand-600">{integrationsIcons[i]}</span>
+									<div><div className="text-sm font-medium text-slate-900">{item.title}</div><div className="text-xs text-slate-500">{item.desc}</div></div>
+								</Link>
+							);
+						})}
 					</MobileAccordion>
 
 					<Link href={`/${locale}#pricing`} className="block text-base font-medium text-slate-700 py-2.5 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>{dict.pricing}</Link>
