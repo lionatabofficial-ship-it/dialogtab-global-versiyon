@@ -2041,8 +2041,8 @@
 		"searchPlaceholder": "Yazılarda ara..."
 	},
 	"solutionPages": {
-		"whatsapp-bulk-messaging": {
-			"slug": "whatsapp-bulk-messaging",
+		"whatsapp-solutions": {
+			"slug": "whatsapp-solutions",
 			"meta": {
 				"title": "WhatsApp Toplu Mesaj ve Satış Optimizasyonu | DialogTab",
 				"description": "WhatsApp Business API ile günde 100.000 mesaj gönderin. Toplu mesajlaşma, sepet hatırlatma, kampanya analizi ve müşteri segmentasyonu çözümleri. 7 gün ücretsiz deneyin.",
@@ -2257,6 +2257,450 @@
 				"description": "7 gün ücretsiz deneme ile tüm özelliklerimizi keşfedin. Kurulum ve entegrasyon desteği dahil.",
 				"button": "Hemen Başla",
 				"buttonSecondary": "Uzman Desteği Al"
+			}
+		}
+	},
+	"integrationPages": {
+		"social-media": {
+			"slug": "social-media",
+			"meta": {
+				"title": "Sosyal Medya Entegrasyonları - WhatsApp, Instagram, Facebook, Telegram | DialogTab",
+				"description": "Tüm sosyal medya kanallarınızı tek platformdan yönetin. WhatsApp, Instagram DM & Yorum, Facebook Messenger, Telegram, TikTok, Live Chat ve Viber entegrasyonları ile müşterilerinize her kanaldan ulaşın.",
+				"keywords": "sosyal medya entegrasyonu, whatsapp entegrasyon, instagram dm entegrasyon, facebook messenger entegrasyon, telegram entegrasyon, tiktok mesaj, live chat, viber entegrasyon, dialogtab, omnichannel"
+			},
+			"hero": {
+				"badge": "Sosyal Medya Entegrasyonları",
+				"title": "Tüm Sosyal Medya Kanallarını ",
+				"titleHighlight": "Tek Platformdan Yönetin",
+				"description": "WhatsApp, Instagram, Facebook, Telegram, TikTok, Live Chat ve Viber - tüm müşteri iletişimlerinizi DialogTab üzerinden merkezi olarak yönetin.",
+				"cta": "Ücretsiz Deneyin",
+				"ctaSecondary": "Fiyatları İncele"
+			},
+			"stats": [
+				{
+					"value": "7+",
+					"label": "Sosyal Medya Kanalı"
+				},
+				{
+					"value": "%98",
+					"label": "Mesaj Açılma Oranı"
+				},
+				{
+					"value": "10x",
+					"label": "Daha Hızlı Yanıt Süresi"
+				},
+				{
+					"value": "%60",
+					"label": "Müşteri Memnuniyeti Artışı"
+				}
+			],
+			"platformsSection": {
+				"title": "Desteklenen Platformlar",
+				"subtitle": "Tüm popüler sosyal medya kanallarını tek bir panelden yönetin. Her kanaldan gelen mesajları merkezi gelen kutunuzda görüntüleyin."
+			},
+			"platforms": [
+				{
+					"name": "WhatsApp Business",
+					"description": "WhatsApp Business API ile toplu mesaj gönderin, chatbot oluşturun ve müşteri iletişimini otomatikleştirin. Günde 100.000 mesaj kapasitesi.",
+					"icon": "whatsapp",
+					"features": [
+						"Toplu mesaj gönderimi",
+						"Chatbot entegrasyonu",
+						"Şablon mesajlar",
+						"Medya paylaşımı"
+					]
+				},
+				{
+					"name": "Instagram DM & Yorum",
+					"description": "Instagram DM mesajlarını ve yorum bildirimlerini tek panelden yönetin. Otomatik yanıtlar ile müşteri etkileşimini artırın.",
+					"icon": "instagram",
+					"features": [
+						"DM yönetimi",
+						"Yorum takibi",
+						"Otomatik yanıtlar",
+						"Story yanıtları"
+					]
+				},
+				{
+					"name": "Facebook Messenger",
+					"description": "Facebook sayfanıza gelen tüm mesajları DialogTab üzerinden yönetin. Chatbot ve otomatik yanıt özellikleri ile 7/24 aktif olun.",
+					"icon": "facebook",
+					"features": [
+						"Messenger yönetimi",
+						"Chatbot desteği",
+						"Otomatik karşılama",
+						"Sayfa yorum takibi"
+					]
+				},
+				{
+					"name": "Telegram",
+					"description": "Telegram bot entegrasyonu ile müşterilerinize Telegram üzerinden destek verin. Grup ve kanal yönetimi desteği.",
+					"icon": "telegram",
+					"features": [
+						"Bot entegrasyonu",
+						"Grup yönetimi",
+						"Kanal desteği",
+						"Dosya paylaşımı"
+					]
+				},
+				{
+					"name": "TikTok Mesaj",
+					"description": "TikTok üzerinden gelen mesajları takip edin ve hızlıca yanıtlayın. Genç kitleye ulaşmanın en etkili yolu.",
+					"icon": "tiktok",
+					"features": [
+						"Mesaj yönetimi",
+						"Hızlı yanıt",
+						"Medya paylaşımı",
+						"Yorum takibi"
+					]
+				},
+				{
+					"name": "Live Chat",
+					"description": "Web sitenize canlı sohbet widget'ı ekleyin ve ziyaretçileri müşteriye dönüştürün. Proaktif sohbet başlatma özelliği.",
+					"icon": "livechat",
+					"features": [
+						"Web sitesi widget'ı",
+						"Proaktif sohbet",
+						"Ziyaretçi takibi",
+						"Dosya paylaşımı"
+					]
+				},
+				{
+					"name": "Viber",
+					"description": "Viber üzerinden müşterilerinizle iletişim kurun. Özellikle Doğu Avrupa ve Asya pazarlarında güçlü bir iletişim kanalı.",
+					"icon": "viber",
+					"features": [
+						"Mesaj yönetimi",
+						"Toplu gönderim",
+						"Bot entegrasyonu",
+						"Medya paylaşımı"
+					]
+				}
+			],
+			"benefitsSection": {
+				"title": "Neden DialogTab ile Sosyal Medya Yönetimi?",
+				"subtitle": "Tüm kanallarınızı tek platformdan yöneterek verimliliğinizi artırın."
+			},
+			"benefits": [
+				{
+					"title": "Merkezi Gelen Kutusu",
+					"description": "Tüm sosyal medya kanallarından gelen mesajları tek bir gelen kutusunda görüntüleyin ve yönetin. Hiçbir mesajı kaçırmayın.",
+					"icon": "inbox"
+				},
+				{
+					"title": "Yapay Zeka Destekli Chatbot",
+					"description": "AI chatbot ile 7/24 müşteri desteği sağlayın. Sık sorulan sorulara otomatik yanıt verin ve müşteri memnuniyetini artırın.",
+					"icon": "zap"
+				},
+				{
+					"title": "Ekip İşbirliği",
+					"description": "Mesajları ekip üyelerine atayın, iç notlar ekleyin ve birlikte çalışarak müşterilere daha hızlı yanıt verin.",
+					"icon": "users"
+				},
+				{
+					"title": "Detaylı Analitik",
+					"description": "Her kanal için ayrı performans metrikleri. Yanıt süreleri, müşteri memnuniyeti ve ekip performansını takip edin.",
+					"icon": "chart"
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır?",
+				"subtitle": "Dakikalar içinde tüm sosyal medya kanallarınızı bağlayın.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Hesap Oluşturun",
+						"description": "DialogTab hesabınızı oluşturun ve kontrol panelinize giriş yapın."
+					},
+					{
+						"step": "2",
+						"title": "Kanalları Bağlayın",
+						"description": "WhatsApp, Instagram, Facebook ve diğer kanallarınızı birkaç tıkla bağlayın."
+					},
+					{
+						"step": "3",
+						"title": "Ekibinizi Ekleyin",
+						"description": "Ekip üyelerinizi davet edin ve görev dağılımı yapın."
+					},
+					{
+						"step": "4",
+						"title": "İletişime Başlayın",
+						"description": "Tüm kanallardan gelen mesajları tek panelden yönetmeye başlayın."
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "Hangi sosyal medya platformları destekleniyor?",
+						"answer": "DialogTab; WhatsApp Business, Instagram DM & Yorum, Facebook Messenger, Telegram, TikTok, Live Chat ve Viber platformlarını destekler. Yeni platformlar düzenli olarak eklenmektedir."
+					},
+					{
+						"question": "Tüm kanalları aynı anda yönetebilir miyim?",
+						"answer": "Evet, DialogTab merkezi gelen kutusu ile tüm kanallardan gelen mesajları tek bir ekrandan yönetebilirsiniz. Mesajları ekip üyelerine atayabilir ve iç notlar ekleyebilirsiniz."
+					},
+					{
+						"question": "Chatbot tüm kanallarda çalışıyor mu?",
+						"answer": "Evet, AI chatbot WhatsApp, Instagram, Facebook Messenger, Telegram ve Live Chat kanallarında çalışır. Her kanal için ayrı chatbot akışları oluşturabilirsiniz."
+					},
+					{
+						"question": "Kurulum ne kadar sürer?",
+						"answer": "Temel kurulum birkaç dakika içinde tamamlanabilir. WhatsApp Business API entegrasyonu için Meta onay süreci 1-3 iş günü sürebilir. Diğer kanallar anında bağlanır."
+					},
+					{
+						"question": "Mevcut müşteri verilerimi aktarabilir miyim?",
+						"answer": "Evet, CSV dosyası veya API üzerinden mevcut müşteri verilerinizi DialogTab'a aktarabilirsiniz. CRM entegrasyonları ile otomatik senkronizasyon da mümkündür."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel bir entegrasyona mı ihtiyacınız var?",
+				"description": "Listelenmemiş bir sosyal medya platformu veya özel bir kanal entegrasyonuna ihtiyacınız varsa, bizimle iletişime geçin. CRM entegrasyonu, kanal entegrasyonu ve özel çözümler için birlikte çalışalım.",
+				"button": "Bize Ulaşın"
+			},
+			"cta": {
+				"title": "Tüm Sosyal Medya Kanallarınızı Birleştirin",
+				"description": "7 gün ücretsiz deneme ile tüm kanallarınızı tek platformdan yönetmeye başlayın. Kurulum desteği dahil.",
+				"button": "Ücretsiz Deneyin",
+				"buttonSecondary": "Demo Talep Edin"
+			}
+		},
+		"e-commerce": {
+			"slug": "e-commerce",
+			"meta": {
+				"title": "E-Ticaret Entegrasyonları - Shopify, WooCommerce, Ticimax, IKAS | DialogTab",
+				"description": "E-ticaret mağazanızı DialogTab ile entegre edin. Shopify, WooCommerce, BigCommerce, Magento, OpenCart, T-Soft, Ticimax, IKAS ve PrestaShop entegrasyonları. Sipariş oluşturma, ödeme alma ve satış analizi.",
+				"keywords": "e-ticaret entegrasyonu, shopify entegrasyon, woocommerce entegrasyon, ticimax entegrasyon, ikas entegrasyon, magento, opencart, prestashop, tsoft, bigcommerce, dialogtab, sipariş yönetimi"
+			},
+			"hero": {
+				"badge": "E-Ticaret Entegrasyonları",
+				"title": "E-Ticaret Mağazanızı ",
+				"titleHighlight": "DialogTab ile Güçlendirin",
+				"description": "Shopify, WooCommerce, Ticimax, IKAS ve daha fazla e-ticaret platformunu entegre edin. Sipariş oluşturma, sosyal medya ödemeleri ve satış analizi ile satışlarınızı artırın.",
+				"cta": "Ücretsiz Deneyin",
+				"ctaSecondary": "Fiyatları İncele"
+			},
+			"stats": [
+				{
+					"value": "9+",
+					"label": "E-Ticaret Platformu"
+				},
+				{
+					"value": "%50",
+					"label": "Sosyal Medya Satış Artışı"
+				},
+				{
+					"value": "%60",
+					"label": "Sepet Geri Kazanım"
+				},
+				{
+					"value": "%35",
+					"label": "Daha Hızlı Sipariş İşleme"
+				}
+			],
+			"platformsSection": {
+				"title": "Desteklenen E-Ticaret Platformları",
+				"subtitle": "Popüler e-ticaret altyapılarıyla entegre çalışarak satış süreçlerinizi hızlandırın ve tüm kanallardan gelen siparişleri tek merkezden yönetin."
+			},
+			"platforms": [
+				{
+					"name": "Shopify",
+					"description": "Shopify mağazanızı DialogTab ile entegre ederek WhatsApp ve sosyal medya üzerinden sipariş alın, ödeme linkleri gönderin ve müşteri iletişimini otomatikleştirin.",
+					"icon": "shopify",
+					"features": [
+						"Panel üzerinden sipariş oluşturma",
+						"Sosyal medya ödeme linkleri",
+						"Sepet hatırlatma",
+						"Ürün kataloğu paylaşımı"
+					]
+				},
+				{
+					"name": "WooCommerce",
+					"description": "WordPress tabanlı WooCommerce mağazanızı bağlayın. Ürünleri, siparişleri ve müşteri bilgilerini otomatik olarak senkronize edin.",
+					"icon": "woocommerce",
+					"features": [
+						"Otomatik sipariş senkronizasyonu",
+						"Ürün kataloğu entegrasyonu",
+						"Stok takibi",
+						"Müşteri bilgisi aktarımı"
+					]
+				},
+				{
+					"name": "BigCommerce",
+					"description": "BigCommerce mağazanızı DialogTab'a bağlayarak çok kanallı satış deneyimi oluşturun ve sipariş yönetimini merkezileştirin.",
+					"icon": "bigcommerce",
+					"features": [
+						"Çok kanallı sipariş yönetimi",
+						"Ürün senkronizasyonu",
+						"Müşteri segmentasyonu",
+						"Ödeme entegrasyonu"
+					]
+				},
+				{
+					"name": "Magento",
+					"description": "Magento (Adobe Commerce) altyapınızı DialogTab ile entegre edin. Kurumsal seviyede e-ticaret çözümü için güçlü entegrasyon.",
+					"icon": "magento",
+					"features": [
+						"Kurumsal entegrasyon",
+						"Gelişmiş sipariş yönetimi",
+						"Çoklu mağaza desteği",
+						"API entegrasyonu"
+					]
+				},
+				{
+					"name": "OpenCart",
+					"description": "OpenCart mağazanızı DialogTab ile bağlayın ve sosyal medya üzerinden satış yapın. Sipariş ve ürün senkronizasyonu.",
+					"icon": "opencart",
+					"features": [
+						"Sipariş senkronizasyonu",
+						"Ürün kataloğu",
+						"Müşteri yönetimi",
+						"Ödeme takibi"
+					]
+				},
+				{
+					"name": "T-Soft",
+					"description": "T-Soft e-ticaret altyapınızı DialogTab ile entegre ederek Türkiye pazarına özel satış çözümleri oluşturun.",
+					"icon": "tsoft",
+					"features": [
+						"Türkiye'ye özel çözümler",
+						"Kargo entegrasyonu",
+						"Sipariş yönetimi",
+						"Fatura entegrasyonu"
+					]
+				},
+				{
+					"name": "Ticimax",
+					"description": "Ticimax mağazanızı DialogTab ile entegre ederek satış süreçlerinizi hızlandırın. Panel üzerinden sipariş oluşturma, sosyal medya ödemeleri ve detaylı analitik.",
+					"icon": "ticimax",
+					"features": [
+						"Panel üzerinden sipariş oluşturma",
+						"Sosyal medya ödeme linkleri",
+						"Satıcı performans takibi",
+						"Coğrafi etiketleme"
+					]
+				},
+				{
+					"name": "IKAS",
+					"description": "IKAS e-ticaret platformunuzu DialogTab ile bağlayın. Modern ve hızlı altyapı ile sosyal medya satışlarını optimize edin.",
+					"icon": "ikas",
+					"features": [
+						"Hızlı entegrasyon",
+						"Sipariş yönetimi",
+						"Ürün senkronizasyonu",
+						"Müşteri segmentasyonu"
+					]
+				},
+				{
+					"name": "PrestaShop",
+					"description": "PrestaShop mağazanızı DialogTab ile entegre edin. Açık kaynak e-ticaret altyapınızı güçlü iletişim araçlarıyla destekleyin.",
+					"icon": "prestashop",
+					"features": [
+						"Modül entegrasyonu",
+						"Sipariş senkronizasyonu",
+						"Ürün kataloğu",
+						"Çoklu dil desteği"
+					]
+				}
+			],
+			"benefitsSection": {
+				"title": "E-Ticaret Entegrasyonunun Avantajları",
+				"subtitle": "Kanıtlanmış sonuçlarla işinizi büyütün."
+			},
+			"benefits": [
+				{
+					"title": "Panel Üzerinden Sipariş Oluşturma",
+					"description": "Müşteri adına doğrudan sipariş oluşturun. Ürün seçimi, miktar, teslimat ve ödeme bilgilerini tek ekrandan yönetin.",
+					"icon": "cart"
+				},
+				{
+					"title": "Sosyal Medya Üzerinden Ödeme Alma",
+					"description": "Instagram, Messenger ve WhatsApp üzerinden ödeme linkleri gönderin. Güvenli ödeme sayfalarına yönlendirin.",
+					"icon": "zap"
+				},
+				{
+					"title": "Satıcı Performans Takibi",
+					"description": "Satış temsilcilerinizin performansını detaylı raporlarla takip edin. Sipariş, ciro ve müşteri iletişim metriklerini inceleyin.",
+					"icon": "chart"
+				},
+				{
+					"title": "Coğrafi Etiketleme",
+					"description": "Müşterilerinizi lokasyonlarına göre etiketleyin. Bölgesel kampanyalar ve özel teklifler ile pazarlama etkinliğini artırın.",
+					"icon": "target"
+				},
+				{
+					"title": "Satış Analizi",
+					"description": "Tüm satış verilerini merkezi panelden analiz edin. Ürün, kanal ve dönem bazlı detaylı raporlar oluşturun.",
+					"icon": "chart"
+				},
+				{
+					"title": "Terk Edilen Sepet Kurtarma",
+					"description": "Terk edilen sepetleri anında tespit edin ve otomatik hatırlatma mesajları gönderin. %60 geri kazanım oranı.",
+					"icon": "package"
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır?",
+				"subtitle": "E-ticaret mağazanızı dakikalar içinde bağlayın.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Platformunuzu Seçin",
+						"description": "Kullandığınız e-ticaret platformunu seçin ve bağlantı sürecini başlatın."
+					},
+					{
+						"step": "2",
+						"title": "Mağazanızı Bağlayın",
+						"description": "API anahtarı veya OAuth ile mağazanızı DialogTab'a güvenli şekilde bağlayın."
+					},
+					{
+						"step": "3",
+						"title": "Verileri Senkronize Edin",
+						"description": "Ürünler, siparişler ve müşteri bilgileri otomatik olarak senkronize edilir."
+					},
+					{
+						"step": "4",
+						"title": "Satışa Başlayın",
+						"description": "Sosyal medya üzerinden sipariş almaya ve satış analizi yapmaya başlayın."
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "Hangi e-ticaret platformları destekleniyor?",
+						"answer": "DialogTab; Shopify, WooCommerce, BigCommerce, Magento, OpenCart, T-Soft, Ticimax, IKAS ve PrestaShop platformlarını destekler. Özel API entegrasyonu ile herhangi bir platforma bağlanabilirsiniz."
+					},
+					{
+						"question": "Mevcut ürün ve sipariş verilerim otomatik senkronize olur mu?",
+						"answer": "Evet, entegrasyon kurulduktan sonra ürünler, siparişler ve müşteri bilgileri otomatik olarak senkronize edilir. Gerçek zamanlı senkronizasyon ile veriler her zaman güncel kalır."
+					},
+					{
+						"question": "Sosyal medya üzerinden nasıl ödeme alabilirim?",
+						"answer": "DialogTab paneli üzerinden ödeme linkleri oluşturarak Instagram, WhatsApp ve Messenger üzerinden müşterilerinize gönderebilirsiniz. Müşteriler güvenli ödeme sayfasına yönlendirilir."
+					},
+					{
+						"question": "Birden fazla e-ticaret mağazamı bağlayabilir miyim?",
+						"answer": "Evet, birden fazla mağazayı aynı DialogTab hesabına bağlayabilirsiniz. Farklı platformlardaki mağazalarınızı tek panelden yönetebilirsiniz."
+					},
+					{
+						"question": "Kurulum için teknik destek sağlıyor musunuz?",
+						"answer": "Evet, DialogTab ekibi entegrasyon kurulumunda size tam destek sağlar. Ayrıca detaylı dokümantasyon ve video eğitimler de mevcuttur."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "DialogTab ile Özel Geliştirme Yapalım",
+				"description": "Size özel entegrasyon çözümünü hayata geçirelim. CRM entegrasyonu, kanal entegrasyonu, e-ticaret altyapısı entegrasyonu veya tamamen özel bir çözüm için bizimle iletişime geçin.",
+				"button": "Bize Ulaşın"
+			},
+			"cta": {
+				"title": "E-Ticaret Mağazanızı Entegre Edin ve Satışları Artırın",
+				"description": "Bugün başlayın ve mağazanızı DialogTab ile entegre ederek satış potansiyelinizi maksimuma çıkarın.",
+				"button": "Ücretsiz Deneyin",
+				"buttonSecondary": "Demo Talep Edin"
 			}
 		}
 	}
