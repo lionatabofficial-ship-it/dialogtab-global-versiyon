@@ -2259,5 +2259,449 @@
 				"buttonSecondary": "Obtener Soporte Experto"
 			}
 		}
+	},
+	"integrationPages": {
+		"social-media": {
+			"slug": "social-media",
+			"meta": {
+				"title": "Integraciones de Redes Sociales - WhatsApp, Instagram, Facebook, Telegram | DialogTab",
+				"description": "Gestione todos sus canales de redes sociales desde una sola plataforma. Integraciones de WhatsApp, Instagram DM y Comentarios, Facebook Messenger, Telegram, TikTok, Live Chat y Viber.",
+				"keywords": "integración redes sociales, integración whatsapp, integración instagram dm, integración facebook messenger, integración telegram, mensajes tiktok, chat en vivo, integración viber, dialogtab, omnicanal"
+			},
+			"hero": {
+				"badge": "Integraciones de Redes Sociales",
+				"title": "Gestione Todos los Canales de Redes Sociales ",
+				"titleHighlight": "Desde Una Sola Plataforma",
+				"description": "WhatsApp, Instagram, Facebook, Telegram, TikTok, Live Chat y Viber: gestione todas sus comunicaciones con clientes de forma centralizada a través de DialogTab.",
+				"cta": "Prueba Gratuita",
+				"ctaSecondary": "Ver Precios"
+			},
+			"stats": [
+				{
+					"value": "7+",
+					"label": "Canales de Redes Sociales"
+				},
+				{
+					"value": "98%",
+					"label": "Tasa de Apertura de Mensajes"
+				},
+				{
+					"value": "10x",
+					"label": "Tiempo de Respuesta Más Rápido"
+				},
+				{
+					"value": "60%",
+					"label": "Aumento Satisfacción del Cliente"
+				}
+			],
+			"platformsSection": {
+				"title": "Plataformas Compatibles",
+				"subtitle": "Gestione todos los canales populares de redes sociales desde un solo panel. Vea los mensajes de cada canal en su bandeja de entrada centralizada."
+			},
+			"platforms": [
+				{
+					"name": "WhatsApp Business",
+					"description": "Envíe mensajes masivos, cree chatbots y automatice la comunicación con clientes con WhatsApp Business API. Hasta 100.000 mensajes al día.",
+					"icon": "whatsapp",
+					"features": [
+						"Envío masivo de mensajes",
+						"Integración de chatbot",
+						"Mensajes de plantilla",
+						"Compartir medios"
+					]
+				},
+				{
+					"name": "Instagram DM y Comentarios",
+					"description": "Gestione mensajes DM de Instagram y notificaciones de comentarios desde un solo panel. Aumente la interacción con respuestas automáticas.",
+					"icon": "instagram",
+					"features": [
+						"Gestión de DM",
+						"Seguimiento de comentarios",
+						"Respuestas automáticas",
+						"Respuestas a Stories"
+					]
+				},
+				{
+					"name": "Facebook Messenger",
+					"description": "Gestione todos los mensajes de su página de Facebook a través de DialogTab. Manténgase activo 24/7 con chatbot y respuestas automáticas.",
+					"icon": "facebook",
+					"features": [
+						"Gestión de Messenger",
+						"Soporte de chatbot",
+						"Saludo automático",
+						"Seguimiento de comentarios"
+					]
+				},
+				{
+					"name": "Telegram",
+					"description": "Brinde soporte a sus clientes en Telegram con integración de bots. Soporte de gestión de grupos y canales incluido.",
+					"icon": "telegram",
+					"features": [
+						"Integración de bots",
+						"Gestión de grupos",
+						"Soporte de canales",
+						"Compartir archivos"
+					]
+				},
+				{
+					"name": "Mensajes de TikTok",
+					"description": "Rastree y responda rápidamente a los mensajes de TikTok. La forma más efectiva de llegar a audiencias jóvenes.",
+					"icon": "tiktok",
+					"features": [
+						"Gestión de mensajes",
+						"Respuesta rápida",
+						"Compartir medios",
+						"Seguimiento de comentarios"
+					]
+				},
+				{
+					"name": "Chat en Vivo",
+					"description": "Agregue un widget de chat en vivo a su sitio web y convierta visitantes en clientes. Función de inicio de chat proactivo.",
+					"icon": "livechat",
+					"features": [
+						"Widget para sitio web",
+						"Chat proactivo",
+						"Seguimiento de visitantes",
+						"Compartir archivos"
+					]
+				},
+				{
+					"name": "Viber",
+					"description": "Comuníquese con sus clientes a través de Viber. Un canal de comunicación fuerte especialmente en mercados de Europa del Este y Asia.",
+					"icon": "viber",
+					"features": [
+						"Gestión de mensajes",
+						"Envío masivo",
+						"Integración de bots",
+						"Compartir medios"
+					]
+				}
+			],
+			"benefitsSection": {
+				"title": "¿Por Qué Gestión de Redes Sociales con DialogTab?",
+				"subtitle": "Aumente su eficiencia gestionando todos los canales desde una sola plataforma."
+			},
+			"benefits": [
+				{
+					"title": "Bandeja de Entrada Unificada",
+					"description": "Vea y gestione mensajes de todos los canales de redes sociales en una sola bandeja de entrada. Nunca pierda un mensaje.",
+					"icon": "inbox"
+				},
+				{
+					"title": "Chatbot con IA",
+					"description": "Brinde soporte al cliente 24/7 con chatbot de IA. Responda automáticamente a preguntas frecuentes y aumente la satisfacción.",
+					"icon": "zap"
+				},
+				{
+					"title": "Colaboración de Equipo",
+					"description": "Asigne mensajes a miembros del equipo, agregue notas internas y trabaje juntos para responder más rápido.",
+					"icon": "users"
+				},
+				{
+					"title": "Analítica Detallada",
+					"description": "Métricas de rendimiento separadas para cada canal. Rastree tiempos de respuesta, satisfacción del cliente y rendimiento del equipo.",
+					"icon": "chart"
+				}
+			],
+			"howItWorks": {
+				"title": "¿Cómo Funciona?",
+				"subtitle": "Conecte todos sus canales de redes sociales en minutos.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Crear Cuenta",
+						"description": "Cree su cuenta de DialogTab e inicie sesión en su panel."
+					},
+					{
+						"step": "2",
+						"title": "Conectar Canales",
+						"description": "Conecte WhatsApp, Instagram, Facebook y otros canales con unos pocos clics."
+					},
+					{
+						"step": "3",
+						"title": "Agregar Equipo",
+						"description": "Invite a miembros del equipo y distribuya tareas."
+					},
+					{
+						"step": "4",
+						"title": "Empezar a Comunicar",
+						"description": "Comience a gestionar mensajes de todos los canales en un solo panel."
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Qué plataformas de redes sociales son compatibles?",
+						"answer": "DialogTab es compatible con WhatsApp Business, Instagram DM y Comentarios, Facebook Messenger, Telegram, TikTok, Chat en Vivo y Viber. Se agregan nuevas plataformas regularmente."
+					},
+					{
+						"question": "¿Puedo gestionar todos los canales simultáneamente?",
+						"answer": "Sí, con la bandeja de entrada unificada de DialogTab puede gestionar mensajes de todos los canales en una sola pantalla. Puede asignar mensajes y agregar notas internas."
+					},
+					{
+						"question": "¿El chatbot funciona en todos los canales?",
+						"answer": "Sí, el chatbot de IA funciona en WhatsApp, Instagram, Facebook Messenger, Telegram y Chat en Vivo. Puede crear flujos de chatbot separados para cada canal."
+					},
+					{
+						"question": "¿Cuánto tiempo tarda la configuración?",
+						"answer": "La configuración básica se completa en minutos. La integración de WhatsApp Business API puede tardar 1-3 días hábiles para la aprobación de Meta. Otros canales se conectan instantáneamente."
+					},
+					{
+						"question": "¿Puedo importar mis datos de clientes existentes?",
+						"answer": "Sí, puede importar datos de clientes existentes a DialogTab mediante archivo CSV o API. También es posible la sincronización automática con integraciones de CRM."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita una integración personalizada?",
+				"description": "Si necesita una plataforma de redes sociales no listada o una integración de canal personalizada, contáctenos. Trabajemos juntos en integración CRM, integración de canales y soluciones personalizadas.",
+				"button": "Contáctenos"
+			},
+			"cta": {
+				"title": "Unifique Todos Sus Canales de Redes Sociales",
+				"description": "Comience a gestionar todos sus canales desde una plataforma con una prueba gratuita de 7 días. Soporte de configuración incluido.",
+				"button": "Prueba Gratuita",
+				"buttonSecondary": "Solicitar Demo"
+			}
+		},
+		"e-commerce": {
+			"slug": "e-commerce",
+			"meta": {
+				"title": "Integraciones de E-Commerce - Shopify, WooCommerce, Ticimax, IKAS | DialogTab",
+				"description": "Integre su tienda de e-commerce con DialogTab. Integraciones con Shopify, WooCommerce, BigCommerce, Magento, OpenCart, T-Soft, Ticimax, IKAS y PrestaShop. Creación de pedidos, cobro de pagos y análisis de ventas.",
+				"keywords": "integración e-commerce, integración shopify, integración woocommerce, integración ticimax, integración ikas, magento, opencart, prestashop, tsoft, bigcommerce, dialogtab, gestión pedidos"
+			},
+			"hero": {
+				"badge": "Integraciones de E-Commerce",
+				"title": "Potencie Su Tienda de E-Commerce ",
+				"titleHighlight": "con DialogTab",
+				"description": "Integre Shopify, WooCommerce, Ticimax, IKAS y más plataformas de e-commerce. Aumente sus ventas con creación de pedidos, pagos por redes sociales y análisis de ventas.",
+				"cta": "Prueba Gratuita",
+				"ctaSecondary": "Ver Precios"
+			},
+			"stats": [
+				{
+					"value": "9+",
+					"label": "Plataformas de E-Commerce"
+				},
+				{
+					"value": "50%",
+					"label": "Aumento Ventas en Redes Sociales"
+				},
+				{
+					"value": "60%",
+					"label": "Recuperación de Carritos"
+				},
+				{
+					"value": "35%",
+					"label": "Procesamiento de Pedidos Más Rápido"
+				}
+			],
+			"platformsSection": {
+				"title": "Plataformas de E-Commerce Compatibles",
+				"subtitle": "Acelere sus procesos de ventas con integraciones de plataformas de e-commerce populares y gestione pedidos de todos los canales en un solo lugar."
+			},
+			"platforms": [
+				{
+					"name": "Shopify",
+					"description": "Integre su tienda Shopify con DialogTab para recibir pedidos por WhatsApp y redes sociales, enviar enlaces de pago y automatizar la comunicación.",
+					"icon": "shopify",
+					"features": [
+						"Creación de pedidos desde panel",
+						"Enlaces de pago en redes sociales",
+						"Recordatorios de carrito",
+						"Compartir catálogo"
+					]
+				},
+				{
+					"name": "WooCommerce",
+					"description": "Conecte su tienda WooCommerce basada en WordPress. Sincronice automáticamente productos, pedidos y datos de clientes.",
+					"icon": "woocommerce",
+					"features": [
+						"Sincronización automática de pedidos",
+						"Integración de catálogo",
+						"Seguimiento de stock",
+						"Transferencia de datos"
+					]
+				},
+				{
+					"name": "BigCommerce",
+					"description": "Conecte su tienda BigCommerce a DialogTab para una experiencia de venta multicanal y gestión centralizada de pedidos.",
+					"icon": "bigcommerce",
+					"features": [
+						"Gestión multicanal",
+						"Sincronización de productos",
+						"Segmentación de clientes",
+						"Integración de pagos"
+					]
+				},
+				{
+					"name": "Magento",
+					"description": "Integre su infraestructura Magento (Adobe Commerce) con DialogTab. Integración poderosa para e-commerce de nivel empresarial.",
+					"icon": "magento",
+					"features": [
+						"Integración empresarial",
+						"Gestión avanzada de pedidos",
+						"Soporte multi-tienda",
+						"Integración API"
+					]
+				},
+				{
+					"name": "OpenCart",
+					"description": "Conecte su tienda OpenCart con DialogTab y venda a través de redes sociales. Sincronización de pedidos y productos.",
+					"icon": "opencart",
+					"features": [
+						"Sincronización de pedidos",
+						"Catálogo de productos",
+						"Gestión de clientes",
+						"Seguimiento de pagos"
+					]
+				},
+				{
+					"name": "T-Soft",
+					"description": "Integre su infraestructura de e-commerce T-Soft con DialogTab para crear soluciones de venta específicas para el mercado turco.",
+					"icon": "tsoft",
+					"features": [
+						"Soluciones para Turquía",
+						"Integración de envíos",
+						"Gestión de pedidos",
+						"Integración de facturas"
+					]
+				},
+				{
+					"name": "Ticimax",
+					"description": "Integre su tienda Ticimax con DialogTab para acelerar sus procesos de ventas. Creación de pedidos, pagos por redes sociales y analítica detallada.",
+					"icon": "ticimax",
+					"features": [
+						"Creación de pedidos desde panel",
+						"Enlaces de pago en redes sociales",
+						"Seguimiento de rendimiento",
+						"Etiquetado geográfico"
+					]
+				},
+				{
+					"name": "IKAS",
+					"description": "Conecte su plataforma IKAS con DialogTab. Optimice las ventas en redes sociales con una infraestructura moderna y rápida.",
+					"icon": "ikas",
+					"features": [
+						"Integración rápida",
+						"Gestión de pedidos",
+						"Sincronización de productos",
+						"Segmentación de clientes"
+					]
+				},
+				{
+					"name": "PrestaShop",
+					"description": "Integre su tienda PrestaShop con DialogTab. Potencie su infraestructura de e-commerce de código abierto con herramientas de comunicación.",
+					"icon": "prestashop",
+					"features": [
+						"Integración de módulos",
+						"Sincronización de pedidos",
+						"Catálogo de productos",
+						"Soporte multiidioma"
+					]
+				}
+			],
+			"benefitsSection": {
+				"title": "Beneficios de la Integración de E-Commerce",
+				"subtitle": "Haga crecer su negocio con resultados comprobados."
+			},
+			"benefits": [
+				{
+					"title": "Creación de Pedidos desde Panel",
+					"description": "Cree pedidos directamente en nombre de los clientes. Gestione selección de productos, cantidad, entrega y pago desde una sola pantalla.",
+					"icon": "cart"
+				},
+				{
+					"title": "Cobro de Pagos por Redes Sociales",
+					"description": "Envíe enlaces de pago por Instagram, Messenger y WhatsApp. Redirija a páginas de pago seguras.",
+					"icon": "zap"
+				},
+				{
+					"title": "Seguimiento de Rendimiento de Vendedores",
+					"description": "Rastree el rendimiento de representantes de ventas con informes detallados. Revise pedidos, ingresos y métricas de comunicación.",
+					"icon": "chart"
+				},
+				{
+					"title": "Etiquetado Geográfico",
+					"description": "Etiquete clientes por ubicación. Aumente la efectividad del marketing con campañas regionales y ofertas especiales.",
+					"icon": "target"
+				},
+				{
+					"title": "Análisis de Ventas",
+					"description": "Analice todos los datos de ventas desde un panel central. Cree informes detallados por producto, canal y período.",
+					"icon": "chart"
+				},
+				{
+					"title": "Recuperación de Carritos Abandonados",
+					"description": "Detecte carritos abandonados instantáneamente y envíe mensajes de recordatorio automáticos. 60% de tasa de recuperación.",
+					"icon": "package"
+				}
+			],
+			"howItWorks": {
+				"title": "¿Cómo Funciona?",
+				"subtitle": "Conecte su tienda de e-commerce en minutos.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Elija Plataforma",
+						"description": "Seleccione su plataforma de e-commerce e inicie el proceso de conexión."
+					},
+					{
+						"step": "2",
+						"title": "Conecte Tienda",
+						"description": "Conecte su tienda a DialogTab de forma segura mediante clave API u OAuth."
+					},
+					{
+						"step": "3",
+						"title": "Sincronice Datos",
+						"description": "Productos, pedidos e información de clientes se sincronizan automáticamente."
+					},
+					{
+						"step": "4",
+						"title": "Empiece a Vender",
+						"description": "Comience a recibir pedidos por redes sociales y a analizar sus ventas."
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Qué plataformas de e-commerce son compatibles?",
+						"answer": "DialogTab es compatible con Shopify, WooCommerce, BigCommerce, Magento, OpenCart, T-Soft, Ticimax, IKAS y PrestaShop. Puede conectarse a cualquier plataforma con integración API personalizada."
+					},
+					{
+						"question": "¿Se sincronizan automáticamente mis datos de productos y pedidos?",
+						"answer": "Sí, después de configurar la integración, productos, pedidos e información de clientes se sincronizan automáticamente. Con sincronización en tiempo real, los datos están siempre actualizados."
+					},
+					{
+						"question": "¿Cómo puedo cobrar pagos por redes sociales?",
+						"answer": "Puede crear enlaces de pago desde el panel de DialogTab y enviarlos a clientes por Instagram, WhatsApp y Messenger. Los clientes son redirigidos a una página de pago segura."
+					},
+					{
+						"question": "¿Puedo conectar múltiples tiendas de e-commerce?",
+						"answer": "Sí, puede conectar múltiples tiendas a la misma cuenta de DialogTab. Puede gestionar tiendas en diferentes plataformas desde un solo panel."
+					},
+					{
+						"question": "¿Proporcionan soporte técnico para la configuración?",
+						"answer": "Sí, el equipo de DialogTab brinda soporte completo durante la configuración de la integración. También están disponibles documentación detallada y tutoriales en video."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Construyamos Soluciones Personalizadas con DialogTab",
+				"description": "Hagamos realidad su solución de integración personalizada. Contáctenos para integración CRM, integración de canales, integración de infraestructura de e-commerce o una solución completamente personalizada.",
+				"button": "Contáctenos"
+			},
+			"cta": {
+				"title": "Integre Su Tienda y Aumente las Ventas",
+				"description": "Empiece hoy e integre su tienda con DialogTab para maximizar su potencial de ventas.",
+				"button": "Prueba Gratuita",
+				"buttonSecondary": "Solicitar Demo"
+			}
+		}
 	}
 }
