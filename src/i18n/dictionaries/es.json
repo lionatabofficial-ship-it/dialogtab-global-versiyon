@@ -2039,5 +2039,225 @@
 		},
 		"noPosts": "No se encontraron artículos.",
 		"searchPlaceholder": "Buscar artículos..."
+	},
+	"solutionPages": {
+		"whatsapp-bulk-messaging": {
+			"slug": "whatsapp-bulk-messaging",
+			"meta": {
+				"title": "Mensajes Masivos de WhatsApp y Optimización de Ventas | DialogTab",
+				"description": "Envía hasta 100.000 mensajes al día con WhatsApp Business API. Mensajería masiva, recordatorios de carrito, análisis de campañas y segmentación de clientes. Prueba gratis durante 7 días.",
+				"keywords": "whatsapp mensajes masivos, whatsapp bulk, whatsapp campaña, mensajería masiva, whatsapp business api, recordatorio carrito, segmentación clientes, whatsapp marketing, whatsapp ventas, dialogtab"
+			},
+			"hero": {
+				"badge": "Soluciones de Mensajería Masiva",
+				"title": "Mensajes Masivos de WhatsApp y ",
+				"titleHighlight": "Optimización de Ventas",
+				"description": "Llegue a miles de clientes simultáneamente para promocionar sus campañas y optimizar sus procesos de ventas. ¡Multiplique sus ventas con mensajería masiva\\!",
+				"cta": "Empezar Ahora",
+				"ctaSecondary": "Obtener Soporte Experto"
+			},
+			"stats": [
+				{
+					"value": "100K+",
+					"label": "Capacidad Diaria de Mensajes"
+				},
+				{
+					"value": "40%",
+					"label": "Tasa de Recuperación de Carrito"
+				},
+				{
+					"value": "98%",
+					"label": "Tasa de Apertura de Mensajes"
+				},
+				{
+					"value": "3x",
+					"label": "Retorno de Inversión (ROI)"
+				}
+			],
+			"highlights": {
+				"title": "¡Multiplique sus ventas con mensajería masiva\\!",
+				"subtitle": "Llegue a miles de clientes simultáneamente para promocionar sus campañas y optimizar sus procesos de ventas.",
+				"cards": [
+					{
+						"icon": "megaphone",
+						"title": "Envío Masivo de Mensajes WhatsApp",
+						"subtitle": "Alcance listas de clientes segmentadas",
+						"description": "Segmente su lista de clientes por datos demográficos y envíe campañas dirigidas. Envíe hasta 100.000 mensajes al día a través de WhatsApp Business API.",
+						"bullets": [
+							"Capacidad de hasta 100.000 mensajes al día",
+							"Segmentación demográfica",
+							"Gestión de campañas dirigidas"
+						]
+					},
+					{
+						"icon": "cart",
+						"title": "Recordatorios de Carrito Abandonado",
+						"subtitle": "Coordinación automática WhatsApp + email",
+						"description": "Envíe mensajes de recordatorio automáticos a clientes que agregan productos al carrito pero no completan la compra. El sistema coordina canales WhatsApp y email para lograr un 40% de recuperación de carritos.",
+						"bullets": [
+							"40% de tasa de recuperación de carritos",
+							"Coordinación WhatsApp + Email",
+							"Envío automático de códigos de descuento"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Comuníquese con miles de clientes simultáneamente",
+				"subtitle": "Con el sistema de mensajería masiva de WhatsApp de DialogTab, puede segmentar su lista de clientes y enviar campañas dirigidas.",
+				"points": [
+					{
+						"title": "Capacidad de 100.000 Mensajes al Día",
+						"description": "Mensajería masiva segura con WhatsApp Business API. Envíe mensajes de alto volumen mientras mantiene la seguridad de su cuenta.",
+						"icon": "rocket"
+					},
+					{
+						"title": "Segmentación Inteligente",
+						"description": "Cree grupos de clientes por edad, género, historial de compras e intereses. Prepare contenido de mensajes personalizado para cada segmento.",
+						"icon": "target"
+					},
+					{
+						"title": "Seguridad de Cuenta",
+						"description": "Envío seguro compatible con las políticas de WhatsApp. Algoritmo de envío inteligente que minimiza el riesgo de bloqueo de su cuenta.",
+						"icon": "shield"
+					},
+					{
+						"title": "Intervención Proactiva",
+						"description": "Enriquezca la experiencia del cliente con intervención por abandono de carrito, detección de tiempo de permanencia y recomendaciones personalizadas.",
+						"icon": "zap"
+					}
+				]
+			},
+			"features": [
+				{
+					"title": "Análisis de Rendimiento de Campañas",
+					"description": "Realice el seguimiento de las tasas de apertura, clics y conversión de los mensajes enviados con informes detallados.",
+					"icon": "chart"
+				},
+				{
+					"title": "Segmentación de Clientes",
+					"description": "Cree grupos de clientes por edad, género, historial de compras e intereses, y aplique estrategias de mensajería dirigida.",
+					"icon": "target"
+				},
+				{
+					"title": "Integración de Pagos Online",
+					"description": "Cree carritos directamente en los mensajes de WhatsApp y comparta enlaces de pago seguros. Los clientes pueden completar las compras desde el mensaje.",
+					"icon": "creditCard"
+				},
+				{
+					"title": "Pruebas A/B",
+					"description": "Pruebe diferentes contenidos de mensajes, imágenes y horarios de envío para determinar el enfoque más efectivo y mejorar el rendimiento de la campaña.",
+					"icon": "barChart"
+				},
+				{
+					"title": "Recordatorios de Carrito Automáticos",
+					"description": "Detecte automáticamente los carritos abandonados y envíe mensajes de recordatorio coordinados a través de WhatsApp + email.",
+					"icon": "cart"
+				},
+				{
+					"title": "Coordinación Multicanal",
+					"description": "Gestione los canales de WhatsApp, email y SMS desde una única plataforma. Optimice la experiencia del cliente coordinando todos los canales.",
+					"icon": "messageSquare"
+				}
+			],
+			"howItWorks": {
+				"title": "¿Cómo Funciona?",
+				"subtitle": "Lance su campaña de mensajería masiva en minutos.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Crear Cuenta",
+						"description": "Cree su cuenta de DialogTab y complete la integración de WhatsApp Business API."
+					},
+					{
+						"step": "2",
+						"title": "Suba su Lista",
+						"description": "Importe su lista de clientes y cree segmentos basados en datos demográficos."
+					},
+					{
+						"step": "3",
+						"title": "Cree su Campaña",
+						"description": "Prepare sus plantillas de mensajes, agregue imágenes y programe el horario de envío."
+					},
+					{
+						"step": "4",
+						"title": "Analice los Resultados",
+						"description": "Realice el seguimiento y optimización del rendimiento de la campaña en tiempo real."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Analice los resultados de sus campañas",
+				"subtitle": "Realice el seguimiento de las tasas de apertura, clics y conversión de los mensajes enviados con informes detallados.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Análisis Detallado de Campañas",
+						"description": "Realice el seguimiento de las tasas de apertura, clics y conversión con informes en tiempo real.",
+						"bullets": [
+							"Seguimiento de tasa de apertura",
+							"Análisis de clics",
+							"Seguimiento de conversiones"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Pruebas A/B",
+						"description": "Pruebe diferentes contenidos de mensajes, imágenes y horarios de envío para determinar el enfoque más efectivo.",
+						"bullets": [
+							"Prueba de contenido de mensajes",
+							"Optimización visual",
+							"Análisis de horarios"
+						]
+					},
+					{
+						"icon": "dollarSign",
+						"title": "Optimización de ROI",
+						"description": "Maximice su retorno de inversión optimizando continuamente el rendimiento de las campañas.",
+						"bullets": [
+							"Análisis de costos",
+							"Seguimiento de ingresos",
+							"Recomendaciones de rendimiento"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Es legal enviar mensajes masivos por WhatsApp?",
+						"answer": "Sí, enviar mensajes masivos a través de WhatsApp Business API es completamente legal y seguro. DialogTab, como socio oficial de Meta, garantiza el cumplimiento total de las políticas de WhatsApp. Puede enviar mensajes masivos siempre que tenga el consentimiento del cliente (opt-in)."
+					},
+					{
+						"question": "¿Cuántos mensajes puedo enviar al día?",
+						"answer": "Con WhatsApp Business API, puede enviar hasta 100.000 mensajes al día. La capacidad de mensajes se incrementa gradualmente según la puntuación de calidad y el historial de envíos de su cuenta. El equipo de DialogTab le brinda soporte durante todo el proceso."
+					},
+					{
+						"question": "¿Cómo funciona la función de recordatorio de carrito?",
+						"answer": "Cuando los clientes agregan productos al carrito pero no completan la compra, el sistema envía automáticamente un mensaje de recordatorio a través de WhatsApp y/o email después de un período determinado. Se pueden agregar códigos de descuento personalizados y personalizar los tiempos de envío."
+					},
+					{
+						"question": "¿Con qué plataformas de e-commerce puedo integrarme?",
+						"answer": "DialogTab se integra con Shopify, WooCommerce, Trendyol, Hepsiburada, n11, Amazon y otras plataformas de e-commerce populares. Puede conectarse a cualquier plataforma con integración de API personalizada."
+					},
+					{
+						"question": "¿Cómo puedo realizar el seguimiento del rendimiento de mis campañas?",
+						"answer": "En el panel de DialogTab, puede realizar el seguimiento en tiempo real de métricas como la tasa de apertura, tasa de clics, tasa de conversión y ROI de sus campañas. Con la función de pruebas A/B, puede determinar la estrategia de campaña más efectiva."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita una solución personalizada?",
+				"description": "Si necesita una integración personalizada para mensajería masiva de WhatsApp y optimización de ventas, contáctenos y creemos nuevas soluciones juntos.",
+				"button": "Contáctenos"
+			},
+			"cta": {
+				"title": "Pruebe Nuestras Soluciones de Mensajería Masiva Ahora",
+				"description": "Descubra todas nuestras funciones con una prueba gratuita de 7 días. Soporte de configuración e integración incluido.",
+				"button": "Empezar Ahora",
+				"buttonSecondary": "Obtener Soporte Experto"
+			}
+		}
 	}
 }

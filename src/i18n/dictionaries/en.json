@@ -2039,5 +2039,225 @@
 		},
 		"noPosts": "No posts found.",
 		"searchPlaceholder": "Search articles..."
+	},
+	"solutionPages": {
+		"whatsapp-bulk-messaging": {
+			"slug": "whatsapp-bulk-messaging",
+			"meta": {
+				"title": "WhatsApp Bulk Messaging & Sales Optimization | DialogTab",
+				"description": "Send up to 100,000 messages per day with WhatsApp Business API. Bulk messaging, cart reminders, campaign analytics and customer segmentation solutions. Try free for 7 days.",
+				"keywords": "whatsapp bulk messaging, whatsapp bulk messages, whatsapp campaign, bulk messaging, whatsapp business api, cart reminders, customer segmentation, whatsapp marketing, whatsapp sales, dialogtab"
+			},
+			"hero": {
+				"badge": "Bulk Messaging Solutions",
+				"title": "WhatsApp Bulk Messaging & ",
+				"titleHighlight": "Sales Optimization",
+				"description": "Reach thousands of customers simultaneously to promote your campaigns and optimize your sales processes. Multiply your sales with bulk messaging\\!",
+				"cta": "Get Started",
+				"ctaSecondary": "Get Expert Support"
+			},
+			"stats": [
+				{
+					"value": "100K+",
+					"label": "Daily Message Capacity"
+				},
+				{
+					"value": "40%",
+					"label": "Cart Recovery Rate"
+				},
+				{
+					"value": "98%",
+					"label": "Message Open Rate"
+				},
+				{
+					"value": "3x",
+					"label": "Return on Investment (ROI)"
+				}
+			],
+			"highlights": {
+				"title": "Multiply Your Sales with Bulk Messaging\\!",
+				"subtitle": "Reach thousands of customers simultaneously to promote your campaigns and optimize your sales processes.",
+				"cards": [
+					{
+						"icon": "megaphone",
+						"title": "WhatsApp Bulk Message Delivery",
+						"subtitle": "Reach segmented customer lists",
+						"description": "Segment your customer list by demographic data and send targeted campaigns. Send up to 100,000 messages per day via WhatsApp Business API.",
+						"bullets": [
+							"Up to 100,000 messages per day capacity",
+							"Demographic segmentation",
+							"Targeted campaign management"
+						]
+					},
+					{
+						"icon": "cart",
+						"title": "Abandoned Cart Reminders",
+						"subtitle": "Automatic WhatsApp + email coordination",
+						"description": "Send automatic reminder messages to customers who add products to cart but do not complete the purchase. The system coordinates both WhatsApp and email channels to achieve a 40% cart recovery rate.",
+						"bullets": [
+							"40% cart recovery rate",
+							"WhatsApp + Email coordination",
+							"Automatic discount code delivery"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Communicate with thousands of customers simultaneously",
+				"subtitle": "With DialogTab's WhatsApp bulk messaging system, you can segment your customer list and send targeted campaigns.",
+				"points": [
+					{
+						"title": "100,000 Messages Per Day Capacity",
+						"description": "Secure bulk messaging with WhatsApp Business API. Send high-volume messages while keeping your account safe.",
+						"icon": "rocket"
+					},
+					{
+						"title": "Smart Segmentation",
+						"description": "Create customer groups by age, gender, shopping history and interests. Prepare custom message content for each segment.",
+						"icon": "target"
+					},
+					{
+						"title": "Account Security",
+						"description": "Secure delivery compliant with WhatsApp policies. Smart sending algorithm that minimizes the risk of your account being blocked.",
+						"icon": "shield"
+					},
+					{
+						"title": "Proactive Engagement",
+						"description": "Enrich customer experience with cart abandonment intervention, dwell time detection and personalized recommendations.",
+						"icon": "zap"
+					}
+				]
+			},
+			"features": [
+				{
+					"title": "Campaign Performance Analytics",
+					"description": "Track open rates, click counts and conversion rates of sent messages with detailed reports.",
+					"icon": "chart"
+				},
+				{
+					"title": "Customer Segmentation",
+					"description": "Create customer groups by age, gender, shopping history and interests, and apply targeted messaging strategies.",
+					"icon": "target"
+				},
+				{
+					"title": "Online Payment Integration",
+					"description": "Create carts directly within WhatsApp messages and share secure payment links. Customers can complete purchases from the message.",
+					"icon": "creditCard"
+				},
+				{
+					"title": "A/B Testing",
+					"description": "Test different message contents, visuals and sending times to determine the most effective approach and improve campaign performance.",
+					"icon": "barChart"
+				},
+				{
+					"title": "Automatic Cart Reminders",
+					"description": "Automatically detect abandoned carts and send coordinated reminder messages via WhatsApp + email.",
+					"icon": "cart"
+				},
+				{
+					"title": "Multi-Channel Coordination",
+					"description": "Manage WhatsApp, email and SMS channels from a single platform. Optimize customer experience by coordinating all channels.",
+					"icon": "messageSquare"
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Launch your bulk messaging campaign in minutes.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Create Account",
+						"description": "Create your DialogTab account and complete the WhatsApp Business API integration."
+					},
+					{
+						"step": "2",
+						"title": "Upload Your List",
+						"description": "Import your customer list and create segments based on demographic data."
+					},
+					{
+						"step": "3",
+						"title": "Create Campaign",
+						"description": "Prepare your message templates, add visuals and schedule the sending time."
+					},
+					{
+						"step": "4",
+						"title": "Analyze Results",
+						"description": "Track and optimize campaign performance in real time."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Analyze campaign results",
+				"subtitle": "Track open rates, click counts and conversion rates of your sent messages with detailed reports.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Detailed Campaign Analysis",
+						"description": "Track open rates, click counts and conversion rates with real-time reports.",
+						"bullets": [
+							"Open rate tracking",
+							"Click analysis",
+							"Conversion tracking"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "A/B Testing",
+						"description": "Test different message contents, visuals and sending times to determine the most effective approach.",
+						"bullets": [
+							"Message content testing",
+							"Visual optimization",
+							"Timing analysis"
+						]
+					},
+					{
+						"icon": "dollarSign",
+						"title": "ROI Optimization",
+						"description": "Maximize your return on investment by continuously optimizing campaign performance.",
+						"bullets": [
+							"Cost analysis",
+							"Revenue tracking",
+							"Performance recommendations"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "Is sending WhatsApp bulk messages legal?",
+						"answer": "Yes, sending bulk messages through the WhatsApp Business API is completely legal and secure. DialogTab, as an official Meta partner, ensures full compliance with WhatsApp policies. You can send bulk messages as long as you have customer consent (opt-in)."
+					},
+					{
+						"question": "How many messages can I send per day?",
+						"answer": "With the WhatsApp Business API, you can send up to 100,000 messages per day. Message capacity is gradually increased based on your account's quality score and sending history. The DialogTab team supports you throughout this process."
+					},
+					{
+						"question": "How does the cart reminder feature work?",
+						"answer": "When customers add products to their cart but do not complete the purchase, the system automatically sends a reminder message via WhatsApp and/or email after a set period. Custom discount codes can be added to messages and sending times can be customized."
+					},
+					{
+						"question": "Which e-commerce platforms can I integrate with?",
+						"answer": "DialogTab integrates with Shopify, WooCommerce, Trendyol, Hepsiburada, n11, Amazon and other popular e-commerce platforms. You can connect to any platform with custom API integration."
+					},
+					{
+						"question": "How can I track campaign performance?",
+						"answer": "On the DialogTab dashboard, you can track metrics like open rate, click rate, conversion rate and ROI of your campaigns in real time. With the A/B testing feature, you can determine the most effective campaign strategy."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need a custom solution?",
+				"description": "If you need a custom integration for WhatsApp bulk messaging and sales optimization, contact us and let's build new solutions together.",
+				"button": "Contact Us"
+			},
+			"cta": {
+				"title": "Try Our WhatsApp Bulk Messaging Solutions Now",
+				"description": "Discover all our features with a 7-day free trial. Setup and integration support included.",
+				"button": "Get Started",
+				"buttonSecondary": "Get Expert Support"
+			}
+		}
 	}
 }
