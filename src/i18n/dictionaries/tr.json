@@ -2703,5 +2703,119 @@
 				"buttonSecondary": "Demo Talep Edin"
 			}
 		}
+	},
+	"customSolutionPage": {
+		"meta": {
+			"title": "Özel Çözüm Talebi | DialogTab - Kurumsal İletişim Platformu",
+			"description": "İşletmenize özel iletişim çözümü alın. DialogTab güçlü altyapısıyla 100'den fazla aktif markaya hizmet vermektedir. Hemen bizimle iletişime geçin.",
+			"keywords": "özel çözüm, kurumsal iletişim, dialogtab, özel entegrasyon, whatsapp business api, iş otomasyonu, kişiselleştirilmiş çözüm"
+		},
+		"hero": {
+			"badge": "Özel Çözümler",
+			"title": "İşletmeniz, ",
+			"titleHighlight": "Sizin Çözümünüz",
+			"description": "DialogTab, güçlü altyapı desteğiyle 100'den fazla aktif markaya hizmet vermektedir. Benzersiz bir entegrasyon, özelleştirilmiş iş akışı veya kapsamlı bir iletişim dönüşümü — ne ihtiyacınız varsa sizin için inşa ediyoruz."
+		},
+		"stats": [
+			{
+				"value": "100+",
+				"label": "Aktif Marka"
+			},
+			{
+				"value": "50M+",
+				"label": "Aylık Gönderilen Mesaj"
+			},
+			{
+				"value": "%99.9",
+				"label": "Platform Çalışma Süresi"
+			},
+			{
+				"value": "7/24",
+				"label": "Teknik Destek"
+			}
+		],
+		"capabilities": {
+			"title": "Sizin İçin Neler İnşa Edebiliriz",
+			"subtitle": "Özel entegrasyonlardan kapsamlı iletişim çözümlerine kadar, ekibimiz ihtiyaçlarınıza özel kurumsal düzeyde çözümler sunar.",
+			"items": [
+				{
+					"icon": "zap",
+					"title": "Özel API Entegrasyonları",
+					"description": "Mevcut CRM, ERP veya herhangi bir üçüncü taraf sisteminizle, iş akışınıza özel oluşturulmuş API entegrasyonları aracılığıyla DialogTab'ı bağlayın."
+				},
+				{
+					"icon": "messageSquare",
+					"title": "Otomatik İş Akışları",
+					"description": "Müşteri etkileşimlerini, bildirimleri ve takipleri manuel müdahale olmadan yöneten otomatik iletişim iş akışları tasarlayın ve uygulayın."
+				},
+				{
+					"icon": "shield",
+					"title": "Kurumsal Güvenlik",
+					"description": "Özel veri işleme, uyumluluk gereksinimleri ve kuruluşunuz için ayrılmış altyapı ile kurumsal düzeyde güvenlik elde edin."
+				},
+				{
+					"icon": "chart",
+					"title": "Özel Analitik ve Raporlama",
+					"description": "İşletmeniz için önemli olan KPI'ları gerçek zamanlı verilerle takip eden özel panolar ve raporlama araçları oluşturun."
+				},
+				{
+					"icon": "users",
+					"title": "Çok Kanallı Çözümler",
+					"description": "WhatsApp, Instagram, Messenger, Telegram ve daha fazlası — tüm iletişim kanallarınızı tek bir özel platformda birleştirin."
+				},
+				{
+					"icon": "rocket",
+					"title": "Ölçeklenebilir Altyapı",
+					"description": "Altyapımız işletmenizle birlikte büyür. Garantili teslimat ve düşük gecikme süresiyle günde milyonlarca mesajı yönetin."
+				}
+			]
+		},
+		"whyUs": {
+			"title": "Neden DialogTab?",
+			"subtitle": "Farklı sektörlerden 100'den fazla marka tarafından tercih edilen DialogTab, kurumsal düzeyde iletişim çözümleri sunar.",
+			"points": [
+				{
+					"icon": "target",
+					"title": "Kanıtlanmış Başarı",
+					"description": "100'den fazla aktif marka, müşteri iletişimlerini güçlendirmek için DialogTab'a güvenmektedir. Çözümlerimiz e-ticaret, sağlık, eğitim ve daha birçok sektörde ölçülebilir yatırım getirisi sağlamıştır."
+				},
+				{
+					"icon": "zap",
+					"title": "Hızlı Uygulama",
+					"description": "Deneyimli ekibimiz özel çözümleri hızla sunar. İlk danışmanlıktan üretime kadar kaliteden ödün vermeden sıkı zaman çizelgelerinde çalışıyoruz."
+				},
+				{
+					"icon": "shield",
+					"title": "Kurumsal Düzey Altyapı",
+					"description": "%99.9 çalışma süresi SLA'sı, uçtan uca şifreleme ve uluslararası veri koruma standartlarına tam uyumluluk ile sağlam altyapı üzerine inşa edilmiştir."
+				},
+				{
+					"icon": "users",
+					"title": "Özel Destek Ekibi",
+					"description": "Özel ekibimizden 7/24 teknik destek alın. Her özel çözüm, sürekli bakım, izleme ve optimizasyon içerir."
+				}
+			]
+		},
+		"form": {
+			"title": "Projenizi Bize Anlatın",
+			"subtitle": "Aşağıdaki formu doldurun, ekibimiz 24 saat içinde size özel bir çözüm teklifiyle geri dönecektir.",
+			"nameLabel": "Ad Soyad",
+			"namePlaceholder": "Ahmet Yılmaz",
+			"emailLabel": "E-posta Adresi",
+			"emailPlaceholder": "ahmet@sirket.com",
+			"phoneLabel": "Telefon Numarası",
+			"phonePlaceholder": "+90 (555) 000 00 00",
+			"websiteLabel": "Web Sitesi",
+			"websitePlaceholder": "https://sirketiniz.com",
+			"messageLabel": "Çözüm Açıklaması",
+			"messagePlaceholder": "İhtiyacınız olan özel çözümü açıklayın. Ana zorluklarınız neler? Hangi sistemlerle entegre olmanız gerekiyor?",
+			"submitButton": "Talebi Gönder"
+		},
+		"cta": {
+			"title": "İletişiminizi Dönüştürmeye Hazır mısınız?",
+			"description": "İletişim ihtiyaçları için DialogTab'a güvenen 100+ markaya katılın. Bugün özel bir çözümle başlayın.",
+			"button": "Ücretsiz Başla",
+			"buttonSecondary": "Uzmanla Konuşun"
+		}
 	}
 }

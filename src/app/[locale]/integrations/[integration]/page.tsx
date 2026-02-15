@@ -2,6 +2,7 @@ import { getDictionary } from "@/i18n";
 import { locales, type Locale } from "@/i18n/config";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ChatWidget from "@/components/ChatWidget";
@@ -179,6 +180,18 @@ const platformColorMap: Record<string, string> = {
 	prestashop: "bg-pink-600",
 };
 
+const platformImageMap: Record<string, string> = {
+	shopify: "/images/shopify.webp",
+	woocommerce: "/images/woocommerce.png",
+	bigcommerce: "/images/bigcommerce.webp",
+	magento: "/images/magento.png",
+	opencart: "/images/opencart.webp",
+	tsoft: "/images/tsoft.webp",
+	ticimax: "/images/ticimax.jpg",
+	ikas: "/images/ikas.svg",
+	prestashop: "/images/prestashop.webp",
+};
+
 function getPlatformIcon(key: string) {
 	return platformIcons[key] || platformIcons.livechat;
 }
@@ -279,9 +292,15 @@ export default async function IntegrationPage({ params }: { params: Promise<{ lo
 							{page.platforms.map((platform) => (
 								<div key={platform.name} className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-slate-100 group">
 									<div className="flex items-center mb-6">
-										<div className={`w-14 h-14 ${getPlatformColor(platform.icon)} rounded-2xl flex items-center justify-center text-white mr-4 group-hover:scale-110 transition-transform duration-300`}>
-											{getPlatformIcon(platform.icon)}
-										</div>
+										{platformImageMap[platform.icon] ? (
+											<div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 border border-slate-100 p-2">
+												<Image src={platformImageMap[platform.icon]} alt={platform.name} width={40} height={40} className="w-10 h-10 object-contain" />
+											</div>
+										) : (
+											<div className={`w-14 h-14 ${getPlatformColor(platform.icon)} rounded-2xl flex items-center justify-center text-white mr-4 group-hover:scale-110 transition-transform duration-300`}>
+												{getPlatformIcon(platform.icon)}
+											</div>
+										)}
 										<h3 className="text-xl font-bold text-slate-900">{platform.name}</h3>
 									</div>
 									<p className="text-slate-600 mb-6 leading-relaxed">{platform.description}</p>

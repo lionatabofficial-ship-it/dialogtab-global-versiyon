@@ -90,7 +90,7 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 	];
 
 	const sectorSlugs = ["insurance", "automotive", "hospitality", "wholesale", "e-commerce", "cosmetics", "health", "education"];
-	const integrationLinks = [`/${locale}/integrations/social-media`, `/${locale}/integrations/e-commerce`, "mailto:info@dialogtab.com"];
+	const integrationLinks = [`/${locale}/integrations/social-media`, `/${locale}/integrations/e-commerce`, `/${locale}/solutions/custom-solution`];
 
 	const leftSolutions = dict.solutionsItems.filter(i => i.category === "left");
 	const rightSolutions = dict.solutionsItems.filter(i => i.category === "right");
