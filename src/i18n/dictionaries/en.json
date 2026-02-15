@@ -2041,8 +2041,8 @@
 		"searchPlaceholder": "Search articles..."
 	},
 	"solutionPages": {
-		"whatsapp-bulk-messaging": {
-			"slug": "whatsapp-bulk-messaging",
+		"whatsapp-solutions": {
+			"slug": "whatsapp-solutions",
 			"meta": {
 				"title": "WhatsApp Bulk Messaging & Sales Optimization | DialogTab",
 				"description": "Send up to 100,000 messages per day with WhatsApp Business API. Bulk messaging, cart reminders, campaign analytics and customer segmentation solutions. Try free for 7 days.",
@@ -2257,6 +2257,450 @@
 				"description": "Discover all our features with a 7-day free trial. Setup and integration support included.",
 				"button": "Get Started",
 				"buttonSecondary": "Get Expert Support"
+			}
+		}
+	},
+	"integrationPages": {
+		"social-media": {
+			"slug": "social-media",
+			"meta": {
+				"title": "Social Media Integrations - WhatsApp, Instagram, Facebook, Telegram | DialogTab",
+				"description": "Manage all your social media channels from one platform. WhatsApp, Instagram DM & Comments, Facebook Messenger, Telegram, TikTok, Live Chat and Viber integrations to reach customers on every channel.",
+				"keywords": "social media integration, whatsapp integration, instagram dm integration, facebook messenger integration, telegram integration, tiktok messaging, live chat, viber integration, dialogtab, omnichannel"
+			},
+			"hero": {
+				"badge": "Social Media Integrations",
+				"title": "Manage All Social Media Channels ",
+				"titleHighlight": "From One Platform",
+				"description": "WhatsApp, Instagram, Facebook, Telegram, TikTok, Live Chat and Viber - manage all your customer communications centrally through DialogTab.",
+				"cta": "Try for Free",
+				"ctaSecondary": "View Pricing"
+			},
+			"stats": [
+				{
+					"value": "7+",
+					"label": "Social Media Channels"
+				},
+				{
+					"value": "98%",
+					"label": "Message Open Rate"
+				},
+				{
+					"value": "10x",
+					"label": "Faster Response Time"
+				},
+				{
+					"value": "60%",
+					"label": "Customer Satisfaction Increase"
+				}
+			],
+			"platformsSection": {
+				"title": "Supported Platforms",
+				"subtitle": "Manage all popular social media channels from a single dashboard. View messages from every channel in your centralized inbox."
+			},
+			"platforms": [
+				{
+					"name": "WhatsApp Business",
+					"description": "Send bulk messages, create chatbots and automate customer communication with WhatsApp Business API. Up to 100,000 messages per day.",
+					"icon": "whatsapp",
+					"features": [
+						"Bulk message sending",
+						"Chatbot integration",
+						"Template messages",
+						"Media sharing"
+					]
+				},
+				{
+					"name": "Instagram DM & Comments",
+					"description": "Manage Instagram DM messages and comment notifications from a single dashboard. Increase customer engagement with auto-replies.",
+					"icon": "instagram",
+					"features": [
+						"DM management",
+						"Comment tracking",
+						"Auto-replies",
+						"Story replies"
+					]
+				},
+				{
+					"name": "Facebook Messenger",
+					"description": "Manage all messages to your Facebook page through DialogTab. Stay active 24/7 with chatbot and auto-reply features.",
+					"icon": "facebook",
+					"features": [
+						"Messenger management",
+						"Chatbot support",
+						"Auto greeting",
+						"Page comment tracking"
+					]
+				},
+				{
+					"name": "Telegram",
+					"description": "Support your customers on Telegram with bot integration. Group and channel management support included.",
+					"icon": "telegram",
+					"features": [
+						"Bot integration",
+						"Group management",
+						"Channel support",
+						"File sharing"
+					]
+				},
+				{
+					"name": "TikTok Messaging",
+					"description": "Track and quickly reply to messages from TikTok. The most effective way to reach younger audiences.",
+					"icon": "tiktok",
+					"features": [
+						"Message management",
+						"Quick reply",
+						"Media sharing",
+						"Comment tracking"
+					]
+				},
+				{
+					"name": "Live Chat",
+					"description": "Add a live chat widget to your website and convert visitors into customers. Proactive chat initiation feature.",
+					"icon": "livechat",
+					"features": [
+						"Website widget",
+						"Proactive chat",
+						"Visitor tracking",
+						"File sharing"
+					]
+				},
+				{
+					"name": "Viber",
+					"description": "Communicate with your customers via Viber. A strong communication channel especially in Eastern European and Asian markets.",
+					"icon": "viber",
+					"features": [
+						"Message management",
+						"Bulk sending",
+						"Bot integration",
+						"Media sharing"
+					]
+				}
+			],
+			"benefitsSection": {
+				"title": "Why Social Media Management with DialogTab?",
+				"subtitle": "Increase your efficiency by managing all channels from a single platform."
+			},
+			"benefits": [
+				{
+					"title": "Unified Inbox",
+					"description": "View and manage messages from all social media channels in one inbox. Never miss a message.",
+					"icon": "inbox"
+				},
+				{
+					"title": "AI-Powered Chatbot",
+					"description": "Provide 24/7 customer support with AI chatbot. Auto-reply to frequently asked questions and increase satisfaction.",
+					"icon": "zap"
+				},
+				{
+					"title": "Team Collaboration",
+					"description": "Assign messages to team members, add internal notes and work together to respond faster to customers.",
+					"icon": "users"
+				},
+				{
+					"title": "Detailed Analytics",
+					"description": "Separate performance metrics for each channel. Track response times, customer satisfaction and team performance.",
+					"icon": "chart"
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Connect all your social media channels in minutes.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Create Account",
+						"description": "Create your DialogTab account and log in to your dashboard."
+					},
+					{
+						"step": "2",
+						"title": "Connect Channels",
+						"description": "Connect your WhatsApp, Instagram, Facebook and other channels with a few clicks."
+					},
+					{
+						"step": "3",
+						"title": "Add Your Team",
+						"description": "Invite team members and distribute tasks."
+					},
+					{
+						"step": "4",
+						"title": "Start Communicating",
+						"description": "Start managing messages from all channels in one dashboard."
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "Which social media platforms are supported?",
+						"answer": "DialogTab supports WhatsApp Business, Instagram DM & Comments, Facebook Messenger, Telegram, TikTok, Live Chat and Viber platforms. New platforms are regularly added."
+					},
+					{
+						"question": "Can I manage all channels simultaneously?",
+						"answer": "Yes, with DialogTab unified inbox you can manage messages from all channels on a single screen. You can assign messages to team members and add internal notes."
+					},
+					{
+						"question": "Does the chatbot work on all channels?",
+						"answer": "Yes, the AI chatbot works on WhatsApp, Instagram, Facebook Messenger, Telegram and Live Chat channels. You can create separate chatbot flows for each channel."
+					},
+					{
+						"question": "How long does setup take?",
+						"answer": "Basic setup can be completed in a few minutes. WhatsApp Business API integration may take 1-3 business days for Meta approval. Other channels connect instantly."
+					},
+					{
+						"question": "Can I import my existing customer data?",
+						"answer": "Yes, you can import existing customer data to DialogTab via CSV file or API. Automatic synchronization with CRM integrations is also possible."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need a custom integration?",
+				"description": "If you need an unlisted social media platform or custom channel integration, contact us. Let us work together on CRM integration, channel integration and custom solutions.",
+				"button": "Contact Us"
+			},
+			"cta": {
+				"title": "Unify All Your Social Media Channels",
+				"description": "Start managing all your channels from one platform with a 7-day free trial. Setup support included.",
+				"button": "Try for Free",
+				"buttonSecondary": "Request Demo"
+			}
+		},
+		"e-commerce": {
+			"slug": "e-commerce",
+			"meta": {
+				"title": "E-Commerce Integrations - Shopify, WooCommerce, Ticimax, IKAS | DialogTab",
+				"description": "Integrate your e-commerce store with DialogTab. Shopify, WooCommerce, BigCommerce, Magento, OpenCart, T-Soft, Ticimax, IKAS and PrestaShop integrations. Order creation, payment collection and sales analytics.",
+				"keywords": "e-commerce integration, shopify integration, woocommerce integration, ticimax integration, ikas integration, magento, opencart, prestashop, tsoft, bigcommerce, dialogtab, order management"
+			},
+			"hero": {
+				"badge": "E-Commerce Integrations",
+				"title": "Power Your E-Commerce Store ",
+				"titleHighlight": "with DialogTab",
+				"description": "Integrate Shopify, WooCommerce, Ticimax, IKAS and more e-commerce platforms. Boost your sales with order creation, social media payments and sales analytics.",
+				"cta": "Try for Free",
+				"ctaSecondary": "View Pricing"
+			},
+			"stats": [
+				{
+					"value": "9+",
+					"label": "E-Commerce Platforms"
+				},
+				{
+					"value": "50%",
+					"label": "Social Media Sales Increase"
+				},
+				{
+					"value": "60%",
+					"label": "Cart Recovery Rate"
+				},
+				{
+					"value": "35%",
+					"label": "Faster Order Processing"
+				}
+			],
+			"platformsSection": {
+				"title": "Supported E-Commerce Platforms",
+				"subtitle": "Accelerate your sales processes with popular e-commerce platform integrations and manage orders from all channels in one place."
+			},
+			"platforms": [
+				{
+					"name": "Shopify",
+					"description": "Integrate your Shopify store with DialogTab to take orders via WhatsApp and social media, send payment links and automate customer communication.",
+					"icon": "shopify",
+					"features": [
+						"Order creation from panel",
+						"Social media payment links",
+						"Cart reminders",
+						"Product catalog sharing"
+					]
+				},
+				{
+					"name": "WooCommerce",
+					"description": "Connect your WordPress-based WooCommerce store. Automatically sync products, orders and customer data.",
+					"icon": "woocommerce",
+					"features": [
+						"Auto order sync",
+						"Product catalog integration",
+						"Stock tracking",
+						"Customer data transfer"
+					]
+				},
+				{
+					"name": "BigCommerce",
+					"description": "Connect your BigCommerce store to DialogTab for a multi-channel sales experience and centralized order management.",
+					"icon": "bigcommerce",
+					"features": [
+						"Multi-channel order management",
+						"Product synchronization",
+						"Customer segmentation",
+						"Payment integration"
+					]
+				},
+				{
+					"name": "Magento",
+					"description": "Integrate your Magento (Adobe Commerce) infrastructure with DialogTab. Powerful integration for enterprise-level e-commerce.",
+					"icon": "magento",
+					"features": [
+						"Enterprise integration",
+						"Advanced order management",
+						"Multi-store support",
+						"API integration"
+					]
+				},
+				{
+					"name": "OpenCart",
+					"description": "Connect your OpenCart store with DialogTab and sell via social media. Order and product synchronization.",
+					"icon": "opencart",
+					"features": [
+						"Order synchronization",
+						"Product catalog",
+						"Customer management",
+						"Payment tracking"
+					]
+				},
+				{
+					"name": "T-Soft",
+					"description": "Integrate your T-Soft e-commerce infrastructure with DialogTab to create sales solutions specific to the Turkish market.",
+					"icon": "tsoft",
+					"features": [
+						"Turkey-specific solutions",
+						"Shipping integration",
+						"Order management",
+						"Invoice integration"
+					]
+				},
+				{
+					"name": "Ticimax",
+					"description": "Integrate your Ticimax store with DialogTab to accelerate your sales processes. Order creation from panel, social media payments and detailed analytics.",
+					"icon": "ticimax",
+					"features": [
+						"Order creation from panel",
+						"Social media payment links",
+						"Seller performance tracking",
+						"Geo-tagging"
+					]
+				},
+				{
+					"name": "IKAS",
+					"description": "Connect your IKAS e-commerce platform with DialogTab. Optimize social media sales with a modern and fast infrastructure.",
+					"icon": "ikas",
+					"features": [
+						"Quick integration",
+						"Order management",
+						"Product synchronization",
+						"Customer segmentation"
+					]
+				},
+				{
+					"name": "PrestaShop",
+					"description": "Integrate your PrestaShop store with DialogTab. Support your open-source e-commerce infrastructure with powerful communication tools.",
+					"icon": "prestashop",
+					"features": [
+						"Module integration",
+						"Order synchronization",
+						"Product catalog",
+						"Multi-language support"
+					]
+				}
+			],
+			"benefitsSection": {
+				"title": "Benefits of E-Commerce Integration",
+				"subtitle": "Grow your business with proven results."
+			},
+			"benefits": [
+				{
+					"title": "Order Creation from Panel",
+					"description": "Create orders directly on behalf of customers. Manage product selection, quantity, delivery and payment information from a single screen.",
+					"icon": "cart"
+				},
+				{
+					"title": "Social Media Payment Collection",
+					"description": "Send payment links via Instagram, Messenger and WhatsApp. Redirect to secure payment pages.",
+					"icon": "zap"
+				},
+				{
+					"title": "Seller Performance Tracking",
+					"description": "Track sales representative performance with detailed reports. Review orders, revenue and customer communication metrics.",
+					"icon": "chart"
+				},
+				{
+					"title": "Geo-Tagging",
+					"description": "Tag customers by location. Increase marketing effectiveness with regional campaigns and special offers.",
+					"icon": "target"
+				},
+				{
+					"title": "Sales Analytics",
+					"description": "Analyze all sales data from a central panel. Create detailed reports by product, channel and period.",
+					"icon": "chart"
+				},
+				{
+					"title": "Abandoned Cart Recovery",
+					"description": "Instantly detect abandoned carts and send automatic reminder messages. 60% recovery rate.",
+					"icon": "package"
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Connect your e-commerce store in minutes.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Choose Platform",
+						"description": "Select your e-commerce platform and start the connection process."
+					},
+					{
+						"step": "2",
+						"title": "Connect Store",
+						"description": "Securely connect your store to DialogTab via API key or OAuth."
+					},
+					{
+						"step": "3",
+						"title": "Sync Data",
+						"description": "Products, orders and customer information are automatically synchronized."
+					},
+					{
+						"step": "4",
+						"title": "Start Selling",
+						"description": "Start taking orders via social media and analyzing your sales."
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "Which e-commerce platforms are supported?",
+						"answer": "DialogTab supports Shopify, WooCommerce, BigCommerce, Magento, OpenCart, T-Soft, Ticimax, IKAS and PrestaShop platforms. You can connect to any platform with custom API integration."
+					},
+					{
+						"question": "Are my existing product and order data automatically synced?",
+						"answer": "Yes, after integration is set up, products, orders and customer information are automatically synchronized. With real-time synchronization, data stays current at all times."
+					},
+					{
+						"question": "How can I collect payments via social media?",
+						"answer": "You can create payment links from the DialogTab panel and send them to customers via Instagram, WhatsApp and Messenger. Customers are redirected to a secure payment page."
+					},
+					{
+						"question": "Can I connect multiple e-commerce stores?",
+						"answer": "Yes, you can connect multiple stores to the same DialogTab account. You can manage stores on different platforms from a single dashboard."
+					},
+					{
+						"question": "Do you provide technical support for setup?",
+						"answer": "Yes, the DialogTab team provides full support during integration setup. Detailed documentation and video tutorials are also available."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Let's Build Custom Solutions with DialogTab",
+				"description": "Let's bring your custom integration solution to life. Contact us for CRM integration, channel integration, e-commerce infrastructure integration or a completely custom solution.",
+				"button": "Contact Us"
+			},
+			"cta": {
+				"title": "Integrate Your Store and Boost Sales",
+				"description": "Start today and integrate your store with DialogTab to maximize your sales potential.",
+				"button": "Try for Free",
+				"buttonSecondary": "Request Demo"
 			}
 		}
 	}

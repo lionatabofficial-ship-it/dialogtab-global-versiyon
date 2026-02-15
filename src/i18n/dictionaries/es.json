@@ -2041,8 +2041,8 @@
 		"searchPlaceholder": "Buscar artículos..."
 	},
 	"solutionPages": {
-		"whatsapp-bulk-messaging": {
-			"slug": "whatsapp-bulk-messaging",
+		"whatsapp-solutions": {
+			"slug": "whatsapp-solutions",
 			"meta": {
 				"title": "Mensajes Masivos de WhatsApp y Optimización de Ventas | DialogTab",
 				"description": "Envía hasta 100.000 mensajes al día con WhatsApp Business API. Mensajería masiva, recordatorios de carrito, análisis de campañas y segmentación de clientes. Prueba gratis durante 7 días.",
