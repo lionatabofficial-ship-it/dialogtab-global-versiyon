@@ -2703,5 +2703,119 @@
 				"buttonSecondary": "Request Demo"
 			}
 		}
+	},
+	"customSolutionPage": {
+		"meta": {
+			"title": "Custom Solution Request | DialogTab - Enterprise Communication Platform",
+			"description": "Get a custom communication solution tailored to your business. DialogTab serves 100+ active brands with powerful infrastructure. Contact us today.",
+			"keywords": "custom solution, enterprise communication, dialogtab, custom integration, whatsapp business api, business automation, tailored solution"
+		},
+		"hero": {
+			"badge": "Custom Solutions",
+			"title": "Your Business, ",
+			"titleHighlight": "Your Solution",
+			"description": "DialogTab provides powerful infrastructure support to over 100 active brands. Whether you need a unique integration, a specialized workflow, or a complete communication overhaul — we build it for you."
+		},
+		"stats": [
+			{
+				"value": "100+",
+				"label": "Active Brands Served"
+			},
+			{
+				"value": "50M+",
+				"label": "Messages Delivered Monthly"
+			},
+			{
+				"value": "99.9%",
+				"label": "Platform Uptime"
+			},
+			{
+				"value": "24/7",
+				"label": "Technical Support"
+			}
+		],
+		"capabilities": {
+			"title": "What We Can Build For You",
+			"subtitle": "From custom integrations to complete communication solutions, our team delivers enterprise-grade solutions tailored to your exact needs.",
+			"items": [
+				{
+					"icon": "zap",
+					"title": "Custom API Integrations",
+					"description": "Connect DialogTab with your existing CRM, ERP, or any third-party system through custom API integrations built specifically for your workflow."
+				},
+				{
+					"icon": "messageSquare",
+					"title": "Automated Workflows",
+					"description": "Design and implement automated communication workflows that handle customer interactions, notifications, and follow-ups without manual intervention."
+				},
+				{
+					"icon": "shield",
+					"title": "Enterprise Security",
+					"description": "Get enterprise-grade security with custom data handling, compliance requirements, and dedicated infrastructure for your organization."
+				},
+				{
+					"icon": "chart",
+					"title": "Custom Analytics & Reporting",
+					"description": "Build custom dashboards and reporting tools that track the exact KPIs that matter to your business with real-time data."
+				},
+				{
+					"icon": "users",
+					"title": "Multi-Channel Solutions",
+					"description": "Unify all your communication channels — WhatsApp, Instagram, Messenger, Telegram, and more — into a single custom-built platform."
+				},
+				{
+					"icon": "rocket",
+					"title": "Scalable Infrastructure",
+					"description": "Our infrastructure scales with your business. Handle millions of messages per day with guaranteed delivery and low latency."
+				}
+			]
+		},
+		"whyUs": {
+			"title": "Why Choose DialogTab?",
+			"subtitle": "Trusted by over 100 brands across industries, DialogTab delivers enterprise-grade communication solutions.",
+			"points": [
+				{
+					"icon": "target",
+					"title": "Proven Track Record",
+					"description": "Over 100 active brands trust DialogTab to power their customer communications. Our solutions have delivered measurable ROI across e-commerce, healthcare, education, and more."
+				},
+				{
+					"icon": "zap",
+					"title": "Rapid Deployment",
+					"description": "Our experienced team delivers custom solutions quickly. From initial consultation to production deployment, we work on tight timelines without compromising quality."
+				},
+				{
+					"icon": "shield",
+					"title": "Enterprise-Grade Infrastructure",
+					"description": "Built on robust infrastructure with 99.9% uptime SLA, end-to-end encryption, and full compliance with international data protection standards."
+				},
+				{
+					"icon": "users",
+					"title": "Dedicated Support Team",
+					"description": "Get 24/7 technical support from our dedicated team. Every custom solution includes ongoing maintenance, monitoring, and optimization."
+				}
+			]
+		},
+		"form": {
+			"title": "Tell Us About Your Project",
+			"subtitle": "Fill out the form below and our team will get back to you within 24 hours with a custom solution proposal.",
+			"nameLabel": "Full Name",
+			"namePlaceholder": "John Doe",
+			"emailLabel": "Email Address",
+			"emailPlaceholder": "john@company.com",
+			"phoneLabel": "Phone Number",
+			"phonePlaceholder": "+1 (555) 000-0000",
+			"websiteLabel": "Website",
+			"websitePlaceholder": "https://yourcompany.com",
+			"messageLabel": "Solution Description",
+			"messagePlaceholder": "Describe the custom solution you need. What are your main challenges? What systems do you need to integrate with?",
+			"submitButton": "Submit Request"
+		},
+		"cta": {
+			"title": "Ready to Transform Your Communication?",
+			"description": "Join 100+ brands that trust DialogTab for their communication needs. Get started with a custom solution today.",
+			"button": "Get Started Free",
+			"buttonSecondary": "Talk to an Expert"
+		}
 	}
 }

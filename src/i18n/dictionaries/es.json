@@ -2703,5 +2703,119 @@
 				"buttonSecondary": "Solicitar Demo"
 			}
 		}
+	},
+	"customSolutionPage": {
+		"meta": {
+			"title": "Solicitud de Solución Personalizada | DialogTab - Plataforma de Comunicación Empresarial",
+			"description": "Obtenga una solución de comunicación personalizada para su negocio. DialogTab sirve a más de 100 marcas activas con infraestructura potente. Contáctenos hoy.",
+			"keywords": "solución personalizada, comunicación empresarial, dialogtab, integración personalizada, whatsapp business api, automatización empresarial, solución a medida"
+		},
+		"hero": {
+			"badge": "Soluciones Personalizadas",
+			"title": "Su Negocio, ",
+			"titleHighlight": "Su Solución",
+			"description": "DialogTab brinda soporte de infraestructura potente a más de 100 marcas activas. Ya sea que necesite una integración única, un flujo de trabajo especializado o una renovación completa de comunicación, lo construimos para usted."
+		},
+		"stats": [
+			{
+				"value": "100+",
+				"label": "Marcas Activas Atendidas"
+			},
+			{
+				"value": "50M+",
+				"label": "Mensajes Enviados Mensualmente"
+			},
+			{
+				"value": "99.9%",
+				"label": "Disponibilidad de Plataforma"
+			},
+			{
+				"value": "24/7",
+				"label": "Soporte Técnico"
+			}
+		],
+		"capabilities": {
+			"title": "Lo Que Podemos Construir Para Usted",
+			"subtitle": "Desde integraciones personalizadas hasta soluciones completas de comunicación, nuestro equipo ofrece soluciones empresariales adaptadas a sus necesidades exactas.",
+			"items": [
+				{
+					"icon": "zap",
+					"title": "Integraciones API Personalizadas",
+					"description": "Conecte DialogTab con su CRM, ERP o cualquier sistema de terceros existente a través de integraciones API personalizadas construidas específicamente para su flujo de trabajo."
+				},
+				{
+					"icon": "messageSquare",
+					"title": "Flujos de Trabajo Automatizados",
+					"description": "Diseñe e implemente flujos de trabajo de comunicación automatizados que manejen interacciones con clientes, notificaciones y seguimientos sin intervención manual."
+				},
+				{
+					"icon": "shield",
+					"title": "Seguridad Empresarial",
+					"description": "Obtenga seguridad de nivel empresarial con manejo de datos personalizado, requisitos de cumplimiento e infraestructura dedicada para su organización."
+				},
+				{
+					"icon": "chart",
+					"title": "Analíticas y Reportes Personalizados",
+					"description": "Construya paneles personalizados y herramientas de informes que rastreen los KPIs exactos que importan a su negocio con datos en tiempo real."
+				},
+				{
+					"icon": "users",
+					"title": "Soluciones Multicanal",
+					"description": "Unifique todos sus canales de comunicación — WhatsApp, Instagram, Messenger, Telegram y más — en una única plataforma personalizada."
+				},
+				{
+					"icon": "rocket",
+					"title": "Infraestructura Escalable",
+					"description": "Nuestra infraestructura escala con su negocio. Maneje millones de mensajes por día con entrega garantizada y baja latencia."
+				}
+			]
+		},
+		"whyUs": {
+			"title": "¿Por Qué Elegir DialogTab?",
+			"subtitle": "Con la confianza de más de 100 marcas en diversas industrias, DialogTab ofrece soluciones de comunicación empresarial.",
+			"points": [
+				{
+					"icon": "target",
+					"title": "Historial Comprobado",
+					"description": "Más de 100 marcas activas confían en DialogTab para potenciar sus comunicaciones con clientes. Nuestras soluciones han generado ROI medible en e-commerce, salud, educación y más."
+				},
+				{
+					"icon": "zap",
+					"title": "Implementación Rápida",
+					"description": "Nuestro experimentado equipo entrega soluciones personalizadas rápidamente. Desde la consulta inicial hasta el despliegue en producción, trabajamos con plazos ajustados sin comprometer la calidad."
+				},
+				{
+					"icon": "shield",
+					"title": "Infraestructura Empresarial",
+					"description": "Construida sobre infraestructura robusta con SLA de 99.9% de disponibilidad, cifrado de extremo a extremo y cumplimiento total con estándares internacionales de protección de datos."
+				},
+				{
+					"icon": "users",
+					"title": "Equipo de Soporte Dedicado",
+					"description": "Obtenga soporte técnico 24/7 de nuestro equipo dedicado. Cada solución personalizada incluye mantenimiento continuo, monitoreo y optimización."
+				}
+			]
+		},
+		"form": {
+			"title": "Cuéntenos Sobre Su Proyecto",
+			"subtitle": "Complete el formulario a continuación y nuestro equipo le responderá dentro de 24 horas con una propuesta de solución personalizada.",
+			"nameLabel": "Nombre Completo",
+			"namePlaceholder": "Juan García",
+			"emailLabel": "Correo Electrónico",
+			"emailPlaceholder": "juan@empresa.com",
+			"phoneLabel": "Número de Teléfono",
+			"phonePlaceholder": "+34 600 000 000",
+			"websiteLabel": "Sitio Web",
+			"websitePlaceholder": "https://suempresa.com",
+			"messageLabel": "Descripción de la Solución",
+			"messagePlaceholder": "Describa la solución personalizada que necesita. ¿Cuáles son sus principales desafíos? ¿Con qué sistemas necesita integrarse?",
+			"submitButton": "Enviar Solicitud"
+		},
+		"cta": {
+			"title": "¿Listo Para Transformar Su Comunicación?",
+			"description": "Únase a más de 100 marcas que confían en DialogTab para sus necesidades de comunicación. Comience con una solución personalizada hoy.",
+			"button": "Comenzar Gratis",
+			"buttonSecondary": "Hablar con un Experto"
+		}
 	}
 }
