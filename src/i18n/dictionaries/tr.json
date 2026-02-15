@@ -2039,5 +2039,225 @@
 		},
 		"noPosts": "Henüz yazı bulunamadı.",
 		"searchPlaceholder": "Yazılarda ara..."
+	},
+	"solutionPages": {
+		"whatsapp-bulk-messaging": {
+			"slug": "whatsapp-bulk-messaging",
+			"meta": {
+				"title": "WhatsApp Toplu Mesaj ve Satış Optimizasyonu | DialogTab",
+				"description": "WhatsApp Business API ile günde 100.000 mesaj gönderin. Toplu mesajlaşma, sepet hatırlatma, kampanya analizi ve müşteri segmentasyonu çözümleri. 7 gün ücretsiz deneyin.",
+				"keywords": "whatsapp toplu mesaj, whatsapp bulk mesaj, whatsapp kampanya, toplu mesajlaşma, whatsapp business api, sepet hatırlatma, müşteri segmentasyonu, whatsapp pazarlama, whatsapp satış, dialogtab"
+			},
+			"hero": {
+				"badge": "Toplu Mesajlaşma Çözümleri",
+				"title": "WhatsApp Toplu Mesaj & ",
+				"titleHighlight": "Satış Optimizasyonu",
+				"description": "Binlerce müşteriye aynı anda ulaşarak kampanyalarınızı duyurun ve satış süreçlerinizi optimize edin. Toplu mesajlaşma ile satışları katlayın\\!",
+				"cta": "Hemen Başla",
+				"ctaSecondary": "Uzman Desteği Al"
+			},
+			"stats": [
+				{
+					"value": "100K+",
+					"label": "Günlük Mesaj Kapasitesi"
+				},
+				{
+					"value": "%40",
+					"label": "Sepet Geri Kazanım Oranı"
+				},
+				{
+					"value": "%98",
+					"label": "Mesaj Açılma Oranı"
+				},
+				{
+					"value": "3x",
+					"label": "Yatırım Getirisi (ROI)"
+				}
+			],
+			"highlights": {
+				"title": "Toplu Mesajlaşma ile Satışları Katlayın\\!",
+				"subtitle": "Binlerce müşteriye aynı anda ulaşarak kampanyalarınızı duyurun ve satış süreçlerinizi optimize edin.",
+				"cards": [
+					{
+						"icon": "megaphone",
+						"title": "WhatsApp Toplu Mesaj Gönderimi",
+						"subtitle": "Segmentli müşteri listelerine ulaşım",
+						"description": "Müşteri listenizi demografik verilere göre segmentleyerek hedefli kampanyalar gönderin. WhatsApp Business API üzerinden günde 100.000'e kadar mesaj gönderebilirsiniz.",
+						"bullets": [
+							"Günde 100.000'e kadar mesaj kapasitesi",
+							"Demografik segmentasyon",
+							"Hedefli kampanya yönetimi"
+						]
+					},
+					{
+						"icon": "cart",
+						"title": "Terk Edilen Sepet Hatırlatmaları",
+						"subtitle": "Otomatik WhatsApp + email koordinasyonu",
+						"description": "Sepete ürün ekleyip alışverişi tamamlamayan müşterilere otomatik hatırlatma mesajları gönderin. Sistem hem WhatsApp hem email kanallarını koordineli kullanarak %40 sepet geri kazanım oranı sağlar.",
+						"bullets": [
+							"%40 sepet geri kazanım oranı",
+							"WhatsApp + Email koordinasyonu",
+							"Otomatik indirim kodu gönderimi"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Binlerce müşteriyle eş zamanlı iletişim kurun",
+				"subtitle": "DialogTab'in WhatsApp toplu mesaj sistemi ile müşteri listenizi segmentleyerek hedefli kampanyalar gönderebilirsiniz.",
+				"points": [
+					{
+						"title": "Günde 100.000 Mesaj Kapasitesi",
+						"description": "WhatsApp Business API ile güvenli toplu mesajlaşma. Hesabınızın güvenliğini korurken yüksek hacimli mesaj gönderimi yapın.",
+						"icon": "rocket"
+					},
+					{
+						"title": "Akıllı Segmentasyon",
+						"description": "Yaş, cinsiyet, alışveriş geçmişi ve ilgi alanlarına göre müşteri grupları oluşturun. Her segmente özel mesaj içerikleri hazırlayın.",
+						"icon": "target"
+					},
+					{
+						"title": "Hesap Güvenliği",
+						"description": "WhatsApp politikalarına uygun güvenli gönderim. Hesabınızın engellenmesi riskini minimize eden akıllı gönderim algoritması.",
+						"icon": "shield"
+					},
+					{
+						"title": "Proaktif Müdahale",
+						"description": "Sepet terk müdahalesi, uzun süre kalma tespiti ve kişiselleştirilmiş öneriler ile müşteri deneyimini zenginleştirin.",
+						"icon": "zap"
+					}
+				]
+			},
+			"features": [
+				{
+					"title": "Kampanya Performans Analizi",
+					"description": "Gönderilen mesajların açılma oranları, tıklama sayıları ve satışa dönüşüm oranlarını detaylı raporlarla takip edin.",
+					"icon": "chart"
+				},
+				{
+					"title": "Müşteri Segmentasyonu",
+					"description": "Yaş, cinsiyet, alışveriş geçmişi ve ilgi alanlarına göre müşteri grupları oluşturun ve hedefli mesajlaşma stratejileri uygulayın.",
+					"icon": "target"
+				},
+				{
+					"title": "Online Ödeme Entegrasyonu",
+					"description": "WhatsApp mesajları içinde direkt sepet oluşturun ve güvenli ödeme linklerini paylaşın. Müşteriler mesaj üzerinden satın alma tamamlayabilir.",
+					"icon": "creditCard"
+				},
+				{
+					"title": "A/B Test Özelliği",
+					"description": "Farklı mesaj içerikleri, görseller ve gönderim saatlerini test ederek en etkili yaklaşımı belirleyin ve kampanya performansını artırın.",
+					"icon": "barChart"
+				},
+				{
+					"title": "Otomatik Sepet Hatırlatma",
+					"description": "Terk edilen sepetleri otomatik olarak tespit edin ve WhatsApp + email üzerinden koordineli hatırlatma mesajları gönderin.",
+					"icon": "cart"
+				},
+				{
+					"title": "Çoklu Kanal Koordinasyonu",
+					"description": "WhatsApp, email ve SMS kanallarını tek platformdan yönetin. Tüm kanalları koordineli çalıştırarak müşteri deneyimini optimize edin.",
+					"icon": "messageSquare"
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır?",
+				"subtitle": "Dakikalar içinde toplu mesaj kampanyanızı başlatın.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Hesap Oluşturun",
+						"description": "DialogTab hesabınızı oluşturun ve WhatsApp Business API entegrasyonunu tamamlayın."
+					},
+					{
+						"step": "2",
+						"title": "Listenizi Yükleyin",
+						"description": "Müşteri listenizi içe aktarın ve demografik verilere göre segmentler oluşturun."
+					},
+					{
+						"step": "3",
+						"title": "Kampanyanızı Oluşturun",
+						"description": "Mesaj şablonlarınızı hazırlayın, görseller ekleyin ve gönderim zamanını planlayın."
+					},
+					{
+						"step": "4",
+						"title": "Sonuçları Analiz Edin",
+						"description": "Kampanya performansını gerçek zamanlı takip edin ve optimize edin."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Kampanya sonuçlarını analiz edin",
+				"subtitle": "Gönderdiğiniz mesajların açılma oranları, tıklama sayıları ve satışa dönüşüm oranlarını detaylı raporlarla takip edebilirsiniz.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Detaylı Kampanya Analizi",
+						"description": "Açılma oranları, tıklama sayıları ve satışa dönüşüm oranlarını gerçek zamanlı raporlarla takip edin.",
+						"bullets": [
+							"Açılma oranı izleme",
+							"Tıklama analizi",
+							"Konversiyon takibi"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "A/B Test Özelliği",
+						"description": "Farklı mesaj içerikleri, görseller ve gönderim saatlerini test ederek en etkili yaklaşımı belirleyin.",
+						"bullets": [
+							"Mesaj içerik testi",
+							"Görsel optimizasyonu",
+							"Zamanlama analizi"
+						]
+					},
+					{
+						"icon": "dollarSign",
+						"title": "ROI Optimizasyonu",
+						"description": "Kampanya performansını sürekli optimize ederek yatırım getirinizi maksimize edin.",
+						"bullets": [
+							"Maliyet analizi",
+							"Gelir takibi",
+							"Performans önerileri"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "WhatsApp toplu mesaj göndermek yasal mı?",
+						"answer": "Evet, WhatsApp Business API üzerinden toplu mesaj göndermek tamamen yasal ve güvenlidir. DialogTab, Meta'nın resmi iş ortağı olarak WhatsApp politikalarına tam uyumlu gönderim sağlar. Müşterilerinizin izni (opt-in) alınması koşuluyla toplu mesajlaşma yapabilirsiniz."
+					},
+					{
+						"question": "Günde kaç mesaj gönderebilirim?",
+						"answer": "WhatsApp Business API ile günde 100.000'e kadar mesaj gönderebilirsiniz. Mesaj kapasitesi, hesabınızın kalite puanına ve gönderim geçmişinize göre kademeli olarak artırılır. DialogTab ekibi bu süreçte size destek sağlar."
+					},
+					{
+						"question": "Sepet hatırlatma özelliği nasıl çalışır?",
+						"answer": "Müşteriler sepete ürün ekleyip alışverişi tamamlamadığında, sistem belirli bir süre sonra otomatik olarak WhatsApp ve/veya email üzerinden hatırlatma mesajı gönderir. Mesajlara özel indirim kodları eklenebilir ve gönderim süresi özelleştirilebilir."
+					},
+					{
+						"question": "Hangi e-ticaret platformlarıyla entegre olabilirim?",
+						"answer": "DialogTab; Shopify, WooCommerce, Trendyol, Hepsiburada, n11, Amazon ve diğer popüler e-ticaret platformlarıyla entegre çalışır. Özel API entegrasyonu ile herhangi bir platforma bağlanabilirsiniz."
+					},
+					{
+						"question": "Kampanya performansını nasıl takip edebilirim?",
+						"answer": "DialogTab dashboard üzerinden kampanyalarınızın açılma oranı, tıklama oranı, konversiyon oranı ve ROI gibi metrikleri gerçek zamanlı olarak takip edebilirsiniz. A/B test özelliği ile en etkili kampanya stratejisini belirleyebilirsiniz."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel bir çözüme mi ihtiyacınız var?",
+				"description": "WhatsApp toplu mesajlaşma ve satış optimizasyonu için özel bir entegrasyona ihtiyacınız varsa, bizimle iletişime geçin ve birlikte yeni çözümler oluşturalım.",
+				"button": "Bize Ulaşın"
+			},
+			"cta": {
+				"title": "WhatsApp Toplu Mesaj Çözümlerimizi Hemen Deneyin",
+				"description": "7 gün ücretsiz deneme ile tüm özelliklerimizi keşfedin. Kurulum ve entegrasyon desteği dahil.",
+				"button": "Hemen Başla",
+				"buttonSecondary": "Uzman Desteği Al"
+			}
+		}
 	}
 }
