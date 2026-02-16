@@ -9,7 +9,7 @@
 		"sectors": "Sectors",
 		"integrations": "Integrations",
 		"pricing": "Pricing",
-		"contact": "Contact",
+		"contact": "Partnership",
 		"blog": "Blog",
 		"login": "Login",
 		"tryFree": "Try for free",
@@ -531,23 +531,46 @@
 		"allPricesNote": "All prices are per agent. Cancel anytime."
 	},
 	"testimonials": {
-		"badge": "TESTIMONIALS",
-		"title": "Trusted by large and small companies.",
-		"subtitle": "Let's look at their amazing experiences.",
+		"badge": "CUSTOMER REVIEWS",
+		"title": "What Our Customers",
+		"titleHighlight": "Say?",
+		"subtitle": "Discover how businesses across industries are transforming their customer communication with DialogTab.",
 		"items": [
 			{
-				"quote": "Together with DialogTab, we have increased the conversion rate of our customers by 19%.",
-				"author": "Adem Höcü",
-				"role": "Ecommerce Manager",
-				"metric": "19%",
-				"metricLabel": "increased sales"
+				"quote": "DialogTab's WhatsApp integration completely transformed our customer communication. We process orders 3x faster now. The chatbot feature handles routine inquiries automatically!",
+				"author": "James Mitchell",
+				"role": "E-Commerce Director, FashionPeak",
+				"initials": "JM"
 			},
 			{
-				"quote": "DialogTab has increased our productivity by 35% by offering a solution enabling physical store experts to work on websites in hybrid way.",
-				"author": "Gökhan Özkan",
-				"role": "Ecommerce Manager",
-				"metric": "35%",
-				"metricLabel": "more productive"
+				"quote": "Managing messages from WhatsApp, Instagram, and Facebook in one place is incredible. Our team's productivity increased by 60% since we started using DialogTab.",
+				"author": "Sarah Chen",
+				"role": "Operations Manager, TravelEase",
+				"initials": "SC"
+			},
+			{
+				"quote": "The AI chatbot handles 70% of our routine inquiries automatically. Our support team can now focus on complex cases. Response time dropped from hours to minutes.",
+				"author": "Emre Kılıç",
+				"role": "Founder, HealthPlus Clinic",
+				"initials": "EK"
+			},
+			{
+				"quote": "Integration with our Shopify store was seamless. Cart abandonment reminders via WhatsApp recovered 35% of lost sales. The ROI paid for itself in the first month.",
+				"author": "Maria Rodriguez",
+				"role": "Customer Success Lead, BeautyWorld",
+				"initials": "MR"
+			},
+			{
+				"quote": "DialogTab's automation reduced our response time from 2 hours to under 5 minutes. Our customer satisfaction scores jumped from 72% to 94% in just three months.",
+				"author": "Alexandros Papadopoulos",
+				"role": "CEO, AutoTech Solutions",
+				"initials": "AP"
+			},
+			{
+				"quote": "The bulk messaging feature is a game-changer for our enrollment campaigns. We reached 15,000 prospective students in one campaign with a 98% delivery rate.",
+				"author": "Ayşe Demir",
+				"role": "Marketing Director, EduGlobal Academy",
+				"initials": "AD"
 			}
 		]
 	},
@@ -2816,6 +2839,77 @@
 			"description": "Join 100+ brands that trust DialogTab for their communication needs. Get started with a custom solution today.",
 			"button": "Get Started Free",
 			"buttonSecondary": "Talk to an Expert"
+		}
+	},
+	"partnershipPage": {
+		"meta": {
+			"title": "Partnership Program | DialogTab - Grow Together",
+			"description": "Join DialogTab's partnership program. Collaborate with us to deliver cutting-edge communication solutions. Apply now and grow your business with DialogTab.",
+			"keywords": "partnership, dialogtab partner, business partnership, communication solutions partner, reseller program, agency partnership"
+		},
+		"hero": {
+			"badge": "Partnership Program",
+			"title": "Grow Your Business ",
+			"titleHighlight": "With DialogTab",
+			"description": "Join our partner network and help businesses transform their customer communication. Access exclusive resources, dedicated support, and competitive revenue sharing."
+		},
+		"benefits": {
+			"title": "Why Partner With Us?",
+			"subtitle": "DialogTab offers a partnership ecosystem that empowers your business to deliver exceptional communication solutions.",
+			"items": [
+				{
+					"icon": "rocket",
+					"title": "Industry-Leading Innovation",
+					"description": "Partner with a platform that's revolutionizing customer communication with AI-powered chatbots, omnichannel messaging, and advanced automation."
+				},
+				{
+					"icon": "chart",
+					"title": "Revenue Growth",
+					"description": "Access competitive revenue sharing models and diverse income streams. Our partners see an average 40% increase in their service portfolio revenue."
+				},
+				{
+					"icon": "puzzle",
+					"title": "Seamless Integration",
+					"description": "Easily integrate DialogTab with your clients' existing e-commerce platforms, CRMs, and business tools. Full API access and technical documentation included."
+				},
+				{
+					"icon": "handshake",
+					"title": "Dedicated Support",
+					"description": "Get priority access to our partner success team, co-marketing resources, training materials, and a dedicated account manager for your partnership."
+				}
+			]
+		},
+		"form": {
+			"title": "Join Our Partner Network",
+			"subtitle": "Apply today and unlock exclusive partnership benefits. We'll get back to you within 24 hours.",
+			"categories": [
+				"Digital Marketing Agencies",
+				"E-Commerce Solution Providers",
+				"Software Development Companies",
+				"System Integrators",
+				"Business Consultants",
+				"Freelance Specialists",
+				"E-Commerce Managers",
+				"Technology Resellers"
+			],
+			"nameLabel": "Full Name",
+			"namePlaceholder": "John Doe",
+			"emailLabel": "Email Address",
+			"emailPlaceholder": "john@company.com",
+			"phoneLabel": "Phone Number",
+			"phonePlaceholder": "+1 (555) 000-0000",
+			"companyLabel": "Company Name",
+			"companyPlaceholder": "Your Company Inc.",
+			"websiteLabel": "Website",
+			"websitePlaceholder": "https://yourcompany.com",
+			"messageLabel": "Message (Optional)",
+			"messagePlaceholder": "Tell us about your business and how you'd like to partner with DialogTab...",
+			"submitButton": "Apply Now"
+		},
+		"cta": {
+			"title": "Need a Custom Partnership?",
+			"description": "Have specific requirements or want to discuss a tailored partnership model? Contact us directly and let's build something great together.",
+			"button": "Contact Us"
 		}
 	}
 }
