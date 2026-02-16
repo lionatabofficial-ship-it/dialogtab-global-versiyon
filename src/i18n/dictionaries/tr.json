@@ -9,7 +9,7 @@
 		"sectors": "Sektörler",
 		"integrations": "Entegrasyonlar",
 		"pricing": "Fiyatlandırma",
-		"contact": "İletişim",
+		"contact": "Partnerlik",
 		"blog": "Blog",
 		"login": "Giriş Yap",
 		"tryFree": "Ücretsiz dene",
@@ -531,23 +531,46 @@
 		"allPricesNote": "Tüm fiyatlar temsilci başınadır. İstediğiniz zaman iptal edebilirsiniz."
 	},
 	"testimonials": {
-		"badge": "REFERANSLAR",
-		"title": "Büyük ve küçük şirketler tarafından güvenilir.",
-		"subtitle": "Harika deneyimlerine bakalım.",
+		"badge": "MÜŞTERİ GÖRÜŞLERİ",
+		"title": "Müşterilerimiz",
+		"titleHighlight": "Ne Diyor?",
+		"subtitle": "Farklı sektörlerden işletmelerin DialogTab ile müşteri iletişimlerini nasıl dönüştürdüğünü keşfedin.",
 		"items": [
 			{
-				"quote": "DialogTab ile birlikte müşterilerimizin dönüşüm oranını %19 artırdık.",
-				"author": "Adem Höcü",
-				"role": "E-ticaret Müdürü",
-				"metric": "%19",
-				"metricLabel": "artan satışlar"
+				"quote": "DialogTab sayesinde müşteri iletişimimiz tamamen dönüştü. Siparişleri artık 3 kat daha hızlı işliyoruz. Chatbot özelliği rutin soruları otomatik olarak karşılıyor!",
+				"author": "Mehmet Yıldırım",
+				"role": "E-Ticaret Müdürü, ModaShop",
+				"initials": "MY"
 			},
 			{
-				"quote": "DialogTab, fiziksel mağaza uzmanlarının web sitelerinde hibrit şekilde çalışmasını sağlayan bir çözüm sunarak üretkenliğimizi %35 artırdı.",
-				"author": "Gökhan Özkan",
-				"role": "E-ticaret Müdürü",
-				"metric": "%35",
-				"metricLabel": "daha üretken"
+				"quote": "WhatsApp, Instagram ve Facebook mesajlarını tek yerden yönetmek inanılmaz. DialogTab'a geçtiğimizden beri ekibimizin verimliliği %60 arttı.",
+				"author": "Zeynep Arslan",
+				"role": "Operasyon Müdürü, TurizmPro",
+				"initials": "ZA"
+			},
+			{
+				"quote": "Yapay zeka chatbot, rutin sorularımızın %70'ini otomatik olarak karşılıyor. Destek ekibimiz artık karmaşık vakalara odaklanabiliyor. Yanıt süresi saatlerden dakikalara düştü.",
+				"author": "Can Özkan",
+				"role": "Kurucu, SağlıkNet Kliniği",
+				"initials": "CÖ"
+			},
+			{
+				"quote": "Shopify mağazamızla entegrasyon sorunsuzdu. WhatsApp üzerinden sepet hatırlatmaları kaybedilen satışların %35'ini geri kazandırdı. Yatırım getirisi ilk ayda kendini amorti etti.",
+				"author": "Elif Karaca",
+				"role": "Müşteri İlişkileri Sorumlusu, BeautyTrend",
+				"initials": "EK"
+			},
+			{
+				"quote": "DialogTab'ın otomasyonu yanıt süremizi 2 saatten 5 dakikanın altına düşürdü. Müşteri memnuniyet puanlarımız sadece üç ayda %72'den %94'e yükseldi.",
+				"author": "Burak Aydın",
+				"role": "CEO, OtoTeknoloji",
+				"initials": "BA"
+			},
+			{
+				"quote": "Toplu mesaj özelliği kayıt kampanyalarımız için oyun değiştirici oldu. Tek bir kampanyada 15.000 aday öğrenciye %98 teslimat oranıyla ulaştık.",
+				"author": "Selin Çelik",
+				"role": "Pazarlama Direktörü, EğitimPlus Akademi",
+				"initials": "SÇ"
 			}
 		]
 	},
@@ -2816,6 +2839,77 @@
 			"description": "İletişim ihtiyaçları için DialogTab'a güvenen 100+ markaya katılın. Bugün özel bir çözümle başlayın.",
 			"button": "Ücretsiz Başla",
 			"buttonSecondary": "Uzmanla Konuşun"
+		}
+	},
+	"partnershipPage": {
+		"meta": {
+			"title": "Partnerlik Programı | DialogTab - Birlikte Büyüyelim",
+			"description": "DialogTab partnerlik programına katılın. Son teknoloji iletişim çözümleri sunmak için bizimle işbirliği yapın. Hemen başvurun ve işletmenizi DialogTab ile büyütün.",
+			"keywords": "partnerlik, dialogtab partner, iş ortaklığı, iletişim çözümleri ortağı, bayi programı, ajans ortaklığı"
+		},
+		"hero": {
+			"badge": "Partnerlik Programı",
+			"title": "İşinizi DialogTab ",
+			"titleHighlight": "İle Büyütün",
+			"description": "Partner ağımıza katılın ve işletmelerin müşteri iletişimlerini dönüştürmelerine yardımcı olun. Özel kaynaklara, adanmış desteğe ve rekabetçi gelir paylaşımına erişin."
+		},
+		"benefits": {
+			"title": "Neden Bizimle Partner Olmalısınız?",
+			"subtitle": "DialogTab, işletmenizin olağanüstü iletişim çözümleri sunmasını güçlendiren bir partnerlik ekosistemi sunar.",
+			"items": [
+				{
+					"icon": "rocket",
+					"title": "Sektör Lideri İnovasyon",
+					"description": "Yapay zeka destekli chatbot'lar, çok kanallı mesajlaşma ve gelişmiş otomasyon ile müşteri iletişiminde devrim yaratan bir platformla ortak olun."
+				},
+				{
+					"icon": "chart",
+					"title": "Gelir Artışı",
+					"description": "Rekabetçi gelir paylaşım modellerine ve çeşitli gelir akışlarına erişin. Partnerlerimiz hizmet portföy gelirlerinde ortalama %40 artış görüyor."
+				},
+				{
+					"icon": "puzzle",
+					"title": "Sorunsuz Entegrasyon",
+					"description": "DialogTab'ı müşterilerinizin mevcut e-ticaret platformları, CRM'leri ve iş araçlarıyla kolayca entegre edin. Tam API erişimi ve teknik dokümantasyon dahil."
+				},
+				{
+					"icon": "handshake",
+					"title": "Özel Destek",
+					"description": "Partner başarı ekibimize, ortak pazarlama kaynaklarına, eğitim materyallerine ve ortaklığınız için özel bir hesap yöneticisine öncelikli erişim sağlayın."
+				}
+			]
+		},
+		"form": {
+			"title": "Partner Ağımıza Katılın",
+			"subtitle": "Bugün başvurun ve özel partnerlik avantajlarından yararlanın. 24 saat içinde size geri döneceğiz.",
+			"categories": [
+				"Dijital Pazarlama Ajansları",
+				"E-Ticaret Çözüm Sağlayıcıları",
+				"Yazılım Geliştirme Şirketleri",
+				"Sistem Entegratörleri",
+				"İş Danışmanları",
+				"Freelance Uzmanlar",
+				"E-Ticaret Yöneticileri",
+				"Teknoloji Bayileri"
+			],
+			"nameLabel": "Ad Soyad",
+			"namePlaceholder": "Ahmet Yılmaz",
+			"emailLabel": "E-posta Adresi",
+			"emailPlaceholder": "ahmet@sirket.com",
+			"phoneLabel": "Telefon Numarası",
+			"phonePlaceholder": "+90 (555) 000 00 00",
+			"companyLabel": "Şirket Adı",
+			"companyPlaceholder": "Şirketiniz A.Ş.",
+			"websiteLabel": "Web Sitesi",
+			"websitePlaceholder": "https://sirketiniz.com",
+			"messageLabel": "Mesaj (İsteğe Bağlı)",
+			"messagePlaceholder": "İşletmeniz hakkında bilgi verin ve DialogTab ile nasıl partner olmak istediğinizi anlatın...",
+			"submitButton": "Başvuru Yap"
+		},
+		"cta": {
+			"title": "Özel Bir Ortaklık mı İstiyorsunuz?",
+			"description": "Belirli gereksinimleriniz mi var veya özelleştirilmiş bir ortaklık modeli mi görüşmek istiyorsunuz? Doğrudan bizimle iletişime geçin.",
+			"button": "Bize Ulaşın"
 		}
 	}
 }

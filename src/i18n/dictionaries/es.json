@@ -9,7 +9,7 @@
 		"sectors": "Sectores",
 		"integrations": "Integraciones",
 		"pricing": "Precios",
-		"contact": "Contacto",
+		"contact": "Asociación",
 		"blog": "Blog",
 		"login": "Iniciar sesión",
 		"tryFree": "Probar gratis",
@@ -531,23 +531,46 @@
 		"allPricesNote": "Todos los precios son por agente. Cancela en cualquier momento."
 	},
 	"testimonials": {
-		"badge": "TESTIMONIOS",
-		"title": "Confiado por grandes y pequeñas empresas.",
-		"subtitle": "Veamos sus increíbles experiencias.",
+		"badge": "OPINIONES DE CLIENTES",
+		"title": "Qué Dicen Nuestros",
+		"titleHighlight": "Clientes?",
+		"subtitle": "Descubra cómo empresas de diversas industrias están transformando su comunicación con clientes gracias a DialogTab.",
 		"items": [
 			{
-				"quote": "Junto con DialogTab, hemos aumentado la tasa de conversión de nuestros clientes en un 19%.",
-				"author": "Adem Höcü",
-				"role": "Gerente de E-commerce",
-				"metric": "19%",
-				"metricLabel": "aumento en ventas"
+				"quote": "La integración de WhatsApp de DialogTab transformó completamente nuestra comunicación con clientes. Procesamos pedidos 3 veces más rápido. ¡El chatbot maneja las consultas rutinarias automáticamente!",
+				"author": "Carlos Fernández",
+				"role": "Director de E-Commerce, ModaExpress",
+				"initials": "CF"
 			},
 			{
-				"quote": "DialogTab ha aumentado nuestra productividad en un 35% al ofrecer una solución que permite a los expertos de tiendas físicas trabajar en sitios web de forma híbrida.",
-				"author": "Gökhan Özkan",
-				"role": "Gerente de E-commerce",
-				"metric": "35%",
-				"metricLabel": "más productivo"
+				"quote": "Gestionar mensajes de WhatsApp, Instagram y Facebook en un solo lugar es increíble. La productividad de nuestro equipo aumentó un 60% desde que usamos DialogTab.",
+				"author": "Lucía Martínez",
+				"role": "Gerente de Operaciones, ViajesFácil",
+				"initials": "LM"
+			},
+			{
+				"quote": "El chatbot de IA maneja el 70% de nuestras consultas rutinarias automáticamente. Nuestro equipo de soporte ahora puede enfocarse en casos complejos. El tiempo de respuesta bajó de horas a minutos.",
+				"author": "Pablo García",
+				"role": "Fundador, SaludTech Clínica",
+				"initials": "PG"
+			},
+			{
+				"quote": "La integración con nuestra tienda Shopify fue perfecta. Los recordatorios de carrito abandonado por WhatsApp recuperaron el 35% de las ventas perdidas. El ROI se amortizó en el primer mes.",
+				"author": "Ana Rodríguez",
+				"role": "Líder de Éxito del Cliente, BellezaMundo",
+				"initials": "AR"
+			},
+			{
+				"quote": "La automatización de DialogTab redujo nuestro tiempo de respuesta de 2 horas a menos de 5 minutos. Nuestros puntajes de satisfacción del cliente saltaron del 72% al 94% en solo tres meses.",
+				"author": "Miguel Torres",
+				"role": "CEO, AutoSoluciones",
+				"initials": "MT"
+			},
+			{
+				"quote": "La función de mensajería masiva es revolucionaria para nuestras campañas de inscripción. Alcanzamos a 15,000 estudiantes potenciales en una campaña con una tasa de entrega del 98%.",
+				"author": "Elena Sánchez",
+				"role": "Directora de Marketing, EduGlobal Academia",
+				"initials": "ES"
 			}
 		]
 	},
@@ -2816,6 +2839,77 @@
 			"description": "Únase a más de 100 marcas que confían en DialogTab para sus necesidades de comunicación. Comience con una solución personalizada hoy.",
 			"button": "Comenzar Gratis",
 			"buttonSecondary": "Hablar con un Experto"
+		}
+	},
+	"partnershipPage": {
+		"meta": {
+			"title": "Programa de Asociación | DialogTab - Crezcamos Juntos",
+			"description": "Únase al programa de asociación de DialogTab. Colabore con nosotros para ofrecer soluciones de comunicación de vanguardia. Solicite ahora y haga crecer su negocio.",
+			"keywords": "asociación, partner dialogtab, asociación empresarial, socio soluciones de comunicación, programa de revendedores, asociación de agencias"
+		},
+		"hero": {
+			"badge": "Programa de Asociación",
+			"title": "Haga Crecer Su Negocio ",
+			"titleHighlight": "Con DialogTab",
+			"description": "Únase a nuestra red de socios y ayude a las empresas a transformar su comunicación con clientes. Acceda a recursos exclusivos, soporte dedicado y reparto de ingresos competitivo."
+		},
+		"benefits": {
+			"title": "¿Por Qué Asociarse Con Nosotros?",
+			"subtitle": "DialogTab ofrece un ecosistema de asociación que potencia su negocio para ofrecer soluciones de comunicación excepcionales.",
+			"items": [
+				{
+					"icon": "rocket",
+					"title": "Innovación Líder en la Industria",
+					"description": "Asóciese con una plataforma que está revolucionando la comunicación con clientes con chatbots impulsados por IA, mensajería omnicanal y automatización avanzada."
+				},
+				{
+					"icon": "chart",
+					"title": "Crecimiento de Ingresos",
+					"description": "Acceda a modelos competitivos de reparto de ingresos y diversas fuentes de ingreso. Nuestros socios ven un aumento promedio del 40% en los ingresos de su portafolio de servicios."
+				},
+				{
+					"icon": "puzzle",
+					"title": "Integración Perfecta",
+					"description": "Integre fácilmente DialogTab con las plataformas de e-commerce, CRMs y herramientas de negocio existentes de sus clientes. Acceso completo a API y documentación técnica incluidos."
+				},
+				{
+					"icon": "handshake",
+					"title": "Soporte Dedicado",
+					"description": "Obtenga acceso prioritario a nuestro equipo de éxito de socios, recursos de co-marketing, materiales de capacitación y un gerente de cuenta dedicado para su asociación."
+				}
+			]
+		},
+		"form": {
+			"title": "Únase a Nuestra Red de Socios",
+			"subtitle": "Solicite hoy y desbloquee beneficios exclusivos de asociación. Le responderemos dentro de 24 horas.",
+			"categories": [
+				"Agencias de Marketing Digital",
+				"Proveedores de Soluciones E-Commerce",
+				"Empresas de Desarrollo de Software",
+				"Integradores de Sistemas",
+				"Consultores de Negocios",
+				"Especialistas Freelance",
+				"Gerentes de E-Commerce",
+				"Revendedores de Tecnología"
+			],
+			"nameLabel": "Nombre Completo",
+			"namePlaceholder": "Juan García",
+			"emailLabel": "Correo Electrónico",
+			"emailPlaceholder": "juan@empresa.com",
+			"phoneLabel": "Número de Teléfono",
+			"phonePlaceholder": "+34 600 000 000",
+			"companyLabel": "Nombre de la Empresa",
+			"companyPlaceholder": "Su Empresa S.L.",
+			"websiteLabel": "Sitio Web",
+			"websitePlaceholder": "https://suempresa.com",
+			"messageLabel": "Mensaje (Opcional)",
+			"messagePlaceholder": "Cuéntenos sobre su negocio y cómo le gustaría asociarse con DialogTab...",
+			"submitButton": "Solicitar Ahora"
+		},
+		"cta": {
+			"title": "¿Necesita una Asociación Personalizada?",
+			"description": "¿Tiene requisitos específicos o desea discutir un modelo de asociación personalizado? Contáctenos directamente y construyamos algo increíble juntos.",
+			"button": "Contáctenos"
 		}
 	}
 }

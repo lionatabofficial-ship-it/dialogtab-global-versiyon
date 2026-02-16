@@ -132,15 +132,26 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 										{/* Left Column */}
 										<div>
 											<p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3 px-3">{dict.solutionsCategoryLeft}</p>
-											{leftSolutions.map((item, i) => (
-												<a key={item.title} href={`/${locale}#features`} className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group" onClick={() => setSolutionsOpen(false)}>
-													<span className="mt-0.5 text-brand-600 group-hover:text-brand-700 transition-colors">{solutionsIcons[i]}</span>
-													<div>
-														<div className="text-sm font-semibold text-slate-900">{item.title}</div>
-														<div className="text-xs text-slate-500 mt-0.5">{item.desc}</div>
-													</div>
-												</a>
-											))}
+											{leftSolutions.map((item, i) => {
+												const href = i === 0 ? `/${locale}/solutions/whatsapp-solutions` : `/${locale}#features`;
+												return i === 0 ? (
+													<Link key={item.title} href={href} className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group" onClick={() => setSolutionsOpen(false)}>
+														<span className="mt-0.5 text-brand-600 group-hover:text-brand-700 transition-colors">{solutionsIcons[i]}</span>
+														<div>
+															<div className="text-sm font-semibold text-slate-900">{item.title}</div>
+															<div className="text-xs text-slate-500 mt-0.5">{item.desc}</div>
+														</div>
+													</Link>
+												) : (
+													<a key={item.title} href={href} className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group" onClick={() => setSolutionsOpen(false)}>
+														<span className="mt-0.5 text-brand-600 group-hover:text-brand-700 transition-colors">{solutionsIcons[i]}</span>
+														<div>
+															<div className="text-sm font-semibold text-slate-900">{item.title}</div>
+															<div className="text-xs text-slate-500 mt-0.5">{item.desc}</div>
+														</div>
+													</a>
+												);
+											})}
 										</div>
 										{/* Right Column */}
 										<div>
@@ -238,7 +249,7 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 						</div>
 
 						<Link href={`/${locale}#pricing`} className="px-4 py-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors">{dict.pricing}</Link>
-						<Link href={`/${locale}/contact`} className="px-4 py-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors">{dict.contact}</Link>
+						<Link href={`/${locale}/partnership`} className="px-4 py-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors">{dict.contact}</Link>
 						<Link href={`/${locale}/blog`} className="px-4 py-2 text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors">{dict.blog}</Link>
 					</div>
 
@@ -277,12 +288,16 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 					{/* Solutions */}
 					<MobileAccordion title={dict.solutions}>
 						<p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-2 px-3">{dict.solutionsCategoryLeft}</p>
-						{leftSolutions.map((item, i) => (
-							<a key={item.title} href={`/${locale}#features`} className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>
-								<span className="text-brand-600">{solutionsIcons[i]}</span>
-								<div><div className="text-sm font-medium text-slate-900">{item.title}</div><div className="text-xs text-slate-500">{item.desc}</div></div>
-							</a>
-						))}
+						{leftSolutions.map((item, i) => {
+							const href = i === 0 ? `/${locale}/solutions/whatsapp-solutions` : `/${locale}#features`;
+							const Tag = i === 0 ? Link : 'a' as const;
+							return (
+								<Tag key={item.title} href={href} className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>
+									<span className="text-brand-600">{solutionsIcons[i]}</span>
+									<div><div className="text-sm font-medium text-slate-900">{item.title}</div><div className="text-xs text-slate-500">{item.desc}</div></div>
+								</Tag>
+							);
+						})}
 						<p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-3 mb-2 px-3">{dict.solutionsCategoryRight}</p>
 						{rightSolutions.map((item, ri) => (
 							<a key={item.title} href={`/${locale}#features`} className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>
@@ -322,7 +337,7 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 					</MobileAccordion>
 
 					<Link href={`/${locale}#pricing`} className="block text-base font-medium text-slate-700 py-2.5 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>{dict.pricing}</Link>
-					<Link href={`/${locale}/contact`} className="block text-base font-medium text-slate-700 py-2.5 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>{dict.contact}</Link>
+					<Link href={`/${locale}/partnership`} className="block text-base font-medium text-slate-700 py-2.5 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>{dict.contact}</Link>
 					<Link href={`/${locale}/blog`} className="block text-base font-medium text-slate-700 py-2.5 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>{dict.blog}</Link>
 
 					{/* Mobile Language Switcher */}
