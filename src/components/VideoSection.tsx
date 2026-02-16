@@ -1,3 +1,7 @@
+"use client";
+
+import { useRef, useState } from "react";
+
 interface VideoSectionDict {
 	badge: string;
 	title: string;
@@ -11,6 +15,25 @@ interface VideoSectionDict {
 }
 
 export default function VideoSection({ dict }: { dict: VideoSectionDict }) {
+	const videoRef = useRef<HTMLVideoElement>(null);
+	const [playing, setPlaying] = useState(false);
+
+	function handlePlay() {
+		const video = videoRef.current;
+		if (!video) return;
+		if (playing) {
+			video.pause();
+			setPlaying(false);
+		} else {
+			video.play();
+			setPlaying(true);
+		}
+	}
+
+	function handleVideoEnd() {
+		setPlaying(false);
+	}
+
 	return (
 		<section className="py-20 bg-slate-900">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,10 +45,20 @@ export default function VideoSection({ dict }: { dict: VideoSectionDict }) {
 
 				<div className="relative max-w-5xl mx-auto">
 					<div className="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-800">
-						<video className="w-full aspect-video object-cover" poster="/images/mainpage.png">
-							<source src="/images/video.mp4" type="video/mp4" />
+						<video
+							ref={videoRef}
+							className="w-full aspect-video object-cover"
+							poster="/images/mainpage.png"
+							playsInline
+							onEnded={handleVideoEnd}
+							onClick={handlePlay}
+						>
+							<source src="https://dialogtab.vercel.app/images/video.mp4" type="video/mp4" />
 						</video>
-						<button className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-colors group">
+						<button
+							className={`absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition-all group ${playing ? "opacity-0 pointer-events-none" : "opacity-100"}`}
+							onClick={handlePlay}
+						>
 							<div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 md:w-10 md:h-10 text-brand-600 ml-1"><polygon points="6 3 20 12 6 21 6 3" /></svg>
 							</div>
