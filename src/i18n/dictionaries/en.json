@@ -2281,6 +2281,651 @@
 				"button": "Get Started",
 				"buttonSecondary": "Get Expert Support"
 			}
+		},
+		"chatbot-solutions": {
+			"slug": "chatbot-solutions",
+			"meta": {
+				"title": "AI Chatbot Solutions | DialogTab - Smart Customer Automation",
+				"description": "Automate customer support with DialogTab's AI-powered chatbot. 24/7 availability, natural language processing, smart routing, and seamless human handoff. Try free for 7 days.",
+				"keywords": "ai chatbot, chatbot solutions, customer automation, dialogtab chatbot, whatsapp chatbot, ai customer support, automated messaging, conversational ai"
+			},
+			"hero": {
+				"badge": "AI Chatbot",
+				"title": "Intelligent Chatbot ",
+				"titleHighlight": "That Works 24/7",
+				"description": "Let DialogTab's AI chatbot handle routine inquiries, qualify leads, and provide instant support. Automate up to 70% of customer interactions while maintaining a human touch.",
+				"cta": "Get Started",
+				"ctaSecondary": "See Demo"
+			},
+			"stats": [
+				{
+					"value": "70%",
+					"label": "Automated Responses"
+				},
+				{
+					"value": "24/7",
+					"label": "Availability"
+				},
+				{
+					"value": "<5s",
+					"label": "Average Response Time"
+				},
+				{
+					"value": "45%",
+					"label": "Cost Reduction"
+				}
+			],
+			"highlights": {
+				"title": "AI That Understands Your Customers",
+				"subtitle": "DialogTab's chatbot uses advanced natural language processing to understand intent, context, and sentiment — delivering human-like conversations at scale.",
+				"cards": [
+					{
+						"icon": "bot",
+						"title": "AI-Powered Conversations",
+						"subtitle": "Natural language understanding",
+						"description": "Our chatbot processes natural language to understand customer intent, handle complex queries, and provide accurate responses in multiple languages.",
+						"bullets": [
+							"Intent recognition & entity extraction",
+							"Multi-language support (30+ languages)",
+							"Context-aware conversation flow",
+							"Sentiment analysis & smart escalation"
+						]
+					},
+					{
+						"icon": "workflow",
+						"title": "Automated Workflows",
+						"subtitle": "Visual flow builder",
+						"description": "Build sophisticated conversation flows with our drag-and-drop visual editor. Create branching logic, conditional responses, and automated actions without coding.",
+						"bullets": [
+							"Visual drag-and-drop flow builder",
+							"Conditional branching & logic",
+							"API integrations & webhooks",
+							"Automatic human handoff triggers"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Why Choose DialogTab Chatbot?",
+				"subtitle": "More than just a chatbot — a complete AI-powered customer engagement platform.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Instant Setup",
+						"description": "Get your chatbot running in minutes with pre-built templates for e-commerce, support, lead generation, and more. No coding required."
+					},
+					{
+						"icon": "shield",
+						"title": "Smart Human Handoff",
+						"description": "When the chatbot detects complex issues or frustrated customers, it seamlessly transfers the conversation to a human agent with full context."
+					},
+					{
+						"icon": "chart",
+						"title": "Continuous Learning",
+						"description": "The AI learns from every interaction, improving response accuracy over time. Review conversation logs and fine-tune responses with ease."
+					},
+					{
+						"icon": "users",
+						"title": "Omnichannel Deployment",
+						"description": "Deploy the same chatbot across WhatsApp, Instagram DM, Facebook Messenger, Telegram, and your website — managed from a single dashboard."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Natural Language Processing",
+					"description": "Advanced NLP engine understands customer queries in natural language, handling typos, slang, and complex sentences."
+				},
+				{
+					"icon": "zap",
+					"title": "Pre-Built Templates",
+					"description": "Jump-start with ready-made chatbot templates for FAQ, order tracking, appointment booking, lead qualification, and more."
+				},
+				{
+					"icon": "users",
+					"title": "Lead Qualification",
+					"description": "Automatically qualify leads by asking the right questions, scoring responses, and routing hot leads to your sales team."
+				},
+				{
+					"icon": "shield",
+					"title": "Data Security",
+					"description": "Enterprise-grade encryption, GDPR compliance, and secure data handling. Your customer data stays safe and private."
+				},
+				{
+					"icon": "chart",
+					"title": "Analytics Dashboard",
+					"description": "Track chatbot performance with detailed analytics: resolution rates, customer satisfaction, common queries, and conversation drop-off points."
+				},
+				{
+					"icon": "rocket",
+					"title": "Rich Media Support",
+					"description": "Send images, videos, documents, buttons, carousels, and quick replies. Create engaging interactive experiences."
+				}
+			],
+			"howItWorks": {
+				"title": "Get Started in 3 Steps",
+				"subtitle": "Setting up your AI chatbot takes just minutes, not weeks.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Choose a Template",
+						"description": "Select from our library of pre-built chatbot templates or start from scratch. Customize the personality, tone, and responses."
+					},
+					{
+						"step": "2",
+						"title": "Train Your Bot",
+						"description": "Add your FAQs, product catalog, and business rules. The AI learns your business context to provide accurate answers."
+					},
+					{
+						"step": "3",
+						"title": "Deploy & Optimize",
+						"description": "Launch your chatbot across all channels. Monitor performance and let the AI continuously improve from real conversations."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Measure What Matters",
+				"subtitle": "Track every aspect of your chatbot's performance with real-time analytics.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Resolution Rate",
+						"description": "Track how many conversations your chatbot resolves without human intervention.",
+						"bullets": [
+							"First-contact resolution tracking",
+							"Escalation rate monitoring",
+							"Topic-based resolution analysis"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Customer Satisfaction",
+						"description": "Measure customer satisfaction with post-conversation surveys and sentiment analysis.",
+						"bullets": [
+							"CSAT score tracking",
+							"Sentiment trend analysis",
+							"Feedback collection automation"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Conversation Insights",
+						"description": "Discover trending topics, common pain points, and opportunities to improve your chatbot.",
+						"bullets": [
+							"Topic clustering & trending queries",
+							"Drop-off point identification",
+							"Response time analytics"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "How long does it take to set up the chatbot?",
+						"answer": "You can have a basic chatbot running in under 30 minutes using our pre-built templates. Custom flows with complex logic typically take 1-2 days to set up and test."
+					},
+					{
+						"question": "Can the chatbot handle multiple languages?",
+						"answer": "Yes! DialogTab's chatbot supports 30+ languages with automatic language detection. It can switch languages mid-conversation based on customer preference."
+					},
+					{
+						"question": "What happens when the chatbot can't answer a question?",
+						"answer": "The chatbot seamlessly transfers the conversation to a human agent with full context, including the conversation history and customer information. The agent can pick up right where the bot left off."
+					},
+					{
+						"question": "Can I integrate the chatbot with my existing systems?",
+						"answer": "Absolutely. DialogTab's chatbot integrates with popular CRMs, e-commerce platforms, helpdesk tools, and custom systems via REST API and webhooks."
+					},
+					{
+						"question": "How does the AI learn and improve over time?",
+						"answer": "The chatbot analyzes conversation patterns, successful resolutions, and customer feedback to continuously improve. You can also manually train it by reviewing conversations and adding new intents."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need a Custom Chatbot Solution?",
+				"description": "Our team can build a tailor-made chatbot for your specific business needs. From complex integrations to industry-specific workflows.",
+				"button": "Contact Our Team"
+			},
+			"cta": {
+				"title": "Ready to Automate Your Customer Support?",
+				"description": "Join hundreds of businesses using DialogTab's AI chatbot to deliver faster, smarter customer experiences.",
+				"button": "Start Free Trial",
+				"buttonSecondary": "Talk to Sales"
+			}
+		},
+		"customer-communication": {
+			"slug": "customer-communication",
+			"meta": {
+				"title": "Omnichannel Customer Communication | DialogTab - Unified Inbox",
+				"description": "Manage all customer conversations from WhatsApp, Instagram, Facebook, Telegram, and email in one unified inbox. Real-time collaboration, smart routing, and customer profiles.",
+				"keywords": "customer communication, omnichannel messaging, unified inbox, dialogtab, whatsapp business, instagram dm, facebook messenger, customer support platform"
+			},
+			"hero": {
+				"badge": "Customer Communication",
+				"title": "All Conversations, ",
+				"titleHighlight": "One Unified Inbox",
+				"description": "Connect every channel — WhatsApp, Instagram, Facebook, Telegram, email, and live chat — into a single powerful inbox. Never miss a message, never lose context.",
+				"cta": "Get Started",
+				"ctaSecondary": "See How It Works"
+			},
+			"stats": [
+				{
+					"value": "7+",
+					"label": "Channels Unified"
+				},
+				{
+					"value": "85%",
+					"label": "Faster Response Time"
+				},
+				{
+					"value": "60%",
+					"label": "Productivity Increase"
+				},
+				{
+					"value": "94%",
+					"label": "Customer Satisfaction"
+				}
+			],
+			"highlights": {
+				"title": "Every Channel, One Platform",
+				"subtitle": "Stop switching between apps. DialogTab brings all your customer conversations into a single, intelligent inbox.",
+				"cards": [
+					{
+						"icon": "inbox",
+						"title": "Unified Omnichannel Inbox",
+						"subtitle": "All channels in one place",
+						"description": "WhatsApp, Instagram DM, Facebook Messenger, Telegram, email, and live chat — all conversations flow into one organized inbox with full customer context.",
+						"bullets": [
+							"Real-time message sync across all channels",
+							"Customer profile with full conversation history",
+							"Channel-specific features (reactions, stories, etc.)",
+							"Smart priority queue & auto-assignment"
+						]
+					},
+					{
+						"icon": "teamwork",
+						"title": "Team Collaboration",
+						"subtitle": "Work together seamlessly",
+						"description": "Assign conversations, leave internal notes, tag team members, and collaborate in real-time. Ensure every customer gets the best response.",
+						"bullets": [
+							"Smart auto-assignment rules",
+							"Internal notes & team mentions",
+							"Conversation transfer between agents",
+							"Real-time typing indicators & read receipts"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Why DialogTab for Communication?",
+				"subtitle": "The most complete customer communication platform for growing businesses.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Lightning-Fast Setup",
+						"description": "Connect all your channels in minutes. No complex configuration needed — just scan a QR code for WhatsApp and authorize your social accounts."
+					},
+					{
+						"icon": "shield",
+						"title": "Customer Context",
+						"description": "See the full customer journey at a glance — previous conversations, purchase history, preferences, and custom tags — all in one sidebar."
+					},
+					{
+						"icon": "chart",
+						"title": "SLA Management",
+						"description": "Set response time targets, track SLA compliance, and get alerts before deadlines. Ensure consistent service quality across all channels."
+					},
+					{
+						"icon": "users",
+						"title": "Smart Routing",
+						"description": "Automatically route conversations to the right team or agent based on channel, topic, language, customer segment, or custom rules."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Quick Replies & Templates",
+					"description": "Save time with pre-approved message templates and quick replies. Maintain consistent brand voice across all agents and channels."
+				},
+				{
+					"icon": "zap",
+					"title": "Auto-Assignment Rules",
+					"description": "Set up round-robin, load-based, or skill-based assignment rules. Ensure conversations reach the right agent automatically."
+				},
+				{
+					"icon": "users",
+					"title": "Customer Profiles",
+					"description": "Build rich customer profiles with tags, notes, custom fields, and interaction history. Know your customers before they say hello."
+				},
+				{
+					"icon": "shield",
+					"title": "Canned Responses",
+					"description": "Create a library of pre-written responses for common questions. Speed up response time while maintaining quality and consistency."
+				},
+				{
+					"icon": "chart",
+					"title": "Performance Reports",
+					"description": "Track agent performance, response times, resolution rates, and customer satisfaction scores with detailed reports."
+				},
+				{
+					"icon": "rocket",
+					"title": "Broadcast & Campaigns",
+					"description": "Send targeted messages to customer segments. Announce promotions, share updates, and re-engage dormant customers across channels."
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Get your unified inbox running in minutes.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Connect Your Channels",
+						"description": "Link WhatsApp Business, Instagram, Facebook Page, Telegram bot, email accounts, and your website live chat in just a few clicks."
+					},
+					{
+						"step": "2",
+						"title": "Set Up Your Team",
+						"description": "Invite team members, create departments, set up assignment rules, and configure working hours. Define roles and permissions."
+					},
+					{
+						"step": "3",
+						"title": "Start Conversations",
+						"description": "All messages flow into your unified inbox. Respond from one place, collaborate with your team, and delight your customers."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Data-Driven Communication",
+				"subtitle": "Make informed decisions with comprehensive analytics and reporting.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Response Analytics",
+						"description": "Track first response time, resolution time, and message volume across all channels.",
+						"bullets": [
+							"Average response & resolution time",
+							"Peak hour analysis",
+							"Channel-wise performance breakdown"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Team Performance",
+						"description": "Monitor individual and team productivity with detailed performance dashboards.",
+						"bullets": [
+							"Conversations handled per agent",
+							"Customer satisfaction per agent",
+							"Active vs. idle time tracking"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Channel Insights",
+						"description": "Understand which channels your customers prefer and optimize your resource allocation.",
+						"bullets": [
+							"Message volume by channel",
+							"Channel-specific conversion rates",
+							"Customer channel preference trends"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "Which messaging channels does DialogTab support?",
+						"answer": "DialogTab supports WhatsApp Business API, Instagram DM, Facebook Messenger, Telegram, email, live chat widget, and Viber. We continuously add new channels based on customer demand."
+					},
+					{
+						"question": "Can I see the full conversation history for a customer?",
+						"answer": "Yes! DialogTab maintains a complete conversation history across all channels for each customer. When a customer messages you on WhatsApp today and Instagram tomorrow, you'll see both conversations in their unified profile."
+					},
+					{
+						"question": "How many team members can use DialogTab?",
+						"answer": "There's no limit on team members. You can invite as many agents as you need and organize them into departments with specific permissions and assignment rules."
+					},
+					{
+						"question": "Does DialogTab support automated replies?",
+						"answer": "Yes! You can set up auto-replies for when your team is offline, create chatbot flows for common questions, and use quick reply templates to speed up manual responses."
+					},
+					{
+						"question": "Can I track which agent handled which conversation?",
+						"answer": "Absolutely. DialogTab provides detailed audit trails for every conversation, showing which agent responded, when they responded, and the full interaction timeline."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need a Custom Communication Setup?",
+				"description": "Our team can design a communication workflow tailored to your business structure, team size, and customer base.",
+				"button": "Contact Our Team"
+			},
+			"cta": {
+				"title": "Ready to Unify Your Customer Communication?",
+				"description": "Join hundreds of businesses managing all their customer conversations from a single, powerful platform.",
+				"button": "Start Free Trial",
+				"buttonSecondary": "Book a Demo"
+			}
+		},
+		"email-solutions": {
+			"slug": "email-solutions",
+			"meta": {
+				"title": "Email Marketing & Automation | DialogTab - Smart Email Solutions",
+				"description": "Automate your email marketing with DialogTab. Create campaigns, set up drip sequences, segment audiences, and track performance. Integrate with WhatsApp for omnichannel reach.",
+				"keywords": "email marketing, email automation, email campaigns, dialogtab email, drip campaigns, email segmentation, newsletter, email analytics"
+			},
+			"hero": {
+				"badge": "Email Solutions",
+				"title": "Email Marketing ",
+				"titleHighlight": "That Converts",
+				"description": "Create beautiful email campaigns, automate follow-ups, and combine email with WhatsApp messaging for maximum reach. All from your DialogTab dashboard.",
+				"cta": "Get Started",
+				"ctaSecondary": "See Templates"
+			},
+			"stats": [
+				{
+					"value": "35%",
+					"label": "Average Open Rate"
+				},
+				{
+					"value": "5x",
+					"label": "ROI on Email Campaigns"
+				},
+				{
+					"value": "99.5%",
+					"label": "Delivery Rate"
+				},
+				{
+					"value": "60%",
+					"label": "Time Saved with Automation"
+				}
+			],
+			"highlights": {
+				"title": "Email + WhatsApp = Maximum Impact",
+				"subtitle": "DialogTab is the only platform that seamlessly combines email marketing with WhatsApp messaging for true omnichannel campaigns.",
+				"cards": [
+					{
+						"icon": "mail",
+						"title": "Smart Email Campaigns",
+						"subtitle": "Design & deliver at scale",
+						"description": "Create stunning email campaigns with our drag-and-drop editor. Use dynamic content, personalization tokens, and A/B testing to maximize engagement.",
+						"bullets": [
+							"Drag-and-drop email builder",
+							"Dynamic content personalization",
+							"A/B testing for subject lines & content",
+							"Send-time optimization"
+						]
+					},
+					{
+						"icon": "automation",
+						"title": "Automated Sequences",
+						"subtitle": "Set it and forget it",
+						"description": "Build automated email sequences triggered by customer actions — welcome series, abandoned cart reminders, post-purchase follow-ups, and re-engagement campaigns.",
+						"bullets": [
+							"Behavior-triggered automation",
+							"Multi-step drip sequences",
+							"Cross-channel triggers (email + WhatsApp)",
+							"Smart delay & timing controls"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Why DialogTab for Email?",
+				"subtitle": "Not just another email tool — a unified communication platform with email at its core.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Omnichannel Synergy",
+						"description": "Combine email with WhatsApp, SMS, and push notifications. If a customer doesn't open your email, automatically follow up on WhatsApp."
+					},
+					{
+						"icon": "shield",
+						"title": "High Deliverability",
+						"description": "99.5% delivery rate with dedicated IP warming, SPF/DKIM authentication, and smart bounce handling. Your emails land in the inbox, not spam."
+					},
+					{
+						"icon": "chart",
+						"title": "Advanced Segmentation",
+						"description": "Segment your audience by behavior, purchase history, engagement level, and custom attributes. Send the right message to the right person."
+					},
+					{
+						"icon": "users",
+						"title": "Unified Customer View",
+						"description": "See email engagement alongside WhatsApp conversations, purchase history, and support interactions — all in one customer profile."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Drag & Drop Editor",
+					"description": "Build beautiful, responsive emails with our visual editor. No HTML knowledge needed. Choose from 50+ professional templates."
+				},
+				{
+					"icon": "zap",
+					"title": "Marketing Automation",
+					"description": "Create complex automation workflows with visual builder. Trigger emails based on user actions, time delays, and conditional logic."
+				},
+				{
+					"icon": "users",
+					"title": "List Management",
+					"description": "Manage subscriber lists with tags, segments, and custom fields. Import contacts, track opt-ins, and maintain clean lists automatically."
+				},
+				{
+					"icon": "shield",
+					"title": "Compliance & Privacy",
+					"description": "Built-in GDPR compliance tools, double opt-in, easy unsubscribe management, and full data privacy controls."
+				},
+				{
+					"icon": "chart",
+					"title": "Campaign Analytics",
+					"description": "Track opens, clicks, conversions, and revenue per campaign. Heatmaps show exactly where subscribers click in your emails."
+				},
+				{
+					"icon": "rocket",
+					"title": "Cross-Channel Campaigns",
+					"description": "Create campaigns that span email and WhatsApp. Reach customers on their preferred channel with coordinated messaging."
+				}
+			],
+			"howItWorks": {
+				"title": "Launch Your First Campaign",
+				"subtitle": "From signup to sending your first campaign in under 10 minutes.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Import Your Contacts",
+						"description": "Upload your email list or connect your e-commerce platform. DialogTab automatically syncs your customer data and segments."
+					},
+					{
+						"step": "2",
+						"title": "Design Your Email",
+						"description": "Choose a template, customize it with your brand colors, add dynamic content, and set up personalization. Preview on desktop and mobile."
+					},
+					{
+						"step": "3",
+						"title": "Send & Analyze",
+						"description": "Schedule your campaign or send immediately. Track real-time analytics and set up automated follow-ups based on engagement."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Campaign Intelligence",
+				"subtitle": "Understand your email performance with actionable insights.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Campaign Performance",
+						"description": "Track delivery, open, click, and conversion rates for every campaign.",
+						"bullets": [
+							"Real-time delivery tracking",
+							"Open & click rate trends",
+							"Revenue attribution per campaign"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Subscriber Insights",
+						"description": "Understand subscriber behavior and engagement patterns.",
+						"bullets": [
+							"Engagement scoring",
+							"Subscriber growth trends",
+							"Churn prediction alerts"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "A/B Test Results",
+						"description": "Compare variations and let data drive your decisions.",
+						"bullets": [
+							"Subject line performance comparison",
+							"Content variation testing",
+							"Optimal send time analysis"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "Can I use my existing email templates?",
+						"answer": "Yes! You can import HTML templates or use our drag-and-drop editor to create new ones. We also provide 50+ professionally designed templates you can customize."
+					},
+					{
+						"question": "How does the email + WhatsApp integration work?",
+						"answer": "You can create campaigns that automatically follow up on WhatsApp if a customer doesn't open your email within a set timeframe. This cross-channel approach significantly increases engagement rates."
+					},
+					{
+						"question": "What's the sending limit?",
+						"answer": "Sending limits depend on your plan. Our starter plan includes 10,000 emails/month, and enterprise plans offer unlimited sending with dedicated infrastructure."
+					},
+					{
+						"question": "Do you support transactional emails?",
+						"answer": "Yes! DialogTab supports both marketing and transactional emails. Send order confirmations, shipping updates, password resets, and more with high-priority delivery."
+					},
+					{
+						"question": "How do you handle bounces and unsubscribes?",
+						"answer": "DialogTab automatically processes bounces and unsubscribes. Hard bounces are immediately removed, soft bounces are retried, and unsubscribe requests are processed instantly for full compliance."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need a Custom Email Solution?",
+				"description": "High-volume sender? Need dedicated infrastructure? Our team can design an email solution tailored to your scale and requirements.",
+				"button": "Contact Our Team"
+			},
+			"cta": {
+				"title": "Ready to Supercharge Your Email Marketing?",
+				"description": "Join hundreds of businesses using DialogTab to create smarter, more effective email campaigns.",
+				"button": "Start Free Trial",
+				"buttonSecondary": "Talk to Sales"
+			}
 		}
 	},
 	"integrationPages": {

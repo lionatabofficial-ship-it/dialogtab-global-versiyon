@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import ChatWidget from "@/components/ChatWidget";
 import ScrollToTop from "@/components/ScrollToTop";
 
-const SOLUTION_SLUGS = ["whatsapp-solutions"] as const;
+const SOLUTION_SLUGS = ["whatsapp-solutions", "chatbot-solutions", "customer-communication", "email-solutions"] as const;
 type SolutionSlug = (typeof SOLUTION_SLUGS)[number];
 
 export async function generateStaticParams() {
