@@ -18,11 +18,11 @@ const industryConfig = [
 	},
 	{
 		type: "image" as const,
-		image: "/images/travel.jpg",
+		image: "/images/tatil.jpg",
 	},
 	{
 		type: "image" as const,
-		image: "/images/automotive.jpg",
+		image: "/images/otomotiv.jpg",
 	},
 	{
 		type: "icon" as const,
@@ -34,7 +34,7 @@ const industryConfig = [
 	},
 	{
 		type: "image" as const,
-		image: "/images/restaurant.jpg",
+		image: "/images/booking.jpg",
 	},
 ];
 
