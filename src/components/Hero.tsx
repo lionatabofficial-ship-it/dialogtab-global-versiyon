@@ -27,9 +27,9 @@ export default function Hero({ dict }: { dict: HeroDict }) {
 	const industryImages = [
 		"/images/mainpage.png",
 		"/images/mainpage.png",
-		"/images/travel.jpg",
-		"/images/restaurant.jpg",
-		"/images/automotive.jpg",
+		"/images/tatil.jpg",
+		"/images/booking.jpg",
+		"/images/otomotiv.jpg",
 	];
 
 	const content = dict.industryContent[displayIdx];
