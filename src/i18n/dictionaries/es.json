@@ -2281,6 +2281,651 @@
 				"button": "Empezar Ahora",
 				"buttonSecondary": "Obtener Soporte Experto"
 			}
+		},
+		"chatbot-solutions": {
+			"slug": "chatbot-solutions",
+			"meta": {
+				"title": "Soluciones de Chatbot IA | DialogTab - Automatización Inteligente de Clientes",
+				"description": "Automatice la atención al cliente con el chatbot impulsado por IA de DialogTab. Disponibilidad 24/7, procesamiento de lenguaje natural, enrutamiento inteligente y transferencia fluida a agentes humanos. Prueba gratuita de 7 días.",
+				"keywords": "chatbot ia, soluciones chatbot, automatización de clientes, dialogtab chatbot, whatsapp chatbot, soporte al cliente ia, mensajería automatizada, ia conversacional"
+			},
+			"hero": {
+				"badge": "Chatbot IA",
+				"title": "Chatbot Inteligente ",
+				"titleHighlight": "Que Trabaja 24/7",
+				"description": "Deje que el chatbot IA de DialogTab gestione consultas rutinarias, califique leads y brinde soporte instantáneo. Automatice hasta el 70% de las interacciones con clientes manteniendo un toque humano.",
+				"cta": "Empezar",
+				"ctaSecondary": "Ver Demo"
+			},
+			"stats": [
+				{
+					"value": "70%",
+					"label": "Respuestas Automatizadas"
+				},
+				{
+					"value": "24/7",
+					"label": "Disponibilidad"
+				},
+				{
+					"value": "<5s",
+					"label": "Tiempo Medio de Respuesta"
+				},
+				{
+					"value": "45%",
+					"label": "Reducción de Costos"
+				}
+			],
+			"highlights": {
+				"title": "IA Que Entiende a Sus Clientes",
+				"subtitle": "El chatbot de DialogTab utiliza procesamiento avanzado de lenguaje natural para comprender intención, contexto y sentimiento — ofreciendo conversaciones similares a las humanas a escala.",
+				"cards": [
+					{
+						"icon": "bot",
+						"title": "Conversaciones Impulsadas por IA",
+						"subtitle": "Comprensión de lenguaje natural",
+						"description": "Nuestro chatbot procesa lenguaje natural para entender la intención del cliente, manejar consultas complejas y proporcionar respuestas precisas en múltiples idiomas.",
+						"bullets": [
+							"Reconocimiento de intención y extracción de entidades",
+							"Soporte multiidioma (más de 30 idiomas)",
+							"Flujo de conversación consciente del contexto",
+							"Análisis de sentimiento y escalación inteligente"
+						]
+					},
+					{
+						"icon": "workflow",
+						"title": "Flujos de Trabajo Automatizados",
+						"subtitle": "Constructor visual de flujos",
+						"description": "Construya flujos de conversación sofisticados con nuestro editor visual de arrastrar y soltar. Cree lógica de ramificación, respuestas condicionales y acciones automatizadas sin programar.",
+						"bullets": [
+							"Constructor visual de arrastrar y soltar",
+							"Ramificación condicional y lógica",
+							"Integraciones API y webhooks",
+							"Activadores automáticos de transferencia humana"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "¿Por Qué Elegir el Chatbot de DialogTab?",
+				"subtitle": "Más que un simple chatbot — una plataforma completa de interacción con clientes impulsada por IA.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Configuración Instantánea",
+						"description": "Ponga su chatbot en funcionamiento en minutos con plantillas prediseñadas para e-commerce, soporte, generación de leads y más. Sin necesidad de programación."
+					},
+					{
+						"icon": "shield",
+						"title": "Transferencia Humana Inteligente",
+						"description": "Cuando el chatbot detecta problemas complejos o clientes frustrados, transfiere sin interrupciones la conversación a un agente humano con todo el contexto."
+					},
+					{
+						"icon": "chart",
+						"title": "Aprendizaje Continuo",
+						"description": "La IA aprende de cada interacción, mejorando la precisión de las respuestas con el tiempo. Revise registros de conversaciones y ajuste las respuestas fácilmente."
+					},
+					{
+						"icon": "users",
+						"title": "Despliegue Omnicanal",
+						"description": "Implemente el mismo chatbot en WhatsApp, Instagram DM, Facebook Messenger, Telegram y su sitio web — gestionado desde un único panel de control."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Procesamiento de Lenguaje Natural",
+					"description": "Motor avanzado de PLN que entiende las consultas de los clientes en lenguaje natural, manejando errores tipográficos, jerga y oraciones complejas."
+				},
+				{
+					"icon": "zap",
+					"title": "Plantillas Prediseñadas",
+					"description": "Comience rápidamente con plantillas de chatbot listas para preguntas frecuentes, seguimiento de pedidos, reserva de citas, calificación de leads y más."
+				},
+				{
+					"icon": "users",
+					"title": "Calificación de Leads",
+					"description": "Califique leads automáticamente haciendo las preguntas correctas, puntuando respuestas y dirigiendo leads calientes a su equipo de ventas."
+				},
+				{
+					"icon": "shield",
+					"title": "Seguridad de Datos",
+					"description": "Cifrado de nivel empresarial, cumplimiento RGPD y manejo seguro de datos. Los datos de sus clientes permanecen seguros y privados."
+				},
+				{
+					"icon": "chart",
+					"title": "Panel de Analíticas",
+					"description": "Rastree el rendimiento del chatbot con analíticas detalladas: tasas de resolución, satisfacción del cliente, consultas comunes y puntos de abandono de conversación."
+				},
+				{
+					"icon": "rocket",
+					"title": "Soporte de Medios Enriquecidos",
+					"description": "Envíe imágenes, videos, documentos, botones, carruseles y respuestas rápidas. Cree experiencias interactivas atractivas."
+				}
+			],
+			"howItWorks": {
+				"title": "Comience en 3 Pasos",
+				"subtitle": "Configurar su chatbot IA toma solo minutos, no semanas.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Elija una Plantilla",
+						"description": "Seleccione de nuestra biblioteca de plantillas de chatbot prediseñadas o comience desde cero. Personalice la personalidad, tono y respuestas."
+					},
+					{
+						"step": "2",
+						"title": "Entrene Su Bot",
+						"description": "Agregue sus preguntas frecuentes, catálogo de productos y reglas de negocio. La IA aprende el contexto de su empresa para proporcionar respuestas precisas."
+					},
+					{
+						"step": "3",
+						"title": "Implemente y Optimice",
+						"description": "Lance su chatbot en todos los canales. Monitoree el rendimiento y deje que la IA mejore continuamente a partir de conversaciones reales."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Mida Lo Que Importa",
+				"subtitle": "Rastree cada aspecto del rendimiento de su chatbot con analíticas en tiempo real.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Tasa de Resolución",
+						"description": "Rastree cuántas conversaciones resuelve su chatbot sin intervención humana.",
+						"bullets": [
+							"Seguimiento de resolución en primer contacto",
+							"Monitoreo de tasa de escalación",
+							"Análisis de resolución por tema"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Satisfacción del Cliente",
+						"description": "Mida la satisfacción del cliente con encuestas post-conversación y análisis de sentimiento.",
+						"bullets": [
+							"Seguimiento de puntuación CSAT",
+							"Análisis de tendencia de sentimiento",
+							"Automatización de recopilación de comentarios"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Información de Conversaciones",
+						"description": "Descubra temas tendencia, puntos de dolor comunes y oportunidades para mejorar su chatbot.",
+						"bullets": [
+							"Agrupación de temas y consultas tendencia",
+							"Identificación de puntos de abandono",
+							"Analíticas de tiempo de respuesta"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Cuánto tiempo tarda en configurar el chatbot?",
+						"answer": "Puede tener un chatbot básico funcionando en menos de 30 minutos usando nuestras plantillas prediseñadas. Los flujos personalizados con lógica compleja generalmente toman 1-2 días para configurar y probar."
+					},
+					{
+						"question": "¿El chatbot puede manejar múltiples idiomas?",
+						"answer": "¡Sí! El chatbot de DialogTab soporta más de 30 idiomas con detección automática de idioma. Puede cambiar de idioma durante la conversación según la preferencia del cliente."
+					},
+					{
+						"question": "¿Qué sucede cuando el chatbot no puede responder una pregunta?",
+						"answer": "El chatbot transfiere sin interrupciones la conversación a un agente humano con todo el contexto, incluyendo el historial de conversación e información del cliente. El agente puede continuar exactamente donde el bot se detuvo."
+					},
+					{
+						"question": "¿Puedo integrar el chatbot con mis sistemas existentes?",
+						"answer": "Por supuesto. El chatbot de DialogTab se integra con CRMs populares, plataformas de e-commerce, herramientas de helpdesk y sistemas personalizados a través de API REST y webhooks."
+					},
+					{
+						"question": "¿Cómo aprende y mejora la IA con el tiempo?",
+						"answer": "El chatbot analiza patrones de conversación, resoluciones exitosas y comentarios de clientes para mejorar continuamente. También puede entrenarlo manualmente revisando conversaciones y agregando nuevas intenciones."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita una Solución de Chatbot Personalizada?",
+				"description": "Nuestro equipo puede construir un chatbot a medida para las necesidades específicas de su negocio. Desde integraciones complejas hasta flujos de trabajo específicos de la industria.",
+				"button": "Contactar a Nuestro Equipo"
+			},
+			"cta": {
+				"title": "¿Listo para Automatizar Su Atención al Cliente?",
+				"description": "Únase a cientos de empresas que usan el chatbot IA de DialogTab para ofrecer experiencias de cliente más rápidas e inteligentes.",
+				"button": "Iniciar Prueba Gratuita",
+				"buttonSecondary": "Hablar con Ventas"
+			}
+		},
+		"customer-communication": {
+			"slug": "customer-communication",
+			"meta": {
+				"title": "Comunicación Omnicanal con Clientes | DialogTab - Bandeja de Entrada Unificada",
+				"description": "Gestione todas las conversaciones con clientes desde WhatsApp, Instagram, Facebook, Telegram y email en una bandeja de entrada unificada. Colaboración en tiempo real, enrutamiento inteligente y perfiles de clientes.",
+				"keywords": "comunicación con clientes, mensajería omnicanal, bandeja de entrada unificada, dialogtab, whatsapp business, instagram dm, facebook messenger, plataforma de soporte al cliente"
+			},
+			"hero": {
+				"badge": "Comunicación con Clientes",
+				"title": "Todas las Conversaciones, ",
+				"titleHighlight": "Una Bandeja de Entrada Unificada",
+				"description": "Conecte todos los canales — WhatsApp, Instagram, Facebook, Telegram, email y chat en vivo — en una única bandeja de entrada poderosa. Nunca pierda un mensaje, nunca pierda contexto.",
+				"cta": "Empezar",
+				"ctaSecondary": "Ver Cómo Funciona"
+			},
+			"stats": [
+				{
+					"value": "7+",
+					"label": "Canales Unificados"
+				},
+				{
+					"value": "85%",
+					"label": "Tiempo de Respuesta Más Rápido"
+				},
+				{
+					"value": "60%",
+					"label": "Aumento de Productividad"
+				},
+				{
+					"value": "94%",
+					"label": "Satisfacción del Cliente"
+				}
+			],
+			"highlights": {
+				"title": "Todos los Canales, Una Plataforma",
+				"subtitle": "Deje de cambiar entre aplicaciones. DialogTab reúne todas las conversaciones con sus clientes en una bandeja de entrada única e inteligente.",
+				"cards": [
+					{
+						"icon": "inbox",
+						"title": "Bandeja de Entrada Omnicanal Unificada",
+						"subtitle": "Todos los canales en un solo lugar",
+						"description": "WhatsApp, Instagram DM, Facebook Messenger, Telegram, email y chat en vivo — todas las conversaciones fluyen a una bandeja de entrada organizada con contexto completo del cliente.",
+						"bullets": [
+							"Sincronización de mensajes en tiempo real en todos los canales",
+							"Perfil del cliente con historial completo de conversaciones",
+							"Funciones específicas del canal (reacciones, historias, etc.)",
+							"Cola de prioridad inteligente y asignación automática"
+						]
+					},
+					{
+						"icon": "teamwork",
+						"title": "Colaboración en Equipo",
+						"subtitle": "Trabaje juntos sin problemas",
+						"description": "Asigne conversaciones, deje notas internas, etiquete miembros del equipo y colabore en tiempo real. Asegúrese de que cada cliente reciba la mejor respuesta.",
+						"bullets": [
+							"Reglas de asignación automática inteligente",
+							"Notas internas y menciones de equipo",
+							"Transferencia de conversaciones entre agentes",
+							"Indicadores de escritura en tiempo real y confirmaciones de lectura"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "¿Por Qué DialogTab para Comunicación?",
+				"subtitle": "La plataforma de comunicación con clientes más completa para empresas en crecimiento.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Configuración Ultrarrápida",
+						"description": "Conecte todos sus canales en minutos. Sin configuración compleja — solo escanee un código QR para WhatsApp y autorice sus cuentas sociales."
+					},
+					{
+						"icon": "shield",
+						"title": "Contexto del Cliente",
+						"description": "Vea el recorrido completo del cliente de un vistazo — conversaciones anteriores, historial de compras, preferencias y etiquetas personalizadas — todo en una barra lateral."
+					},
+					{
+						"icon": "chart",
+						"title": "Gestión de SLA",
+						"description": "Establezca objetivos de tiempo de respuesta, rastree el cumplimiento de SLA y reciba alertas antes de los plazos. Asegure una calidad de servicio consistente en todos los canales."
+					},
+					{
+						"icon": "users",
+						"title": "Enrutamiento Inteligente",
+						"description": "Dirija automáticamente las conversaciones al equipo o agente correcto según el canal, tema, idioma, segmento de cliente o reglas personalizadas."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Respuestas Rápidas y Plantillas",
+					"description": "Ahorre tiempo con plantillas de mensajes pre-aprobadas y respuestas rápidas. Mantenga una voz de marca consistente en todos los agentes y canales."
+				},
+				{
+					"icon": "zap",
+					"title": "Reglas de Asignación Automática",
+					"description": "Configure reglas de asignación por turno, basadas en carga o por habilidades. Asegúrese de que las conversaciones lleguen al agente correcto automáticamente."
+				},
+				{
+					"icon": "users",
+					"title": "Perfiles de Clientes",
+					"description": "Construya perfiles completos de clientes con etiquetas, notas, campos personalizados e historial de interacciones. Conozca a sus clientes antes de que digan hola."
+				},
+				{
+					"icon": "shield",
+					"title": "Respuestas Predefinidas",
+					"description": "Cree una biblioteca de respuestas escritas previamente para preguntas comunes. Acelere el tiempo de respuesta manteniendo calidad y consistencia."
+				},
+				{
+					"icon": "chart",
+					"title": "Informes de Rendimiento",
+					"description": "Rastree el rendimiento del agente, tiempos de respuesta, tasas de resolución y puntuaciones de satisfacción del cliente con informes detallados."
+				},
+				{
+					"icon": "rocket",
+					"title": "Difusión y Campañas",
+					"description": "Envíe mensajes dirigidos a segmentos de clientes. Anuncie promociones, comparta actualizaciones y reactive clientes inactivos en todos los canales."
+				}
+			],
+			"howItWorks": {
+				"title": "Cómo Funciona",
+				"subtitle": "Ponga en marcha su bandeja de entrada unificada en minutos.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Conecte Sus Canales",
+						"description": "Vincule WhatsApp Business, Instagram, Facebook Page, bot de Telegram, cuentas de email y el chat en vivo de su sitio web en solo unos clics."
+					},
+					{
+						"step": "2",
+						"title": "Configure Su Equipo",
+						"description": "Invite miembros del equipo, cree departamentos, configure reglas de asignación y horarios de trabajo. Defina roles y permisos."
+					},
+					{
+						"step": "3",
+						"title": "Inicie Conversaciones",
+						"description": "Todos los mensajes llegan a su bandeja de entrada unificada. Responda desde un solo lugar, colabore con su equipo y deleite a sus clientes."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Comunicación Basada en Datos",
+				"subtitle": "Tome decisiones informadas con analíticas e informes completos.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Analíticas de Respuesta",
+						"description": "Rastree el tiempo de primera respuesta, tiempo de resolución y volumen de mensajes en todos los canales.",
+						"bullets": [
+							"Tiempo promedio de respuesta y resolución",
+							"Análisis de horas pico",
+							"Desglose de rendimiento por canal"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Rendimiento del Equipo",
+						"description": "Monitoree la productividad individual y del equipo con paneles de rendimiento detallados.",
+						"bullets": [
+							"Conversaciones gestionadas por agente",
+							"Satisfacción del cliente por agente",
+							"Seguimiento de tiempo activo vs. inactivo"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Información de Canales",
+						"description": "Entienda qué canales prefieren sus clientes y optimice la asignación de recursos.",
+						"bullets": [
+							"Volumen de mensajes por canal",
+							"Tasas de conversión específicas por canal",
+							"Tendencias de preferencia de canal del cliente"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Qué canales de mensajería soporta DialogTab?",
+						"answer": "DialogTab soporta WhatsApp Business API, Instagram DM, Facebook Messenger, Telegram, email, widget de chat en vivo y Viber. Continuamente agregamos nuevos canales según la demanda de los clientes."
+					},
+					{
+						"question": "¿Puedo ver el historial completo de conversaciones de un cliente?",
+						"answer": "¡Sí! DialogTab mantiene un historial completo de conversaciones en todos los canales para cada cliente. Cuando un cliente le escribe por WhatsApp hoy e Instagram mañana, verá ambas conversaciones en su perfil unificado."
+					},
+					{
+						"question": "¿Cuántos miembros del equipo pueden usar DialogTab?",
+						"answer": "No hay límite de miembros del equipo. Puede invitar a tantos agentes como necesite y organizarlos en departamentos con permisos específicos y reglas de asignación."
+					},
+					{
+						"question": "¿DialogTab soporta respuestas automatizadas?",
+						"answer": "¡Sí! Puede configurar respuestas automáticas para cuando su equipo no está en línea, crear flujos de chatbot para preguntas comunes y usar plantillas de respuesta rápida para acelerar las respuestas manuales."
+					},
+					{
+						"question": "¿Puedo rastrear qué agente gestionó cada conversación?",
+						"answer": "Por supuesto. DialogTab proporciona registros de auditoría detallados para cada conversación, mostrando qué agente respondió, cuándo respondió y la línea de tiempo completa de la interacción."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita una Configuración de Comunicación Personalizada?",
+				"description": "Nuestro equipo puede diseñar un flujo de trabajo de comunicación adaptado a la estructura de su negocio, tamaño de equipo y base de clientes.",
+				"button": "Contactar a Nuestro Equipo"
+			},
+			"cta": {
+				"title": "¿Listo para Unificar Su Comunicación con Clientes?",
+				"description": "Únase a cientos de empresas que gestionan todas sus conversaciones con clientes desde una única y poderosa plataforma.",
+				"button": "Iniciar Prueba Gratuita",
+				"buttonSecondary": "Reservar una Demo"
+			}
+		},
+		"email-solutions": {
+			"slug": "email-solutions",
+			"meta": {
+				"title": "Email Marketing y Automatización | DialogTab - Soluciones de Email Inteligentes",
+				"description": "Automatice su email marketing con DialogTab. Cree campañas, configure secuencias de goteo, segmente audiencias y rastree el rendimiento. Integre con WhatsApp para alcance omnicanal.",
+				"keywords": "email marketing, automatización de email, campañas de email, dialogtab email, campañas de goteo, segmentación de email, newsletter, analíticas de email"
+			},
+			"hero": {
+				"badge": "Soluciones de Email",
+				"title": "Email Marketing ",
+				"titleHighlight": "Que Convierte",
+				"description": "Cree hermosas campañas de email, automatice seguimientos y combine email con mensajería WhatsApp para máximo alcance. Todo desde su panel de DialogTab.",
+				"cta": "Empezar",
+				"ctaSecondary": "Ver Plantillas"
+			},
+			"stats": [
+				{
+					"value": "35%",
+					"label": "Tasa Promedio de Apertura"
+				},
+				{
+					"value": "5x",
+					"label": "ROI en Campañas de Email"
+				},
+				{
+					"value": "99.5%",
+					"label": "Tasa de Entrega"
+				},
+				{
+					"value": "60%",
+					"label": "Tiempo Ahorrado con Automatización"
+				}
+			],
+			"highlights": {
+				"title": "Email + WhatsApp = Máximo Impacto",
+				"subtitle": "DialogTab es la única plataforma que combina perfectamente email marketing con mensajería WhatsApp para campañas verdaderamente omnicanal.",
+				"cards": [
+					{
+						"icon": "mail",
+						"title": "Campañas de Email Inteligentes",
+						"subtitle": "Diseñe y entregue a escala",
+						"description": "Cree campañas de email impresionantes con nuestro editor de arrastrar y soltar. Use contenido dinámico, tokens de personalización y pruebas A/B para maximizar el engagement.",
+						"bullets": [
+							"Constructor de email de arrastrar y soltar",
+							"Personalización de contenido dinámico",
+							"Pruebas A/B para asuntos y contenido",
+							"Optimización de hora de envío"
+						]
+					},
+					{
+						"icon": "automation",
+						"title": "Secuencias Automatizadas",
+						"subtitle": "Configúrelo y olvídese",
+						"description": "Construya secuencias de email automatizadas activadas por acciones del cliente — series de bienvenida, recordatorios de carrito abandonado, seguimientos post-compra y campañas de reactivación.",
+						"bullets": [
+							"Automatización activada por comportamiento",
+							"Secuencias de goteo de múltiples pasos",
+							"Activadores cross-channel (email + WhatsApp)",
+							"Controles inteligentes de retraso y temporización"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "¿Por Qué DialogTab para Email?",
+				"subtitle": "No es solo otra herramienta de email — es una plataforma de comunicación unificada con el email en su centro.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Sinergia Omnicanal",
+						"description": "Combine email con WhatsApp, SMS y notificaciones push. Si un cliente no abre su email, haga seguimiento automático por WhatsApp."
+					},
+					{
+						"icon": "shield",
+						"title": "Alta Entregabilidad",
+						"description": "99.5% de tasa de entrega con calentamiento de IP dedicado, autenticación SPF/DKIM y manejo inteligente de rebotes. Sus emails llegan a la bandeja de entrada, no al spam."
+					},
+					{
+						"icon": "chart",
+						"title": "Segmentación Avanzada",
+						"description": "Segmente su audiencia por comportamiento, historial de compras, nivel de engagement y atributos personalizados. Envíe el mensaje correcto a la persona correcta."
+					},
+					{
+						"icon": "users",
+						"title": "Vista Unificada del Cliente",
+						"description": "Vea el engagement de email junto con conversaciones de WhatsApp, historial de compras e interacciones de soporte — todo en un perfil de cliente."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Editor de Arrastrar y Soltar",
+					"description": "Construya emails hermosos y responsivos con nuestro editor visual. Sin necesidad de conocimientos de HTML. Elija entre más de 50 plantillas profesionales."
+				},
+				{
+					"icon": "zap",
+					"title": "Automatización de Marketing",
+					"description": "Cree flujos de automatización complejos con el constructor visual. Active emails basados en acciones del usuario, retrasos de tiempo y lógica condicional."
+				},
+				{
+					"icon": "users",
+					"title": "Gestión de Listas",
+					"description": "Gestione listas de suscriptores con etiquetas, segmentos y campos personalizados. Importe contactos, rastree opt-ins y mantenga listas limpias automáticamente."
+				},
+				{
+					"icon": "shield",
+					"title": "Cumplimiento y Privacidad",
+					"description": "Herramientas integradas de cumplimiento RGPD, doble opt-in, gestión fácil de cancelación de suscripción y controles completos de privacidad de datos."
+				},
+				{
+					"icon": "chart",
+					"title": "Analíticas de Campañas",
+					"description": "Rastree aperturas, clics, conversiones e ingresos por campaña. Los mapas de calor muestran exactamente dónde hacen clic los suscriptores en sus emails."
+				},
+				{
+					"icon": "rocket",
+					"title": "Campañas Cross-Channel",
+					"description": "Cree campañas que abarquen email y WhatsApp. Llegue a los clientes en su canal preferido con mensajería coordinada."
+				}
+			],
+			"howItWorks": {
+				"title": "Lance Su Primera Campaña",
+				"subtitle": "Desde el registro hasta el envío de su primera campaña en menos de 10 minutos.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Importe Sus Contactos",
+						"description": "Cargue su lista de emails o conecte su plataforma de e-commerce. DialogTab sincroniza automáticamente los datos de sus clientes y segmentos."
+					},
+					{
+						"step": "2",
+						"title": "Diseñe Su Email",
+						"description": "Elija una plantilla, personalícela con los colores de su marca, agregue contenido dinámico y configure la personalización. Vista previa en escritorio y móvil."
+					},
+					{
+						"step": "3",
+						"title": "Envíe y Analice",
+						"description": "Programe su campaña o envíela inmediatamente. Rastree analíticas en tiempo real y configure seguimientos automatizados basados en el engagement."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Inteligencia de Campañas",
+				"subtitle": "Comprenda el rendimiento de su email con información accionable.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Rendimiento de Campañas",
+						"description": "Rastree tasas de entrega, apertura, clics y conversión para cada campaña.",
+						"bullets": [
+							"Seguimiento de entrega en tiempo real",
+							"Tendencias de tasa de apertura y clics",
+							"Atribución de ingresos por campaña"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Información de Suscriptores",
+						"description": "Comprenda el comportamiento y patrones de engagement de los suscriptores.",
+						"bullets": [
+							"Puntuación de engagement",
+							"Tendencias de crecimiento de suscriptores",
+							"Alertas de predicción de cancelación"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Resultados de Pruebas A/B",
+						"description": "Compare variaciones y deje que los datos guíen sus decisiones.",
+						"bullets": [
+							"Comparación de rendimiento de líneas de asunto",
+							"Pruebas de variación de contenido",
+							"Análisis de hora óptima de envío"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Puedo usar mis plantillas de email existentes?",
+						"answer": "¡Sí! Puede importar plantillas HTML o usar nuestro editor de arrastrar y soltar para crear nuevas. También proporcionamos más de 50 plantillas diseñadas profesionalmente que puede personalizar."
+					},
+					{
+						"question": "¿Cómo funciona la integración de email + WhatsApp?",
+						"answer": "Puede crear campañas que automáticamente hagan seguimiento por WhatsApp si un cliente no abre su email dentro de un plazo establecido. Este enfoque cross-channel aumenta significativamente las tasas de engagement."
+					},
+					{
+						"question": "¿Cuál es el límite de envío?",
+						"answer": "Los límites de envío dependen de su plan. Nuestro plan inicial incluye 10,000 emails/mes, y los planes empresariales ofrecen envío ilimitado con infraestructura dedicada."
+					},
+					{
+						"question": "¿Soportan emails transaccionales?",
+						"answer": "¡Sí! DialogTab soporta tanto emails de marketing como transaccionales. Envíe confirmaciones de pedido, actualizaciones de envío, restablecimiento de contraseñas y más con entrega de alta prioridad."
+					},
+					{
+						"question": "¿Cómo gestionan los rebotes y cancelaciones de suscripción?",
+						"answer": "DialogTab procesa automáticamente los rebotes y cancelaciones de suscripción. Los rebotes duros se eliminan inmediatamente, los rebotes suaves se reintentan y las solicitudes de cancelación se procesan al instante para cumplimiento total."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita una Solución de Email Personalizada?",
+				"description": "¿Envía alto volumen? ¿Necesita infraestructura dedicada? Nuestro equipo puede diseñar una solución de email adaptada a su escala y requisitos.",
+				"button": "Contactar a Nuestro Equipo"
+			},
+			"cta": {
+				"title": "¿Listo para Potenciar Su Email Marketing?",
+				"description": "Únase a cientos de empresas que usan DialogTab para crear campañas de email más inteligentes y efectivas.",
+				"button": "Iniciar Prueba Gratuita",
+				"buttonSecondary": "Hablar con Ventas"
+			}
 		}
 	},
 	"integrationPages": {

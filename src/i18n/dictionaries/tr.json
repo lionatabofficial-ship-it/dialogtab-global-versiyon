@@ -2281,6 +2281,651 @@
 				"button": "Hemen Başla",
 				"buttonSecondary": "Uzman Desteği Al"
 			}
+		},
+		"chatbot-solutions": {
+			"slug": "chatbot-solutions",
+			"meta": {
+				"title": "AI Chatbot Çözümleri | DialogTab - Akıllı Müşteri Otomasyonu",
+				"description": "DialogTab'ın yapay zeka destekli chatbotu ile müşteri desteğinizi otomatikleştirin. 7/24 erişilebilirlik, doğal dil işleme, akıllı yönlendirme ve sorunsuz canlı destek aktarımı.",
+				"keywords": "ai chatbot, chatbot çözümleri, müşteri otomasyonu, dialogtab chatbot, whatsapp chatbot, ai müşteri desteği, otomatik mesajlaşma, konuşma yapay zekası"
+			},
+			"hero": {
+				"badge": "AI Chatbot",
+				"title": "7/24 Çalışan ",
+				"titleHighlight": "Akıllı Chatbot",
+				"description": "DialogTab'ın AI chatbotu rutin soruları karşılar, potansiyel müşterileri nitelendirir ve anında destek sağlar. İnsan dokunuşunu koruyarak müşteri etkileşimlerinin %70'ine kadarını otomatikleştirin.",
+				"cta": "Ücretsiz Başla",
+				"ctaSecondary": "Demo İzle"
+			},
+			"stats": [
+				{
+					"value": "%70",
+					"label": "Otomatik Yanıt Oranı"
+				},
+				{
+					"value": "7/24",
+					"label": "Erişilebilirlik"
+				},
+				{
+					"value": "<5sn",
+					"label": "Ortalama Yanıt Süresi"
+				},
+				{
+					"value": "%45",
+					"label": "Maliyet Azalması"
+				}
+			],
+			"highlights": {
+				"title": "Müşterilerinizi Anlayan Yapay Zeka",
+				"subtitle": "DialogTab'ın chatbotu, niyet, bağlam ve duygu analizi için gelişmiş doğal dil işleme kullanır — ölçekte insana yakın konuşmalar sunar.",
+				"cards": [
+					{
+						"icon": "bot",
+						"title": "AI Destekli Konuşmalar",
+						"subtitle": "Doğal dil anlama",
+						"description": "Chatbotumuz müşteri niyetini anlamak, karmaşık soruları ele almak ve birden fazla dilde doğru yanıtlar sağlamak için doğal dili işler.",
+						"bullets": [
+							"Niyet tanıma ve varlık çıkarma",
+							"Çoklu dil desteği (30+ dil)",
+							"Bağlama duyarlı konuşma akışı",
+							"Duygu analizi ve akıllı yönlendirme"
+						]
+					},
+					{
+						"icon": "workflow",
+						"title": "Otomatik İş Akışları",
+						"subtitle": "Görsel akış oluşturucu",
+						"description": "Sürükle-bırak görsel editörümüzle sofistike konuşma akışları oluşturun. Kod yazmadan dallanma mantığı, koşullu yanıtlar ve otomatik eylemler oluşturun.",
+						"bullets": [
+							"Görsel sürükle-bırak akış oluşturucu",
+							"Koşullu dallanma ve mantık",
+							"API entegrasyonları ve webhook'lar",
+							"Otomatik canlı destek aktarım tetikleyicileri"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Neden DialogTab Chatbot?",
+				"subtitle": "Sadece bir chatbot değil — tam teşekküllü AI destekli müşteri etkileşim platformu.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Anında Kurulum",
+						"description": "E-ticaret, destek, potansiyel müşteri oluşturma ve daha fazlası için hazır şablonlarla chatbotunuzu dakikalar içinde çalıştırın. Kod gerektirmez."
+					},
+					{
+						"icon": "shield",
+						"title": "Akıllı Canlı Destek Aktarımı",
+						"description": "Chatbot karmaşık sorunları veya memnuniyetsiz müşterileri algıladığında, konuşmayı tam bağlamla sorunsuzca bir insan temsilciye aktarır."
+					},
+					{
+						"icon": "chart",
+						"title": "Sürekli Öğrenme",
+						"description": "AI her etkileşimden öğrenir ve zaman içinde yanıt doğruluğunu artırır. Konuşma kayıtlarını inceleyin ve yanıtları kolayca ince ayar yapın."
+					},
+					{
+						"icon": "users",
+						"title": "Çok Kanallı Dağıtım",
+						"description": "Aynı chatbotu WhatsApp, Instagram DM, Facebook Messenger, Telegram ve web sitenize tek panelden yönetin."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Doğal Dil İşleme",
+					"description": "Gelişmiş NLP motoru, yazım hataları, argo ve karmaşık cümleleri anlayarak müşteri sorgularını doğal dilde işler."
+				},
+				{
+					"icon": "zap",
+					"title": "Hazır Şablonlar",
+					"description": "SSS, sipariş takibi, randevu alma, potansiyel müşteri nitelendirme ve daha fazlası için hazır chatbot şablonlarıyla hızlıca başlayın."
+				},
+				{
+					"icon": "users",
+					"title": "Potansiyel Müşteri Nitelendirme",
+					"description": "Doğru soruları sorarak, yanıtları puanlayarak ve sıcak potansiyel müşterileri satış ekibinize yönlendirerek otomatik nitelendirme yapın."
+				},
+				{
+					"icon": "shield",
+					"title": "Veri Güvenliği",
+					"description": "Kurumsal düzeyde şifreleme, KVKK uyumluluğu ve güvenli veri işleme. Müşteri verileriniz güvende kalır."
+				},
+				{
+					"icon": "chart",
+					"title": "Analitik Panosu",
+					"description": "Çözüm oranları, müşteri memnuniyeti, yaygın sorgular ve konuşma terk noktaları ile chatbot performansını takip edin."
+				},
+				{
+					"icon": "rocket",
+					"title": "Zengin Medya Desteği",
+					"description": "Resimler, videolar, belgeler, butonlar, karuseller ve hızlı yanıtlar gönderin. Etkileşimli deneyimler oluşturun."
+				}
+			],
+			"howItWorks": {
+				"title": "3 Adımda Başlayın",
+				"subtitle": "AI chatbotunuzu kurmak haftalar değil, dakikalar sürer.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Şablon Seçin",
+						"description": "Hazır chatbot şablonlarımızdan seçin veya sıfırdan başlayın. Kişiliği, tonu ve yanıtları özelleştirin."
+					},
+					{
+						"step": "2",
+						"title": "Botunuzu Eğitin",
+						"description": "SSS'lerinizi, ürün kataloğunuzu ve iş kurallarınızı ekleyin. AI, doğru yanıtlar vermek için iş bağlamınızı öğrenir."
+					},
+					{
+						"step": "3",
+						"title": "Yayınlayın ve Optimize Edin",
+						"description": "Chatbotunuzu tüm kanallarda başlatın. Performansı izleyin ve AI'ın gerçek konuşmalardan sürekli gelişmesini sağlayın."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Önemli Olanı Ölçün",
+				"subtitle": "Gerçek zamanlı analizlerle chatbotunuzun performansının her yönünü takip edin.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Çözüm Oranı",
+						"description": "Chatbotunuzun insan müdahalesi olmadan kaç konuşmayı çözdüğünü takip edin.",
+						"bullets": [
+							"İlk temas çözüm takibi",
+							"Yönlendirme oranı izleme",
+							"Konuya dayalı çözüm analizi"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Müşteri Memnuniyeti",
+						"description": "Konuşma sonrası anketler ve duygu analizi ile müşteri memnuniyetini ölçün.",
+						"bullets": [
+							"CSAT puan takibi",
+							"Duygu eğilim analizi",
+							"Geri bildirim toplama otomasyonu"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Konuşma İçgörüleri",
+						"description": "Trend konuları, yaygın sorunları ve chatbotunuzu iyileştirme fırsatlarını keşfedin.",
+						"bullets": [
+							"Konu kümeleme ve trend sorgular",
+							"Terk noktası tespiti",
+							"Yanıt süresi analitiği"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "Chatbotu kurmak ne kadar sürer?",
+						"answer": "Hazır şablonlarımızı kullanarak temel bir chatbotu 30 dakikadan kısa sürede çalıştırabilirsiniz. Karmaşık mantıklı özel akışların kurulması ve test edilmesi genellikle 1-2 gün sürer."
+					},
+					{
+						"question": "Chatbot birden fazla dili destekler mi?",
+						"answer": "Evet! DialogTab'ın chatbotu otomatik dil algılama ile 30'dan fazla dili destekler. Müşteri tercihine göre konuşma ortasında dil değiştirebilir."
+					},
+					{
+						"question": "Chatbot bir soruyu yanıtlayamadığında ne olur?",
+						"answer": "Chatbot, konuşma geçmişi ve müşteri bilgileri dahil tam bağlamla konuşmayı sorunsuzca bir insan temsilciye aktarır. Temsilci, botun kaldığı yerden devam edebilir."
+					},
+					{
+						"question": "Chatbotu mevcut sistemlerimle entegre edebilir miyim?",
+						"answer": "Kesinlikle. DialogTab'ın chatbotu, REST API ve webhook'lar aracılığıyla popüler CRM'ler, e-ticaret platformları, yardım masası araçları ve özel sistemlerle entegre olur."
+					},
+					{
+						"question": "AI zaman içinde nasıl öğrenir ve gelişir?",
+						"answer": "Chatbot, konuşma kalıplarını, başarılı çözümleri ve müşteri geri bildirimlerini analiz ederek sürekli gelişir. Konuşmaları inceleyip yeni niyetler ekleyerek de manuel olarak eğitebilirsiniz."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel Bir Chatbot Çözümüne mi İhtiyacınız Var?",
+				"description": "Ekibimiz, belirli iş ihtiyaçlarınıza göre özel bir chatbot oluşturabilir. Karmaşık entegrasyonlardan sektöre özel iş akışlarına kadar.",
+				"button": "Ekibimizle İletişime Geçin"
+			},
+			"cta": {
+				"title": "Müşteri Desteğinizi Otomatikleştirmeye Hazır mısınız?",
+				"description": "Daha hızlı ve akıllı müşteri deneyimleri sunmak için DialogTab'ın AI chatbotunu kullanan yüzlerce işletmeye katılın.",
+				"button": "Ücretsiz Dene",
+				"buttonSecondary": "Satışla Konuş"
+			}
+		},
+		"customer-communication": {
+			"slug": "customer-communication",
+			"meta": {
+				"title": "Çok Kanallı Müşteri İletişimi | DialogTab - Birleşik Gelen Kutusu",
+				"description": "WhatsApp, Instagram, Facebook, Telegram ve e-posta üzerinden tüm müşteri konuşmalarını tek bir birleşik gelen kutusundan yönetin. Gerçek zamanlı işbirliği ve akıllı yönlendirme.",
+				"keywords": "müşteri iletişimi, çok kanallı mesajlaşma, birleşik gelen kutusu, dialogtab, whatsapp business, instagram dm, facebook messenger, müşteri destek platformu"
+			},
+			"hero": {
+				"badge": "Müşteri İletişimi",
+				"title": "Tüm Konuşmalar, ",
+				"titleHighlight": "Tek Gelen Kutusu",
+				"description": "WhatsApp, Instagram, Facebook, Telegram, e-posta ve canlı sohbet — tüm kanalları tek bir güçlü gelen kutusuna bağlayın. Hiçbir mesajı kaçırmayın, bağlamı asla kaybetmeyin.",
+				"cta": "Ücretsiz Başla",
+				"ctaSecondary": "Nasıl Çalışır?"
+			},
+			"stats": [
+				{
+					"value": "7+",
+					"label": "Birleşik Kanal"
+				},
+				{
+					"value": "%85",
+					"label": "Daha Hızlı Yanıt Süresi"
+				},
+				{
+					"value": "%60",
+					"label": "Verimlilik Artışı"
+				},
+				{
+					"value": "%94",
+					"label": "Müşteri Memnuniyeti"
+				}
+			],
+			"highlights": {
+				"title": "Her Kanal, Tek Platform",
+				"subtitle": "Uygulamalar arasında geçiş yapmayı bırakın. DialogTab tüm müşteri konuşmalarınızı tek, akıllı bir gelen kutusuna taşır.",
+				"cards": [
+					{
+						"icon": "inbox",
+						"title": "Birleşik Çok Kanallı Gelen Kutusu",
+						"subtitle": "Tüm kanallar tek yerde",
+						"description": "WhatsApp, Instagram DM, Facebook Messenger, Telegram, e-posta ve canlı sohbet — tüm konuşmalar tam müşteri bağlamıyla organize bir gelen kutusuna akar.",
+						"bullets": [
+							"Tüm kanallarda gerçek zamanlı mesaj senkronizasyonu",
+							"Tam konuşma geçmişiyle müşteri profili",
+							"Kanala özel özellikler (tepkiler, hikayeler vb.)",
+							"Akıllı öncelik sırası ve otomatik atama"
+						]
+					},
+					{
+						"icon": "teamwork",
+						"title": "Ekip İşbirliği",
+						"subtitle": "Sorunsuz birlikte çalışın",
+						"description": "Konuşmaları atayın, dahili notlar bırakın, ekip üyelerini etiketleyin ve gerçek zamanlı işbirliği yapın. Her müşterinin en iyi yanıtı almasını sağlayın.",
+						"bullets": [
+							"Akıllı otomatik atama kuralları",
+							"Dahili notlar ve ekip etiketleme",
+							"Temsilciler arası konuşma aktarımı",
+							"Gerçek zamanlı yazma göstergeleri ve okundu bilgisi"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "İletişim İçin Neden DialogTab?",
+				"subtitle": "Büyüyen işletmeler için en kapsamlı müşteri iletişim platformu.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Işık Hızında Kurulum",
+						"description": "Tüm kanallarınızı dakikalar içinde bağlayın. Karmaşık yapılandırma gerekmez — WhatsApp için QR kod tarayın ve sosyal hesaplarınızı yetkilendirin."
+					},
+					{
+						"icon": "shield",
+						"title": "Müşteri Bağlamı",
+						"description": "Tam müşteri yolculuğunu bir bakışta görün — önceki konuşmalar, satın alma geçmişi, tercihler ve özel etiketler — hepsi tek bir kenar çubuğunda."
+					},
+					{
+						"icon": "chart",
+						"title": "SLA Yönetimi",
+						"description": "Yanıt süresi hedefleri belirleyin, SLA uyumluluğunu takip edin ve son tarihlerden önce uyarılar alın. Tüm kanallarda tutarlı hizmet kalitesi sağlayın."
+					},
+					{
+						"icon": "users",
+						"title": "Akıllı Yönlendirme",
+						"description": "Konuşmaları kanala, konuya, dile, müşteri segmentine veya özel kurallara göre doğru ekibe veya temsilciye otomatik olarak yönlendirin."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Hızlı Yanıtlar ve Şablonlar",
+					"description": "Önceden onaylanmış mesaj şablonları ve hızlı yanıtlarla zaman kazanın. Tüm temsilciler ve kanallarda tutarlı marka sesi koruyun."
+				},
+				{
+					"icon": "zap",
+					"title": "Otomatik Atama Kuralları",
+					"description": "Sıralı, yük bazlı veya beceri bazlı atama kuralları oluşturun. Konuşmaların otomatik olarak doğru temsilciye ulaşmasını sağlayın."
+				},
+				{
+					"icon": "users",
+					"title": "Müşteri Profilleri",
+					"description": "Etiketler, notlar, özel alanlar ve etkileşim geçmişiyle zengin müşteri profilleri oluşturun. Müşterilerinizi merhaba demeden tanıyın."
+				},
+				{
+					"icon": "shield",
+					"title": "Hazır Yanıtlar",
+					"description": "Yaygın sorular için önceden yazılmış yanıt kütüphanesi oluşturun. Kalite ve tutarlılığı korurken yanıt süresini hızlandırın."
+				},
+				{
+					"icon": "chart",
+					"title": "Performans Raporları",
+					"description": "Detaylı raporlarla temsilci performansını, yanıt sürelerini, çözüm oranlarını ve müşteri memnuniyet puanlarını takip edin."
+				},
+				{
+					"icon": "rocket",
+					"title": "Toplu Mesaj ve Kampanyalar",
+					"description": "Müşteri segmentlerine hedefli mesajlar gönderin. Promosyonları duyurun, güncellemeleri paylaşın ve kanallar arası pasif müşterileri yeniden etkileşime geçirin."
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır",
+				"subtitle": "Birleşik gelen kutunuzu dakikalar içinde çalıştırın.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Kanallarınızı Bağlayın",
+						"description": "WhatsApp Business, Instagram, Facebook Sayfası, Telegram botu, e-posta hesapları ve web sitenizin canlı sohbetini birkaç tıkla bağlayın."
+					},
+					{
+						"step": "2",
+						"title": "Ekibinizi Kurun",
+						"description": "Ekip üyelerini davet edin, departmanlar oluşturun, atama kurallarını ayarlayın ve çalışma saatlerini yapılandırın. Roller ve izinleri tanımlayın."
+					},
+					{
+						"step": "3",
+						"title": "Konuşmalara Başlayın",
+						"description": "Tüm mesajlar birleşik gelen kutunuza akar. Tek yerden yanıt verin, ekibinizle işbirliği yapın ve müşterilerinizi memnun edin."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Veriye Dayalı İletişim",
+				"subtitle": "Kapsamlı analitik ve raporlama ile bilinçli kararlar alın.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Yanıt Analitiği",
+						"description": "Tüm kanallarda ilk yanıt süresini, çözüm süresini ve mesaj hacmini takip edin.",
+						"bullets": [
+							"Ortalama yanıt ve çözüm süresi",
+							"Yoğun saat analizi",
+							"Kanal bazlı performans dağılımı"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Ekip Performansı",
+						"description": "Detaylı performans panolarıyla bireysel ve ekip verimliliğini izleyin.",
+						"bullets": [
+							"Temsilci başına yönetilen konuşmalar",
+							"Temsilci başına müşteri memnuniyeti",
+							"Aktif ve boşta zaman takibi"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Kanal İçgörüleri",
+						"description": "Müşterilerinizin hangi kanalları tercih ettiğini anlayın ve kaynak tahsisinizi optimize edin.",
+						"bullets": [
+							"Kanal bazlı mesaj hacmi",
+							"Kanala özel dönüşüm oranları",
+							"Müşteri kanal tercih eğilimleri"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "DialogTab hangi mesajlaşma kanallarını destekliyor?",
+						"answer": "DialogTab WhatsApp Business API, Instagram DM, Facebook Messenger, Telegram, e-posta, canlı sohbet widget'ı ve Viber'ı destekler. Müşteri talebine göre sürekli yeni kanallar ekliyoruz."
+					},
+					{
+						"question": "Bir müşterinin tam konuşma geçmişini görebilir miyim?",
+						"answer": "Evet! DialogTab her müşteri için tüm kanallardaki tam konuşma geçmişini saklar. Bir müşteri bugün WhatsApp'tan yarın Instagram'dan mesaj atarsa, her iki konuşmayı birleşik profilinde görürsünüz."
+					},
+					{
+						"question": "DialogTab'ı kaç ekip üyesi kullanabilir?",
+						"answer": "Ekip üyesi sayısında sınır yoktur. İhtiyacınız kadar temsilci davet edebilir ve onları belirli izinler ve atama kurallarıyla departmanlara organize edebilirsiniz."
+					},
+					{
+						"question": "DialogTab otomatik yanıtları destekliyor mu?",
+						"answer": "Evet! Ekibiniz çevrimdışıyken otomatik yanıtlar ayarlayabilir, yaygın sorular için chatbot akışları oluşturabilir ve manuel yanıtları hızlandırmak için hızlı yanıt şablonları kullanabilirsiniz."
+					},
+					{
+						"question": "Hangi temsilcinin hangi konuşmayı yönettiğini takip edebilir miyim?",
+						"answer": "Kesinlikle. DialogTab her konuşma için hangi temsilcinin yanıt verdiğini, ne zaman yanıt verdiğini ve tam etkileşim zaman çizelgesini gösteren detaylı denetim izleri sağlar."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel Bir İletişim Kurulumuna mı İhtiyacınız Var?",
+				"description": "Ekibimiz, iş yapınıza, ekip büyüklüğünüze ve müşteri tabanınıza göre özelleştirilmiş bir iletişim iş akışı tasarlayabilir.",
+				"button": "Ekibimizle İletişime Geçin"
+			},
+			"cta": {
+				"title": "Müşteri İletişiminizi Birleştirmeye Hazır mısınız?",
+				"description": "Tüm müşteri konuşmalarını tek, güçlü bir platformdan yöneten yüzlerce işletmeye katılın.",
+				"button": "Ücretsiz Dene",
+				"buttonSecondary": "Demo Rezervasyonu"
+			}
+		},
+		"email-solutions": {
+			"slug": "email-solutions",
+			"meta": {
+				"title": "Email Pazarlama ve Otomasyon | DialogTab - Akıllı Email Çözümleri",
+				"description": "DialogTab ile email pazarlamanızı otomatikleştirin. Kampanyalar oluşturun, damla dizileri kurun, kitleleri segmente edin ve performansı takip edin. Maksimum erişim için WhatsApp ile entegre edin.",
+				"keywords": "email pazarlama, email otomasyon, email kampanyaları, dialogtab email, damla kampanyaları, email segmentasyonu, bülten, email analitiği"
+			},
+			"hero": {
+				"badge": "Email Çözümleri",
+				"title": "Dönüştüren ",
+				"titleHighlight": "Email Pazarlama",
+				"description": "Güzel email kampanyaları oluşturun, takipleri otomatikleştirin ve maksimum erişim için emaili WhatsApp mesajlaşmasıyla birleştirin. Hepsi DialogTab panelinizden.",
+				"cta": "Ücretsiz Başla",
+				"ctaSecondary": "Şablonları Gör"
+			},
+			"stats": [
+				{
+					"value": "%35",
+					"label": "Ortalama Açılma Oranı"
+				},
+				{
+					"value": "5x",
+					"label": "Email Kampanya ROI"
+				},
+				{
+					"value": "%99.5",
+					"label": "Teslimat Oranı"
+				},
+				{
+					"value": "%60",
+					"label": "Otomasyonla Kazanılan Zaman"
+				}
+			],
+			"highlights": {
+				"title": "Email + WhatsApp = Maksimum Etki",
+				"subtitle": "DialogTab, gerçek çok kanallı kampanyalar için email pazarlamayı WhatsApp mesajlaşmasıyla sorunsuzca birleştiren tek platformdur.",
+				"cards": [
+					{
+						"icon": "mail",
+						"title": "Akıllı Email Kampanyaları",
+						"subtitle": "Tasarla ve ölçekte teslim et",
+						"description": "Sürükle-bırak editörümüzle etkileyici email kampanyaları oluşturun. Etkileşimi en üst düzeye çıkarmak için dinamik içerik, kişiselleştirme ve A/B testleri kullanın.",
+						"bullets": [
+							"Sürükle-bırak email oluşturucu",
+							"Dinamik içerik kişiselleştirme",
+							"Konu satırı ve içerik A/B testleri",
+							"Gönderim zamanı optimizasyonu"
+						]
+					},
+					{
+						"icon": "automation",
+						"title": "Otomatik Diziler",
+						"subtitle": "Kur ve unut",
+						"description": "Müşteri eylemlerine göre tetiklenen otomatik email dizileri oluşturun — hoş geldin serileri, sepet hatırlatmaları, satın alma sonrası takipler ve yeniden etkileşim kampanyaları.",
+						"bullets": [
+							"Davranış tetiklemeli otomasyon",
+							"Çok adımlı damla dizileri",
+							"Kanal arası tetikleyiciler (email + WhatsApp)",
+							"Akıllı gecikme ve zamanlama kontrolleri"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Email İçin Neden DialogTab?",
+				"subtitle": "Sadece bir email aracı değil — temelinde email olan birleşik iletişim platformu.",
+				"points": [
+					{
+						"icon": "zap",
+						"title": "Çok Kanallı Sinerji",
+						"description": "Emaili WhatsApp, SMS ve push bildirimleriyle birleştirin. Müşteri emailinizi açmazsa otomatik olarak WhatsApp'tan takip edin."
+					},
+					{
+						"icon": "shield",
+						"title": "Yüksek Teslimat Oranı",
+						"description": "Özel IP ısınma, SPF/DKIM doğrulama ve akıllı geri sekme yönetimiyle %99.5 teslimat oranı. Emailleriniz spam'a değil gelen kutusuna düşer."
+					},
+					{
+						"icon": "chart",
+						"title": "Gelişmiş Segmentasyon",
+						"description": "Kitlenizi davranış, satın alma geçmişi, etkileşim düzeyi ve özel niteliklere göre segmente edin. Doğru kişiye doğru mesajı gönderin."
+					},
+					{
+						"icon": "users",
+						"title": "Birleşik Müşteri Görünümü",
+						"description": "Email etkileşimini WhatsApp konuşmaları, satın alma geçmişi ve destek etkileşimleriyle birlikte görün — hepsi tek müşteri profilinde."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "messageSquare",
+					"title": "Sürükle ve Bırak Editör",
+					"description": "Görsel editörümüzle güzel, duyarlı emailler oluşturun. HTML bilgisi gerekmez. 50'den fazla profesyonel şablondan seçin."
+				},
+				{
+					"icon": "zap",
+					"title": "Pazarlama Otomasyonu",
+					"description": "Görsel oluşturucuyla karmaşık otomasyon iş akışları oluşturun. Kullanıcı eylemlerine, zaman gecikmelerine ve koşullu mantığa göre emailler tetikleyin."
+				},
+				{
+					"icon": "users",
+					"title": "Liste Yönetimi",
+					"description": "Etiketler, segmentler ve özel alanlarla abone listelerini yönetin. Kişileri içe aktarın, opt-in'leri takip edin ve listeleri otomatik olarak temiz tutun."
+				},
+				{
+					"icon": "shield",
+					"title": "Uyumluluk ve Gizlilik",
+					"description": "Yerleşik KVKK uyumluluk araçları, çift opt-in, kolay abonelik iptali yönetimi ve tam veri gizliliği kontrolleri."
+				},
+				{
+					"icon": "chart",
+					"title": "Kampanya Analitiği",
+					"description": "Kampanya başına açılmaları, tıklamaları, dönüşümleri ve geliri takip edin. Isı haritaları, abonelerin emaillerinizde tam olarak nereye tıkladığını gösterir."
+				},
+				{
+					"icon": "rocket",
+					"title": "Kanallar Arası Kampanyalar",
+					"description": "Email ve WhatsApp'ı kapsayan kampanyalar oluşturun. Koordineli mesajlaşmayla müşterilere tercih ettikleri kanaldan ulaşın."
+				}
+			],
+			"howItWorks": {
+				"title": "İlk Kampanyanızı Başlatın",
+				"subtitle": "Kayıttan ilk kampanyanızı göndermeye 10 dakikadan kısa sürede.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Kişilerinizi İçe Aktarın",
+						"description": "Email listenizi yükleyin veya e-ticaret platformunuzu bağlayın. DialogTab müşteri verilerinizi ve segmentlerinizi otomatik olarak senkronize eder."
+					},
+					{
+						"step": "2",
+						"title": "Emailinizi Tasarlayın",
+						"description": "Bir şablon seçin, marka renklerinizle özelleştirin, dinamik içerik ekleyin ve kişiselleştirmeyi ayarlayın. Masaüstü ve mobilde önizleyin."
+					},
+					{
+						"step": "3",
+						"title": "Gönderin ve Analiz Edin",
+						"description": "Kampanyanızı planlayın veya hemen gönderin. Gerçek zamanlı analizleri takip edin ve etkileşime dayalı otomatik takipler oluşturun."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Kampanya Zekası",
+				"subtitle": "Eyleme geçirilebilir içgörülerle email performansınızı anlayın.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Kampanya Performansı",
+						"description": "Her kampanya için teslimat, açılma, tıklama ve dönüşüm oranlarını takip edin.",
+						"bullets": [
+							"Gerçek zamanlı teslimat takibi",
+							"Açılma ve tıklama oranı eğilimleri",
+							"Kampanya başına gelir ilişkilendirme"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Abone İçgörüleri",
+						"description": "Abone davranışını ve etkileşim kalıplarını anlayın.",
+						"bullets": [
+							"Etkileşim puanlama",
+							"Abone büyüme eğilimleri",
+							"Kayıp tahmin uyarıları"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "A/B Test Sonuçları",
+						"description": "Varyasyonları karşılaştırın ve verilerin kararlarınızı yönlendirmesine izin verin.",
+						"bullets": [
+							"Konu satırı performans karşılaştırması",
+							"İçerik varyasyonu testi",
+							"Optimal gönderim zamanı analizi"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "Mevcut email şablonlarımı kullanabilir miyim?",
+						"answer": "Evet! HTML şablonlarını içe aktarabilir veya sürükle-bırak editörümüzle yenilerini oluşturabilirsiniz. Ayrıca özelleştirebileceğiniz 50'den fazla profesyonelce tasarlanmış şablon sunuyoruz."
+					},
+					{
+						"question": "Email + WhatsApp entegrasyonu nasıl çalışır?",
+						"answer": "Müşteri belirlenen süre içinde emailinizi açmazsa otomatik olarak WhatsApp'tan takip eden kampanyalar oluşturabilirsiniz. Bu kanal arası yaklaşım etkileşim oranlarını önemli ölçüde artırır."
+					},
+					{
+						"question": "Gönderim limiti nedir?",
+						"answer": "Gönderim limitleri planınıza bağlıdır. Başlangıç planımız aylık 10.000 email içerir ve kurumsal planlar özel altyapıyla sınırsız gönderim sunar."
+					},
+					{
+						"question": "İşlemsel emailleri destekliyor musunuz?",
+						"answer": "Evet! DialogTab hem pazarlama hem de işlemsel emailleri destekler. Sipariş onayları, kargo güncellemeleri, şifre sıfırlama ve daha fazlasını yüksek öncelikli teslimatla gönderin."
+					},
+					{
+						"question": "Geri sekmeler ve abonelik iptalleri nasıl yönetilir?",
+						"answer": "DialogTab geri sekmeleri ve abonelik iptallerini otomatik olarak işler. Kalıcı geri sekmeler anında kaldırılır, geçici geri sekmeler yeniden denenir ve abonelik iptalleri tam uyumluluk için anında işlenir."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel Bir Email Çözümüne mi İhtiyacınız Var?",
+				"description": "Yüksek hacimli gönderici misiniz? Özel altyapıya mı ihtiyacınız var? Ekibimiz ölçeğinize ve gereksinimlerinize göre özel bir email çözümü tasarlayabilir.",
+				"button": "Ekibimizle İletişime Geçin"
+			},
+			"cta": {
+				"title": "Email Pazarlamanızı Güçlendirmeye Hazır mısınız?",
+				"description": "Daha akıllı, daha etkili email kampanyaları oluşturmak için DialogTab kullanan yüzlerce işletmeye katılın.",
+				"button": "Ücretsiz Dene",
+				"buttonSecondary": "Satışla Konuş"
+			}
 		}
 	},
 	"integrationPages": {
