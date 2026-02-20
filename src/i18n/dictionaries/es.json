@@ -2926,6 +2926,1081 @@
 				"button": "Iniciar Prueba Gratuita",
 				"buttonSecondary": "Hablar con Ventas"
 			}
+		},
+		"marketplace-solutions": {
+			"slug": "marketplace-solutions",
+			"meta": {
+				"title": "Soluciones de Marketplace - Trendyol, N11, Hepsiburada | DialogTab",
+				"description": "Gestione todos sus pedidos y consultas de clientes de marketplaces como Trendyol, N11 y Hepsiburada desde una única plataforma centralizada con DialogTab.",
+				"keywords": "integración marketplace, trendyol integración, n11 integración, hepsiburada integración, gestión de pedidos marketplace, atención al cliente marketplace, dialogtab"
+			},
+			"hero": {
+				"badge": "Soluciones de Marketplace",
+				"title": "Gestione Todos Sus Marketplaces ",
+				"titleHighlight": "Desde un Solo Panel",
+				"description": "Centralice la gestión de pedidos, consultas de clientes y comunicaciones de Trendyol, N11, Hepsiburada y más marketplaces en una sola plataforma.",
+				"cta": "Comenzar Gratis",
+				"ctaSecondary": "Ver Demostración"
+			},
+			"stats": [
+				{
+					"value": "50%",
+					"label": "Reducción en Tiempo de Respuesta"
+				},
+				{
+					"value": "10K+",
+					"label": "Pedidos Gestionados al Mes"
+				},
+				{
+					"value": "99.5%",
+					"label": "Tasa de Satisfacción del Cliente"
+				},
+				{
+					"value": "3x",
+					"label": "Mayor Productividad del Equipo"
+				}
+			],
+			"highlights": {
+				"title": "Gestión Centralizada de Marketplaces",
+				"subtitle": "Unifique todas sus operaciones de marketplace en un solo lugar para mayor eficiencia y control.",
+				"cards": [
+					{
+						"icon": "store",
+						"title": "Integración Multi-Marketplace",
+						"subtitle": "Todos los canales conectados",
+						"description": "Conecte Trendyol, N11, Hepsiburada y otros marketplaces a DialogTab. Reciba y gestione todos los mensajes y pedidos de clientes sin cambiar de plataforma.",
+						"bullets": [
+							"Conexión directa con los principales marketplaces de Turquía",
+							"Sincronización automática de pedidos y mensajes",
+							"Panel unificado para todas las tiendas",
+							"Notificaciones en tiempo real de nuevos pedidos y consultas"
+						]
+					},
+					{
+						"icon": "package",
+						"title": "Gestión Inteligente de Pedidos",
+						"subtitle": "Control total de pedidos",
+						"description": "Visualice el estado de cada pedido, gestione devoluciones y resuelva incidencias directamente desde DialogTab sin necesidad de acceder a cada marketplace individualmente.",
+						"bullets": [
+							"Seguimiento del estado de pedidos en tiempo real",
+							"Gestión centralizada de devoluciones y cambios",
+							"Historial completo de cada cliente y pedido",
+							"Alertas automáticas para pedidos que requieren atención"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "¿Por Qué DialogTab para Marketplaces?",
+				"subtitle": "Optimice sus operaciones en marketplaces con herramientas diseñadas para vendedores profesionales.",
+				"points": [
+					{
+						"icon": "cart",
+						"title": "Bandeja de Entrada Unificada",
+						"description": "Todas las consultas de clientes de cada marketplace llegan a una sola bandeja de entrada. Responda más rápido sin perder ningún mensaje."
+					},
+					{
+						"icon": "sync",
+						"title": "Sincronización en Tiempo Real",
+						"description": "Los datos de pedidos, estados y mensajes se sincronizan automáticamente entre DialogTab y cada marketplace para mantener la información siempre actualizada."
+					},
+					{
+						"icon": "chart",
+						"title": "Analíticas por Marketplace",
+						"description": "Compare el rendimiento entre marketplaces con métricas detalladas de ventas, tiempos de respuesta y satisfacción del cliente para cada canal."
+					},
+					{
+						"icon": "shield",
+						"title": "Cumplimiento de SLA",
+						"description": "Monitore y cumpla los acuerdos de nivel de servicio de cada marketplace con alertas automáticas y priorización inteligente de consultas."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "store",
+					"title": "Multi-Marketplace",
+					"description": "Conecte y gestione múltiples tiendas de diferentes marketplaces desde un solo panel de control centralizado."
+				},
+				{
+					"icon": "package",
+					"title": "Gestión de Pedidos",
+					"description": "Rastree, actualice y gestione pedidos de todos los marketplaces con herramientas inteligentes de gestión de pedidos."
+				},
+				{
+					"icon": "users",
+					"title": "Perfiles de Compradores",
+					"description": "Construya perfiles unificados de compradores con historial de compras, preferencias e interacciones en todos los marketplaces."
+				},
+				{
+					"icon": "zap",
+					"title": "Respuestas Automáticas",
+					"description": "Configure respuestas automáticas para consultas frecuentes de marketplace como estado de envío, política de devoluciones y disponibilidad."
+				},
+				{
+					"icon": "rocket",
+					"title": "Automatización de Flujos",
+					"description": "Automatice procesos repetitivos como confirmaciones de pedido, actualizaciones de envío y solicitudes de reseñas."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Informes de Rendimiento",
+					"description": "Genere informes detallados sobre ventas, satisfacción del cliente y rendimiento operativo por marketplace."
+				}
+			],
+			"howItWorks": {
+				"title": "Comience en 3 Pasos",
+				"subtitle": "Conecte sus marketplaces y empiece a gestionar todo desde DialogTab en minutos.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Conecte Sus Tiendas",
+						"description": "Vincule sus cuentas de Trendyol, N11, Hepsiburada y otros marketplaces a DialogTab con nuestras integraciones nativas."
+					},
+					{
+						"step": "2",
+						"title": "Configure Sus Reglas",
+						"description": "Establezca reglas de asignación, respuestas automáticas y alertas para gestionar eficientemente las consultas de cada marketplace."
+					},
+					{
+						"step": "3",
+						"title": "Gestione y Crezca",
+						"description": "Responda a clientes, gestione pedidos y analice su rendimiento en todos los marketplaces desde un solo lugar."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Analíticas de Marketplace en Detalle",
+				"subtitle": "Tome decisiones informadas con datos completos de todos sus canales de venta.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Rendimiento por Canal",
+						"description": "Compare métricas clave entre marketplaces para identificar oportunidades de mejora.",
+						"bullets": [
+							"Volumen de ventas por marketplace",
+							"Tiempos de respuesta por canal",
+							"Tasas de conversión comparativas"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Satisfacción del Cliente",
+						"description": "Mida la experiencia del cliente en cada marketplace con métricas detalladas.",
+						"bullets": [
+							"Puntuaciones de satisfacción por marketplace",
+							"Análisis de reseñas y calificaciones",
+							"Seguimiento de clientes recurrentes"
+						]
+					},
+					{
+						"icon": "clipboard",
+						"title": "Gestión de Pedidos",
+						"description": "Monitoree el ciclo completo de pedidos con métricas operativas en tiempo real.",
+						"bullets": [
+							"Tiempos de procesamiento de pedidos",
+							"Tasas de devolución y motivos",
+							"Rendimiento de envío y entrega"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Qué marketplaces son compatibles con DialogTab?",
+						"answer": "Actualmente soportamos integración directa con Trendyol, N11 y Hepsiburada. Continuamente añadimos nuevos marketplaces. Contacte con nosotros si necesita una integración específica."
+					},
+					{
+						"question": "¿Se sincronizan los pedidos automáticamente?",
+						"answer": "Sí, todos los pedidos, mensajes y actualizaciones de estado se sincronizan en tiempo real entre DialogTab y cada marketplace conectado."
+					},
+					{
+						"question": "¿Puedo gestionar múltiples tiendas del mismo marketplace?",
+						"answer": "Por supuesto. Puede conectar múltiples tiendas de un mismo marketplace y gestionarlas todas desde un solo panel de DialogTab."
+					},
+					{
+						"question": "¿Cómo afecta a mis métricas de marketplace?",
+						"answer": "DialogTab le ayuda a mejorar sus métricas al responder más rápido a los clientes, cumplir los SLA y proporcionar un servicio más consistente y profesional."
+					},
+					{
+						"question": "¿Necesito conocimientos técnicos para configurar la integración?",
+						"answer": "No, la configuración es completamente guiada y no requiere conocimientos técnicos. Conecte sus cuentas en minutos con nuestro asistente de configuración paso a paso."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita una Solución Personalizada para Marketplaces?",
+				"description": "¿Vende en múltiples marketplaces y necesita una integración a medida? Nuestro equipo puede diseñar una solución adaptada a sus necesidades específicas de e-commerce.",
+				"button": "Contactar a Nuestro Equipo"
+			},
+			"cta": {
+				"title": "¿Listo para Optimizar Sus Operaciones en Marketplaces?",
+				"description": "Únase a los vendedores que han transformado su gestión de marketplaces con DialogTab.",
+				"button": "Iniciar Prueba Gratuita",
+				"buttonSecondary": "Hablar con Ventas"
+			}
+		},
+		"collectaction-marketplace": {
+			"slug": "collectaction-marketplace",
+			"meta": {
+				"title": "CollecAction Marketplace de Plugins - Extienda DialogTab | DialogTab",
+				"description": "Amplíe las capacidades de DialogTab con nuestro marketplace de plugins. Integraciones CRM, pasarelas de pago, flujos de trabajo personalizados y herramientas de productividad.",
+				"keywords": "marketplace de plugins, extensiones dialogtab, integración crm, pasarelas de pago, flujos de trabajo, plugins de productividad, collectaction"
+			},
+			"hero": {
+				"badge": "CollecAction Marketplace",
+				"title": "Amplíe DialogTab con ",
+				"titleHighlight": "Plugins Poderosos",
+				"description": "Descubra e instale plugins que añaden nuevas funcionalidades a su plataforma DialogTab. Integraciones CRM, procesamiento de pagos, automatizaciones avanzadas y mucho más.",
+				"cta": "Explorar Plugins",
+				"ctaSecondary": "Publicar un Plugin"
+			},
+			"stats": [
+				{
+					"value": "100+",
+					"label": "Plugins Disponibles"
+				},
+				{
+					"value": "1 Clic",
+					"label": "Instalación Inmediata"
+				},
+				{
+					"value": "50+",
+					"label": "Integraciones CRM"
+				},
+				{
+					"value": "24/7",
+					"label": "Soporte para Desarrolladores"
+				}
+			],
+			"highlights": {
+				"title": "Un Ecosistema de Extensiones para Cada Necesidad",
+				"subtitle": "Personalice DialogTab con plugins que se adaptan a su flujo de trabajo y requisitos de negocio.",
+				"cards": [
+					{
+						"icon": "puzzle",
+						"title": "Instale y Personalice",
+						"subtitle": "Plug and play",
+						"description": "Explore nuestro catálogo de plugins, instálelos con un solo clic y configúrelos según las necesidades específicas de su negocio. Sin programación necesaria.",
+						"bullets": [
+							"Instalación con un clic sin conocimientos técnicos",
+							"Configuración personalizable por plugin",
+							"Actualizaciones automáticas y seguras",
+							"Compatibilidad garantizada entre plugins"
+						]
+					},
+					{
+						"icon": "store",
+						"title": "Marketplace Abierto",
+						"subtitle": "Ecosistema en crecimiento",
+						"description": "Desarrolladores de todo el mundo pueden crear y publicar plugins en CollecAction. Un ecosistema en constante crecimiento con nuevas soluciones cada semana.",
+						"bullets": [
+							"Plugins verificados y revisados por el equipo de DialogTab",
+							"Valoraciones y reseñas de la comunidad",
+							"Documentación detallada para cada plugin",
+							"Soporte directo de los desarrolladores"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "¿Por Qué Elegir CollecAction?",
+				"subtitle": "El marketplace de plugins que lleva DialogTab al siguiente nivel.",
+				"points": [
+					{
+						"icon": "code",
+						"title": "Desarrollo Abierto",
+						"description": "SDK completo y documentación detallada para que cualquier desarrollador pueda crear plugins potentes para DialogTab."
+					},
+					{
+						"icon": "settings",
+						"title": "Configuración Flexible",
+						"description": "Cada plugin ofrece opciones de configuración granulares para adaptarse perfectamente a los procesos de su empresa."
+					},
+					{
+						"icon": "zap",
+						"title": "Rendimiento Optimizado",
+						"description": "Todos los plugins pasan por pruebas de rendimiento rigurosas para garantizar que no afecten la velocidad de su plataforma."
+					},
+					{
+						"icon": "shield",
+						"title": "Seguridad Verificada",
+						"description": "Cada plugin es auditado en términos de seguridad antes de publicarse. Protección de datos y privacidad garantizadas."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "puzzle",
+					"title": "Integraciones CRM",
+					"description": "Conecte DialogTab con Salesforce, HubSpot, Zoho y otros CRM para sincronizar contactos, leads y datos de clientes automáticamente."
+				},
+				{
+					"icon": "chart",
+					"title": "Pasarelas de Pago",
+					"description": "Acepte pagos directamente en la conversación con integraciones para Stripe, PayPal, iyzico y otras plataformas de pago."
+				},
+				{
+					"icon": "sync",
+					"title": "Automatización Avanzada",
+					"description": "Cree flujos de trabajo complejos con triggers, condiciones y acciones personalizadas que automatizan sus procesos de negocio."
+				},
+				{
+					"icon": "users",
+					"title": "Herramientas de Productividad",
+					"description": "Plugins para gestión de tareas, colaboración en equipo, programación de reuniones y seguimiento de proyectos integrados en DialogTab."
+				},
+				{
+					"icon": "rocket",
+					"title": "Analíticas Avanzadas",
+					"description": "Plugins de analíticas especializados para segmentación de clientes, predicción de churn, análisis de sentimiento y reportes personalizados."
+				},
+				{
+					"icon": "settings",
+					"title": "Personalización de UI",
+					"description": "Modifique la interfaz de DialogTab con temas, widgets personalizados y paneles adaptados a las necesidades de su equipo."
+				}
+			],
+			"howItWorks": {
+				"title": "Cómo Funciona",
+				"subtitle": "Extienda DialogTab en tres sencillos pasos.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Explore el Catálogo",
+						"description": "Navegue por categorías o busque plugins específicos en nuestro marketplace. Lea reseñas, compare funcionalidades y encuentre lo que necesita."
+					},
+					{
+						"step": "2",
+						"title": "Instale con un Clic",
+						"description": "Seleccione el plugin que desea y haga clic en instalar. Se activará automáticamente en su cuenta de DialogTab sin configuración técnica."
+					},
+					{
+						"step": "3",
+						"title": "Personalice y Use",
+						"description": "Configure el plugin según sus preferencias y comience a usarlo inmediatamente. Cada plugin incluye guías de configuración detalladas."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Gestione Sus Plugins con Confianza",
+				"subtitle": "Monitoree el rendimiento y uso de cada plugin instalado en su plataforma.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Uso de Plugins",
+						"description": "Vea métricas detalladas de cómo su equipo utiliza cada plugin instalado.",
+						"bullets": [
+							"Frecuencia de uso por plugin",
+							"Usuarios activos por extensión",
+							"Impacto en productividad medido"
+						]
+					},
+					{
+						"icon": "shield",
+						"title": "Seguridad y Permisos",
+						"description": "Controle qué datos puede acceder cada plugin y quién en su equipo puede usarlo.",
+						"bullets": [
+							"Control granular de permisos por plugin",
+							"Registro de actividad y auditoría",
+							"Alertas de seguridad automáticas"
+						]
+					},
+					{
+						"icon": "sync",
+						"title": "Actualizaciones y Estado",
+						"description": "Manténgase al día con las actualizaciones de plugins y monitoree su estado operativo.",
+						"bullets": [
+							"Notificaciones de nuevas versiones",
+							"Estado de salud del plugin en tiempo real",
+							"Compatibilidad verificada con cada actualización"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Los plugins son gratuitos?",
+						"answer": "Hay plugins gratuitos y de pago. Cada plugin muestra claramente su precio antes de la instalación. Muchos ofrecen períodos de prueba gratuita para que pueda evaluarlos."
+					},
+					{
+						"question": "¿Puedo desarrollar mis propios plugins?",
+						"answer": "¡Sí! Proporcionamos un SDK completo, documentación detallada y un entorno de desarrollo sandbox. Publique sus plugins y compártalos con la comunidad de DialogTab."
+					},
+					{
+						"question": "¿Los plugins afectan el rendimiento de DialogTab?",
+						"answer": "No. Todos los plugins son evaluados rigurosamente antes de su publicación para garantizar un rendimiento óptimo. Además, nuestra arquitectura asegura que un plugin no pueda afectar al resto de la plataforma."
+					},
+					{
+						"question": "¿Cómo se gestionan las actualizaciones de plugins?",
+						"answer": "Las actualizaciones se aplican automáticamente o manualmente según su preferencia. Todas las actualizaciones se prueban en términos de compatibilidad antes de publicarse."
+					},
+					{
+						"question": "¿Qué pasa si desinstalo un plugin?",
+						"answer": "Al desinstalar un plugin, se eliminan sus funcionalidades pero sus datos permanecen seguros. Puede reinstalar el plugin en cualquier momento y recuperar su configuración anterior."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita un Plugin Personalizado?",
+				"description": "¿No encuentra lo que busca en nuestro marketplace? Nuestro equipo de desarrollo puede crear un plugin a medida para sus necesidades específicas de negocio.",
+				"button": "Contactar a Nuestro Equipo"
+			},
+			"cta": {
+				"title": "¿Listo para Potenciar DialogTab con Plugins?",
+				"description": "Explore nuestro marketplace y descubra plugins que transformarán la forma en que trabaja con sus clientes.",
+				"button": "Iniciar Prueba Gratuita",
+				"buttonSecondary": "Explorar Marketplace"
+			}
+		},
+		"team-management": {
+			"slug": "team-management",
+			"meta": {
+				"title": "Gestión de Equipos - Roles, Permisos y Rendimiento | DialogTab",
+				"description": "Gestione sus equipos de soporte de manera eficiente con DialogTab. Asignación de roles, permisos granulares, seguimiento de rendimiento, distribución de carga de trabajo y gestión de turnos.",
+				"keywords": "gestión de equipos, roles y permisos, rendimiento de agentes, distribución de carga, gestión de turnos, equipo de soporte, dialogtab"
+			},
+			"hero": {
+				"badge": "Gestión de Equipos",
+				"title": "Gestione Su Equipo de Soporte ",
+				"titleHighlight": "Con Total Control",
+				"description": "Asigne roles, controle permisos, monitoree el rendimiento y optimice la distribución de trabajo de su equipo de atención al cliente desde una plataforma centralizada.",
+				"cta": "Comenzar Gratis",
+				"ctaSecondary": "Solicitar Demo"
+			},
+			"stats": [
+				{
+					"value": "40%",
+					"label": "Mayor Productividad del Equipo"
+				},
+				{
+					"value": "60%",
+					"label": "Reducción en Tiempo de Asignación"
+				},
+				{
+					"value": "500+",
+					"label": "Equipos Activos"
+				},
+				{
+					"value": "95%",
+					"label": "Satisfacción de Agentes"
+				}
+			],
+			"highlights": {
+				"title": "Control Total de Su Equipo de Soporte",
+				"subtitle": "Herramientas completas para organizar, monitorear y optimizar el rendimiento de su equipo.",
+				"cards": [
+					{
+						"icon": "teamwork",
+						"title": "Organización por Departamentos",
+						"subtitle": "Estructura clara y eficiente",
+						"description": "Cree departamentos como Ventas, Soporte, Facturación y más. Asigne agentes a departamentos específicos y configure reglas de enrutamiento para que cada consulta llegue al equipo correcto.",
+						"bullets": [
+							"Creación ilimitada de departamentos y sub-equipos",
+							"Asignación flexible de agentes a múltiples departamentos",
+							"Enrutamiento automático basado en el tipo de consulta",
+							"Colas de espera inteligentes por departamento"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Roles y Permisos Granulares",
+						"subtitle": "Acceso controlado y seguro",
+						"description": "Defina roles personalizados con permisos específicos. Controle quién puede ver, editar, asignar y administrar conversaciones, contactos y configuraciones del sistema.",
+						"bullets": [
+							"Roles predefinidos: Administrador, Supervisor, Agente",
+							"Creación de roles personalizados con permisos a medida",
+							"Control de acceso por canal, departamento y función",
+							"Registro de auditoría de todas las acciones realizadas"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "¿Por Qué Gestionar Equipos con DialogTab?",
+				"subtitle": "Optimice cada aspecto de la gestión de su equipo de atención al cliente.",
+				"points": [
+					{
+						"icon": "clipboard",
+						"title": "Distribución Inteligente de Trabajo",
+						"description": "Asigne conversaciones automáticamente según la disponibilidad, experiencia y carga de trabajo actual de cada agente para una distribución equitativa."
+					},
+					{
+						"icon": "chart",
+						"title": "Métricas de Rendimiento",
+						"description": "Monitoree KPIs individuales y de equipo: tiempos de respuesta, tasas de resolución, satisfacción del cliente y productividad general."
+					},
+					{
+						"icon": "shield",
+						"title": "Control de Acceso Seguro",
+						"description": "Proteja información sensible con permisos granulares. Cada agente accede solo a lo que necesita para realizar su trabajo eficientemente."
+					},
+					{
+						"icon": "clock",
+						"title": "Gestión de Turnos y Horarios",
+						"description": "Configure horarios de trabajo, gestione turnos rotativos, establezca estados de disponibilidad y garantice cobertura en los horarios críticos."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "teamwork",
+					"title": "Departamentos y Sub-equipos",
+					"description": "Organice su equipo en departamentos lógicos con supervisores, agentes y reglas de enrutamiento específicas para cada área."
+				},
+				{
+					"icon": "users",
+					"title": "Perfiles de Agente",
+					"description": "Cada agente tiene un perfil completo con métricas de rendimiento, habilidades, idiomas, horarios y registro de actividad detallado."
+				},
+				{
+					"icon": "zap",
+					"title": "Asignación Automática",
+					"description": "Configure reglas de asignación automática basadas en habilidad, disponibilidad, carga de trabajo o tipo de consulta del cliente."
+				},
+				{
+					"icon": "clock",
+					"title": "Gestión de Horarios",
+					"description": "Cree turnos de trabajo, gestione vacaciones, configure horarios de atención y establezca respuestas automáticas fuera de horario."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Ranking de Agentes",
+					"description": "Clasifique agentes por rendimiento con tablas de líderes, reconocimientos y herramientas de gamificación para motivar al equipo."
+				},
+				{
+					"icon": "settings",
+					"title": "Supervisión en Tiempo Real",
+					"description": "Los supervisores pueden monitorear conversaciones en curso, intervenir cuando sea necesario y proporcionar coaching en tiempo real."
+				}
+			],
+			"howItWorks": {
+				"title": "Empiece a Gestionar Su Equipo",
+				"subtitle": "Configure su equipo de soporte en DialogTab en tres pasos simples.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Cree Su Estructura",
+						"description": "Defina departamentos, cree roles personalizados y establezca la jerarquía organizativa de su equipo de soporte."
+					},
+					{
+						"step": "2",
+						"title": "Invite a Su Equipo",
+						"description": "Envíe invitaciones por email, asigne roles y permisos y configure los horarios de trabajo de cada miembro del equipo."
+					},
+					{
+						"step": "3",
+						"title": "Optimice y Escale",
+						"description": "Monitoree métricas de rendimiento, ajuste la distribución de trabajo y escale su equipo conforme crece su negocio."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Analíticas de Equipo Completas",
+				"subtitle": "Datos accionables para mejorar el rendimiento de su equipo de atención al cliente.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Rendimiento Individual",
+						"description": "Monitoree el desempeño de cada agente con métricas detalladas y personalizables.",
+						"bullets": [
+							"Tiempos de respuesta y resolución por agente",
+							"Volumen de conversaciones atendidas",
+							"Puntuaciones de satisfacción del cliente por agente"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Rendimiento de Equipo",
+						"description": "Visualice el desempeño global del equipo y compare departamentos entre sí.",
+						"bullets": [
+							"Comparativas entre departamentos y equipos",
+							"Tendencias de rendimiento a lo largo del tiempo",
+							"Identificación de cuellos de botella operativos"
+						]
+					},
+					{
+						"icon": "clipboard",
+						"title": "Distribución de Trabajo",
+						"description": "Analice la distribución de carga de trabajo y optimice la asignación de recursos.",
+						"bullets": [
+							"Mapa de calor de horas pico",
+							"Balance de carga entre agentes",
+							"Recomendaciones de planificación de personal"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Cuántos agentes puedo añadir a mi equipo?",
+						"answer": "El número de agentes depende de su plan. Los planes básicos incluyen hasta 5 agentes, y los planes empresariales ofrecen agentes ilimitados con soporte prioritario."
+					},
+					{
+						"question": "¿Puedo crear roles personalizados?",
+						"answer": "Sí, además de los roles predefinidos (Administrador, Supervisor, Agente), puede crear roles completamente personalizados con permisos granulares adaptados a su organización."
+					},
+					{
+						"question": "¿Cómo funciona la asignación automática?",
+						"answer": "La asignación automática distribuye las conversaciones según reglas configurables: round-robin, menor carga de trabajo, habilidades del agente o prioridad del cliente. Puede combinar múltiples criterios."
+					},
+					{
+						"question": "¿Puedo monitorear conversaciones en tiempo real?",
+						"answer": "Sí, los supervisores pueden ver todas las conversaciones en curso, enviar notas internas a los agentes e incluso intervenir directamente si una situación lo requiere."
+					},
+					{
+						"question": "¿Soportan múltiples zonas horarias?",
+						"answer": "Absolutamente. Configure horarios de trabajo para equipos en diferentes zonas horarias, con transiciones automáticas entre turnos y cobertura global continua."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita una Solución de Gestión de Equipos Avanzada?",
+				"description": "¿Tiene un equipo grande o distribuido globalmente? Nuestro equipo puede diseñar una solución de gestión personalizada que se adapte a la complejidad de su organización.",
+				"button": "Contactar a Nuestro Equipo"
+			},
+			"cta": {
+				"title": "¿Listo para Optimizar la Gestión de Su Equipo?",
+				"description": "Únase a las empresas que han mejorado la productividad de sus equipos de soporte con DialogTab.",
+				"button": "Iniciar Prueba Gratuita",
+				"buttonSecondary": "Solicitar Demostración"
+			}
+		},
+		"analytics-reporting": {
+			"slug": "analytics-reporting",
+			"meta": {
+				"title": "Analíticas y Reportes - Paneles KPI y Métricas | DialogTab",
+				"description": "Obtenga información detallada con las analíticas avanzadas de DialogTab. Paneles KPI personalizables, reportes automatizados, métricas de satisfacción y análisis de rendimiento en tiempo real.",
+				"keywords": "analíticas, reportes, paneles kpi, métricas de satisfacción, análisis de rendimiento, informes personalizados, dialogtab, datos en tiempo real"
+			},
+			"hero": {
+				"badge": "Analíticas y Reportes",
+				"title": "Transforme Datos en ",
+				"titleHighlight": "Decisiones Inteligentes",
+				"description": "Acceda a analíticas detalladas, cree reportes personalizados, monitoree KPIs en tiempo real y tome decisiones basadas en datos para mejorar su atención al cliente.",
+				"cta": "Comenzar Gratis",
+				"ctaSecondary": "Ver Demo en Vivo"
+			},
+			"stats": [
+				{
+					"value": "30+",
+					"label": "Métricas Disponibles"
+				},
+				{
+					"value": "Real-time",
+					"label": "Actualización de Datos"
+				},
+				{
+					"value": "100%",
+					"label": "Personalizable"
+				},
+				{
+					"value": "PDF/CSV",
+					"label": "Exportación de Reportes"
+				}
+			],
+			"highlights": {
+				"title": "Analíticas que Impulsan Resultados",
+				"subtitle": "Convierta cada interacción con el cliente en datos accionables para mejorar su servicio continuamente.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Paneles KPI Personalizables",
+						"subtitle": "Sus métricas, su forma",
+						"description": "Diseñe paneles de control adaptados a sus necesidades. Seleccione las métricas que importan, organice widgets y cree vistas personalizadas para cada rol en su organización.",
+						"bullets": [
+							"Widgets arrastrables para diseñar su panel ideal",
+							"Vistas personalizadas por rol: gerente, supervisor, agente",
+							"Actualización de datos en tiempo real sin retrasos",
+							"Filtros avanzados por canal, equipo y período"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Reportes Automatizados",
+						"subtitle": "Información cuando la necesita",
+						"description": "Programe reportes automáticos que se envían directamente a su correo electrónico. Diarios, semanales o mensuales, con los datos que usted elija y en el formato que prefiera.",
+						"bullets": [
+							"Programación flexible: diaria, semanal, mensual",
+							"Exportación en PDF, CSV y Excel",
+							"Distribución automática por email a su equipo",
+							"Plantillas de reportes reutilizables"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "¿Por Qué Elegir las Analíticas de DialogTab?",
+				"subtitle": "Herramientas de analíticas diseñadas para equipos de atención al cliente que quieren mejorar continuamente.",
+				"points": [
+					{
+						"icon": "barChart",
+						"title": "Datos en Tiempo Real",
+						"description": "Monitoree la actividad de su equipo y las interacciones con clientes en tiempo real. Sin retrasos, sin estimaciones, solo datos precisos al momento."
+					},
+					{
+						"icon": "target",
+						"title": "Objetivos y Metas",
+						"description": "Establezca objetivos para tiempos de respuesta, tasas de resolución y satisfacción. Monitoree el progreso y reciba alertas cuando los KPIs estén fuera de rango."
+					},
+					{
+						"icon": "zap",
+						"title": "Insights Automáticos",
+						"description": "La inteligencia artificial analiza sus datos y genera recomendaciones automáticas para mejorar la eficiencia, reducir tiempos de espera y aumentar la satisfacción."
+					},
+					{
+						"icon": "shield",
+						"title": "Seguridad de Datos",
+						"description": "Sus datos analíticos están protegidos con cifrado de nivel empresarial. Control de acceso granular para que cada usuario vea solo la información autorizada."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "chart",
+					"title": "Paneles en Tiempo Real",
+					"description": "Paneles interactivos con métricas actualizadas al instante. Visualice conversaciones activas, carga de trabajo y estado del equipo en un vistazo."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Análisis de Tendencias",
+					"description": "Identifique patrones y tendencias en el volumen de conversaciones, tiempos de respuesta y satisfacción del cliente a lo largo del tiempo."
+				},
+				{
+					"icon": "users",
+					"title": "Métricas de Satisfacción",
+					"description": "Mida la satisfacción del cliente con encuestas CSAT, NPS y análisis de sentimiento automatizado en cada conversación."
+				},
+				{
+					"icon": "barChart",
+					"title": "Comparativas de Rendimiento",
+					"description": "Compare el rendimiento entre agentes, equipos, canales y períodos de tiempo con herramientas de benchmarking integradas."
+				},
+				{
+					"icon": "clipboard",
+					"title": "Reportes Personalizados",
+					"description": "Cree reportes a medida seleccionando las métricas, filtros y visualizaciones que necesita. Guárdelos como plantillas reutilizables."
+				},
+				{
+					"icon": "globe",
+					"title": "Analíticas por Canal",
+					"description": "Analice el rendimiento de cada canal por separado: WhatsApp, Instagram, email, chat en vivo y más. Compare y optimice cada uno."
+				}
+			],
+			"howItWorks": {
+				"title": "Comience a Analizar en Minutos",
+				"subtitle": "Las analíticas de DialogTab se activan automáticamente. Solo personalice y explore.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Personalice Su Panel",
+						"description": "Seleccione las métricas que desea monitorear y diseñe su panel de control arrastrando y soltando widgets según sus prioridades."
+					},
+					{
+						"step": "2",
+						"title": "Configure Objetivos y Alertas",
+						"description": "Establezca objetivos para sus KPIs clave y configure alertas automáticas para ser notificado cuando las métricas superen o caigan por debajo de los umbrales."
+					},
+					{
+						"step": "3",
+						"title": "Programe Reportes",
+						"description": "Cree reportes automatizados que se envían a su equipo de forma programada. Elija frecuencia, formato y destinatarios."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Métricas Clave para Su Éxito",
+				"subtitle": "Acceda a las métricas más importantes para optimizar su operación de atención al cliente.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Métricas de Conversación",
+						"description": "Analice cada aspecto de sus conversaciones con clientes para identificar oportunidades de mejora.",
+						"bullets": [
+							"Tiempo de primera respuesta promedio",
+							"Tiempo de resolución por canal y tipo",
+							"Volumen de conversaciones y tendencias"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Métricas de Equipo",
+						"description": "Evalúe el rendimiento de su equipo con métricas individuales y grupales completas.",
+						"bullets": [
+							"Productividad por agente y departamento",
+							"Distribución de carga de trabajo",
+							"Tasas de escalación y transferencia"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Métricas de Negocio",
+						"description": "Conecte la atención al cliente con resultados de negocio medibles y accionables.",
+						"bullets": [
+							"Impacto en retención de clientes",
+							"ROI del equipo de soporte",
+							"Correlación entre satisfacción y lealtad"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Cuánto historial de datos puedo acceder?",
+						"answer": "El historial disponible depende de su plan. Los planes básicos incluyen 6 meses de historial, los profesionales 1 año y los empresariales ofrecen historial ilimitado con archivado a largo plazo."
+					},
+					{
+						"question": "¿Puedo exportar los datos?",
+						"answer": "Sí, puede exportar cualquier reporte o conjunto de datos en formato PDF, CSV o Excel. También disponemos de API para integración con herramientas de BI como Tableau o Power BI."
+					},
+					{
+						"question": "¿Las analíticas están disponibles en tiempo real?",
+						"answer": "Sí, los paneles se actualizan en tiempo real. Las métricas de conversaciones activas, estado del equipo y carga de trabajo se refrescan al instante sin necesidad de recargar la página."
+					},
+					{
+						"question": "¿Puedo crear reportes personalizados?",
+						"answer": "Por supuesto. Seleccione las métricas que desee, aplique filtros por canal, equipo o período, elija visualizaciones y guarde su reporte como plantilla reutilizable."
+					},
+					{
+						"question": "¿Los datos analíticos están seguros?",
+						"answer": "Completamente. Todos los datos están cifrados en reposo y en tránsito. El acceso a analíticas se controla mediante los mismos roles y permisos que el resto de la plataforma."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita Analíticas Empresariales Avanzadas?",
+				"description": "¿Busca integraciones con herramientas de BI, data warehousing o reportes ultra-personalizados? Nuestro equipo puede crear la solución analítica perfecta para su organización.",
+				"button": "Contactar a Nuestro Equipo"
+			},
+			"cta": {
+				"title": "¿Listo para Tomar Decisiones Basadas en Datos?",
+				"description": "Únase a las empresas que usan las analíticas de DialogTab para mejorar continuamente su servicio al cliente.",
+				"button": "Iniciar Prueba Gratuita",
+				"buttonSecondary": "Solicitar Demo"
+			}
+		},
+		"api-solutions": {
+			"slug": "api-solutions",
+			"meta": {
+				"title": "Soluciones API - REST API, Webhooks y Herramientas para Desarrolladores | DialogTab",
+				"description": "Integre DialogTab con cualquier sistema usando nuestra API REST completa, webhooks en tiempo real y herramientas para desarrolladores. Documentación detallada y SDKs disponibles.",
+				"keywords": "api rest, webhooks, herramientas desarrolladores, integraciones personalizadas, sdk, documentación api, dialogtab, api de mensajería"
+			},
+			"hero": {
+				"badge": "Soluciones API",
+				"title": "Construya Integraciones Poderosas ",
+				"titleHighlight": "Con Nuestra API",
+				"description": "API REST completa, webhooks en tiempo real, SDKs en múltiples lenguajes y documentación detallada. Todo lo que necesita para integrar DialogTab con sus sistemas existentes.",
+				"cta": "Ver Documentación",
+				"ctaSecondary": "Obtener API Key"
+			},
+			"stats": [
+				{
+					"value": "200+",
+					"label": "Endpoints Disponibles"
+				},
+				{
+					"value": "99.99%",
+					"label": "Uptime de la API"
+				},
+				{
+					"value": "< 100ms",
+					"label": "Latencia Promedio"
+				},
+				{
+					"value": "5+",
+					"label": "SDKs de Lenguajes"
+				}
+			],
+			"highlights": {
+				"title": "Una API Diseñada para Desarrolladores",
+				"subtitle": "Herramientas robustas y documentación completa para construir integraciones sin límites.",
+				"cards": [
+					{
+						"icon": "code",
+						"title": "API REST Completa",
+						"subtitle": "Acceso total a la plataforma",
+						"description": "Acceda a todas las funcionalidades de DialogTab mediante nuestra API RESTful. Gestione conversaciones, contactos, equipos, canales y automatizaciones programáticamente.",
+						"bullets": [
+							"Endpoints para todas las funciones de la plataforma",
+							"Autenticación segura con OAuth 2.0 y API Keys",
+							"Versionado de API para compatibilidad a largo plazo",
+							"Rate limiting flexible según su plan"
+						]
+					},
+					{
+						"icon": "webhook",
+						"title": "Webhooks en Tiempo Real",
+						"subtitle": "Eventos al instante",
+						"description": "Reciba notificaciones instantáneas cuando ocurran eventos en DialogTab. Nuevos mensajes, cambios de estado, asignaciones y más, directamente en su servidor.",
+						"bullets": [
+							"Más de 50 eventos disponibles para suscripción",
+							"Reintentos automáticos con backoff exponencial",
+							"Verificación de firma para seguridad",
+							"Panel de monitoreo de entregas de webhooks"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "¿Por Qué la API de DialogTab?",
+				"subtitle": "Herramientas de desarrollo de nivel empresarial para equipos de ingeniería exigentes.",
+				"points": [
+					{
+						"icon": "database",
+						"title": "Documentación Exhaustiva",
+						"description": "Documentación interactiva con ejemplos en múltiples lenguajes, sandbox de pruebas y guías paso a paso para cada caso de uso."
+					},
+					{
+						"icon": "shield",
+						"title": "Seguridad de Nivel Empresarial",
+						"description": "OAuth 2.0, API Keys rotativas, IP whitelisting, cifrado TLS 1.3 y registro de auditoría completo para cada llamada a la API."
+					},
+					{
+						"icon": "zap",
+						"title": "Alto Rendimiento",
+						"description": "Infraestructura diseñada para manejar millones de llamadas. Latencia inferior a 100ms, escalado automático y CDN global."
+					},
+					{
+						"icon": "settings",
+						"title": "SDKs Multi-lenguaje",
+						"description": "SDKs oficiales para JavaScript, Python, PHP, Ruby y Go. Bibliotecas mantenidas activamente con tipado completo y documentación integrada."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "code",
+					"title": "API RESTful",
+					"description": "API REST estándar con respuestas JSON, paginación, filtrado avanzado y soporte para operaciones en lote para procesar múltiples recursos."
+				},
+				{
+					"icon": "webhook",
+					"title": "Webhooks Configurables",
+					"description": "Suscriba a eventos específicos, filtre por canal o equipo y reciba payloads personalizados con solo los datos que necesita."
+				},
+				{
+					"icon": "sync",
+					"title": "Sincronización Bidireccional",
+					"description": "Sincronice datos entre DialogTab y sus sistemas en ambas direcciones. Contactos, conversaciones y metadatos siempre actualizados."
+				},
+				{
+					"icon": "lock",
+					"title": "Autenticación Segura",
+					"description": "Múltiples métodos de autenticación: OAuth 2.0 para aplicaciones, API Keys para integraciones servidor a servidor, y tokens JWT para acceso temporal."
+				},
+				{
+					"icon": "chart",
+					"title": "API de Analíticas",
+					"description": "Acceda programáticamente a todas las métricas y reportes. Exporte datos, cree visualizaciones personalizadas e integre con sus herramientas de BI."
+				},
+				{
+					"icon": "rocket",
+					"title": "Sandbox de Desarrollo",
+					"description": "Entorno de pruebas aislado para desarrollar y probar integraciones sin afectar sus datos de producción ni incurrir en costos."
+				}
+			],
+			"howItWorks": {
+				"title": "Comience a Desarrollar Hoy",
+				"subtitle": "De cero a integración funcional en tres pasos.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Obtenga Sus Credenciales",
+						"description": "Regístrese, cree una aplicación en el panel de desarrolladores y obtenga sus API Keys y credenciales OAuth para comenzar."
+					},
+					{
+						"step": "2",
+						"title": "Explore y Pruebe",
+						"description": "Use nuestra documentación interactiva y sandbox para explorar endpoints, probar llamadas y entender las respuestas antes de escribir código."
+					},
+					{
+						"step": "3",
+						"title": "Construya e Integre",
+						"description": "Use nuestros SDKs o haga llamadas directas a la API. Implemente webhooks, sincronice datos y lance su integración a producción."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Monitoree Su Uso de la API",
+				"subtitle": "Panel completo para rastrear el uso, rendimiento y estado de su integración.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Uso de la API",
+						"description": "Monitoree el volumen de llamadas, distribución de endpoints y patrones de uso en tiempo real.",
+						"bullets": [
+							"Conteo de llamadas por endpoint y método",
+							"Gráficos de uso histórico y tendencias",
+							"Alertas de consumo y límites de rate"
+						]
+					},
+					{
+						"icon": "zap",
+						"title": "Rendimiento",
+						"description": "Rastree la latencia, tasas de error y disponibilidad de la API en tiempo real.",
+						"bullets": [
+							"Latencia promedio y percentiles p95/p99",
+							"Tasas de error por endpoint y código de estado",
+							"Estado de disponibilidad y uptime histórico"
+						]
+					},
+					{
+						"icon": "webhook",
+						"title": "Estado de Webhooks",
+						"description": "Monitoree la entrega de webhooks, reintentos y estado de sus endpoints.",
+						"bullets": [
+							"Tasa de entrega exitosa por evento",
+							"Cola de reintentos y eventos fallidos",
+							"Tiempo de respuesta de su servidor"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Preguntas Frecuentes",
+				"items": [
+					{
+						"question": "¿Cuáles son los límites de la API?",
+						"answer": "Los límites dependen de su plan. El plan básico incluye 1,000 llamadas/minuto, el profesional 5,000 y el empresarial ofrece límites personalizados. Todos los planes incluyen burst handling inteligente."
+					},
+					{
+						"question": "¿Qué lenguajes de programación soportan?",
+						"answer": "Ofrecemos SDKs oficiales para JavaScript/TypeScript, Python, PHP, Ruby y Go. La API REST es accesible desde cualquier lenguaje que soporte peticiones HTTP."
+					},
+					{
+						"question": "¿Tienen un entorno de sandbox?",
+						"answer": "Sí, cada cuenta de desarrollador incluye un entorno de sandbox completamente funcional con datos de prueba. Perfecto para desarrollar y probar sin afectar producción."
+					},
+					{
+						"question": "¿Cómo manejan la autenticación?",
+						"answer": "Soportamos OAuth 2.0 para aplicaciones de terceros, API Keys para integraciones servidor a servidor, y tokens JWT para acceso temporal y granular."
+					},
+					{
+						"question": "¿Ofrecen soporte para desarrolladores?",
+						"answer": "Sí, ofrecemos soporte técnico dedicado para desarrolladores, canal de Slack para la comunidad, office hours semanales y un programa de partners para integradores."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "¿Necesita una Integración Personalizada?",
+				"description": "¿Tiene un caso de uso complejo o necesita ayuda para diseñar su integración? Nuestro equipo de ingeniería puede trabajar con usted para construir la solución perfecta.",
+				"button": "Contactar a Nuestro Equipo"
+			},
+			"cta": {
+				"title": "¿Listo para Construir con la API de DialogTab?",
+				"description": "Únase a los desarrolladores que integran DialogTab en sus aplicaciones para ofrecer experiencias de comunicación excepcionales.",
+				"button": "Iniciar Prueba Gratuita",
+				"buttonSecondary": "Ver Documentación API"
+			}
 		}
 	},
 	"integrationPages": {
