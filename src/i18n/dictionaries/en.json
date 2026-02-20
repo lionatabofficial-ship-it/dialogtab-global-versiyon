@@ -2926,6 +2926,1081 @@
 				"button": "Start Free Trial",
 				"buttonSecondary": "Talk to Sales"
 			}
+		},
+		"marketplace-solutions": {
+			"slug": "marketplace-solutions",
+			"meta": {
+				"title": "Marketplace Solutions - Trendyol, N11, Hepsiburada Integration | DialogTab",
+				"description": "Connect your Trendyol, N11, Hepsiburada, and Amazon marketplace accounts to DialogTab. Manage all customer inquiries, orders, and returns from a single inbox.",
+				"keywords": "marketplace integration, trendyol integration, n11 integration, hepsiburada integration, marketplace customer service, e-commerce marketplace, order management, dialogtab marketplace"
+			},
+			"hero": {
+				"badge": "Marketplace Solutions",
+				"title": "All Your Marketplaces, ",
+				"titleHighlight": "One Powerful Inbox",
+				"description": "Connect Trendyol, N11, Hepsiburada, and other major marketplaces to DialogTab. Manage orders, answer customer questions, and handle returns from a single unified platform.",
+				"cta": "Get Started",
+				"ctaSecondary": "See Marketplace Integrations"
+			},
+			"stats": [
+				{
+					"value": "5+",
+					"label": "Marketplaces Supported"
+				},
+				{
+					"value": "70%",
+					"label": "Faster Response Time"
+				},
+				{
+					"value": "45%",
+					"label": "Fewer Missed Messages"
+				},
+				{
+					"value": "3x",
+					"label": "Seller Rating Improvement"
+				}
+			],
+			"highlights": {
+				"title": "Unified Marketplace Management",
+				"subtitle": "Stop logging into multiple seller panels. DialogTab brings every marketplace conversation and order notification into one organized workspace.",
+				"cards": [
+					{
+						"icon": "store",
+						"title": "Multi-Marketplace Inbox",
+						"subtitle": "Every platform in one place",
+						"description": "Trendyol, N11, Hepsiburada, Amazon, and more — all customer messages, order questions, and return requests flow into a single inbox with full order context.",
+						"bullets": [
+							"Real-time sync with marketplace messaging APIs",
+							"Order details displayed alongside conversations",
+							"Automatic customer identification across platforms",
+							"Priority tagging for urgent order issues"
+						]
+					},
+					{
+						"icon": "package",
+						"title": "Order-Aware Conversations",
+						"subtitle": "Context at your fingertips",
+						"description": "When a customer writes about an order, DialogTab automatically pulls in the order details — status, tracking number, items, and delivery timeline — so your team can respond instantly.",
+						"bullets": [
+							"Automatic order lookup and display",
+							"Shipment tracking within the chat view",
+							"Return and refund status visibility",
+							"Customer purchase history across marketplaces"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Why DialogTab for Marketplaces?",
+				"subtitle": "The most efficient way to manage multi-marketplace customer communication and boost your seller ratings.",
+				"points": [
+					{
+						"icon": "cart",
+						"title": "Centralized Order Support",
+						"description": "Answer order-related questions from every marketplace without switching between seller panels. All order data is automatically enriched in conversations."
+					},
+					{
+						"icon": "sync",
+						"title": "Real-Time Synchronization",
+						"description": "Messages, order updates, and status changes sync in real time. Never miss a customer inquiry or a critical deadline again."
+					},
+					{
+						"icon": "chart",
+						"title": "Seller Performance Tracking",
+						"description": "Monitor response times, resolution rates, and customer satisfaction per marketplace. Keep your seller scores high across every platform."
+					},
+					{
+						"icon": "shield",
+						"title": "SLA Compliance",
+						"description": "Marketplace response deadlines are tracked automatically. Get alerts before SLA breaches and ensure your seller rating stays protected."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "store",
+					"title": "Multi-Marketplace Hub",
+					"description": "Connect Trendyol, N11, Hepsiburada, Amazon, and other marketplaces to a single dashboard. Manage all seller communications centrally."
+				},
+				{
+					"icon": "users",
+					"title": "Team Routing by Marketplace",
+					"description": "Assign dedicated agents or teams per marketplace. Route conversations based on platform, category, or order value automatically."
+				},
+				{
+					"icon": "zap",
+					"title": "Quick Reply Templates",
+					"description": "Create marketplace-specific response templates for common scenarios — shipping delays, return instructions, stock inquiries — and respond in seconds."
+				},
+				{
+					"icon": "rocket",
+					"title": "Automated Status Updates",
+					"description": "Send proactive order status messages to customers. Reduce inbound inquiries by keeping buyers informed at every step of the fulfillment process."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Rating & Review Management",
+					"description": "Track customer reviews, respond to negative feedback promptly, and identify patterns to improve your marketplace seller performance."
+				},
+				{
+					"icon": "clipboard",
+					"title": "Return & Refund Workflow",
+					"description": "Streamline return and refund processes with automated workflows. Approve, reject, or escalate return requests directly from the inbox."
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Start managing all your marketplaces from one inbox in minutes.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Connect Your Seller Accounts",
+						"description": "Link your Trendyol, N11, Hepsiburada, and other marketplace seller accounts to DialogTab using secure API credentials."
+					},
+					{
+						"step": "2",
+						"title": "Configure Your Workflow",
+						"description": "Set up team assignments, auto-reply rules, SLA alerts, and response templates tailored to each marketplace's requirements."
+					},
+					{
+						"step": "3",
+						"title": "Manage & Grow",
+						"description": "Handle all marketplace conversations from one inbox, track performance metrics, and watch your seller ratings climb."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Marketplace Intelligence",
+				"subtitle": "Data-driven insights to optimize your marketplace operations and boost seller performance.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Response Performance",
+						"description": "Track response times and resolution rates across every marketplace to maintain top seller status.",
+						"bullets": [
+							"Average response time per marketplace",
+							"SLA compliance tracking",
+							"Resolution rate benchmarking"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Order Analytics",
+						"description": "Monitor order-related inquiry volumes, common issues, and seasonal trends across platforms.",
+						"bullets": [
+							"Inquiry volume by category and marketplace",
+							"Common issue identification",
+							"Seasonal trend analysis"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Customer Satisfaction",
+						"description": "Measure customer satisfaction and feedback scores to continuously improve your marketplace service quality.",
+						"bullets": [
+							"Seller rating trends per platform",
+							"Customer feedback analysis",
+							"Return rate monitoring"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "Which marketplaces does DialogTab support?",
+						"answer": "DialogTab currently supports Trendyol, N11, Hepsiburada, Amazon, and other popular Turkish and international marketplaces. We continuously add new platform integrations based on customer demand."
+					},
+					{
+						"question": "Will I still need to log into seller panels?",
+						"answer": "For messaging and order inquiries, no — everything is managed from DialogTab. You may still need seller panels for product listing management and some platform-specific operations."
+					},
+					{
+						"question": "Does DialogTab sync order data in real time?",
+						"answer": "Yes. DialogTab connects via official marketplace APIs to sync messages, order statuses, and customer data in real time. When a customer writes about an order, the full order details appear automatically."
+					},
+					{
+						"question": "Can I assign different teams to different marketplaces?",
+						"answer": "Absolutely. You can create dedicated teams or agents per marketplace, or use skill-based routing to assign conversations based on platform, product category, or issue type."
+					},
+					{
+						"question": "How does DialogTab help improve my seller rating?",
+						"answer": "By centralizing all messages and providing SLA alerts, DialogTab ensures you never miss a customer inquiry. Faster response times and higher resolution rates directly translate to better marketplace seller ratings."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need a Custom Marketplace Integration?",
+				"description": "Selling on a niche marketplace or need advanced order management workflows? Our team can build a custom integration tailored to your multi-marketplace operation.",
+				"button": "Contact Our Team"
+			},
+			"cta": {
+				"title": "Ready to Dominate Your Marketplace Sales?",
+				"description": "Join hundreds of sellers using DialogTab to manage every marketplace from one powerful inbox.",
+				"button": "Start Free Trial",
+				"buttonSecondary": "Talk to Sales"
+			}
+		},
+		"collectaction-marketplace": {
+			"slug": "collectaction-marketplace",
+			"meta": {
+				"title": "CollecAction Plugin Marketplace - Extend DialogTab | Plugins & Add-ons",
+				"description": "Discover and install powerful plugins from the CollecAction marketplace. CRM integrations, payment gateways, custom workflows, and more to supercharge your DialogTab experience.",
+				"keywords": "collectaction marketplace, dialogtab plugins, crm integration, payment gateway plugin, custom workflows, add-ons, dialogtab extensions, plugin marketplace"
+			},
+			"hero": {
+				"badge": "CollecAction Marketplace",
+				"title": "Extend DialogTab with ",
+				"titleHighlight": "Powerful Plugins",
+				"description": "Browse the CollecAction Plugin Marketplace to discover CRM connectors, payment gateways, automation tools, and custom workflows that seamlessly extend your DialogTab platform.",
+				"cta": "Get Started",
+				"ctaSecondary": "Browse Plugins"
+			},
+			"stats": [
+				{
+					"value": "50+",
+					"label": "Available Plugins"
+				},
+				{
+					"value": "1-Click",
+					"label": "Installation"
+				},
+				{
+					"value": "99.9%",
+					"label": "Plugin Uptime"
+				},
+				{
+					"value": "30%",
+					"label": "Workflow Efficiency Gain"
+				}
+			],
+			"highlights": {
+				"title": "Your Platform, Your Rules",
+				"subtitle": "The CollecAction Marketplace lets you pick and choose exactly the tools you need — no bloat, no compromises. Build the perfect communication stack for your business.",
+				"cards": [
+					{
+						"icon": "puzzle",
+						"title": "Plug-and-Play Integrations",
+						"subtitle": "Install in one click",
+						"description": "Browse a curated library of plugins for CRMs, payment gateways, e-commerce platforms, helpdesk tools, and more. Each plugin installs in seconds and works out of the box.",
+						"bullets": [
+							"One-click installation with no coding required",
+							"Pre-configured settings for instant setup",
+							"Automatic updates and compatibility management",
+							"Secure plugin sandboxing for data protection"
+						]
+					},
+					{
+						"icon": "store",
+						"title": "Custom Workflow Builder",
+						"subtitle": "Automate without limits",
+						"description": "Combine plugins to create powerful custom workflows. Connect your CRM to WhatsApp, trigger payment reminders from order events, or sync customer data across every tool in your stack.",
+						"bullets": [
+							"Visual workflow designer for multi-plugin automations",
+							"Event-driven triggers and conditional logic",
+							"Cross-plugin data mapping and transformation",
+							"Version control and rollback for workflows"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Why the CollecAction Marketplace?",
+				"subtitle": "A growing ecosystem of vetted, enterprise-grade plugins built specifically for the DialogTab platform.",
+				"points": [
+					{
+						"icon": "code",
+						"title": "Developer-Friendly SDK",
+						"description": "Build your own plugins with our comprehensive SDK and API documentation. Publish to the marketplace and reach thousands of DialogTab users."
+					},
+					{
+						"icon": "settings",
+						"title": "Granular Configuration",
+						"description": "Every plugin comes with detailed configuration options. Map custom fields, set sync frequencies, define trigger conditions, and tailor behavior to your exact needs."
+					},
+					{
+						"icon": "zap",
+						"title": "Real-Time Data Flow",
+						"description": "Plugins communicate in real time via event-driven architecture. Customer data, order updates, and conversation events flow instantly between connected systems."
+					},
+					{
+						"icon": "shield",
+						"title": "Enterprise Security",
+						"description": "Every plugin undergoes security review before marketplace listing. Data is encrypted in transit and at rest, with granular permission controls for each integration."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "puzzle",
+					"title": "CRM Connectors",
+					"description": "Sync customer profiles, deal stages, and contact histories with Salesforce, HubSpot, Zoho, Pipedrive, and other popular CRM platforms."
+				},
+				{
+					"icon": "store",
+					"title": "Payment Gateways",
+					"description": "Accept payments directly within conversations using Stripe, iyzico, PayTR, and other payment providers. Send payment links and track transactions."
+				},
+				{
+					"icon": "chart",
+					"title": "Advanced Analytics Plugins",
+					"description": "Extend your reporting capabilities with custom dashboards, data export tools, and integrations with Google Analytics, Mixpanel, and more."
+				},
+				{
+					"icon": "users",
+					"title": "Helpdesk & Ticketing",
+					"description": "Connect DialogTab with Zendesk, Freshdesk, Jira, and other helpdesk tools. Automatically create tickets from conversations and sync statuses."
+				},
+				{
+					"icon": "rocket",
+					"title": "E-Commerce Plugins",
+					"description": "Deep integrations with Shopify, WooCommerce, Trendyol, and other platforms. Sync products, orders, and customer data seamlessly."
+				},
+				{
+					"icon": "sync",
+					"title": "Data Sync & Migration",
+					"description": "Import and export customer data, conversation histories, and configurations. Migrate from other platforms with zero data loss."
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Extend your DialogTab experience in three simple steps.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Browse the Marketplace",
+						"description": "Explore the CollecAction Marketplace from your DialogTab dashboard. Filter by category, rating, or use case to find the plugins you need."
+					},
+					{
+						"step": "2",
+						"title": "Install & Configure",
+						"description": "Click install, authorize the connection, and configure the plugin settings. Most plugins are ready to use in under two minutes."
+					},
+					{
+						"step": "3",
+						"title": "Automate & Scale",
+						"description": "Combine plugins into powerful workflows, monitor performance in your dashboard, and scale your operations without adding complexity."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Plugin Performance Insights",
+				"subtitle": "Monitor how your plugins perform and the value they deliver to your business operations.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Usage Analytics",
+						"description": "Track how often each plugin is triggered, data volume processed, and operational time saved.",
+						"bullets": [
+							"Plugin activation frequency",
+							"Data sync volume and latency",
+							"Error rate monitoring"
+						]
+					},
+					{
+						"icon": "zap",
+						"title": "Workflow Efficiency",
+						"description": "Measure the impact of your automated workflows on team productivity and response times.",
+						"bullets": [
+							"Automation execution count",
+							"Time saved per workflow",
+							"Manual intervention reduction"
+						]
+					},
+					{
+						"icon": "shield",
+						"title": "Health & Security",
+						"description": "Monitor plugin health, uptime, and security status to ensure your integrations run smoothly.",
+						"bullets": [
+							"Real-time plugin health dashboard",
+							"Security audit logs",
+							"Uptime and reliability metrics"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "Are plugins free or paid?",
+						"answer": "The CollecAction Marketplace offers both free and premium plugins. Many essential integrations are included with your DialogTab plan, while advanced plugins may have a separate subscription fee clearly listed on their marketplace page."
+					},
+					{
+						"question": "Can I build my own plugin?",
+						"answer": "Yes! DialogTab provides a comprehensive developer SDK with documentation, sample code, and testing tools. You can build private plugins for your organization or publish them to the marketplace for all users."
+					},
+					{
+						"question": "How secure are marketplace plugins?",
+						"answer": "Every plugin undergoes a thorough security review before being listed. Plugins run in sandboxed environments with strict permission controls, and all data transfers are encrypted end-to-end."
+					},
+					{
+						"question": "What happens if a plugin causes issues?",
+						"answer": "You can disable any plugin instantly from your dashboard. DialogTab's plugin architecture ensures that a malfunctioning plugin cannot affect your core messaging or other active integrations."
+					},
+					{
+						"question": "Can I use multiple plugins at the same time?",
+						"answer": "Absolutely. You can install and run as many plugins as you need. They are designed to work alongside each other, and the workflow builder lets you create automations that chain multiple plugins together."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need a Custom Plugin or Integration?",
+				"description": "Our development team can build bespoke plugins and integrations tailored to your unique business requirements. From legacy system connectors to industry-specific workflows.",
+				"button": "Contact Our Team"
+			},
+			"cta": {
+				"title": "Ready to Supercharge Your DialogTab?",
+				"description": "Explore the CollecAction Marketplace and unlock the full potential of your customer communication platform.",
+				"button": "Start Free Trial",
+				"buttonSecondary": "Browse Marketplace"
+			}
+		},
+		"team-management": {
+			"slug": "team-management",
+			"meta": {
+				"title": "Team Management - Roles, Permissions & Performance | DialogTab",
+				"description": "Manage your customer support team with DialogTab. Assign roles, track agent performance, distribute workloads, schedule shifts, and optimize team productivity from one dashboard.",
+				"keywords": "team management, agent performance, customer support team, role permissions, workload distribution, shift scheduling, dialogtab team, support team management"
+			},
+			"hero": {
+				"badge": "Team Management",
+				"title": "Build & Manage ",
+				"titleHighlight": "High-Performing Teams",
+				"description": "Organize your support team with granular roles and permissions, monitor individual and team performance in real time, and ensure every conversation is handled by the right person.",
+				"cta": "Get Started",
+				"ctaSecondary": "See Team Features"
+			},
+			"stats": [
+				{
+					"value": "40%",
+					"label": "Productivity Increase"
+				},
+				{
+					"value": "60%",
+					"label": "Faster Onboarding"
+				},
+				{
+					"value": "95%",
+					"label": "SLA Compliance"
+				},
+				{
+					"value": "3x",
+					"label": "Team Efficiency Gain"
+				}
+			],
+			"highlights": {
+				"title": "Complete Team Command Center",
+				"subtitle": "From onboarding new agents to optimizing veteran performance — DialogTab gives you every tool to run a world-class support operation.",
+				"cards": [
+					{
+						"icon": "teamwork",
+						"title": "Roles & Permissions",
+						"subtitle": "Fine-grained access control",
+						"description": "Define custom roles with precise permissions for every feature — inbox access, reporting, settings, and more. Ensure agents see only what they need and managers have full visibility.",
+						"bullets": [
+							"Custom role builder with granular permissions",
+							"Department-level access restrictions",
+							"Admin, supervisor, and agent role presets",
+							"Audit trail for permission changes"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Workload Distribution",
+						"subtitle": "Balance your team's capacity",
+						"description": "Distribute conversations evenly across your team with intelligent assignment rules. Prevent agent burnout by capping concurrent conversations and respecting shift schedules.",
+						"bullets": [
+							"Round-robin and load-based assignment",
+							"Concurrent conversation limits per agent",
+							"Skill-based routing by language or topic",
+							"Real-time workload visibility dashboard"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Why DialogTab for Team Management?",
+				"subtitle": "The only customer communication platform that treats team management as a first-class feature, not an afterthought.",
+				"points": [
+					{
+						"icon": "clipboard",
+						"title": "Centralized Team Dashboard",
+						"description": "See every agent's status, current conversations, and performance metrics in one real-time dashboard. Make data-driven staffing decisions instantly."
+					},
+					{
+						"icon": "chart",
+						"title": "Performance Scorecards",
+						"description": "Track response times, resolution rates, customer satisfaction scores, and conversation volume per agent. Identify top performers and coaching opportunities."
+					},
+					{
+						"icon": "shield",
+						"title": "Quality Assurance",
+						"description": "Review conversation transcripts, rate agent responses, and provide feedback. Build a culture of continuous improvement with structured QA workflows."
+					},
+					{
+						"icon": "zap",
+						"title": "Smart Escalation Paths",
+						"description": "Define escalation rules based on conversation complexity, customer tier, or agent availability. Ensure critical issues reach senior team members automatically."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "users",
+					"title": "Agent Profiles & Status",
+					"description": "Each agent has a profile with skills, languages, and availability. Real-time online/offline/busy status ensures accurate conversation routing."
+				},
+				{
+					"icon": "clock",
+					"title": "Shift Scheduling",
+					"description": "Create and manage shift schedules directly in DialogTab. Define working hours, break times, and on-call rotations to ensure 24/7 coverage."
+				},
+				{
+					"icon": "settings",
+					"title": "Department Management",
+					"description": "Organize agents into departments — Sales, Support, Billing, Technical — with independent inboxes, assignment rules, and reporting."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Real-Time Monitoring",
+					"description": "Watch live conversations, monitor agent activity, and intervene when needed. Supervisors can whisper suggestions or take over conversations."
+				},
+				{
+					"icon": "rocket",
+					"title": "Onboarding Workflows",
+					"description": "Streamline new agent onboarding with guided setup, training materials access, shadow mode for observing senior agents, and gradual workload ramp-up."
+				},
+				{
+					"icon": "clipboard",
+					"title": "Internal Notes & Handoffs",
+					"description": "Leave internal notes on conversations, tag colleagues, and hand off chats with full context. Ensure seamless transitions between shifts and agents."
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Set up your team structure and start managing performance in minutes.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Create Your Team Structure",
+						"description": "Set up departments, define custom roles with specific permissions, and invite your team members via email. They can start immediately after accepting the invite."
+					},
+					{
+						"step": "2",
+						"title": "Configure Assignment Rules",
+						"description": "Choose from round-robin, load-based, or skill-based assignment. Set concurrent conversation limits, define working hours, and configure escalation paths."
+					},
+					{
+						"step": "3",
+						"title": "Monitor & Optimize",
+						"description": "Use the real-time team dashboard to track performance, identify bottlenecks, and continuously improve your support operation with data-driven insights."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Team Performance Analytics",
+				"subtitle": "Comprehensive insights into how your team operates, where to improve, and how to scale.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Agent Performance",
+						"description": "Individual scorecards with response times, resolution rates, and customer satisfaction scores.",
+						"bullets": [
+							"Conversations handled and resolved",
+							"Average first response time",
+							"Customer satisfaction per agent"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Team Utilization",
+						"description": "Understand team capacity, idle time, and peak workload periods to optimize staffing.",
+						"bullets": [
+							"Active vs. idle time per agent",
+							"Peak hour workload analysis",
+							"Capacity planning recommendations"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Quality Metrics",
+						"description": "Track QA scores, escalation rates, and training effectiveness to build a stronger team.",
+						"bullets": [
+							"QA review scores and trends",
+							"Escalation frequency and reasons",
+							"Onboarding progress tracking"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "How many team members can I add to DialogTab?",
+						"answer": "There is no hard limit on team members. You can add as many agents, supervisors, and administrators as your plan supports. Enterprise plans offer unlimited seats with volume discounts."
+					},
+					{
+						"question": "Can I create custom roles beyond Admin, Supervisor, and Agent?",
+						"answer": "Yes. DialogTab's role builder lets you create completely custom roles with granular permissions. Control access to specific inboxes, reports, settings, and features for each role."
+					},
+					{
+						"question": "Does DialogTab support shift scheduling?",
+						"answer": "Yes. You can define shift schedules with start/end times, break periods, and on-call rotations. Conversations are only assigned to agents during their active shifts, and auto-replies activate outside working hours."
+					},
+					{
+						"question": "Can supervisors monitor live conversations?",
+						"answer": "Absolutely. Supervisors can view live conversations in real time, send private whisper messages to agents, or take over a conversation if needed — all without the customer noticing."
+					},
+					{
+						"question": "How does the workload distribution work?",
+						"answer": "DialogTab supports round-robin, load-based, and skill-based distribution. You can set concurrent conversation limits per agent, factor in skill tags like language or product expertise, and respect shift schedules to ensure balanced workloads."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need a Custom Team Management Setup?",
+				"description": "Managing a large or distributed support team? Our team can design a custom structure with advanced routing rules, QA workflows, and reporting tailored to your organization.",
+				"button": "Contact Our Team"
+			},
+			"cta": {
+				"title": "Ready to Empower Your Support Team?",
+				"description": "Join hundreds of businesses using DialogTab to build, manage, and scale high-performing customer support teams.",
+				"button": "Start Free Trial",
+				"buttonSecondary": "Book a Demo"
+			}
+		},
+		"analytics-reporting": {
+			"slug": "analytics-reporting",
+			"meta": {
+				"title": "Analytics & Reporting - Performance Dashboards & KPIs | DialogTab",
+				"description": "Get deep insights into your customer communication with DialogTab analytics. Custom dashboards, conversation analytics, agent performance reports, and customer satisfaction metrics.",
+				"keywords": "analytics, reporting, customer analytics, performance dashboard, KPI tracking, conversation analytics, agent performance, customer satisfaction, dialogtab reporting"
+			},
+			"hero": {
+				"badge": "Performance & Reporting",
+				"title": "Data-Driven Decisions with ",
+				"titleHighlight": "Powerful Analytics",
+				"description": "Unlock actionable insights from every conversation. Custom dashboards, real-time KPIs, and comprehensive reports help you optimize your customer communication strategy.",
+				"cta": "Get Started",
+				"ctaSecondary": "Explore Dashboards"
+			},
+			"stats": [
+				{
+					"value": "50+",
+					"label": "Built-in Reports"
+				},
+				{
+					"value": "Real-Time",
+					"label": "Dashboard Updates"
+				},
+				{
+					"value": "100%",
+					"label": "Data Accuracy"
+				},
+				{
+					"value": "15min",
+					"label": "Setup Time"
+				}
+			],
+			"highlights": {
+				"title": "See Everything, Miss Nothing",
+				"subtitle": "DialogTab Analytics transforms raw conversation data into clear, actionable insights that drive better decisions and better customer experiences.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Custom KPI Dashboards",
+						"subtitle": "Your metrics, your way",
+						"description": "Build personalized dashboards with drag-and-drop widgets. Track the KPIs that matter most to your business — from first response time to revenue per conversation.",
+						"bullets": [
+							"Drag-and-drop dashboard builder",
+							"Real-time data with auto-refresh",
+							"Role-based dashboard visibility",
+							"Export and share with stakeholders"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Conversation Intelligence",
+						"subtitle": "Insights from every interaction",
+						"description": "Analyze conversation patterns, sentiment trends, and topic distributions across all channels. Understand what your customers are talking about and how your team is responding.",
+						"bullets": [
+							"Topic and intent classification",
+							"Sentiment analysis across conversations",
+							"Peak volume and trend identification",
+							"Resolution path analysis"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Why DialogTab for Analytics?",
+				"subtitle": "The most comprehensive analytics suite built specifically for customer communication teams.",
+				"points": [
+					{
+						"icon": "users",
+						"title": "Agent Performance Insights",
+						"description": "Detailed scorecards for every agent — response times, resolution rates, customer ratings, and productivity metrics — all updated in real time."
+					},
+					{
+						"icon": "barChart",
+						"title": "Channel Comparison",
+						"description": "Compare performance across WhatsApp, Instagram, Facebook, Telegram, email, and live chat. Discover which channels deliver the best customer experience and ROI."
+					},
+					{
+						"icon": "target",
+						"title": "Goal Tracking",
+						"description": "Set measurable goals for response times, resolution rates, and customer satisfaction. Track progress with visual indicators and automated alerts."
+					},
+					{
+						"icon": "zap",
+						"title": "Automated Reports",
+						"description": "Schedule reports to be generated and emailed daily, weekly, or monthly. Keep stakeholders informed without manual effort."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "chart",
+					"title": "Real-Time Dashboards",
+					"description": "Monitor live metrics across all channels — active conversations, queue depth, agent availability, and response times — updated every second."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Trend Analysis",
+					"description": "Identify patterns in conversation volume, customer sentiment, and agent performance over days, weeks, and months. Spot issues before they escalate."
+				},
+				{
+					"icon": "shield",
+					"title": "SLA Reporting",
+					"description": "Track SLA compliance in real time. Drill down into breaches by team, channel, or time period. Set up proactive alerts to prevent SLA violations."
+				},
+				{
+					"icon": "clipboard",
+					"title": "Custom Report Builder",
+					"description": "Create tailored reports with drag-and-drop fields, custom filters, and flexible date ranges. Save templates for recurring reporting needs."
+				},
+				{
+					"icon": "globe",
+					"title": "Cross-Channel Analytics",
+					"description": "Unified analytics across WhatsApp, Instagram, Facebook, Telegram, email, and live chat. Compare channel performance side by side."
+				},
+				{
+					"icon": "rocket",
+					"title": "Data Export & API",
+					"description": "Export reports in CSV, PDF, or Excel. Use the Analytics API to feed DialogTab data into your business intelligence tools and external dashboards."
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Start getting actionable insights from your customer conversations in minutes.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Connect Your Channels",
+						"description": "DialogTab automatically collects analytics data from every connected channel — WhatsApp, Instagram, Facebook, Telegram, email, and live chat."
+					},
+					{
+						"step": "2",
+						"title": "Build Your Dashboard",
+						"description": "Choose from pre-built dashboard templates or create your own. Drag and drop KPI widgets, set date ranges, and apply filters for the exact view you need."
+					},
+					{
+						"step": "3",
+						"title": "Act on Insights",
+						"description": "Use real-time data to optimize team performance, improve response times, and deliver better customer experiences. Schedule automated reports to stay on top of trends."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Analytics That Drive Results",
+				"subtitle": "Three pillars of insight that help you understand, optimize, and scale your customer communication.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Operational Metrics",
+						"description": "Track the metrics that keep your support operation running smoothly.",
+						"bullets": [
+							"First response and resolution times",
+							"Conversation volume and queue depth",
+							"Agent utilization rates"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Customer Insights",
+						"description": "Understand your customers better with behavioral and satisfaction data.",
+						"bullets": [
+							"Customer satisfaction (CSAT) scores",
+							"Net Promoter Score (NPS) tracking",
+							"Customer effort score (CES)"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Business Impact",
+						"description": "Connect communication metrics to business outcomes and revenue.",
+						"bullets": [
+							"Revenue per conversation",
+							"Cost per resolution",
+							"Conversion rate from support interactions"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "What metrics does DialogTab track?",
+						"answer": "DialogTab tracks 50+ metrics including first response time, resolution time, customer satisfaction (CSAT), Net Promoter Score (NPS), conversation volume, agent utilization, SLA compliance, channel performance, and more."
+					},
+					{
+						"question": "Can I create custom reports?",
+						"answer": "Yes. The custom report builder lets you select any combination of metrics, apply filters by channel, team, agent, or date range, and save templates for recurring use. You can also schedule reports to be emailed automatically."
+					},
+					{
+						"question": "Does DialogTab offer real-time analytics?",
+						"answer": "Yes. Dashboard data updates in real time with auto-refresh. You can monitor live conversations, queue depth, agent availability, and response times as they happen."
+					},
+					{
+						"question": "Can I export data to external BI tools?",
+						"answer": "Absolutely. DialogTab supports CSV, PDF, and Excel exports. The Analytics API allows you to programmatically pull data into tools like Google Data Studio, Tableau, Power BI, and custom dashboards."
+					},
+					{
+						"question": "How far back does historical data go?",
+						"answer": "DialogTab retains full analytics data for the lifetime of your account. You can analyze trends and compare periods going back to day one of your usage. Enterprise plans include extended data retention with higher resolution."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need Custom Analytics or BI Integration?",
+				"description": "Require specialized dashboards, custom KPI formulas, or deep integration with your business intelligence stack? Our analytics team can build it for you.",
+				"button": "Contact Our Team"
+			},
+			"cta": {
+				"title": "Ready to Turn Conversations into Insights?",
+				"description": "Join hundreds of businesses using DialogTab analytics to make smarter decisions and deliver better customer experiences.",
+				"button": "Start Free Trial",
+				"buttonSecondary": "See a Demo Dashboard"
+			}
+		},
+		"api-solutions": {
+			"slug": "api-solutions",
+			"meta": {
+				"title": "API Solutions - RESTful API & Webhooks for Developers | DialogTab",
+				"description": "Build custom integrations with DialogTab's RESTful API and webhooks. Send messages, manage conversations, sync contacts, and automate workflows programmatically.",
+				"keywords": "dialogtab api, rest api, webhooks, developer tools, api integration, custom integration, messaging api, conversation api, dialogtab developer, automation api"
+			},
+			"hero": {
+				"badge": "RESTful API & Webhooks",
+				"title": "Build Anything with the ",
+				"titleHighlight": "DialogTab API",
+				"description": "A comprehensive RESTful API and real-time webhooks that let developers send messages, manage conversations, sync contacts, and automate workflows across every channel.",
+				"cta": "Get Started",
+				"ctaSecondary": "View API Docs"
+			},
+			"stats": [
+				{
+					"value": "100+",
+					"label": "API Endpoints"
+				},
+				{
+					"value": "99.9%",
+					"label": "API Uptime"
+				},
+				{
+					"value": "<100ms",
+					"label": "Average Latency"
+				},
+				{
+					"value": "50+",
+					"label": "Webhook Events"
+				}
+			],
+			"highlights": {
+				"title": "Developer-First Design",
+				"subtitle": "Built by developers, for developers. The DialogTab API is designed for reliability, speed, and ease of integration with any tech stack.",
+				"cards": [
+					{
+						"icon": "code",
+						"title": "Comprehensive REST API",
+						"subtitle": "Full platform access",
+						"description": "Access every DialogTab feature programmatically — send and receive messages, manage contacts, create conversation flows, pull analytics, and configure settings via clean, well-documented endpoints.",
+						"bullets": [
+							"100+ RESTful endpoints with consistent design",
+							"JSON request and response format",
+							"Pagination, filtering, and sorting on all list endpoints",
+							"Comprehensive error handling with clear error codes"
+						]
+					},
+					{
+						"icon": "webhook",
+						"title": "Real-Time Webhooks",
+						"subtitle": "Instant event notifications",
+						"description": "Receive instant notifications for 50+ events — new messages, conversation updates, agent actions, and more. Build reactive integrations that respond to events as they happen.",
+						"bullets": [
+							"50+ event types for granular control",
+							"Retry logic with exponential backoff",
+							"Webhook signature verification for security",
+							"Event filtering to receive only what you need"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Why Build with the DialogTab API?",
+				"subtitle": "Enterprise-grade API infrastructure designed for reliability, security, and developer productivity.",
+				"points": [
+					{
+						"icon": "database",
+						"title": "Robust Infrastructure",
+						"description": "99.9% uptime SLA with global CDN distribution, automatic failover, and rate limiting designed to handle enterprise-scale traffic without breaking a sweat."
+					},
+					{
+						"icon": "shield",
+						"title": "Security by Default",
+						"description": "OAuth 2.0 authentication, API key rotation, IP whitelisting, and webhook signature verification. Every request is encrypted with TLS 1.3."
+					},
+					{
+						"icon": "zap",
+						"title": "Low Latency",
+						"description": "Average response time under 100ms. Optimized endpoints for high-throughput messaging and batch operations for efficient bulk data processing."
+					},
+					{
+						"icon": "settings",
+						"title": "Sandbox Environment",
+						"description": "Full-featured sandbox environment for development and testing. Test your integrations with realistic data without affecting your production account."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "code",
+					"title": "Messaging API",
+					"description": "Send text, images, documents, and interactive messages across WhatsApp, Instagram, Facebook, Telegram, and email — all via a unified messaging endpoint."
+				},
+				{
+					"icon": "sync",
+					"title": "Contact Sync API",
+					"description": "Create, update, and manage customer contacts programmatically. Sync with your CRM, import bulk contacts, and keep customer data consistent across systems."
+				},
+				{
+					"icon": "webhook",
+					"title": "Webhook Management",
+					"description": "Register, configure, and monitor webhooks from the API. Set up event filters, test endpoints, and view delivery logs for debugging."
+				},
+				{
+					"icon": "lock",
+					"title": "Authentication & Permissions",
+					"description": "Fine-grained API key permissions, OAuth 2.0 flows for third-party apps, and scoped tokens that limit access to specific resources and actions."
+				},
+				{
+					"icon": "chart",
+					"title": "Analytics API",
+					"description": "Pull conversation metrics, agent performance data, and channel statistics programmatically. Feed data into your BI tools and custom dashboards."
+				},
+				{
+					"icon": "rocket",
+					"title": "Automation API",
+					"description": "Create and manage chatbot flows, auto-reply rules, and workflow automations programmatically. Deploy conversational experiences at scale."
+				}
+			],
+			"howItWorks": {
+				"title": "How It Works",
+				"subtitle": "Start building with the DialogTab API in three steps.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Get Your API Keys",
+						"description": "Generate API keys from your DialogTab dashboard. Set permissions, configure IP whitelisting, and access the sandbox environment for development."
+					},
+					{
+						"step": "2",
+						"title": "Explore the Documentation",
+						"description": "Browse comprehensive API docs with interactive examples, SDKs for popular languages (Node.js, Python, PHP, Java), and ready-to-use code snippets."
+					},
+					{
+						"step": "3",
+						"title": "Build & Deploy",
+						"description": "Develop your integration in the sandbox, test thoroughly with realistic data, and deploy to production. Monitor API usage and webhook delivery from your dashboard."
+					}
+				]
+			},
+			"analytics": {
+				"title": "API Usage Insights",
+				"subtitle": "Monitor your API usage, performance, and health from a dedicated developer dashboard.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Request Analytics",
+						"description": "Track API request volume, response times, and error rates across all endpoints.",
+						"bullets": [
+							"Requests per second/minute/hour",
+							"P50, P95, P99 latency percentiles",
+							"Error rate breakdown by endpoint"
+						]
+					},
+					{
+						"icon": "sync",
+						"title": "Webhook Delivery",
+						"description": "Monitor webhook delivery success rates, retry counts, and endpoint health.",
+						"bullets": [
+							"Delivery success rate per event type",
+							"Retry count and failure reasons",
+							"Endpoint response time tracking"
+						]
+					},
+					{
+						"icon": "shield",
+						"title": "Security Audit",
+						"description": "Track authentication events, API key usage, and access patterns for security compliance.",
+						"bullets": [
+							"API key usage by endpoint",
+							"Failed authentication attempts",
+							"IP address access patterns"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Frequently Asked Questions",
+				"items": [
+					{
+						"question": "What are the API rate limits?",
+						"answer": "Rate limits depend on your plan. The standard plan includes 1,000 requests per minute, business plans offer 5,000 requests per minute, and enterprise plans provide custom rate limits based on your needs. Burst capacity is available for all plans."
+					},
+					{
+						"question": "Do you provide SDKs?",
+						"answer": "Yes. Official SDKs are available for Node.js, Python, PHP, and Java. Community-maintained SDKs are also available for Go, Ruby, and C#. All SDKs include TypeScript definitions where applicable."
+					},
+					{
+						"question": "Is there a sandbox environment?",
+						"answer": "Yes. Every DialogTab account includes access to a full-featured sandbox environment. Test API calls, webhook delivery, and integrations with realistic data without affecting your live account or real customers."
+					},
+					{
+						"question": "How do webhooks handle failures?",
+						"answer": "DialogTab uses an exponential backoff retry strategy for failed webhook deliveries. If your endpoint is unreachable, we retry up to 5 times over 24 hours. You can monitor delivery status and manually replay failed events from the dashboard."
+					},
+					{
+						"question": "Can I use the API to send messages on all channels?",
+						"answer": "Yes. The unified messaging endpoint supports WhatsApp, Instagram, Facebook Messenger, Telegram, email, and live chat. A single API call can target any connected channel with channel-appropriate message formatting handled automatically."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Need Custom API Support or a Dedicated Integration?",
+				"description": "Building a complex integration or need higher rate limits? Our developer relations team offers dedicated support, custom endpoints, and white-glove onboarding for enterprise API users.",
+				"button": "Contact Our Team"
+			},
+			"cta": {
+				"title": "Ready to Build with the DialogTab API?",
+				"description": "Join hundreds of developers using the DialogTab API to create powerful custom integrations and automations.",
+				"button": "Start Free Trial",
+				"buttonSecondary": "Read API Docs"
+			}
 		}
 	},
 	"integrationPages": {

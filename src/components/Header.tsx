@@ -91,6 +91,7 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 
 	const sectorSlugs = ["insurance", "automotive", "hospitality", "wholesale", "e-commerce", "cosmetics", "health", "education"];
 	const leftSolutionSlugs = ["whatsapp-solutions", "chatbot-solutions", "customer-communication", "email-solutions"];
+	const rightSolutionSlugs = ["marketplace-solutions", "collectaction-marketplace", "team-management", "analytics-reporting", "api-solutions"];
 	const integrationLinks = [`/${locale}/integrations/social-media`, `/${locale}/integrations/e-commerce`, `/${locale}/solutions/custom-solution`];
 
 	const leftSolutions = dict.solutionsItems.filter(i => i.category === "left");
@@ -147,13 +148,13 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 										<div>
 											<p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3 px-3">{dict.solutionsCategoryRight}</p>
 											{rightSolutions.map((item, ri) => (
-												<a key={item.title} href={`/${locale}#features`} className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group" onClick={() => setSolutionsOpen(false)}>
+												<Link key={item.title} href={`/${locale}/solutions/${rightSolutionSlugs[ri]}`} className="flex items-start gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group" onClick={() => setSolutionsOpen(false)}>
 													<span className="mt-0.5 text-brand-600 group-hover:text-brand-700 transition-colors">{solutionsIcons[4 + ri]}</span>
 													<div>
 														<div className="text-sm font-semibold text-slate-900">{item.title}</div>
 														<div className="text-xs text-slate-500 mt-0.5">{item.desc}</div>
 													</div>
-												</a>
+												</Link>
 											))}
 										</div>
 									</div>
@@ -286,10 +287,10 @@ export default function Header({ dict, locale }: { dict: HeaderDict; locale: str
 						))}
 						<p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-3 mb-2 px-3">{dict.solutionsCategoryRight}</p>
 						{rightSolutions.map((item, ri) => (
-							<a key={item.title} href={`/${locale}#features`} className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>
+							<Link key={item.title} href={`/${locale}/solutions/${rightSolutionSlugs[ri]}`} className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-slate-50" onClick={() => setMobileMenuOpen(false)}>
 								<span className="text-brand-600">{solutionsIcons[4 + ri]}</span>
 								<div><div className="text-sm font-medium text-slate-900">{item.title}</div><div className="text-xs text-slate-500">{item.desc}</div></div>
-							</a>
+							</Link>
 						))}
 					</MobileAccordion>
 

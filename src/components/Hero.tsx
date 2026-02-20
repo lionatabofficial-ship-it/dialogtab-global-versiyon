@@ -24,6 +24,14 @@ export default function Hero({ dict }: { dict: HeroDict }) {
 	const [displayIdx, setDisplayIdx] = useState(0);
 	const [animating, setAnimating] = useState(false);
 
+	const industryImages = [
+		"/images/mainpage.png",
+		"/images/mainpage.png",
+		"/images/travel.jpg",
+		"/images/restaurant.jpg",
+		"/images/automotive.jpg",
+	];
+
 	const content = dict.industryContent[displayIdx];
 
 	const handleSelect = (idx: number) => {
@@ -91,14 +99,16 @@ export default function Hero({ dict }: { dict: HeroDict }) {
 					</div>
 
 					<div className="relative">
-						<Image
-							alt={dict.dashboardAlt}
-							className="w-full rounded-2xl shadow-2xl"
-							src="/images/mainpage.png"
-							width={800}
-							height={500}
-							priority
-						/>
+						<div className={`transition-all duration-300 ease-in-out ${animating ? "opacity-0 scale-95" : "opacity-100 scale-100"}`}>
+							<Image
+								alt={dict.dashboardAlt}
+								className="w-full rounded-2xl shadow-2xl"
+								src={industryImages[displayIdx] || "/images/mainpage.png"}
+								width={800}
+								height={500}
+								priority
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
