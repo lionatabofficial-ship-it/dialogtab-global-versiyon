@@ -2926,6 +2926,1081 @@
 				"button": "Ücretsiz Dene",
 				"buttonSecondary": "Satışla Konuş"
 			}
+		},
+		"marketplace-solutions": {
+			"slug": "marketplace-solutions",
+			"meta": {
+				"title": "Pazaryeri Entegrasyonları - Trendyol, N11, Hepsiburada | DialogTab",
+				"description": "Tüm pazaryeri kanallarınızdan gelen müşteri mesajlarını tek gelen kutusundan yönetin. Trendyol, N11, Hepsiburada entegrasyonu ile sipariş takibi ve müşteri desteğini merkezileştirin.",
+				"keywords": "pazaryeri entegrasyonu, trendyol entegrasyon, n11 entegrasyon, hepsiburada entegrasyon, sipariş yönetimi, pazaryeri müşteri desteği, e-ticaret entegrasyon, dialogtab, çoklu pazaryeri yönetimi, merkezi gelen kutusu"
+			},
+			"hero": {
+				"badge": "Pazaryeri Çözümleri",
+				"title": "Tüm Pazaryerlerini ",
+				"titleHighlight": "Tek Gelen Kutusundan Yönetin",
+				"description": "Trendyol, N11, Hepsiburada ve diğer pazaryerlerinden gelen müşteri sorularını, sipariş güncellemelerini ve destek taleplerini DialogTab üzerinden merkezi olarak yönetin.",
+				"cta": "Ücretsiz Deneyin",
+				"ctaSecondary": "Fiyatları İncele"
+			},
+			"stats": [
+				{
+					"value": "10+",
+					"label": "Pazaryeri Entegrasyonu"
+				},
+				{
+					"value": "%85",
+					"label": "Daha Hızlı Yanıt Süresi"
+				},
+				{
+					"value": "%60",
+					"label": "Operasyonel Verimlilik Artışı"
+				},
+				{
+					"value": "50K+",
+					"label": "Aylık İşlenen Sipariş"
+				}
+			],
+			"highlights": {
+				"title": "Pazaryeri Operasyonlarınızı Merkezileştirin",
+				"subtitle": "Farklı pazaryerlerindeki müşteri iletişimini tek platformda toplayarak zamandan tasarruf edin ve müşteri memnuniyetini artırın.",
+				"cards": [
+					{
+						"icon": "store",
+						"title": "Çoklu Pazaryeri Entegrasyonu",
+						"subtitle": "Tüm kanallar tek ekranda",
+						"description": "Trendyol, N11, Hepsiburada, Amazon ve daha fazlasını tek platformdan yönetin. Her pazaryerinden gelen müşteri mesajlarını merkezi gelen kutunuzda görüntüleyin.",
+						"bullets": [
+							"Trendyol, N11, Hepsiburada desteği",
+							"Amazon ve uluslararası pazaryerleri",
+							"Tek gelen kutusu ile merkezi yönetim",
+							"Otomatik sipariş eşleştirme"
+						]
+					},
+					{
+						"icon": "package",
+						"title": "Sipariş Takip ve Yönetimi",
+						"subtitle": "Siparişten teslimata her adımı kontrol edin",
+						"description": "Müşteri mesajlarının yanında sipariş detaylarını anında görüntüleyin. Kargo durumu, iade talepleri ve sipariş güncellemelerini tek ekrandan yönetin.",
+						"bullets": [
+							"Gerçek zamanlı sipariş durumu görüntüleme",
+							"Otomatik kargo takip bildirimleri",
+							"İade ve değişim süreç yönetimi",
+							"Sipariş geçmişi ile müşteri profili"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Pazaryeri Yönetiminde Fark Yaratan Çözüm",
+				"subtitle": "DialogTab ile tüm pazaryeri iletişimlerinizi tek noktadan yöneterek operasyonel verimliliğinizi artırın.",
+				"points": [
+					{
+						"icon": "cart",
+						"title": "Merkezi Sipariş Yönetimi",
+						"description": "Tüm pazaryerlerindeki siparişleri tek panelden takip edin. Müşteri mesajlarında otomatik sipariş bilgisi eşleştirmesi ile hızlı çözüm sağlayın."
+					},
+					{
+						"icon": "sync",
+						"title": "Otomatik Senkronizasyon",
+						"description": "Stok, fiyat ve sipariş durumu bilgileri tüm pazaryerleri arasında anlık olarak senkronize edilir. Manuel güncelleme ihtiyacını ortadan kaldırın."
+					},
+					{
+						"icon": "shield",
+						"title": "Pazaryeri Kurallarına Uyum",
+						"description": "Her pazaryerinin yanıt süresi ve iletişim kurallarına uygun otomatik bildirimler ile ceza riskini minimize edin."
+					},
+					{
+						"icon": "chart",
+						"title": "Pazaryeri Performans Analizi",
+						"description": "Her pazaryerindeki müşteri memnuniyetini, yanıt sürelerini ve satış performansını karşılaştırmalı raporlarla analiz edin."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "store",
+					"title": "Çoklu Mağaza Yönetimi",
+					"description": "Birden fazla pazaryeri mağazanızı tek DialogTab hesabından yönetin. Her mağaza için ayrı ekip ataması yapın."
+				},
+				{
+					"icon": "package",
+					"title": "Akıllı Sipariş Eşleştirme",
+					"description": "Gelen müşteri mesajlarını otomatik olarak ilgili siparişle eşleştirin. Ajan, sipariş detaylarını anında görsün."
+				},
+				{
+					"icon": "sync",
+					"title": "Gerçek Zamanlı Stok Senkronizasyonu",
+					"description": "Tüm pazaryerlerindeki stok bilgilerinizi anlık güncelleyin. Fazla satış riskini ortadan kaldırın."
+				},
+				{
+					"icon": "users",
+					"title": "Pazaryeri Bazlı Ekip Atama",
+					"description": "Her pazaryeri için uzmanlaşmış ekipler atayın. Müşteri sorularını doğru ekibe otomatik yönlendirin."
+				},
+				{
+					"icon": "zap",
+					"title": "Otomatik Yanıt Şablonları",
+					"description": "Pazaryerine özel hazır yanıt şablonları ile müşteri sorularına saniyeler içinde profesyonel cevaplar verin."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Satış Dönüşüm Takibi",
+					"description": "Müşteri etkileşimlerinden satışa dönüşüm oranlarını pazaryeri bazında takip edin ve stratejinizi optimize edin."
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır?",
+				"subtitle": "Pazaryeri entegrasyonunuzu dakikalar içinde tamamlayın.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Pazaryeri Hesaplarınızı Bağlayın",
+						"description": "Trendyol, N11, Hepsiburada ve diğer pazaryeri hesaplarınızı DialogTab'a güvenli bir şekilde bağlayın."
+					},
+					{
+						"step": "2",
+						"title": "Ekibinizi Yapılandırın",
+						"description": "Pazaryeri bazlı ekipler oluşturun, otomatik yönlendirme kurallarını ve yanıt şablonlarını ayarlayın."
+					},
+					{
+						"step": "3",
+						"title": "Merkezi Yönetimi Başlatın",
+						"description": "Tüm pazaryerlerinden gelen müşteri iletişimlerini tek panelden yönetmeye başlayın ve performansınızı takip edin."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Pazaryeri Performansınızı Analiz Edin",
+				"subtitle": "Her pazaryerindeki müşteri iletişim performansınızı detaylı raporlarla takip edin ve iyileştirin.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Pazaryeri Karşılaştırma Raporu",
+						"description": "Tüm pazaryerlerindeki performansınızı yan yana karşılaştırın ve en verimli kanallarınızı belirleyin.",
+						"bullets": [
+							"Kanal bazlı müşteri memnuniyeti",
+							"Pazaryeri bazlı yanıt süreleri",
+							"Satış dönüşüm karşılaştırması"
+						]
+					},
+					{
+						"icon": "clipboard",
+						"title": "Sipariş Analitikleri",
+						"description": "Sipariş süreçlerinizi detaylı analiz edin. İade oranları, teslimat süreleri ve müşteri şikayetlerini takip edin.",
+						"bullets": [
+							"İade ve iptal oranları",
+							"Ortalama teslimat süreleri",
+							"Müşteri şikayet kategorileri"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Satıcı Puan Takibi",
+						"description": "Her pazaryerindeki satıcı puanınızı ve değerlendirmelerinizi takip ederek mağaza performansınızı artırın.",
+						"bullets": [
+							"Satıcı puan trendi",
+							"Müşteri değerlendirme analizi",
+							"İyileştirme önerileri"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "Hangi pazaryerleriyle entegre olabiliyorum?",
+						"answer": "DialogTab şu anda Trendyol, N11, Hepsiburada, Amazon, GittiGidiyor ve diğer popüler Türkiye ve uluslararası pazaryerleriyle entegre çalışmaktadır. Yeni pazaryeri entegrasyonları sürekli eklenmektedir."
+					},
+					{
+						"question": "Pazaryeri entegrasyonu kurulumu ne kadar sürer?",
+						"answer": "Pazaryeri hesaplarınızı DialogTab'a bağlamak yalnızca birkaç dakika sürer. API anahtarlarınızı girdikten sonra sistem otomatik olarak mevcut siparişlerinizi ve müşteri mesajlarınızı senkronize eder."
+					},
+					{
+						"question": "Birden fazla pazaryeri mağazamı tek hesaptan yönetebilir miyim?",
+						"answer": "Evet, DialogTab ile farklı pazaryerlerindeki tüm mağazalarınızı tek hesaptan yönetebilirsiniz. Her mağaza için ayrı ekip ataması yapabilir ve performansı ayrı ayrı takip edebilirsiniz."
+					},
+					{
+						"question": "Pazaryeri yanıt süresi kurallarına uyum nasıl sağlanır?",
+						"answer": "DialogTab, her pazaryerinin belirlediği yanıt süresi kurallarını otomatik olarak takip eder. Süre dolmadan önce ekibinize uyarı gönderir ve gerektiğinde otomatik yanıt şablonlarını devreye sokar."
+					},
+					{
+						"question": "Sipariş bilgileri otomatik olarak mı güncellenir?",
+						"answer": "Evet, sipariş durumu, kargo bilgileri ve müşteri detayları tüm pazaryerlerinden anlık olarak senkronize edilir. Ajanlarınız her zaman güncel bilgilerle müşterilere destek verebilir."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel Pazaryeri Entegrasyonuna mı İhtiyacınız Var?",
+				"description": "Desteklenen pazaryerleri dışında özel bir entegrasyona mı ihtiyacınız var? Ekibimiz sizin için özel bir çözüm geliştirebilir.",
+				"button": "Ekibimizle İletişime Geçin"
+			},
+			"cta": {
+				"title": "Pazaryeri Yönetiminizi Güçlendirmeye Hazır mısınız?",
+				"description": "Tüm pazaryerlerini tek platformdan yöneten binlerce işletmeye katılın ve müşteri memnuniyetinizi artırın.",
+				"button": "Ücretsiz Deneyin",
+				"buttonSecondary": "Satışla Konuş"
+			}
+		},
+		"collectaction-marketplace": {
+			"slug": "collectaction-marketplace",
+			"meta": {
+				"title": "CollecAction Eklenti Marketi - CRM, Ödeme ve İş Akışı Eklentileri | DialogTab",
+				"description": "DialogTab'ı güçlü eklentilerle genişletin. CRM entegrasyonları, ödeme ağ geçitleri, özel iş akışları ve daha fazlasını CollecAction marketten keşfedin.",
+				"keywords": "collectaction, eklenti marketi, crm entegrasyon, ödeme entegrasyonu, iş akışı otomasyonu, dialogtab eklenti, özel entegrasyon, marketplace, uygulama mağazası, api entegrasyon"
+			},
+			"hero": {
+				"badge": "CollecAction Eklenti Marketi",
+				"title": "DialogTab'ı Güçlü Eklentilerle ",
+				"titleHighlight": "Sınırsız Genişletin",
+				"description": "CRM sistemleri, ödeme ağ geçitleri, analitik araçlar ve özel iş akışlarını tek tıkla DialogTab'a entegre edin. CollecAction marketi ile platformunuzu ihtiyaçlarınıza göre özelleştirin.",
+				"cta": "Marketi Keşfedin",
+				"ctaSecondary": "Geliştirici Olun"
+			},
+			"stats": [
+				{
+					"value": "100+",
+					"label": "Hazır Eklenti"
+				},
+				{
+					"value": "50+",
+					"label": "Entegrasyon Partneri"
+				},
+				{
+					"value": "%95",
+					"label": "Müşteri Memnuniyeti"
+				},
+				{
+					"value": "5 dk",
+					"label": "Ortalama Kurulum Süresi"
+				}
+			],
+			"highlights": {
+				"title": "İhtiyacınıza Uygun Eklentiyi Bulun",
+				"subtitle": "CollecAction marketi, DialogTab deneyiminizi zenginleştiren yüzlerce eklenti sunar. Tek tıkla kurulum ile hemen kullanmaya başlayın.",
+				"cards": [
+					{
+						"icon": "puzzle",
+						"title": "Hazır Entegrasyonlar",
+						"subtitle": "Tek tıkla kurulum",
+						"description": "Salesforce, HubSpot, Zoho CRM gibi popüler CRM sistemlerinden iyzico, Stripe gibi ödeme ağ geçitlerine kadar yüzlerce hazır entegrasyonu tek tıkla kurun.",
+						"bullets": [
+							"CRM entegrasyonları (Salesforce, HubSpot, Zoho)",
+							"Ödeme ağ geçitleri (iyzico, Stripe, PayPal)",
+							"E-ticaret platformları entegrasyonu",
+							"Proje yönetim araçları bağlantısı"
+						]
+					},
+					{
+						"icon": "code",
+						"title": "Özel İş Akışı Oluşturucu",
+						"subtitle": "Kodsuz otomasyon tasarımı",
+						"description": "Sürükle-bırak arayüzü ile özel iş akışları oluşturun. Tetikleyiciler, koşullar ve eylemler tanımlayarak süreçlerinizi tamamen otomatikleştirin.",
+						"bullets": [
+							"Sürükle-bırak iş akışı tasarımcısı",
+							"Koşullu tetikleyiciler ve eylemler",
+							"Çoklu adım otomasyon zincirleri",
+							"Gerçek zamanlı iş akışı izleme"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Neden CollecAction Marketi?",
+				"subtitle": "DialogTab'ın eklenti ekosistemi ile platformunuzu iş ihtiyaçlarınıza göre özelleştirin ve genişletin.",
+				"points": [
+					{
+						"icon": "puzzle",
+						"title": "Tek Tıkla Kurulum",
+						"description": "Karmaşık teknik kurulumlarla uğraşmadan eklentileri tek tıkla aktifleştirin. Dakikalar içinde kullanmaya başlayın."
+					},
+					{
+						"icon": "shield",
+						"title": "Güvenli ve Onaylı Eklentiler",
+						"description": "Tüm eklentiler güvenlik denetiminden geçirilir. Verileriniz her zaman güvende kalır ve KVKK uyumluluğu sağlanır."
+					},
+					{
+						"icon": "settings",
+						"title": "Tam Özelleştirme",
+						"description": "Her eklentiyi kendi iş süreçlerinize göre yapılandırın. Esnek ayarlar ile tam kontrol sizde olsun."
+					},
+					{
+						"icon": "sync",
+						"title": "Sürekli Güncelleme",
+						"description": "Eklentiler düzenli olarak güncellenir ve yeni özellikler eklenir. Her zaman en güncel sürümü kullanın."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "store",
+					"title": "Eklenti Mağazası",
+					"description": "Kategorilere göre düzenlenmiş geniş eklenti kataloğunu keşfedin. Değerlendirmeler ve incelemelerle en uygun eklentiyi seçin."
+				},
+				{
+					"icon": "zap",
+					"title": "Hızlı Entegrasyon",
+					"description": "API anahtarı veya OAuth ile saniyeler içinde bağlantı kurun. Teknik bilgi gerektirmeden eklentileri aktifleştirin."
+				},
+				{
+					"icon": "settings",
+					"title": "Özelleştirilebilir Ayarlar",
+					"description": "Her eklentinin davranışını iş süreçlerinize göre ince ayar yapın. Tetikleyiciler, filtreler ve kurallar tanımlayın."
+				},
+				{
+					"icon": "shield",
+					"title": "Güvenlik Sertifikası",
+					"description": "Tüm eklentiler güvenlik denetiminden geçer. Veri şifreleme, erişim kontrolü ve KVKK uyumluluğu garanti altındadır."
+				},
+				{
+					"icon": "chart",
+					"title": "Eklenti Performans Takibi",
+					"description": "Her eklentinin performansını ve kullanım istatistiklerini detaylı raporlarla izleyin ve optimize edin."
+				},
+				{
+					"icon": "users",
+					"title": "Geliştirici Programı",
+					"description": "Kendi eklentinizi geliştirin ve CollecAction marketinde yayınlayın. Geliştirici dokümantasyonu ve SDK desteği ile hemen başlayın."
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır?",
+				"subtitle": "Üç basit adımda eklenti ekosistemini kullanmaya başlayın.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Marketi Keşfedin",
+						"description": "CollecAction marketinde ihtiyacınıza uygun eklentileri kategorilere göre arayın veya önerilen eklentileri inceleyin."
+					},
+					{
+						"step": "2",
+						"title": "Eklentiyi Kurun",
+						"description": "Seçtiğiniz eklentiyi tek tıkla kurun, gerekli izinleri verin ve yapılandırma ayarlarını tamamlayın."
+					},
+					{
+						"step": "3",
+						"title": "Kullanmaya Başlayın",
+						"description": "Eklenti anında aktif olur. İş akışlarınıza entegre edin ve performansını takip etmeye başlayın."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Eklenti Ekosisteminizi Analiz Edin",
+				"subtitle": "Kurduğunuz eklentilerin performansını ve iş süreçlerinize etkisini detaylı raporlarla ölçün.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Kullanım Analitikleri",
+						"description": "Her eklentinin kullanım sıklığını, aktif kullanıcı sayısını ve etkileşim metriklerini takip edin.",
+						"bullets": [
+							"Günlük/haftalık kullanım istatistikleri",
+							"Aktif kullanıcı takibi",
+							"Etkileşim oranları"
+						]
+					},
+					{
+						"icon": "zap",
+						"title": "Otomasyon Performansı",
+						"description": "İş akışı otomasyonlarının başarı oranlarını, işlem sürelerini ve hata loglarını analiz edin.",
+						"bullets": [
+							"Otomasyon başarı oranı",
+							"Ortalama işlem süresi",
+							"Hata ve istisna raporları"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "ROI Ölçümü",
+						"description": "Eklentilerin iş süreçlerinize sağladığı zaman ve maliyet tasarrufunu somut rakamlarla görün.",
+						"bullets": [
+							"Zaman tasarrufu hesaplama",
+							"Maliyet optimizasyonu",
+							"Verimlilik artışı metrikleri"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "CollecAction marketi nedir?",
+						"answer": "CollecAction, DialogTab için geliştirilmiş bir eklenti marketidir. CRM entegrasyonları, ödeme ağ geçitleri, analitik araçlar ve özel iş akışları gibi yüzlerce eklentiyi tek tıkla kurmanızı sağlar."
+					},
+					{
+						"question": "Eklentiler ücretli mi?",
+						"answer": "CollecAction marketinde hem ücretsiz hem de premium eklentiler bulunur. Temel entegrasyonlar ücretsiz sunulurken, gelişmiş özellikler içeren eklentiler için aylık veya yıllık abonelik planları mevcuttur."
+					},
+					{
+						"question": "Kendi eklentimi geliştirebilir miyim?",
+						"answer": "Evet! CollecAction geliştirici programına katılarak kendi eklentinizi geliştirebilir ve markette yayınlayabilirsiniz. Kapsamlı API dokümantasyonu, SDK ve geliştirici desteği sunulmaktadır."
+					},
+					{
+						"question": "Eklentiler veri güvenliğimi etkiler mi?",
+						"answer": "Tüm eklentiler yayınlanmadan önce kapsamlı güvenlik denetiminden geçer. Veri şifreleme, erişim kontrolü ve KVKK uyumluluğu zorunlu standartlardır. Eklenti izinlerini dilediğiniz zaman yönetebilirsiniz."
+					},
+					{
+						"question": "Eklenti kurulumu teknik bilgi gerektirir mi?",
+						"answer": "Hayır, eklentilerin büyük çoğunluğu tek tıkla kurulabilir ve teknik bilgi gerektirmez. Bazı gelişmiş entegrasyonlar için API anahtarı girişi gerekebilir, ancak adım adım kurulum kılavuzları mevcuttur."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel Bir Eklentiye mi İhtiyacınız Var?",
+				"description": "Markette bulamadığınız özel bir entegrasyona mı ihtiyacınız var? Geliştirici ekibimiz sizin için özel bir eklenti tasarlayabilir.",
+				"button": "Ekibimizle İletişime Geçin"
+			},
+			"cta": {
+				"title": "CollecAction Marketi ile DialogTab'ı Güçlendirin",
+				"description": "Yüzlerce eklenti ile platformunuzu ihtiyaçlarınıza göre özelleştirin ve iş süreçlerinizi otomatikleştirin.",
+				"button": "Ücretsiz Deneyin",
+				"buttonSecondary": "Marketi Keşfedin"
+			}
+		},
+		"team-management": {
+			"slug": "team-management",
+			"meta": {
+				"title": "Ekip Yönetimi - Roller, İzinler ve Performans Takibi | DialogTab",
+				"description": "Müşteri destek ekibinizi verimli yönetin. Roller ve izinler, performans takibi, iş yükü dağılımı, vardiya planlaması ve gerçek zamanlı ekip monitörü ile ekibinizin gücünü artırın.",
+				"keywords": "ekip yönetimi, müşteri destek ekibi, rol ve izin yönetimi, performans takibi, iş yükü dağılımı, vardiya planlama, ajan performansı, dialogtab ekip yönetimi, destek ekibi yönetimi, ekip analitik"
+			},
+			"hero": {
+				"badge": "Ekip Yönetimi",
+				"title": "Destek Ekibinizi ",
+				"titleHighlight": "Verimli ve Etkili Yönetin",
+				"description": "Roller, izinler, performans takibi, iş yükü dağılımı ve vardiya planlaması ile müşteri destek operasyonlarınızı profesyonelce yönetin.",
+				"cta": "Ücretsiz Deneyin",
+				"ctaSecondary": "Demo Talep Edin"
+			},
+			"stats": [
+				{
+					"value": "%45",
+					"label": "Ajan Verimliliği Artışı"
+				},
+				{
+					"value": "%30",
+					"label": "Yanıt Süresi İyileşmesi"
+				},
+				{
+					"value": "%99.9",
+					"label": "Platform Erişilebilirlik"
+				},
+				{
+					"value": "500+",
+					"label": "Yönetilen Ekip"
+				}
+			],
+			"highlights": {
+				"title": "Ekip Performansını Zirveye Taşıyın",
+				"subtitle": "Akıllı iş yükü dağılımı, detaylı performans metrikleri ve esnek yapılandırma ile destek ekibinizin potansiyelini ortaya çıkarın.",
+				"cards": [
+					{
+						"icon": "teamwork",
+						"title": "Rol ve İzin Yönetimi",
+						"subtitle": "Granüler erişim kontrolü",
+						"description": "Her ekip üyesine özel roller ve izinler tanımlayın. Departman bazlı erişim kontrolü ile veri güvenliğini sağlarken operasyonel esnekliği koruyun.",
+						"bullets": [
+							"Özelleştirilebilir rol tanımları",
+							"Departman bazlı erişim kontrolü",
+							"Granüler izin yönetimi",
+							"Hiyerarşik yetkilendirme yapısı"
+						]
+					},
+					{
+						"icon": "chart",
+						"title": "Performans Takip Paneli",
+						"subtitle": "Gerçek zamanlı ekip metrikleri",
+						"description": "Her ajanın yanıt süresi, çözüm oranı, müşteri memnuniyet puanı ve iş yükünü gerçek zamanlı olarak takip edin. Detaylı raporlarla iyileştirme alanlarını belirleyin.",
+						"bullets": [
+							"Anlık ajan performans göstergeleri",
+							"Müşteri memnuniyet puanlaması (CSAT)",
+							"Ortalama çözüm süresi takibi",
+							"Aylık performans trend raporları"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Ekip Yönetiminde DialogTab Farkı",
+				"subtitle": "Destek ekibinizin verimliliğini artıran akıllı araçlar ile müşteri memnuniyetini en üst düzeye çıkarın.",
+				"points": [
+					{
+						"icon": "users",
+						"title": "Akıllı İş Yükü Dağılımı",
+						"description": "Gelen müşteri taleplerini ajanların müsaitlik durumuna, uzmanlık alanına ve mevcut iş yüküne göre otomatik olarak dağıtın."
+					},
+					{
+						"icon": "clock",
+						"title": "Vardiya Planlaması",
+						"description": "Esnek vardiya programları oluşturun. Tatil günleri, izinler ve özel durumları yöneterek 7/24 kesintisiz destek sağlayın."
+					},
+					{
+						"icon": "clipboard",
+						"title": "Eğitim ve Gelişim Takibi",
+						"description": "Yeni ekip üyelerinin eğitim sürecini takip edin. Performans verilerine göre kişiselleştirilmiş gelişim planları oluşturun."
+					},
+					{
+						"icon": "shield",
+						"title": "Kalite Güvence Sistemi",
+						"description": "Konuşmaları puanlayın, kalite standartlarını belirleyin ve tutarlı müşteri deneyimi sağlamak için düzenli denetimler yapın."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "users",
+					"title": "Ekip Hiyerarşisi",
+					"description": "Çok katmanlı ekip yapıları oluşturun. Takım liderleri, süpervizörler ve ajanlar için farklı yetki seviyeleri tanımlayın."
+				},
+				{
+					"icon": "zap",
+					"title": "Otomatik Görev Atama",
+					"description": "Gelen talepleri yetenek, dil ve müsaitlik bazında otomatik olarak en uygun ajana yönlendirin."
+				},
+				{
+					"icon": "clock",
+					"title": "Çalışma Saatleri Yönetimi",
+					"description": "Esnek vardiya programları, izin takibi ve tatil günü yönetimi ile ekibinizin çalışma saatlerini optimize edin."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Performans Skor Tablosu",
+					"description": "Ajanlar arası sağlıklı rekabeti teşvik eden performans skor tabloları ve başarı rozetleri ile motivasyonu artırın."
+				},
+				{
+					"icon": "settings",
+					"title": "Özelleştirilebilir Kurallar",
+					"description": "İş süreçlerinize uygun otomatik yönlendirme kuralları, eskalasyon prosedürleri ve SLA tanımları oluşturun."
+				},
+				{
+					"icon": "rocket",
+					"title": "Gerçek Zamanlı Monitör",
+					"description": "Canlı ekip paneli ile anlık olarak aktif konuşmaları, bekleme sürelerini ve ekip müsaitliğini izleyin."
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır?",
+				"subtitle": "Ekip yönetim sisteminizi hızlıca kurun ve operasyonlarınızı optimize edin.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Ekip Yapınızı Oluşturun",
+						"description": "Departmanları, takımları ve rolleri tanımlayın. Her rol için izinleri ve erişim seviyelerini yapılandırın."
+					},
+					{
+						"step": "2",
+						"title": "Kuralları Belirleyin",
+						"description": "Otomatik atama kurallarını, vardiya programlarını, SLA hedeflerini ve eskalasyon prosedürlerini ayarlayın."
+					},
+					{
+						"step": "3",
+						"title": "Performansı İzleyin",
+						"description": "Gerçek zamanlı paneller ve haftalık raporlar ile ekip performansını takip edin ve sürekli iyileştirin."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Ekip Performansınızı Derinlemesine Analiz Edin",
+				"subtitle": "Detaylı analitik raporlar ile ekibinizin güçlü ve gelişime açık yönlerini belirleyin.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Ajan Performans Metrikleri",
+						"description": "Her ajanın yanıt süresi, çözüm oranı, müşteri memnuniyet puanı ve üretkenlik metriklerini detaylı olarak inceleyin.",
+						"bullets": [
+							"Bireysel ajan performans kartları",
+							"Dönemsel performans karşılaştırması",
+							"Hedef gerçekleştirme oranları"
+						]
+					},
+					{
+						"icon": "users",
+						"title": "Takım Analitikleri",
+						"description": "Takım bazlı performans verilerini karşılaştırın. En verimli takımların stratejilerini diğer takımlara uygulayın.",
+						"bullets": [
+							"Takımlar arası performans karşılaştırması",
+							"İş yükü dağılım analizi",
+							"Kapasite planlama önerileri"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Trend Analizi",
+						"description": "Haftalık, aylık ve yıllık performans trendlerini analiz ederek gelecek dönem planlamalarınızı veriye dayalı yapın.",
+						"bullets": [
+							"Uzun dönem performans trendleri",
+							"Mevsimsel yoğunluk analizi",
+							"Tahminleme ve kapasite planlama"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "Kaç ekip üyesi ekleyebilirim?",
+						"answer": "DialogTab ekip yönetimi planınıza bağlı olarak sınırsız ekip üyesi eklemenize olanak tanır. Başlangıç planı 10 ajana kadar desteklerken, kurumsal planlar sınırsız ajan kapasitesi sunar."
+					},
+					{
+						"question": "Roller ve izinleri nasıl özelleştirebilirim?",
+						"answer": "DialogTab'da önceden tanımlı roller (Admin, Süpervizör, Ajan) kullanabilir veya tamamen özel roller oluşturabilirsiniz. Her rol için kanal erişimi, veri görüntüleme, ayar değiştirme gibi izinleri ayrıntılı olarak belirleyebilirsiniz."
+					},
+					{
+						"question": "Vardiya planlaması nasıl çalışır?",
+						"answer": "Haftalık veya aylık vardiya programları oluşturabilirsiniz. Sistem, tatil günlerini, izinleri ve özel durumları otomatik olarak hesaba katar. Vardiya değişiklikleri için bildirim sistemi ve onay mekanizması mevcuttur."
+					},
+					{
+						"question": "Ajan performansını nasıl değerlendiririm?",
+						"answer": "DialogTab, yanıt süresi, çözüm oranı, müşteri memnuniyet puanı (CSAT), ilk temas çözüm oranı ve daha birçok metrik sunar. Haftalık otomatik performans raporları ve kişiselleştirilmiş gelişim önerileri alabilirsiniz."
+					},
+					{
+						"question": "İş yükü dağılımı otomatik mi yapılıyor?",
+						"answer": "Evet, DialogTab'ın akıllı yönlendirme motoru gelen talepleri ajanların müsaitlik durumuna, uzmanlık alanına, dil yetkinliğine ve mevcut iş yüküne göre otomatik olarak dağıtır. Manuel atama seçeneği de her zaman mevcuttur."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel Ekip Yönetimi Çözümüne mi İhtiyacınız Var?",
+				"description": "Büyük ölçekli ekipler için özel yapılandırma, gelişmiş entegrasyon ve kişiselleştirilmiş eğitim programları sunuyoruz.",
+				"button": "Ekibimizle İletişime Geçin"
+			},
+			"cta": {
+				"title": "Ekip Yönetiminizi Profesyonelleştirmeye Hazır mısınız?",
+				"description": "Verimli ekip yönetimi ile müşteri memnuniyetini artıran yüzlerce işletmeye katılın.",
+				"button": "Ücretsiz Deneyin",
+				"buttonSecondary": "Demo Talep Edin"
+			}
+		},
+		"analytics-reporting": {
+			"slug": "analytics-reporting",
+			"meta": {
+				"title": "Performans ve Raporlama - Detaylı Analitik ve KPI Panelleri | DialogTab",
+				"description": "Müşteri iletişim performansınızı derinlemesine analiz edin. Özel raporlar, KPI panelleri, konuşma analitiği ve ajan performansı metrikleri ile veriye dayalı kararlar alın.",
+				"keywords": "performans analitik, raporlama, kpi paneli, konuşma analitiği, ajan performansı, müşteri memnuniyet analizi, dialogtab analitik, detaylı raporlama, iş zekası, veri analizi"
+			},
+			"hero": {
+				"badge": "Performans ve Raporlama",
+				"title": "Veriye Dayalı Kararlarla ",
+				"titleHighlight": "Müşteri Deneyimini Optimize Edin",
+				"description": "Detaylı analitik paneller, özelleştirilebilir raporlar ve yapay zeka destekli konuşma analitiği ile müşteri iletişim performansınızı derinlemesine ölçün ve iyileştirin.",
+				"cta": "Ücretsiz Deneyin",
+				"ctaSecondary": "Canlı Demo İzleyin"
+			},
+			"stats": [
+				{
+					"value": "50+",
+					"label": "Hazır Rapor Şablonu"
+				},
+				{
+					"value": "%99.9",
+					"label": "Veri Doğruluğu"
+				},
+				{
+					"value": "Anlık",
+					"label": "Gerçek Zamanlı Güncelleme"
+				},
+				{
+					"value": "360°",
+					"label": "Müşteri Görünümü"
+				}
+			],
+			"highlights": {
+				"title": "Her Detayı Ölçün, Her Kararı Veriye Dayandırın",
+				"subtitle": "Kapsamlı analitik araçlar ile müşteri iletişimlerinizin her boyutunu ölçün ve sürekli iyileştirin.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Özelleştirilebilir KPI Panelleri",
+						"subtitle": "Sürükle-bırak panel oluşturucu",
+						"description": "İşletmenize özel KPI panelleri oluşturun. Yanıt süreleri, çözüm oranları, müşteri memnuniyeti ve daha fazlasını gerçek zamanlı olarak tek ekranda görüntüleyin.",
+						"bullets": [
+							"Sürükle-bırak panel tasarımcısı",
+							"Gerçek zamanlı veri güncelleme",
+							"Rol bazlı panel görünümleri",
+							"Otomatik rapor zamanlama"
+						]
+					},
+					{
+						"icon": "barChart",
+						"title": "Konuşma Analitiği",
+						"subtitle": "Yapay zeka destekli içerik analizi",
+						"description": "Müşteri konuşmalarını yapay zeka ile analiz edin. Duygu analizi, konu sınıflandırma ve trend tespiti ile müşteri ihtiyaçlarını proaktif olarak belirleyin.",
+						"bullets": [
+							"Yapay zeka duygu analizi",
+							"Otomatik konu sınıflandırma",
+							"Müşteri niyet tespiti",
+							"Trend ve anomali algılama"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Neden DialogTab Analitik?",
+				"subtitle": "Güçlü analitik araçları ile müşteri iletişim verilerinizi anlamlı içgörülere dönüştürün.",
+				"points": [
+					{
+						"icon": "trendingUp",
+						"title": "Gerçek Zamanlı İçgörüler",
+						"description": "Müşteri etkileşimlerinizi anlık olarak takip edin. Canlı paneller ile sorunları erken tespit edin ve hızla müdahale edin."
+					},
+					{
+						"icon": "target",
+						"title": "Hedef Bazlı Takip",
+						"description": "SLA hedeflerinizi tanımlayın ve gerçekleşme durumunu otomatik olarak izleyin. Hedef sapmaları için anında uyarı alın."
+					},
+					{
+						"icon": "users",
+						"title": "360° Müşteri Görünümü",
+						"description": "Müşterilerinizin tüm etkileşim geçmişini, tercihlerini ve memnuniyet trendlerini tek ekranda görüntüleyin."
+					},
+					{
+						"icon": "zap",
+						"title": "Otomatik Raporlama",
+						"description": "Günlük, haftalık ve aylık raporları otomatik oluşturun ve ilgili kişilere zamanında ulaştırın."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "chart",
+					"title": "Canlı Performans Paneli",
+					"description": "Anlık olarak aktif konuşma sayısı, ortalama bekleme süresi, ajan müsaitliği ve kuyruk durumunu izleyin."
+				},
+				{
+					"icon": "barChart",
+					"title": "Özel Rapor Oluşturucu",
+					"description": "Sürükle-bırak arayüzü ile ihtiyacınıza özel raporlar tasarlayın. Filtreleme, gruplama ve karşılaştırma seçeneklerini kullanın."
+				},
+				{
+					"icon": "trendingUp",
+					"title": "Trend Analizi",
+					"description": "Haftalık, aylık ve yıllık trendleri grafiklerle görselleştirin. Mevsimsel değişimleri ve büyüme trendlerini takip edin."
+				},
+				{
+					"icon": "users",
+					"title": "Ajan Skor Kartları",
+					"description": "Her ajan için detaylı performans skor kartları oluşturun. Güçlü yönleri ve gelişim alanlarını belirleyin."
+				},
+				{
+					"icon": "globe",
+					"title": "Kanal Bazlı Analiz",
+					"description": "WhatsApp, Instagram, email ve diğer kanalları ayrı ayrı veya karşılaştırmalı olarak analiz edin."
+				},
+				{
+					"icon": "shield",
+					"title": "Veri Güvenliği ve Uyumluluk",
+					"description": "KVKK ve GDPR uyumlu veri saklama. Raporlara rol bazlı erişim kontrolü ve denetim izi sağlayın."
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır?",
+				"subtitle": "Güçlü analitik araçlarımızı hemen kullanmaya başlayın.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "Panellerinizi Oluşturun",
+						"description": "Hazır şablonlardan seçim yapın veya sürükle-bırak ile kendi özel KPI panellerinizi tasarlayın."
+					},
+					{
+						"step": "2",
+						"title": "Hedeflerinizi Belirleyin",
+						"description": "SLA hedeflerini, performans eşiklerini ve uyarı kurallarını iş süreçlerinize göre yapılandırın."
+					},
+					{
+						"step": "3",
+						"title": "İçgörülerle Harekete Geçin",
+						"description": "Raporlardan elde ettiğiniz içgörülerle ekip performansını optimize edin ve müşteri deneyimini sürekli iyileştirin."
+					}
+				]
+			},
+			"analytics": {
+				"title": "Analitik Gücünüzü Keşfedin",
+				"subtitle": "Kapsamlı raporlama araçları ile müşteri iletişim operasyonlarınızın her boyutunu ölçün.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "Müşteri Memnuniyet Analizi",
+						"description": "CSAT, NPS ve CES metriklerini otomatik olarak toplayın ve müşteri memnuniyet trendlerini detaylı olarak izleyin.",
+						"bullets": [
+							"CSAT, NPS ve CES takibi",
+							"Memnuniyet trend analizi",
+							"Kanal bazlı memnuniyet karşılaştırması"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Operasyonel Verimlilik",
+						"description": "İlk yanıt süresi, ortalama çözüm süresi, ilk temas çözüm oranı ve diğer operasyonel KPI'ları takip edin.",
+						"bullets": [
+							"İlk yanıt süresi (FRT) takibi",
+							"Ortalama çözüm süresi (ART)",
+							"İlk temas çözüm oranı (FCR)"
+						]
+					},
+					{
+						"icon": "barChart",
+						"title": "İş Zekası Raporları",
+						"description": "Gelişmiş iş zekası raporları ile müşteri davranış kalıplarını analiz edin ve stratejik kararlarınızı veriye dayandırın.",
+						"bullets": [
+							"Müşteri davranış analizi",
+							"Talep tahminleme modelleri",
+							"Stratejik karar destek raporları"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "Hangi raporlama seçenekleri mevcut?",
+						"answer": "DialogTab, 50'den fazla hazır rapor şablonu sunar. Bunların yanı sıra sürükle-bırak rapor oluşturucu ile tamamen özelleştirilmiş raporlar tasarlayabilirsiniz. Raporlarınızı PDF, Excel veya CSV formatında dışa aktarabilirsiniz."
+					},
+					{
+						"question": "Veriler ne sıklıkla güncellenir?",
+						"answer": "Canlı paneller gerçek zamanlı olarak güncellenir. Detaylı analitik raporlar dakikalık, saatlik veya günlük periyotlarla oluşturulabilir. Otomatik rapor zamanlama ile raporlarınızı istediğiniz sıklıkla alabilirsiniz."
+					},
+					{
+						"question": "Konuşma analitiği nasıl çalışır?",
+						"answer": "Yapay zeka destekli konuşma analitiği, müşteri mesajlarını otomatik olarak analiz eder. Duygu analizi, konu sınıflandırma, niyet tespiti ve anahtar kelime çıkarımı ile müşteri ihtiyaçlarını proaktif olarak belirlemenizi sağlar."
+					},
+					{
+						"question": "Raporlara erişim nasıl kontrol ediliyor?",
+						"answer": "Raporlar rol bazlı erişim kontrolü ile korunur. Her kullanıcı sadece yetkili olduğu raporlara ve verilere erişebilir. Denetim izi özelliği ile kimin hangi rapora ne zaman eriştiği kayıt altına alınır."
+					},
+					{
+						"question": "Geçmiş verilere ne kadar süre erişebilirim?",
+						"answer": "Veri saklama süresi planınıza göre değişir. Başlangıç planında 6 aylık, profesyonel planda 2 yıllık ve kurumsal planda sınırsız veri saklama imkanı sunulmaktadır."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel Raporlama Çözümüne mi İhtiyacınız Var?",
+				"description": "Sektörünüze veya iş modelinize özel analitik paneller ve raporlama çözümleri için ekibimizle iletişime geçin.",
+				"button": "Ekibimizle İletişime Geçin"
+			},
+			"cta": {
+				"title": "Veriye Dayalı Müşteri İletişimine Hazır mısınız?",
+				"description": "Güçlü analitik araçlarla müşteri deneyimini sürekli iyileştiren yüzlerce işletmeye katılın.",
+				"button": "Ücretsiz Deneyin",
+				"buttonSecondary": "Canlı Demo İzleyin"
+			}
+		},
+		"api-solutions": {
+			"slug": "api-solutions",
+			"meta": {
+				"title": "API Çözümleri - REST API, Webhooklar ve Geliştirici Araçları | DialogTab",
+				"description": "DialogTab'ı kendi sistemlerinize entegre edin. REST API, webhooklar, geliştirici SDK'ları ve kapsamlı dokümantasyon ile özel entegrasyonlar oluşturun.",
+				"keywords": "api entegrasyon, rest api, webhook, geliştirici araçları, sdk, özel entegrasyon, dialogtab api, api dokümantasyon, geliştirici platformu, mesajlaşma api"
+			},
+			"hero": {
+				"badge": "API Çözümleri",
+				"title": "Güçlü API'ler ile ",
+				"titleHighlight": "Sınırsız Entegrasyon İmkanı",
+				"description": "REST API, webhooklar ve kapsamlı SDK'lar ile DialogTab'ı kendi sistemlerinize sorunsuzca entegre edin. Geliştirici dostu dokümantasyon ve sandbox ortamı ile hızla başlayın.",
+				"cta": "API Dokümantasyonu",
+				"ctaSecondary": "Sandbox Erişimi Alın"
+			},
+			"stats": [
+				{
+					"value": "200+",
+					"label": "API Endpoint"
+				},
+				{
+					"value": "%99.9",
+					"label": "API Çalışma Süresi"
+				},
+				{
+					"value": "<100ms",
+					"label": "Ortalama Yanıt Süresi"
+				},
+				{
+					"value": "5+",
+					"label": "SDK Dil Desteği"
+				}
+			],
+			"highlights": {
+				"title": "Geliştirici Dostu API Platformu",
+				"subtitle": "Modern ve iyi dokümante edilmiş API'ler ile DialogTab'ın tüm özelliklerini kendi uygulamalarınıza entegre edin.",
+				"cards": [
+					{
+						"icon": "code",
+						"title": "RESTful API",
+						"subtitle": "Standartlara uygun modern API",
+						"description": "JSON tabanlı RESTful API ile mesaj gönderme, konuşma yönetimi, müşteri profilleri ve daha fazlasına programatik olarak erişin. OAuth 2.0 ve API anahtarı kimlik doğrulama desteği.",
+						"bullets": [
+							"200+ API endpoint",
+							"JSON tabanlı istek ve yanıtlar",
+							"OAuth 2.0 ve API key doğrulama",
+							"Rate limiting ve sayfalama desteği"
+						]
+					},
+					{
+						"icon": "webhook",
+						"title": "Webhook Sistemi",
+						"subtitle": "Gerçek zamanlı olay bildirimleri",
+						"description": "Yeni mesaj, konuşma durumu değişikliği, müşteri aksiyonları ve diğer olaylar için gerçek zamanlı webhook bildirimleri alın. Güvenli imza doğrulama ile verileri güvenle işleyin.",
+						"bullets": [
+							"50+ olay türü desteği",
+							"HMAC imza doğrulama",
+							"Otomatik yeniden deneme mekanizması",
+							"Olay filtreleme ve yönlendirme"
+						]
+					}
+				]
+			},
+			"whyDialogTab": {
+				"title": "Neden DialogTab API?",
+				"subtitle": "Geliştirici deneyimini ön planda tutan API platformumuz ile entegrasyon sürecinizi hızlandırın.",
+				"points": [
+					{
+						"icon": "code",
+						"title": "Kapsamlı Dokümantasyon",
+						"description": "İnteraktif API dokümantasyonu, kod örnekleri ve kullanım kılavuzları ile hızla entegrasyona başlayın. Swagger/OpenAPI desteği mevcuttur."
+					},
+					{
+						"icon": "shield",
+						"title": "Kurumsal Düzey Güvenlik",
+						"description": "OAuth 2.0, API anahtarı rotasyonu, IP kısıtlama ve uçtan uca şifreleme ile verileriniz her zaman güvende kalır."
+					},
+					{
+						"icon": "zap",
+						"title": "Yüksek Performans",
+						"description": "100ms altı ortalama yanıt süresi ve %99.9 çalışma süresi garantisi ile kesintisiz entegrasyon deneyimi sağlayın."
+					},
+					{
+						"icon": "settings",
+						"title": "Sandbox Ortamı",
+						"description": "Üretim ortamını etkilemeden API'leri test edin. Sandbox ortamında sınırsız test yaparak entegrasyonunuzu mükemmelleştirin."
+					}
+				]
+			},
+			"features": [
+				{
+					"icon": "code",
+					"title": "Çoklu SDK Desteği",
+					"description": "Node.js, Python, PHP, Java ve .NET SDK'ları ile tercih ettiğiniz programlama dilinde hızla geliştirmeye başlayın."
+				},
+				{
+					"icon": "database",
+					"title": "Veri Yönetim API'si",
+					"description": "Müşteri profilleri, konuşma geçmişleri ve etkileşim verilerini programatik olarak yönetin ve sorgulayın."
+				},
+				{
+					"icon": "sync",
+					"title": "Gerçek Zamanlı Mesajlaşma",
+					"description": "WebSocket desteği ile gerçek zamanlı mesaj gönderme ve alma. Çift yönlü iletişim ile anlık etkileşim sağlayın."
+				},
+				{
+					"icon": "lock",
+					"title": "Gelişmiş Kimlik Doğrulama",
+					"description": "OAuth 2.0, JWT ve API anahtarı ile çoklu kimlik doğrulama seçenekleri. IP kısıtlama ve token rotasyonu desteği."
+				},
+				{
+					"icon": "chart",
+					"title": "API Kullanım Analitikleri",
+					"description": "API çağrı sayıları, yanıt süreleri, hata oranları ve kullanım trendlerini detaylı panellerle izleyin."
+				},
+				{
+					"icon": "rocket",
+					"title": "Toplu İşlem Desteği",
+					"description": "Batch API ile tek istekte birden fazla işlem gerçekleştirin. Büyük veri setlerini verimli bir şekilde işleyin."
+				}
+			],
+			"howItWorks": {
+				"title": "Nasıl Çalışır?",
+				"subtitle": "Üç adımda API entegrasyonunuzu tamamlayın.",
+				"steps": [
+					{
+						"step": "1",
+						"title": "API Anahtarınızı Alın",
+						"description": "DialogTab hesabınızdan API anahtarınızı oluşturun ve sandbox ortamına erişim sağlayın."
+					},
+					{
+						"step": "2",
+						"title": "Entegrasyonunuzu Geliştirin",
+						"description": "Kapsamlı dokümantasyon ve SDK'lar ile entegrasyonunuzu geliştirin. Sandbox ortamında kapsamlıca test edin."
+					},
+					{
+						"step": "3",
+						"title": "Canlıya Alın",
+						"description": "Testleriniz tamamlandığında üretim ortamına geçin. API kullanım analitikleri ile performansınızı izleyin."
+					}
+				]
+			},
+			"analytics": {
+				"title": "API Performansınızı İzleyin",
+				"subtitle": "API kullanımınızı detaylı analitik panellerle takip edin ve entegrasyonunuzu optimize edin.",
+				"cards": [
+					{
+						"icon": "chart",
+						"title": "API Çağrı Analitikleri",
+						"description": "Endpoint bazlı çağrı sayıları, yanıt süreleri ve hata oranlarını gerçek zamanlı olarak izleyin.",
+						"bullets": [
+							"Endpoint bazlı kullanım istatistikleri",
+							"Yanıt süresi dağılımı",
+							"Hata oranı takibi"
+						]
+					},
+					{
+						"icon": "shield",
+						"title": "Güvenlik Monitörü",
+						"description": "API erişim logları, kimlik doğrulama denemeleri ve güvenlik olaylarını anlık olarak takip edin.",
+						"bullets": [
+							"Erişim loglama ve denetim",
+							"Anormal aktivite algılama",
+							"Güvenlik olay bildirimleri"
+						]
+					},
+					{
+						"icon": "trendingUp",
+						"title": "Kapasite Planlama",
+						"description": "API kullanım trendlerini analiz ederek gelecek dönem ihtiyaçlarınızı planlayın ve ölçeklendirin.",
+						"bullets": [
+							"Kullanım trend analizi",
+							"Kapasite tahminleme",
+							"Ölçeklendirme önerileri"
+						]
+					}
+				]
+			},
+			"faq": {
+				"title": "Sıkça Sorulan Sorular",
+				"items": [
+					{
+						"question": "API kullanımı için ek ücret var mı?",
+						"answer": "Temel API erişimi tüm planlara dahildir. Her plan belirli bir aylık API çağrı kotası içerir. Kota aşımı durumunda ek çağrı paketleri satın alabilir veya kurumsal plan ile sınırsız API erişimi elde edebilirsiniz."
+					},
+					{
+						"question": "API rate limitleri nedir?",
+						"answer": "Rate limitler planınıza göre değişir. Başlangıç planında dakikada 60, profesyonel planda dakikada 300, kurumsal planda dakikada 1000 istek yapılabilir. Toplu işlemler için batch API endpoint'leri ayrı limitlerle sunulur."
+					},
+					{
+						"question": "Hangi programlama dilleri destekleniyor?",
+						"answer": "Resmi SDK'larımız Node.js, Python, PHP, Java ve .NET dillerini destekler. RESTful API yapısı sayesinde HTTP istek yapabilen herhangi bir programlama dili ile entegrasyon mümkündür."
+					},
+					{
+						"question": "Webhook güvenliği nasıl sağlanıyor?",
+						"answer": "Her webhook isteği HMAC-SHA256 imza ile doğrulanır. Ayrıca IP beyaz listesi, TLS şifreleme ve zaman damgası kontrolü ile webhook güvenliği çok katmanlı olarak sağlanır."
+					},
+					{
+						"question": "Sandbox ortamı ücretsiz mi?",
+						"answer": "Evet, sandbox ortamı tüm geliştiriciler için ücretsiz olarak sunulur. Sandbox üzerinde sınırsız API çağrısı yapabilir, webhookları test edebilir ve entegrasyonunuzu canlıya almadan önce kapsamlıca deneyebilirsiniz."
+					}
+				]
+			},
+			"customSolution": {
+				"title": "Özel Bir API Entegrasyonuna mı İhtiyacınız Var?",
+				"description": "Karmaşık entegrasyon senaryoları için teknik ekibimiz size özel çözümler geliştirebilir. Mimari danışmanlık ve geliştirme desteği sunuyoruz.",
+				"button": "Ekibimizle İletişime Geçin"
+			},
+			"cta": {
+				"title": "API Entegrasyonuna Başlamaya Hazır mısınız?",
+				"description": "Kapsamlı dokümantasyon ve sandbox ortamı ile hemen geliştirmeye başlayın. Teknik ekibimiz her adımda yanınızda.",
+				"button": "Ücretsiz Deneyin",
+				"buttonSecondary": "API Dokümantasyonu"
+			}
 		}
 	},
 	"integrationPages": {
