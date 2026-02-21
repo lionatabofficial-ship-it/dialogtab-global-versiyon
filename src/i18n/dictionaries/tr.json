@@ -156,15 +156,15 @@
 		"badge": "NASIL ÇALIŞTIĞINI İZLEYİN",
 		"title": "DialogTab'ı çalışırken görün",
 		"description": "DialogTab'ın ekiplerin tüm kanallarda olağanüstü müşteri deneyimleri sunmasına nasıl yardımcı olduğunu izleyin.",
-		"stat1Value": "2dk",
-		"stat1Label": "Kurulum süresi",
+		"stat1Value": "Hızlı",
+		"stat1Label": "Kurulum",
 		"stat2Value": "5+",
 		"stat2Label": "Desteklenen kanal",
 		"stat3Value": "7/24",
 		"stat3Label": "AI otomasyonu"
 	},
 	"considerItDone": {
-		"title": "Halledildi bile",
+		"title": "DialogTab ile",
 		"description": "Çok kanallı gelen kutumuz ve AI & Otomasyon, ekiplerin keyifli müşteri görüşmeleri sunmasına yardımcı olur.",
 		"aiTitle": "DialogTab AI",
 		"aiDescription": "AI Ajanları ve AI Yolculukları, tekrarlayan görüşmelerinizin %80'inden fazlasını yanıtlayarak ekibinizi rahatlatabilir.",
@@ -195,34 +195,44 @@
 		"subtitle": "Misafir deneyimlerinden online alıcılara, DialogTab etkili müşteri anları için zaman yaratmanıza yardımcı olur.",
 		"industries": [
 			{
-				"title": "Perakende & E-ticaret",
-				"description": "Tekrarlayan müşteri görüşmelerinin büyük bölümünü otomatikleştirin.",
-				"cta": "AI müşteri hizmetlerini inceleyin"
-			},
-			{
-				"title": "Seyahat, konaklama & eğlence",
-				"description": "Misafirlerinizle olan karşılıklı görüşmeleri proaktif olarak yönetin.",
-				"cta": "Görüşmeleri kolaylaştırın"
+				"title": "Sigorta",
+				"description": "Poliçe yönetimi ve müşteri hizmetlerini otomatikleştirin.",
+				"cta": "Çözümleri inceleyin"
 			},
 			{
 				"title": "Otomotiv",
-				"description": "Tutarlı bir müşteri deneyimi için tüm kanalları merkezileştirin.",
+				"description": "Servis randevu ve satış desteğini merkezileştirin.",
 				"cta": "Kesintisiz deneyim sunun"
 			},
 			{
-				"title": "Enerji & altyapı",
-				"description": "Karşılıklı görüşmelerin üstünde kalın, tek gelen kutusundan çalışın.",
+				"title": "Turizm & Otelcilik",
+				"description": "Rezervasyon ve misafir iletişimini proaktif olarak yönetin.",
+				"cta": "Görüşmeleri kolaylaştırın"
+			},
+			{
+				"title": "Toptan Ticaret",
+				"description": "B2B iletişim ve sipariş yönetimini tek yerden yürütün.",
 				"cta": "Kontrolü elinizde tutun"
 			},
 			{
-				"title": "Finansal hizmetler",
-				"description": "Kanal ne olursa olsun SLA ve müşteri beklentilerinizi karşılayın.",
-				"cta": "Müşteri beklentilerini karşılayın"
+				"title": "E-Ticaret",
+				"description": "Online satış ve müşteri desteğini otomatikleştirin.",
+				"cta": "AI müşteri hizmetlerini inceleyin"
 			},
 			{
-				"title": "Restoranlar",
-				"description": "Rezervasyonlar, değişiklikler ve diğer misafir taleplerinin üstünde kalın.",
-				"cta": "Çözümlerimizi keşfedin"
+				"title": "Kozmetik & Güzellik",
+				"description": "Randevu ve ürün danışmanlığını kolaylaştırın.",
+				"cta": "Çözümleri keşfedin"
+			},
+			{
+				"title": "Sağlık",
+				"description": "Hasta iletişimi ve randevu sistemini otomatikleştirin.",
+				"cta": "Çözümleri inceleyin"
+			},
+			{
+				"title": "Eğitim",
+				"description": "Öğrenci ve veli iletişimini merkezileştirin.",
+				"cta": "Çözümleri keşfedin"
 			}
 		]
 	},

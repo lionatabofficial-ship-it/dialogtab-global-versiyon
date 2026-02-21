@@ -26,8 +26,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 			<main>
 				<Hero dict={dict.hero} />
 				<VideoSection dict={dict.videoSection} />
-				<ConsiderItDone dict={dict.considerItDone} />
-				<IndustrySection dict={dict.industrySection} />
+				<ConsiderItDone dict={dict.considerItDone} locale={locale} />
+				<IndustrySection dict={dict.industrySection} locale={locale} />
 				<StatsSection dict={dict.statsSection} />
 				<Features dict={dict.features} />
 				<Integrations dict={dict.integrations} />

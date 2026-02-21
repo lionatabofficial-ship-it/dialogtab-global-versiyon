@@ -156,15 +156,15 @@
 		"badge": "WATCH HOW IT WORKS",
 		"title": "See DialogTab in action",
 		"description": "Watch how DialogTab helps teams deliver exceptional customer experiences across all channels.",
-		"stat1Value": "2min",
-		"stat1Label": "Setup time",
+		"stat1Value": "Quick",
+		"stat1Label": "Setup",
 		"stat2Value": "5+",
 		"stat2Label": "Channels supported",
 		"stat3Value": "24/7",
 		"stat3Label": "AI automation"
 	},
 	"considerItDone": {
-		"title": "Consider it done",
+		"title": "With DialogTab",
 		"description": "Our omnichannel inbox and AI & Automation help teams to deliver delightful customer conversations.",
 		"aiTitle": "DialogTab AI",
 		"aiDescription": "AI Agents and AI Journeys can relieve your team, by answering more than 80% of your repetitive conversations.",
@@ -195,34 +195,44 @@
 		"subtitle": "From guest experiences to online buyers, DialogTab helps you create time for impactful customer moments.",
 		"industries": [
 			{
-				"title": "Retail & E-commerce",
-				"description": "Automate a big chunk of repetitive customer conversations.",
-				"cta": "Check out AI customer service"
-			},
-			{
-				"title": "Travel, hospitality & leisure",
-				"description": "Proactively manage back-and-forth conversations with your guests.",
-				"cta": "Streamline conversations"
+				"title": "Insurance",
+				"description": "Automate policy management and customer service.",
+				"cta": "Explore solutions"
 			},
 			{
 				"title": "Automotive",
-				"description": "Centralise all channels, for a consistent customer experience.",
+				"description": "Centralise service appointments and sales support.",
 				"cta": "Deliver a seamless experience"
 			},
 			{
-				"title": "Energy & utilities",
-				"description": "Stay on top of back-and-forth conversations, work from one inbox.",
+				"title": "Tourism & Hospitality",
+				"description": "Proactively manage reservations and guest communication.",
+				"cta": "Streamline conversations"
+			},
+			{
+				"title": "Wholesale",
+				"description": "Run B2B communication and order management from one place.",
 				"cta": "Stay in control"
 			},
 			{
-				"title": "Financial services",
-				"description": "Meet your SLA and customer expectations, no matter the channel.",
-				"cta": "Meet customer expectations"
+				"title": "E-Commerce",
+				"description": "Automate online sales and customer support.",
+				"cta": "Check out AI customer service"
 			},
 			{
-				"title": "Restaurants",
-				"description": "Stay on top of reservations, changes and other guest asks.",
-				"cta": "Explore our solutions"
+				"title": "Cosmetics & Beauty",
+				"description": "Simplify appointments and product consulting.",
+				"cta": "Discover solutions"
+			},
+			{
+				"title": "Healthcare",
+				"description": "Automate patient communication and appointment systems.",
+				"cta": "Explore solutions"
+			},
+			{
+				"title": "Education",
+				"description": "Centralise student and parent communication.",
+				"cta": "Discover solutions"
 			}
 		]
 	},

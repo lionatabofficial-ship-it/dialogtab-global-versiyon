@@ -156,15 +156,15 @@
 		"badge": "MIRA CÓMO FUNCIONA",
 		"title": "Ve DialogTab en acción",
 		"description": "Mira cómo DialogTab ayuda a los equipos a ofrecer experiencias excepcionales al cliente en todos los canales.",
-		"stat1Value": "2min",
-		"stat1Label": "Tiempo de configuración",
+		"stat1Value": "Rápida",
+		"stat1Label": "Configuración",
 		"stat2Value": "5+",
 		"stat2Label": "Canales soportados",
 		"stat3Value": "24/7",
 		"stat3Label": "Automatización IA"
 	},
 	"considerItDone": {
-		"title": "Considéralo hecho",
+		"title": "Con DialogTab",
 		"description": "Nuestra bandeja omnicanal e IA y automatización ayudan a los equipos a ofrecer conversaciones encantadoras con los clientes.",
 		"aiTitle": "DialogTab AI",
 		"aiDescription": "Los Agentes IA y los Recorridos IA pueden aliviar a tu equipo, respondiendo más del 80% de tus conversaciones repetitivas.",
@@ -195,34 +195,44 @@
 		"subtitle": "Desde experiencias de huéspedes hasta compradores online, DialogTab te ayuda a crear tiempo para momentos impactantes con los clientes.",
 		"industries": [
 			{
-				"title": "Retail y E-commerce",
-				"description": "Automatiza gran parte de las conversaciones repetitivas con clientes.",
-				"cta": "Descubre el servicio al cliente con IA"
-			},
-			{
-				"title": "Viajes, hostelería y ocio",
-				"description": "Gestiona proactivamente las conversaciones con tus huéspedes.",
-				"cta": "Optimiza las conversaciones"
+				"title": "Seguros",
+				"description": "Automatiza la gestión de pólizas y el servicio al cliente.",
+				"cta": "Explorar soluciones"
 			},
 			{
 				"title": "Automotriz",
-				"description": "Centraliza todos los canales para una experiencia consistente del cliente.",
+				"description": "Centraliza citas de servicio y soporte de ventas.",
 				"cta": "Ofrece una experiencia impecable"
 			},
 			{
-				"title": "Energía y servicios",
-				"description": "Mantente al tanto de las conversaciones, trabaja desde una sola bandeja.",
+				"title": "Turismo y Hostelería",
+				"description": "Gestiona proactivamente reservas y comunicación con huéspedes.",
+				"cta": "Optimiza las conversaciones"
+			},
+			{
+				"title": "Comercio Mayorista",
+				"description": "Gestiona comunicación B2B y pedidos desde un solo lugar.",
 				"cta": "Mantén el control"
 			},
 			{
-				"title": "Servicios financieros",
-				"description": "Cumple con tu SLA y las expectativas del cliente, sin importar el canal.",
-				"cta": "Cumple las expectativas del cliente"
+				"title": "E-Commerce",
+				"description": "Automatiza ventas online y soporte al cliente.",
+				"cta": "Descubre el servicio al cliente con IA"
 			},
 			{
-				"title": "Restaurantes",
-				"description": "Mantente al tanto de reservas, cambios y otras solicitudes de los clientes.",
-				"cta": "Explora nuestras soluciones"
+				"title": "Cosmética y Belleza",
+				"description": "Simplifica citas y asesoría de productos.",
+				"cta": "Descubre soluciones"
+			},
+			{
+				"title": "Salud",
+				"description": "Automatiza comunicación con pacientes y citas.",
+				"cta": "Explorar soluciones"
+			},
+			{
+				"title": "Educación",
+				"description": "Centraliza comunicación con estudiantes y padres.",
+				"cta": "Descubre soluciones"
 			}
 		]
 	},

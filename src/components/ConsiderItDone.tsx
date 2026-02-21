@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export interface ConsiderItDoneDict {
 	title: string;
 	description: string;
@@ -21,7 +23,16 @@ export interface ConsiderItDoneDict {
 	assignToTeam: string;
 }
 
-export default function ConsiderItDone({ dict }: { dict: ConsiderItDoneDict }) {
+const channelList = [
+	{ name: "WhatsApp", image: "/images/whatsapp.webp" },
+	{ name: "Messenger", image: "/images/messenger.webp" },
+	{ name: "Instagram", image: "/images/instagram.webp" },
+	{ name: "Live Chat", image: "/images/livechat.svg" },
+	{ name: "Telegram", image: "/images/telegram.png" },
+	{ name: "TikTok", image: "/images/tiktok.svg" },
+];
+
+export default function ConsiderItDone({ dict, locale }: { dict: ConsiderItDoneDict; locale: string }) {
 	return (
 		<section className="py-20 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,7 +47,7 @@ export default function ConsiderItDone({ dict }: { dict: ConsiderItDoneDict }) {
 						<div className="mb-6">
 							<h3 className="text-2xl font-bold text-white mb-4">{dict.aiTitle}</h3>
 							<p className="text-slate-300 mb-6">{dict.aiDescription}</p>
-							<a href="#" className="inline-flex items-center gap-2 font-semibold text-brand-400 hover:text-brand-300 transition-colors">
+							<a href={`/${locale}/solutions/chatbot-solutions`} className="inline-flex items-center gap-2 font-semibold text-brand-400 hover:text-brand-300 transition-colors">
 								{dict.discoverAI}
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 							</a>
@@ -65,23 +76,17 @@ export default function ConsiderItDone({ dict }: { dict: ConsiderItDoneDict }) {
 						<div className="mb-6">
 							<h3 className="text-2xl font-bold text-slate-900 mb-4">{dict.inboxTitle}</h3>
 							<p className="text-slate-600 mb-6">{dict.inboxDescription}</p>
-							<a href="#" className="inline-flex items-center gap-2 font-semibold text-brand-600 hover:text-brand-700 transition-colors">
+							<a href={`/${locale}/solutions/customer-communication`} className="inline-flex items-center gap-2 font-semibold text-brand-600 hover:text-brand-700 transition-colors">
 								{dict.discoverInbox}
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 							</a>
 						</div>
 						<div className="bg-slate-50 rounded-2xl p-4 space-y-2">
 							<div className="font-bold text-slate-900 mb-3">{dict.inboxLabel}</div>
-							{[
-								{ name: "WhatsApp", color: "bg-green-500", letter: "W" },
-								{ name: "Instagram", color: "bg-gradient-to-br from-purple-500 to-pink-500", letter: "I" },
-								{ name: "Facebook", color: "bg-blue-600", letter: "F" },
-							].map((ch) => (
+							{channelList.map((ch) => (
 								<div key={ch.name} className="flex items-center justify-between p-2 bg-white rounded-lg">
 									<div className="flex items-center gap-2">
-										<div className={`w-6 h-6 ${ch.color} rounded-full flex items-center justify-center`}>
-											<span className="text-white text-xs">{ch.letter}</span>
-										</div>
+										<Image alt={ch.name} src={ch.image} width={24} height={24} className="w-6 h-6 object-contain" />
 										<span className="text-sm font-medium">{ch.name}</span>
 									</div>
 								</div>
@@ -95,7 +100,7 @@ export default function ConsiderItDone({ dict }: { dict: ConsiderItDoneDict }) {
 					<div className="p-8 lg:p-12">
 						<h3 className="text-2xl md:text-3xl font-bold text-white mb-4">{dict.journeysTitle}</h3>
 						<p className="text-slate-300 mb-6 leading-relaxed">{dict.journeysDescription}</p>
-						<a href="#" className="inline-flex items-center gap-2 text-brand-400 font-semibold hover:text-brand-300 transition-colors">
+						<a href={`/${locale}/solutions/chatbot-solutions`} className="inline-flex items-center gap-2 text-brand-400 font-semibold hover:text-brand-300 transition-colors">
 							{dict.discoverJourneys}
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
 						</a>
